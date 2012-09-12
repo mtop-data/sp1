@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/bacteria/aa//Heliobacterium_modesticaldum_Ice1</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>gnl|BL_ORD_ID|11 @Treponema_pallidum_DAL_1@ gi|378974645|ref|YP_005223253.1| lon1 gene product [Treponema pallidum subsp. pallidum DAL-1]</BlastOutput_query-def>
+  <BlastOutput_query-len>857</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>gnl|BL_ORD_ID|11 @Treponema_pallidum_DAL_1@ gi|378974645|ref|YP_005223253.1| lon1 gene product [Treponema pallidum subsp. pallidum DAL-1]</Iteration_query-def>
+      <Iteration_query-len>857</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|270</Hit_id>
+          <Hit_def>@Heliobacterium_modesticaldum_Ice1@ gi|167628625|ref|YP_001679124.1| unnamed protein product [Heliobacterium modesticaldum Ice1]</Hit_def>
+          <Hit_accession>270</Hit_accession>
+          <Hit_len>835</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>341.658</Hsp_bit-score>
+              <Hsp_score>875</Hsp_score>
+              <Hsp_evalue>2.64827e-104</Hsp_evalue>
+              <Hsp_query-from>17</Hsp_query-from>
+              <Hsp_query-to>824</Hsp_query-to>
+              <Hsp_hit-from>15</Hsp_hit-from>
+              <Hsp_hit-to>775</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>253</Hsp_identity>
+              <Hsp_positive>381</Hsp_positive>
+              <Hsp_gaps>65</Hsp_gaps>
+              <Hsp_align-len>817</Hsp_align-len>
+              <Hsp_qseq>RELSWQEVTGIVAPDTIAYLKARAQDHPF---LLAHERACAAIRLGMRMYGDGYNICVIGASGTGKRTTLQYLLKDFVPRPEQMWDIAYAYNFVHPHEPQVLQFPAGEGMPFATALRRSVNAILNTAQDIVKSDAFLRERRTLLADIETRECAELSRIEAELYTRGFRVRWHRKRGTYSFDLVPLLK-GKDSSFEALHDLASRAKLSRCVVHELHARYRLSCDEVSSLLHTLRTARRAARRRLAQYYRARLRLIILEQMACIKKRVACYAPVFSPPPVSCAAEQTEREKTSSSRLIEVPHEFEEMRARIISYIERIQTDVQVRVQCLMSMRISALVKKRFFDRYTLNFVCVHTEHAGY-VFTEHQPNLANLCGSIESKGNEGDTLENGHLRIRAGALHRAHAGVLIVQLEDLLAEEEAWTHLKRALRTKQVLLPAGSSQ----SQGMLRPEGVPLTCKLVLVGEPCSFERLSQEDSSFRELFKVCAEFDTSMPNSDKNQVALIAYLDRVVARYGTFSLDSSAYARLLAYAEELAESHTRLSTSFVQIADLVLESHAVAVDMHPDVSVITAHVVQEALNRRQYVCSRARERFQRMIACGELLVEVQGYRIGRINALAIEEHCGHSFGIVISLTAQASAGKEGVMNIEREAGLSGEIYDKAHLIITSLLREKCLSAFADAAFDPAVDDLGKGQDSFPLCLSAALCFEQSYHGIDGDSASAAEFLVLLSAIGRFPLRQDRAITGSVNQLGQVQAIGGVSEKISGFYDVCALNGLTGMQGVLIPKSSCAQLFLPERVQDAVRAGTFHVWAVCTIDDALELM</Hsp_qseq>
+              <Hsp_hseq>RRLPLDRLTVRCAPDIFEFSSTR-EITPLEEGIIGQPRAVKAMEFGLGAKHPGFHIFISGPIGSGKTGFAVTKVKQVAQSESTPDDICYVNHFGQPDRPIVLTLPAGMGSELRRDVKELVEELHGEIRKALEGEAHEKRRSAFLRQVETRLTAMFREMEELAKEEGFIL----QKGQSGIFTIPMTEEGKPMSKDDFDSLEEKRR------QEINDREHRLESRLADVLRRSRNLQKEANNHLKEIERDSAHQATKHLVDALKEKYKNHVKVVE----FLTNVQEDVLENLSDLKGGAPSEEEEGTPAQLILLARGQRPSQL-------------------TRYEVNLFVENGAQVGAPVIVESNPTFTNLFGKVEYRSSFG-SMATDFTMIKPGAVHQANGGYLILQALPLLASPGAWEGLKRVLRTRELRIENLGEQLGLPSTATLKPEPVPIDVKVILIGSPRIYYLLYNMDEDFRKFFKVRVDFDSVMERNQENIRKYAAFVGSVCEREMLLPFTAEAVARVIDYSSRLVSHQRKLSTSFHDIKDMIVEA-AMWAESEGATEVLAGHVDQ-AIQEKNFRVNRIEERIQETICDGMLLVDTDGAVVGQVNGLAVLDLGDYAFGKPNRITARVYLGREGVIHIEREIRLSGQSHSKGVLILTSFF----ASRFARER---------------PLSLSAALTFEQLYDGIDGDSASSAELYALLSALSELPLRQDIAVTGSVNQRGEVQPIGGVNEKIEGFFRLCQARGLTGSQGVIIPASNAPNLMLDQAVLDAVEAGRFHIYAVSHVDEGIEIL</Hsp_hseq>
+              <Hsp_midline>R L    +T   APD   +   R +  P    ++   RA  A+  G+     G++I + G  G+GK       +K          DI Y  +F  P  P VL  PAG G      ++  V  +    +  ++ +A  + R   L  +ETR  A    +E      GF +    ++G      +P+ + GK  S +    L  + +       E++ R       ++ +L   R  ++ A   L +  R          +  +K++   +  V           Q +  +  S      P E EE     +  + R Q   Q+                    RY +N    +    G  V  E  P   NL G +E + + G ++      I+ GA+H+A+ G LI+Q   LLA   AW  LKR LRT+++ +     Q    S   L+PE VP+  K++L+G P  +  L   D  FR+ FKV  +FD+ M  + +N     A++  V  R       + A AR++ Y+  L     +LSTSF  I D+++E+ A+  +      V+  HV Q A+  + +  +R  ER Q  I  G LLV+  G  +G++N LA+ +   ++FG    +TA+   G+EGV++IERE  LSG+ + K  LI+TS       S FA                  PL LSAAL FEQ Y GIDGDSAS+AE   LLSA+   PLRQD A+TGSVNQ G+VQ IGGV+EKI GF+ +C   GLTG QGV+IP S+   L L + V DAV AG FH++AV  +D+ +E++</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|966</Hit_id>
+          <Hit_def>@Heliobacterium_modesticaldum_Ice1@ gi|167629104|ref|YP_001679603.1| unnamed protein product [Heliobacterium modesticaldum Ice1]</Hit_def>
+          <Hit_accession>966</Hit_accession>
+          <Hit_len>658</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>56.6102</Hsp_bit-score>
+              <Hsp_score>135</Hsp_score>
+              <Hsp_evalue>3.05417e-09</Hsp_evalue>
+              <Hsp_query-from>718</Hsp_query-from>
+              <Hsp_query-to>824</Hsp_query-to>
+              <Hsp_hit-from>554</Hsp_hit-from>
+              <Hsp_hit-to>645</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>43</Hsp_identity>
+              <Hsp_positive>56</Hsp_positive>
+              <Hsp_gaps>17</Hsp_gaps>
+              <Hsp_align-len>108</Hsp_align-len>
+              <Hsp_qseq>IDGDSASAAEFLVLLSAIGRFPLRQDRAITGSVNQLGQVQAIGGVSEKISGFYDVCALNGLTGMQGVLIPKSSCAQLFLPERVQDAVRAGT-FHVWAVCTIDDALELM</Hsp_qseq>
+              <Hsp_hseq>IDGPSAGLAIFLSVYSAIQEIPLWQDVAVTGEISLRGGVKAVGGIFEKIYGARQ-------AGIRRVLIPK---------ENEKDVPSDLTGIEVIPVETVDEALALI</Hsp_hseq>
+              <Hsp_midline>IDG SA  A FL + SAI   PL QD A+TG ++  G V+A+GG+ EKI G           G++ VLIPK         E  +D     T   V  V T+D+AL L+</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|295</Hit_id>
+          <Hit_def>@Heliobacterium_modesticaldum_Ice1@ gi|167628600|ref|YP_001679099.1| lonA gene product [Heliobacterium modesticaldum Ice1]</Hit_def>
+          <Hit_accession>295</Hit_accession>
+          <Hit_len>813</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>39.6614</Hsp_bit-score>
+              <Hsp_score>91</Hsp_score>
+              <Hsp_evalue>0.00068083</Hsp_evalue>
+              <Hsp_query-from>719</Hsp_query-from>
+              <Hsp_query-to>766</Hsp_query-to>
+              <Hsp_hit-from>679</Hsp_hit-from>
+              <Hsp_hit-to>726</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>19</Hsp_identity>
+              <Hsp_positive>29</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>48</Hsp_align-len>
+              <Hsp_qseq>DGDSASAAEFLVLLSAIGRFPLRQDRAITGSVNQLGQVQAIGGVSEKI</Hsp_qseq>
+              <Hsp_hseq>DGPSAGITIATALTSALSRRPVRREVAMTGEITLRGRVLPVGGIKEKM</Hsp_hseq>
+              <Hsp_midline>DG SA       L SA+ R P+R++ A+TG +   G+V  +GG+ EK+</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|296</Hit_id>
+          <Hit_def>@Heliobacterium_modesticaldum_Ice1@ gi|167628599|ref|YP_001679098.1| lonB gene product [Heliobacterium modesticaldum Ice1]</Hit_def>
+          <Hit_accession>296</Hit_accession>
+          <Hit_len>563</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>37.7354</Hsp_bit-score>
+              <Hsp_score>86</Hsp_score>
+              <Hsp_evalue>0.00221049</Hsp_evalue>
+              <Hsp_query-from>615</Hsp_query-from>
+              <Hsp_query-to>795</Hsp_query-to>
+              <Hsp_hit-from>349</Hsp_hit-from>
+              <Hsp_hit-to>512</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>48</Hsp_identity>
+              <Hsp_positive>77</Hsp_positive>
+              <Hsp_gaps>35</Hsp_gaps>
+              <Hsp_align-len>190</Hsp_align-len>
+              <Hsp_qseq>RIGRINALAIEEHCGHSFGI-----VISLTAQASAGK---EGVMNIEREAGLSGEIYDKAHLIITSLLREKCLSAF-ADAAFDPAVDDLGKGQDSFPLCLSAALCFEQSYHGIDGDSASAAEFLVLLSAIGRFPLRQDRAITGSVNQLGQVQAIGGVSEKISGFYDVCALNGLTGMQGVLIPKSSCAQLF</Hsp_qseq>
+              <Hsp_hseq>QVGVVNGLAV---MGPSLGALMEIEVTALPVSPGAGTLTLTGIVDEEEMGGLGGRTMKRRSLVKTSV--DNVLTVLRAQKGIEPRDWDI---HVNFP-----------GGTPIDGPSAGIAIATAIYSAVKGVAIDNRLAMTGELSVRGRVKPVGGIVTKVEAAR-------LAGATRVLIPAENWLERF</Hsp_hseq>
+              <Hsp_midline>++G +N LA+    G S G      V +L     AG     G+++ E   GL G    +  L+ TS+  +  L+   A    +P   D+     +FP               IDG SA  A    + SA+    +    A+TG ++  G+V+ +GG+  K+           L G   VLIP  +  + F</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>5</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|147</Hit_id>
+          <Hit_def>@Heliobacterium_modesticaldum_Ice1@ gi|167628748|ref|YP_001679247.1| unnamed protein product [Heliobacterium modesticaldum Ice1]</Hit_def>
+          <Hit_accession>147</Hit_accession>
+          <Hit_len>779</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>33.113</Hsp_bit-score>
+              <Hsp_score>74</Hsp_score>
+              <Hsp_evalue>0.0536287</Hsp_evalue>
+              <Hsp_query-from>64</Hsp_query-from>
+              <Hsp_query-to>147</Hsp_query-to>
+              <Hsp_hit-from>104</Hsp_hit-from>
+              <Hsp_hit-to>184</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>22</Hsp_identity>
+              <Hsp_positive>37</Hsp_positive>
+              <Hsp_gaps>3</Hsp_gaps>
+              <Hsp_align-len>84</Hsp_align-len>
+              <Hsp_qseq>GDGYNICVIGASGTGKRTTLQYLLKDFVPRPEQMWDIAYAYNFVHPHEPQVLQFPAGEGMPFATALRRSVNAILNTAQDIVKSD</Hsp_qseq>
+              <Hsp_hseq>GDGFTFHNRNSEGSNRETILS--ISEF-PSPETLWSMYKQYKGIDEKQEKVITEPYYVERPDKQPRYYQLNAINLTVESIVKGN</Hsp_hseq>
+              <Hsp_midline>GDG+      + G+ + T L   + +F P PE +W +   Y  +   + +V+  P     P        +NAI  T + IVK +</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>2999</Statistics_db-num>
+          <Statistics_db-len>880745</Statistics_db-len>
+          <Statistics_hsp-len>89</Statistics_hsp-len>
+          <Statistics_eff-space>471424512</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/NCBI_bact_genomes/Proteobacteria/Alphaproteobacteria/aa//Agrobacterium_H13_3_uid63403</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Rickettsia_akari_str_Hartford gnl|BL_ORD_ID|412    gi|157825538|ref|YP_001493258.1| unnamed protein product [Rickettsia akari str. Hartford]</BlastOutput_query-def>
+  <BlastOutput_query-len>225</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>Rickettsia_akari_str_Hartford gnl|BL_ORD_ID|412    gi|157825538|ref|YP_001493258.1| unnamed protein product [Rickettsia akari str. Hartford]</Iteration_query-def>
+      <Iteration_query-len>225</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1631</Hit_id>
+          <Hit_def>gi|325293085|ref|YP_004278949.1| lipoprotein [Agrobacterium sp. H13-3]</Hit_def>
+          <Hit_accession>1631</Hit_accession>
+          <Hit_len>561</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>58.5362</Hsp_bit-score>
+              <Hsp_score>140</Hsp_score>
+              <Hsp_evalue>5.96602e-11</Hsp_evalue>
+              <Hsp_query-from>118</Hsp_query-from>
+              <Hsp_query-to>224</Hsp_query-to>
+              <Hsp_hit-from>444</Hsp_hit-from>
+              <Hsp_hit-to>561</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>36</Hsp_identity>
+              <Hsp_positive>66</Hsp_positive>
+              <Hsp_gaps>13</Hsp_gaps>
+              <Hsp_align-len>119</Hsp_align-len>
+              <Hsp_qseq>PLNGVMLTEFKD----GKSKGIDIAVKEYSDVKSIAAGTVIYSGFN-KQFGNLVIVKLDKDDLEVAYASLDDLLLKKGDKITKNSVI------GHVKH-KLYFAMRRNRIAVDPSKYIE</Hsp_qseq>
+              <Hsp_hseq>PVRGAVINNFGDNVEGSRNDGINISVPEGTPIKAAENGVVIYAGNGLKQLGNTVLVRHDDGKVTV-YGNAANLDVQRGQKVQRGQTIATSGMTGSAKRPQVHFEVRKDATPVNPSGFLE</Hsp_hseq>
+              <Hsp_midline>P+ G ++  F D     ++ GI+I+V E + +K+   G VIY+G   KQ GN V+V+ D   + V Y +  +L +++G K+ +   I      G  K  +++F +R++   V+PS ++E</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1780</Hit_id>
+          <Hit_def>gi|325293234|ref|YP_004279098.1| membrane protein associated metalloendopeptidase [Agrobacterium sp. H13-3]</Hit_def>
+          <Hit_accession>1780</Hit_accession>
+          <Hit_len>438</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>45.8246</Hsp_bit-score>
+              <Hsp_score>107</Hsp_score>
+              <Hsp_evalue>1.11464e-06</Hsp_evalue>
+              <Hsp_query-from>134</Hsp_query-from>
+              <Hsp_query-to>223</Hsp_query-to>
+              <Hsp_hit-from>332</Hsp_hit-from>
+              <Hsp_hit-to>427</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>25</Hsp_identity>
+              <Hsp_positive>48</Hsp_positive>
+              <Hsp_gaps>8</Hsp_gaps>
+              <Hsp_align-len>97</Hsp_align-len>
+              <Hsp_qseq>GIDIAVKEYSDVKSIAAGTVIYSGFNKQFGNLVIVKLDKDDLEVAYASLDDLLLKKGDKITKNSVIGHVKH-------KLYFAMRRNRIAVDPSKYI</Hsp_qseq>
+              <Hsp_hseq>GIDFRAETGADVKATGAGKVTVAENSGGYGNMVEIDHGQ-GVSTRFGHLSTILVKAGDKVEAGDIVGRAGSTGRSTGPHVHYEVRRNDTPVDPMRFL</Hsp_hseq>
+              <Hsp_midline>GID   +  +DVK+  AG V  +  +  +GN+V +   +  +   +  L  +L+K GDK+    ++G            +++ +RRN   VDP +++</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|713</Hit_id>
+          <Hit_def>gi|325292167|ref|YP_004278031.1| hypothetical protein AGROH133_04449 [Agrobacterium sp. H13-3]</Hit_def>
+          <Hit_accession>713</Hit_accession>
+          <Hit_len>368</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>28.8758</Hsp_bit-score>
+              <Hsp_score>63</Hsp_score>
+              <Hsp_evalue>0.339943</Hsp_evalue>
+              <Hsp_query-from>59</Hsp_query-from>
+              <Hsp_query-to>97</Hsp_query-to>
+              <Hsp_hit-from>156</Hsp_hit-from>
+              <Hsp_hit-to>195</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>14</Hsp_identity>
+              <Hsp_positive>21</Hsp_positive>
+              <Hsp_gaps>1</Hsp_gaps>
+              <Hsp_align-len>40</Hsp_align-len>
+              <Hsp_qseq>HDEGLIVQRTME-DDTVSEKVSGILEEPKAKIIECYNDDI</Hsp_qseq>
+              <Hsp_hseq>HDEGLIAIRAAEVDDATREQVRANMNEPYRTMLGHFRHEV</Hsp_hseq>
+              <Hsp_midline>HDEGLI  R  E DD   E+V   + EP   ++  +  ++</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1588</Hit_id>
+          <Hit_def>gi|325293042|ref|YP_004278906.1| NH3-dependent NAD synthetase [Agrobacterium sp. H13-3]</Hit_def>
+          <Hit_accession>1588</Hit_accession>
+          <Hit_len>559</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>28.1054</Hsp_bit-score>
+              <Hsp_score>61</Hsp_score>
+              <Hsp_evalue>0.698153</Hsp_evalue>
+              <Hsp_query-from>144</Hsp_query-from>
+              <Hsp_query-to>182</Hsp_query-to>
+              <Hsp_hit-from>381</Hsp_hit-from>
+              <Hsp_hit-to>418</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>13</Hsp_identity>
+              <Hsp_positive>26</Hsp_positive>
+              <Hsp_gaps>1</Hsp_gaps>
+              <Hsp_align-len>39</Hsp_align-len>
+              <Hsp_qseq>DVKSIAAGTVIYSGFNKQFGNLVIVKLDKDDLEVAYASL</Hsp_qseq>
+              <Hsp_hseq>NLQSRTRGTILMAVSNK-FGSMVVTTGNKSEMSVGYATL</Hsp_hseq>
+              <Hsp_midline>+++S   GT++ +  NK FG++V+   +K ++ V YA+L</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>5</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|4164</Hit_id>
+          <Hit_def>gi|332716136|ref|YP_004443602.1| succinoglycan biosynthesis regulator [Agrobacterium sp. H13-3]</Hit_def>
+          <Hit_accession>4164</Hit_accession>
+          <Hit_len>236</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>26.1794</Hsp_bit-score>
+              <Hsp_score>56</Hsp_score>
+              <Hsp_evalue>1.97481</Hsp_evalue>
+              <Hsp_query-from>94</Hsp_query-from>
+              <Hsp_query-to>125</Hsp_query-to>
+              <Hsp_hit-from>74</Hsp_hit-from>
+              <Hsp_hit-to>103</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>13</Hsp_identity>
+              <Hsp_positive>17</Hsp_positive>
+              <Hsp_gaps>2</Hsp_gaps>
+              <Hsp_align-len>32</Hsp_align-len>
+              <Hsp_qseq>NDDIEIPISRNEYEEEIEQSNFVKPLNGVMLT</Hsp_qseq>
+              <Hsp_hseq>TDDIDVP--DGHYAEETMRSTVVPNRNAIMLT</Hsp_hseq>
+              <Hsp_midline> DDI++P     Y EE  +S  V   N +MLT</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>5345</Statistics_db-num>
+          <Statistics_db-len>1645863</Statistics_db-len>
+          <Statistics_hsp-len>82</Statistics_hsp-len>
+          <Statistics_eff-space>172682939</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

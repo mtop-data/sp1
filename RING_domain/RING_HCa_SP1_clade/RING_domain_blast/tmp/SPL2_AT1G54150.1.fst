@@ -1,0 +1,16 @@
+>AT1G54150.1|PACid:19654958
+MSSPERALLNLLTD----------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------IALSFDGAILGLTLAVS------------------
+--------------------AVGSALKYASTNAALKKIKDAPEVSISDLRSLLPASEDKS
+ETNDNRKSNDQRIVVVRGVVKPKISGDEGYKNNNVLISPETGDK----ALIIQRTQT---
+YVYSGWKRLFQSTGHRFMLERSLRKHGADFTRTVPFVIVGKDQQSNSSFVAVNMDGSRQP
+LPLTTVYNRLQPINSSFLQAFLYPDYPVGLLDIEKILPPGKDITAVGIYSFNN-GVPEIK
+SCQD------------LPYFLSEMTKDKMIEDLMEQTNF---------------------
+-----IFLGSVILGI---VSVGILSYAAVRTWNKWKQW---------------NHQRELP
+QRPNDSVVDDEPEDADEI----------------------------------PDGELCVI
+CVSRRRVPAFIPCGHVVCCRRCASTVERELNPKCPVCLQSIRGSMRVY---YS

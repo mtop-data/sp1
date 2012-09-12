@@ -1,0 +1,16 @@
+>AT1G59560.1|PACid:19657702
+MIHLAG------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------FTCCLGGVALYLLTRSTGRD---IKSITRVYQLKD
+LEQLVEVESKVVPLIIAVSGDVGSETPIKCEHSY--------------------------
+---------------VLGVFLKRTAEQQVLRRN------WRFSWVRNSTLMQPMTKEVPW
+YLDDGTGRVNVDVSQGELGLA---------------LTVGSDVFEKAEPVSLVQGA----
+------------------LGYLKGFKILGVRHVERVVPIGTPLTVVGEAVRDGMGNVRIQ
+KPEQ------------GPFYVTYIPLDQLISKLGDLSRR---------------------
+-----FKYASMGLTV---LGVILISKPVIEYILKRIED---------------TLERRRR
+QFA---LKRVVDAAARRA------------KPVTGG----------GTSRDGDTPDLCVV
+CLDQKYNTAFVECGHMCCCTPCSLQLR-----TCPLCRERIQQVLKIY---RH

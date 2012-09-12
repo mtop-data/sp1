@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/bacteria/aa//Roseiflexus_castenholzii_DSM_13941</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>gnl|BL_ORD_ID|11 @Treponema_pallidum_DAL_1@ gi|378974645|ref|YP_005223253.1| lon1 gene product [Treponema pallidum subsp. pallidum DAL-1]</BlastOutput_query-def>
+  <BlastOutput_query-len>857</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>gnl|BL_ORD_ID|11 @Treponema_pallidum_DAL_1@ gi|378974645|ref|YP_005223253.1| lon1 gene product [Treponema pallidum subsp. pallidum DAL-1]</Iteration_query-def>
+      <Iteration_query-len>857</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|2052</Hit_id>
+          <Hit_def>@Roseiflexus_castenholzii_DSM_13941@ gi|156742081|ref|YP_001432210.1| peptidase S16 lon domain-containing protein [Roseiflexus castenholzii DSM 13941]</Hit_def>
+          <Hit_accession>2052</Hit_accession>
+          <Hit_len>806</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>375.941</Hsp_bit-score>
+              <Hsp_score>964</Hsp_score>
+              <Hsp_evalue>4.63189e-117</Hsp_evalue>
+              <Hsp_query-from>46</Hsp_query-from>
+              <Hsp_query-to>848</Hsp_query-to>
+              <Hsp_hit-from>33</Hsp_hit-from>
+              <Hsp_hit-to>790</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>259</Hsp_identity>
+              <Hsp_positive>416</Hsp_positive>
+              <Hsp_gaps>73</Hsp_gaps>
+              <Hsp_align-len>817</Hsp_align-len>
+              <Hsp_qseq>LLAHERACAAIRLGMRMYGDGYNICVIGASGTGKRTTLQYLLKDFVPRPEQMWDIAYAYNFVHPHEPQVLQFPAGEGMPFATALRRSVNAILNTAQDIVKSDAFLRERRTLLADIETRECAELSRIEAELYTRGFRVRWHRKRGTYSFDLVPLLKGK---DSSFEALHDLASRAKLSRCVVHELHARYRLSCDEVSSLLHTLRTARRAARRRLAQYYRARLRLIILEQMACIKKRVACYAPVFSPPPVSCAAEQTEREKTSSSRLIEVPHEFEEMRARIISYIERIQTDVQVRVQCLMSMRISALVKKRFFDRYTLNFVCVHTEHAGY-VFTEHQPNLANLCGSIESKGNEGDTLENGHLRIRAGALHRAHAGVLIVQLEDLLAEEEAWTHLKRALRTKQVLLPAGSSQ----SQGMLRPEGVPLTCKLVLVGEPCSFERLSQEDSSFRELFKVCAEFDTSMPNSDKNQVALIAYLDRVVARYGTFSLDSSAYARLLAYAEELAESHTRLSTSFVQIADLVLESHAVAVDMHPDVSVITAHVVQEALNRRQYVCSRARERFQRMIACGELLVEVQGYRIGRINALAIEEHCGHSFGIVISLTAQASAGKEGVMNIEREAGLSGEIYDKAHLIITSLLREKCLSAFADAAFDPAVDDLGKGQDSFPLCLSAALCFEQSYHGIDGDSASAAEFLVLLSAIGRFPLRQDRAITGSVNQLGQVQAIGGVSEKISGFYDVCALNGLTGMQGVLIPKSSCAQLFLPERVQDAVRAGTFHVWAVCTIDDALELMVPDDLKEQGSAQLYQC------VRARLRDF</Hsp_qseq>
+              <Hsp_hseq>IIGQQRAVAALRFGLNMVDGGFNIYAAGPPGIGKMTAVQAFIEELAQRRPTPSDWCYVNDFDDPYQPKALRLPPGRGRRLQQDVHQMIAHLRAELPRAFESDEYAMRRDEVLHELNSHREALLSQISERAAQQGFVL----QAGPVGIMIIPIRNGEPLSDAAFQAMT-LDQREEL-------LRHRAMLQ-EELKNVLKQVRAAERIARQRMEEIDRQVVEYIVGGLIDDLQEQYADL------PDVVAFLEAMQKD------IQENPDPFRS------GGQQQPSGEAQVDLASIPWLR------ELPFRKYQVNVLIDNSRQQGAPVVVEYNPTYPNLFGRIEKETHFG-ALYTDFLMIKPGSLHRANGGFLVIEAEDLLRDYFSWDGLKRALRTRDIQIEELADRLGLTTVKSLRPQPIPLELKVVLVGPPPPYYLLAAYDDEFSTLFKVKADFDISMPLNDENLRGSLHLFRRFCEREKLLPITEEAAARLLEHSLRLADDQERLSTHFGALTDVVREANYWAIQEQCN-AILGRHVLR-ALDEKVYRSNMIQARIQELIDRGIILIDTEGAKIGQINGLSVLSLGDYMFGRPSRISVSVGPGRGAILDIEREVKLGGPIHSKGVLILSGHLAERY------------------GQER-PLTLSARLVFEQSYEGVEGDSASAAELFALLSALAELPLRQSIAVTGSVNQRGEIQAVGGVNQKIEGFFDICRLRGLTGEQGVLIPRANVQNLMLRSDVVEAVREGRFHIWTAATVDEGIALLTGVPAGERGADGEYPPDSVNGRVMTRLRAF</Hsp_hseq>
+              <Hsp_midline>++  +RA AA+R G+ M   G+NI   G  G GK T +Q  +++   R     D  Y  +F  P++P+ L+ P G G      + + +  +        +SD +   R  +L ++ +   A LS+I      +GF +    + G     ++P+  G+   D++F+A+  L  R +L       L  R  L  +E+ ++L  +R A R AR+R+ +  R  +  I+   +  ++++ A        P V    E  +++      + E P  F           ++   + QV +  +  +R      +  F +Y +N +  ++   G  V  E+ P   NL G IE + + G  L    L I+ G+LHRA+ G L+++ EDLL +  +W  LKRALRT+ + +   + +    +   LRP+ +PL  K+VLVG P  +  L+  D  F  LFKV A+FD SMP +D+N    +    R   R     +   A ARLL ++  LA+   RLST F  + D+V E++  A+    + +++  HV++ AL+ + Y  +  + R Q +I  G +L++ +G +IG+IN L++     + FG    ++     G+  +++IERE  L G I+ K  LI++  L E+                   GQ+  PL LSA L FEQSY G++GDSASAAE   LLSA+   PLRQ  A+TGSVNQ G++QA+GGV++KI GF+D+C L GLTG QGVLIP+++   L L   V +AVR G FH+W   T+D+ + L+      E+G+   Y        V  RLR F</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|962</Hit_id>
+          <Hit_def>@Roseiflexus_castenholzii_DSM_13941@ gi|156740991|ref|YP_001431120.1| ATP-dependent protease La [Roseiflexus castenholzii DSM 13941]</Hit_def>
+          <Hit_accession>962</Hit_accession>
+          <Hit_len>786</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>43.5134</Hsp_bit-score>
+              <Hsp_score>101</Hsp_score>
+              <Hsp_evalue>6.68909e-05</Hsp_evalue>
+              <Hsp_query-from>719</Hsp_query-from>
+              <Hsp_query-to>834</Hsp_query-to>
+              <Hsp_hit-from>686</Hsp_hit-from>
+              <Hsp_hit-to>786</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>33</Hsp_identity>
+              <Hsp_positive>58</Hsp_positive>
+              <Hsp_gaps>17</Hsp_gaps>
+              <Hsp_align-len>117</Hsp_align-len>
+              <Hsp_qseq>DGDSASAAEFLVLLSAIGRFPLRQDRAITGSVNQLGQVQAIGGVSEKISGFYDVCALNGLTGMQGVLIPKSSCAQLF-LPERVQDAVRAGTFHVWAVCTIDDALELMVPDDLKEQGS</Hsp_qseq>
+              <Hsp_hseq>DGPSAGITLTTALISAVTGKPVRRDVAMTGEITLRGKVLPIGGLKEKTLAAHR-------AGIRTFILPKDNAKDIAELPKKVRE-----ELQLIPVSSMDEVLKIA----LAHQGS</Hsp_hseq>
+              <Hsp_midline>DG SA       L+SA+   P+R+D A+TG +   G+V  IGG+ EK    +         G++  ++PK +   +  LP++V++        +  V ++D+ L++     L  QGS</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|3349</Hit_id>
+          <Hit_def>@Roseiflexus_castenholzii_DSM_13941@ gi|156743378|ref|YP_001433507.1| ATP-dependent protease La [Roseiflexus castenholzii DSM 13941]</Hit_def>
+          <Hit_accession>3349</Hit_accession>
+          <Hit_len>836</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>41.9726</Hsp_bit-score>
+              <Hsp_score>97</Hsp_score>
+              <Hsp_evalue>0.000229439</Hsp_evalue>
+              <Hsp_query-from>719</Hsp_query-from>
+              <Hsp_query-to>794</Hsp_query-to>
+              <Hsp_hit-from>718</Hsp_hit-from>
+              <Hsp_hit-to>786</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>23</Hsp_identity>
+              <Hsp_positive>39</Hsp_positive>
+              <Hsp_gaps>7</Hsp_gaps>
+              <Hsp_align-len>76</Hsp_align-len>
+              <Hsp_qseq>DGDSASAAEFLVLLSAIGRFPLRQDRAITGSVNQLGQVQAIGGVSEKISGFYDVCALNGLTGMQGVLIPKSSCAQL</Hsp_qseq>
+              <Hsp_hseq>DGPSAGITMATALISAFTGRPVRRDVAMTGEITLRGRVLPVGGIKEKVLGAHR-------AGILTIILPRRNAVDL</Hsp_hseq>
+              <Hsp_midline>DG SA       L+SA    P+R+D A+TG +   G+V  +GG+ EK+ G +         G+  +++P+ +   L</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|2113</Hit_id>
+          <Hit_def>@Roseiflexus_castenholzii_DSM_13941@ gi|156742142|ref|YP_001432271.1| ATP-dependent protease La [Roseiflexus castenholzii DSM 13941]</Hit_def>
+          <Hit_accession>2113</Hit_accession>
+          <Hit_len>821</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>36.5798</Hsp_bit-score>
+              <Hsp_score>83</Hsp_score>
+              <Hsp_evalue>0.00829325</Hsp_evalue>
+              <Hsp_query-from>719</Hsp_query-from>
+              <Hsp_query-to>804</Hsp_query-to>
+              <Hsp_hit-from>691</Hsp_hit-from>
+              <Hsp_hit-to>770</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>29</Hsp_identity>
+              <Hsp_positive>45</Hsp_positive>
+              <Hsp_gaps>10</Hsp_gaps>
+              <Hsp_align-len>88</Hsp_align-len>
+              <Hsp_qseq>DGDSASAAEFLVLLSA-IGRFPLRQDRAITGSVNQLGQVQAIGGVSEKISGFYDVCALNGLTGMQGVLIPKSSCAQL-FLPERVQDAV</Hsp_qseq>
+              <Hsp_hseq>DGPSAGITMATALASAATGRL-VRDDVAMTGEITLRGRVLPVGGVKEKVLGAHR-------AGIGTIILPRRNEVDLDDLPSDVREAL</Hsp_hseq>
+              <Hsp_midline>DG SA       L SA  GR  +R D A+TG +   G+V  +GGV EK+ G +         G+  +++P+ +   L  LP  V++A+</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>5</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|2495</Hit_id>
+          <Hit_def>@Roseiflexus_castenholzii_DSM_13941@ gi|156742524|ref|YP_001432653.1| ATP-dependent protease La [Roseiflexus castenholzii DSM 13941]</Hit_def>
+          <Hit_accession>2495</Hit_accession>
+          <Hit_len>802</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>33.4982</Hsp_bit-score>
+              <Hsp_score>75</Hsp_score>
+              <Hsp_evalue>0.0835479</Hsp_evalue>
+              <Hsp_query-from>719</Hsp_query-from>
+              <Hsp_query-to>804</Hsp_query-to>
+              <Hsp_hit-from>683</Hsp_hit-from>
+              <Hsp_hit-to>762</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>27</Hsp_identity>
+              <Hsp_positive>41</Hsp_positive>
+              <Hsp_gaps>8</Hsp_gaps>
+              <Hsp_align-len>87</Hsp_align-len>
+              <Hsp_qseq>DGDSASAAEFLVLLSAIGRFPLRQDRAITGSVNQLGQVQAIGGVSEKISGFYDVCALNGLTGMQGVLIPKSSCAQLF-LPERVQDAV</Hsp_qseq>
+              <Hsp_hseq>DGPSAGITMASALISALTDRRAYKHVAMTGEITLRGKVLPIGGVKEKVLAAQR-------AGVRTVLLPKANAPDLRELPEETRQQI</Hsp_hseq>
+              <Hsp_midline>DG SA       L+SA+      +  A+TG +   G+V  IGGV EK+             G++ VL+PK++   L  LPE  +  +</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>4330</Statistics_db-num>
+          <Statistics_db-len>1564659</Statistics_db-len>
+          <Statistics_hsp-len>93</Statistics_hsp-len>
+          <Statistics_eff-space>887744316</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

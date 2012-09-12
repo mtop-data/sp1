@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/NCBI_bact_genomes/Proteobacteria/Alphaproteobacteria/aa//Bradyrhizobium_japonicum_USDA_110_uid57599</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Rickettsia_akari_str_Hartford gnl|BL_ORD_ID|412    gi|157825538|ref|YP_001493258.1| unnamed protein product [Rickettsia akari str. Hartford]</BlastOutput_query-def>
+  <BlastOutput_query-len>225</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>Rickettsia_akari_str_Hartford gnl|BL_ORD_ID|412    gi|157825538|ref|YP_001493258.1| unnamed protein product [Rickettsia akari str. Hartford]</Iteration_query-def>
+      <Iteration_query-len>225</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|4742</Hit_id>
+          <Hit_def>gi|27379854|ref|NP_771383.1| unnamed protein product [Bradyrhizobium japonicum USDA 110]</Hit_def>
+          <Hit_accession>4742</Hit_accession>
+          <Hit_len>461</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>63.929</Hsp_bit-score>
+              <Hsp_score>154</Hsp_score>
+              <Hsp_evalue>1.66234e-12</Hsp_evalue>
+              <Hsp_query-from>97</Hsp_query-from>
+              <Hsp_query-to>223</Hsp_query-to>
+              <Hsp_hit-from>323</Hsp_hit-from>
+              <Hsp_hit-to>458</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>47</Hsp_identity>
+              <Hsp_positive>73</Hsp_positive>
+              <Hsp_gaps>15</Hsp_gaps>
+              <Hsp_align-len>139</Hsp_align-len>
+              <Hsp_qseq>IEIPISRNEYEEEIEQSNFVKPLNGVMLTEF---KDGKSK-GIDIAVKEYSDVKSIAAGTVIYSGFN-KQFGNLVIVKLDKDDLEVAYASLDDLLLKKGDKITKNSVI------GHVKH-KLYFAMRRNRIAVDPSKYI</Hsp_qseq>
+              <Hsp_hseq>VEAPAKAAETTSALP--TFRWPVRGKVVTTYGAKTNGKSNDGINLAVPEGTPVKAAEDGVVAYSGNELKGYGNLVLVR-HSNGYVTAYAHASELLVKRGDTIKRGQVIAKSGQSGEVASPQLHFEIRKGSSPVDPLQFL</Hsp_hseq>
+              <Hsp_midline>+E P    E    +    F  P+ G ++T +    +GKS  GI++AV E + VK+   G V YSG   K +GNLV+V+   +    AYA   +LL+K+GD I +  VI      G V   +L+F +R+    VDP +++</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|432</Hit_id>
+          <Hit_def>gi|27375544|ref|NP_767073.1| unnamed protein product [Bradyrhizobium japonicum USDA 110]</Hit_def>
+          <Hit_accession>432</Hit_accession>
+          <Hit_len>449</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>34.2686</Hsp_bit-score>
+              <Hsp_score>77</Hsp_score>
+              <Hsp_evalue>0.0108746</Hsp_evalue>
+              <Hsp_query-from>118</Hsp_query-from>
+              <Hsp_query-to>168</Hsp_query-to>
+              <Hsp_hit-from>315</Hsp_hit-from>
+              <Hsp_hit-to>370</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>19</Hsp_identity>
+              <Hsp_positive>30</Hsp_positive>
+              <Hsp_gaps>5</Hsp_gaps>
+              <Hsp_align-len>56</Hsp_align-len>
+              <Hsp_qseq>PLNGVMLTEFKD-----GKSKGIDIAVKEYSDVKSIAAGTVIYSGFNKQFGNLVIV</Hsp_qseq>
+              <Hsp_hseq>PVNGNKIRDFGGSDGVGGVQKGISLATKPGSQVTTPCDGWVVYAGPFRSYGQLLIL</Hsp_hseq>
+              <Hsp_midline>P+NG  + +F       G  KGI +A K  S V +   G V+Y+G  + +G L+I+</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|7668</Hit_id>
+          <Hit_def>gi|27382780|ref|NP_774309.1| unnamed protein product [Bradyrhizobium japonicum USDA 110]</Hit_def>
+          <Hit_accession>7668</Hit_accession>
+          <Hit_len>252</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>31.5722</Hsp_bit-score>
+              <Hsp_score>70</Hsp_score>
+              <Hsp_evalue>0.0686082</Hsp_evalue>
+              <Hsp_query-from>163</Hsp_query-from>
+              <Hsp_query-to>222</Hsp_query-to>
+              <Hsp_hit-from>42</Hsp_hit-from>
+              <Hsp_hit-to>109</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>22</Hsp_identity>
+              <Hsp_positive>32</Hsp_positive>
+              <Hsp_gaps>10</Hsp_gaps>
+              <Hsp_align-len>69</Hsp_align-len>
+              <Hsp_qseq>GNLVIVKLDKDDLEVAYASL--DDLLLKKGDKITKNSVIGHVK-------HKLYFAMRRNRIAVDPSKY</Hsp_qseq>
+              <Hsp_hseq>GNGVVIE-HPEQWETQYCHLAAGSVLVKLGDKVELGQPIGRVGLSGLTEYPHLHFTVRHNGVVVDPFAY</Hsp_hseq>
+              <Hsp_midline>GN V+++   +  E  Y  L    +L+K GDK+     IG V          L+F +R N + VDP  Y</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>8317</Statistics_db-num>
+          <Statistics_db-len>2633751</Statistics_db-len>
+          <Statistics_hsp-len>85</Statistics_hsp-len>
+          <Statistics_eff-space>269752840</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

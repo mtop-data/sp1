@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/bacteria/aa//Campylobacter_concisus_13826</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>gnl|BL_ORD_ID|11 @Treponema_pallidum_DAL_1@ gi|378974645|ref|YP_005223253.1| lon1 gene product [Treponema pallidum subsp. pallidum DAL-1]</BlastOutput_query-def>
+  <BlastOutput_query-len>857</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>gnl|BL_ORD_ID|11 @Treponema_pallidum_DAL_1@ gi|378974645|ref|YP_005223253.1| lon1 gene product [Treponema pallidum subsp. pallidum DAL-1]</Iteration_query-def>
+      <Iteration_query-len>857</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1335</Hit_id>
+          <Hit_def>@Campylobacter_concisus_13826@ gi|157164570|ref|YP_001467201.1| ATP-dependent protease La [Campylobacter concisus 13826]</Hit_def>
+          <Hit_accession>1335</Hit_accession>
+          <Hit_len>805</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>37.7354</Hsp_bit-score>
+              <Hsp_score>86</Hsp_score>
+              <Hsp_evalue>0.00138705</Hsp_evalue>
+              <Hsp_query-from>719</Hsp_query-from>
+              <Hsp_query-to>822</Hsp_query-to>
+              <Hsp_hit-from>705</Hsp_hit-from>
+              <Hsp_hit-to>798</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>29</Hsp_identity>
+              <Hsp_positive>49</Hsp_positive>
+              <Hsp_gaps>14</Hsp_gaps>
+              <Hsp_align-len>106</Hsp_align-len>
+              <Hsp_qseq>DGDSASAAEFLVLLSAIGRFPLRQDRAITGSVNQLGQVQAIGGVSEKISGFYDVCALNGLTGMQGVLIPKSSCAQ--LFLPERVQDAVRAGTFHVWAVCTIDDALE</Hsp_qseq>
+              <Hsp_hseq>DGPSAGITMATAIASILTDTKVKHDIAMTGEITLTGRVLPIGGLKEKLIAAHK-------AGIKTALIPRKNYDRDLVDIPAEVK-----ADMKIIAVDTIDDVLK</Hsp_hseq>
+              <Hsp_midline>DG SA       + S +    ++ D A+TG +   G+V  IGG+ EK+   +         G++  LIP+ +  +  + +P  V+         + AV TIDD L+</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|421</Hit_id>
+          <Hit_def>@Campylobacter_concisus_13826@ gi|157165656|ref|YP_001466290.1| His/Glu/Gln/Arg/opine amino acid ABC transporter permease [Campylobacter concisus 13826]</Hit_def>
+          <Hit_accession>421</Hit_accession>
+          <Hit_len>223</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>31.5722</Hsp_bit-score>
+              <Hsp_score>70</Hsp_score>
+              <Hsp_evalue>0.0714107</Hsp_evalue>
+              <Hsp_query-from>311</Hsp_query-from>
+              <Hsp_query-to>419</Hsp_query-to>
+              <Hsp_hit-from>101</Hsp_hit-from>
+              <Hsp_hit-to>215</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>28</Hsp_identity>
+              <Hsp_positive>51</Hsp_positive>
+              <Hsp_gaps>6</Hsp_gaps>
+              <Hsp_align-len>115</Hsp_align-len>
+              <Hsp_qseq>PHEFEEMRARIISYIERIQTDVQVRVQCLMS-MRISALVKKRFFDRYTLNFVCVHTEHAGYVFTEH-----QPNLANLCGSIESKGNEGDTLENGHLRIRAGALHRAHAGVLIVQ</Hsp_qseq>
+              <Hsp_hseq>PYDPKEMYARITSLIRRYKKTNEVQEEVVDSAFRIDDKRHEIYFNNEALALTPAEYEILTYLIKQHSFSVSREQLVYNCKSLKDKDSKSLDVIIGRLRTKIGDSSKAPKHIFSVR</Hsp_hseq>
+              <Hsp_midline>P++ +EM ARI S I R +   +V+ + + S  RI     + +F+   L       E   Y+  +H     +  L   C S++ K ++   +  G LR + G   +A   +  V+</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1510</Hit_id>
+          <Hit_def>@Campylobacter_concisus_13826@ gi|157164115|ref|YP_001467376.1| thioesterase [Campylobacter concisus 13826]</Hit_def>
+          <Hit_accession>1510</Hit_accession>
+          <Hit_len>362</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>29.261</Hsp_bit-score>
+              <Hsp_score>64</Hsp_score>
+              <Hsp_evalue>0.456621</Hsp_evalue>
+              <Hsp_query-from>368</Hsp_query-from>
+              <Hsp_query-to>452</Hsp_query-to>
+              <Hsp_hit-from>194</Hsp_hit-from>
+              <Hsp_hit-to>279</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>29</Hsp_identity>
+              <Hsp_positive>41</Hsp_positive>
+              <Hsp_gaps>9</Hsp_gaps>
+              <Hsp_align-len>90</Hsp_align-len>
+              <Hsp_qseq>AGYVFTEHQPNLANLCGSIESKGNEGDTLENGHLRIRAGA-LHRAHAGVLIVQL----EDLLAEEEAWTHLKRALRTKQVLLPAGSSQSQ</Hsp_qseq>
+              <Hsp_hseq>GGAVFT----NDENLAVKLKSLRLHGQSKRYHHQYIGIGGRLDTIQAAVLLVKLGHYKKDLSLRQEVASKYTDALQDKNVILPYIDSRAQ</Hsp_hseq>
+              <Hsp_midline> G VFT    N  NL   ++S    G +    H  I  G  L    A VL+V+L    +DL   +E  +    AL+ K V+LP   S++Q</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1803</Hit_id>
+          <Hit_def>@Campylobacter_concisus_13826@ gi|157164724|ref|YP_001467668.1| methionine import ATP-binding protein MetN [Campylobacter concisus 13826]</Hit_def>
+          <Hit_accession>1803</Hit_accession>
+          <Hit_len>217</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>28.1054</Hsp_bit-score>
+              <Hsp_score>61</Hsp_score>
+              <Hsp_evalue>1.00856</Hsp_evalue>
+              <Hsp_query-from>66</Hsp_query-from>
+              <Hsp_query-to>121</Hsp_query-to>
+              <Hsp_hit-from>27</Hsp_hit-from>
+              <Hsp_hit-to>92</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>18</Hsp_identity>
+              <Hsp_positive>29</Hsp_positive>
+              <Hsp_gaps>10</Hsp_gaps>
+              <Hsp_align-len>66</Hsp_align-len>
+              <Hsp_qseq>GYNICVIGASGTGKRTTLQYLLKDFVPRP--------EQMWDIAYAYNFVH--PHEPQVLQFPAGE</Hsp_qseq>
+              <Hsp_hseq>GEKIAILGQNGAGKSSLMRIILGEFVPNSGSVAINGVNTLKDRKEALKFISFVPQTPPPLKFSLRE</Hsp_hseq>
+              <Hsp_midline>G  I ++G +G GK + ++ +L +FVP            + D   A  F+   P  P  L+F   E</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>5</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1006</Hit_id>
+          <Hit_def>@Campylobacter_concisus_13826@ gi|157164772|ref|YP_001466872.1| sensor histidine kinase [Campylobacter concisus 13826]</Hit_def>
+          <Hit_accession>1006</Hit_accession>
+          <Hit_len>258</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>26.5646</Hsp_bit-score>
+              <Hsp_score>57</Hsp_score>
+              <Hsp_evalue>2.91639</Hsp_evalue>
+              <Hsp_query-from>65</Hsp_query-from>
+              <Hsp_query-to>92</Hsp_query-to>
+              <Hsp_hit-from>27</Hsp_hit-from>
+              <Hsp_hit-to>54</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>11</Hsp_identity>
+              <Hsp_positive>17</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>28</Hsp_align-len>
+              <Hsp_qseq>DGYNICVIGASGTGKRTTLQYLLKDFVP</Hsp_qseq>
+              <Hsp_hseq>DGDIFCLLGSNGVGKTTTFKTILGFLKP</Hsp_hseq>
+              <Hsp_midline>DG   C++G++G GK TT + +L    P</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>1989</Statistics_db-num>
+          <Statistics_db-len>589556</Statistics_db-len>
+          <Statistics_hsp-len>86</Statistics_hsp-len>
+          <Statistics_eff-space>322665042</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

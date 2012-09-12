@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/bacteria/aa//Rhodopseudomonas_palustris_CGA009</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>gnl|BL_ORD_ID|11 @Treponema_pallidum_DAL_1@ gi|378974645|ref|YP_005223253.1| lon1 gene product [Treponema pallidum subsp. pallidum DAL-1]</BlastOutput_query-def>
+  <BlastOutput_query-len>857</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>gnl|BL_ORD_ID|11 @Treponema_pallidum_DAL_1@ gi|378974645|ref|YP_005223253.1| lon1 gene product [Treponema pallidum subsp. pallidum DAL-1]</Iteration_query-def>
+      <Iteration_query-len>857</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|2940</Hit_id>
+          <Hit_def>@Rhodopseudomonas_palustris_CGA009@ RPA2959 ATP-dependent protease Lon</Hit_def>
+          <Hit_accession>2940</Hit_accession>
+          <Hit_len>810</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>50.8322</Hsp_bit-score>
+              <Hsp_score>120</Hsp_score>
+              <Hsp_evalue>3.67237e-07</Hsp_evalue>
+              <Hsp_query-from>719</Hsp_query-from>
+              <Hsp_query-to>821</Hsp_query-to>
+              <Hsp_hit-from>681</Hsp_hit-from>
+              <Hsp_hit-to>772</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>32</Hsp_identity>
+              <Hsp_positive>55</Hsp_positive>
+              <Hsp_gaps>11</Hsp_gaps>
+              <Hsp_align-len>103</Hsp_align-len>
+              <Hsp_qseq>DGDSASAAEFLVLLSAIGRFPLRQDRAITGSVNQLGQVQAIGGVSEKISGFYDVCALNGLTGMQGVLIPKSSCAQLFLPERVQDAVRAGTFHVWAVCTIDDAL</Hsp_qseq>
+              <Hsp_hseq>DGPSAGVAMATTIVSVLTGIPIRRDIAMTGEITLRGRVLPIGGLKEKL-----LAAARG--GIKTVLIPEDNAKDLT---EISDAIKGG-LNIIPVARMDEVI</Hsp_hseq>
+              <Hsp_midline>DG SA  A    ++S +   P+R+D A+TG +   G+V  IGG+ EK+     + A  G  G++ VLIP+ +   L     + DA++ G  ++  V  +D+ +</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|3659</Hit_id>
+          <Hit_def>@Rhodopseudomonas_palustris_CGA009@ RPA3681 secretory protein kinase, cpaF</Hit_def>
+          <Hit_accession>3659</Hit_accession>
+          <Hit_len>460</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>31.187</Hsp_bit-score>
+              <Hsp_score>69</Hsp_score>
+              <Hsp_evalue>0.402956</Hsp_evalue>
+              <Hsp_query-from>68</Hsp_query-from>
+              <Hsp_query-to>221</Hsp_query-to>
+              <Hsp_hit-from>230</Hsp_hit-from>
+              <Hsp_hit-to>347</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>37</Hsp_identity>
+              <Hsp_positive>61</Hsp_positive>
+              <Hsp_gaps>48</Hsp_gaps>
+              <Hsp_align-len>160</Hsp_align-len>
+              <Hsp_qseq>NICVIGASGTGKRTTLQYLLKDFVPRPEQMW--DIAYAYNFVHPHEPQVLQFPA---GEGMPFATALRRSVNAILNTAQDIVKSDAFLRERRTLLADIETRECAELSRIEAELYTRGFRVRWHRKRGTYSFDLVPLLK-GKDSSFEALHDLASRAKLSRC</Hsp_qseq>
+              <Hsp_hseq>NVLISGGTGSGK-TTLLNCLTNYIDDDERIITCEDAAELQLQQPHVVRLETRPPNIEGEGQI--------------TMRDLVRNCLRMRPERIIVGEV---------------------------RGPEAFDLLQAMNTGHDGSMGTLHANNPREALSRC</Hsp_hseq>
+              <Hsp_midline>N+ + G +G+GK TTL   L +++   E++   + A       PH  ++   P    GEG                T +D+V++   +R  R ++ ++                           RG  +FDL+  +  G D S   LH    R  LSRC</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|4061</Hit_id>
+          <Hit_def>@Rhodopseudomonas_palustris_CGA009@ RPA4084 AAA ATPase</Hit_def>
+          <Hit_accession>4061</Hit_accession>
+          <Hit_len>663</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>28.8758</Hsp_bit-score>
+              <Hsp_score>63</Hsp_score>
+              <Hsp_evalue>2.40767</Hsp_evalue>
+              <Hsp_query-from>106</Hsp_query-from>
+              <Hsp_query-to>238</Hsp_query-to>
+              <Hsp_hit-from>187</Hsp_hit-from>
+              <Hsp_hit-to>316</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>35</Hsp_identity>
+              <Hsp_positive>55</Hsp_positive>
+              <Hsp_gaps>13</Hsp_gaps>
+              <Hsp_align-len>138</Hsp_align-len>
+              <Hsp_qseq>FVHPHEPQVLQFPAGEGMP-----FATALRRSVNAILNTAQDIVKSDAFLRERRTLLADIETRECAELSRIEAELYTRGFRVRWHRKRGTYSFDLVPLLKGKDSSFEALHDLASRAKLSRCVVHELHARYRLSCDEVS</Hsp_qseq>
+              <Hsp_hseq>FLHVNGPEIIQKHYGESEEMLRRIFADAQKQPAAIIF-----FDEIDAIAPNRETVLGDVEKRVVAQLLALMDGLTARGNIVVIAATNLPNSLD--PALR-RPGRFDREIGIAPPDRAGRLEILRIHTRRMPLADDVD</Hsp_hseq>
+              <Hsp_midline>F+H + P+++Q   GE        FA A ++    I        + DA    R T+L D+E R  A+L  +   L  RG  V         S D  P L+ +   F+    +A   +  R  +  +H R     D+V </Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|3389</Hit_id>
+          <Hit_def>@Rhodopseudomonas_palustris_CGA009@ RPA3410 PAS domain:GGDEF:PAC motif:EAL domain</Hit_def>
+          <Hit_accession>3389</Hit_accession>
+          <Hit_len>824</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>28.8758</Hsp_bit-score>
+              <Hsp_score>63</Hsp_score>
+              <Hsp_evalue>2.5026</Hsp_evalue>
+              <Hsp_query-from>63</Hsp_query-from>
+              <Hsp_query-to>227</Hsp_query-to>
+              <Hsp_hit-from>253</Hsp_hit-from>
+              <Hsp_hit-to>396</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>37</Hsp_identity>
+              <Hsp_positive>61</Hsp_positive>
+              <Hsp_gaps>21</Hsp_gaps>
+              <Hsp_align-len>165</Hsp_align-len>
+              <Hsp_qseq>YGDGYNICVIGASGTGKRTTLQYLLKDFVPRPEQMWDIAYAYNFVHPHEPQVLQFPAGEGMPFATALRRSVNAILNTAQDIVKSDAFLRERRTLLADIETRECAELSRIEAELYTRGFRVRWHRKRGTYSFDLVPLLKGKDSSFEALHDLASRAKLSRCVVHELH</Hsp_qseq>
+              <Hsp_hseq>FGDVVSVTISDVTSLKKREESFRLLFDGNPMPMWVFD-AQSFEFLSVNDAAVAHY----GYPRERFLRMSLREIWPREEWIAHGQTLLEMRDSYQSEGNWRHI-KADGSEIHVLTFGRRV---------------LFDGRDGFLVAVVDITERRKAEAKIAHMAH</Hsp_hseq>
+              <Hsp_midline>+GD  ++ +   +   KR     LL D  P P  ++D A ++ F+  ++  V  +    G P    LR S+  I    + I      L  R +  ++   R   +    E  + T G RV               L  G+D    A+ D+  R K    + H  H</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>5</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|4651</Hit_id>
+          <Hit_def>@Rhodopseudomonas_palustris_CGA009@ RPA4676 putative transcriptional regulator</Hit_def>
+          <Hit_accession>4651</Hit_accession>
+          <Hit_len>165</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>27.7202</Hsp_bit-score>
+              <Hsp_score>60</Hsp_score>
+              <Hsp_evalue>2.84321</Hsp_evalue>
+              <Hsp_query-from>168</Hsp_query-from>
+              <Hsp_query-to>217</Hsp_query-to>
+              <Hsp_hit-from>82</Hsp_hit-from>
+              <Hsp_hit-to>129</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>19</Hsp_identity>
+              <Hsp_positive>28</Hsp_positive>
+              <Hsp_gaps>2</Hsp_gaps>
+              <Hsp_align-len>50</Hsp_align-len>
+              <Hsp_qseq>LSRIEAELYTRGFRVRWHRKRGTYSFDLVPLLKGKDSSFEALHDLASRAK</Hsp_qseq>
+              <Hsp_hseq>IERVENEDDRREFRLRLTKKGRSLYHELVPRLKRKEQ--EILSCLSSRER</Hsp_hseq>
+              <Hsp_midline>+ R+E E   R FR+R  +K  +   +LVP LK K+   E L  L+SR +</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>4819</Statistics_db-num>
+          <Statistics_db-len>1582814</Statistics_db-len>
+          <Statistics_hsp-len>93</Statistics_hsp-len>
+          <Statistics_eff-space>866870308</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

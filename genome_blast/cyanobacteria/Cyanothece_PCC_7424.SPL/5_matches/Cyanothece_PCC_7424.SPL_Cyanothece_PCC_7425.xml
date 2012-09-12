@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/cyanobacteria/all//Cyanothece_PCC_7425</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Cyanothece_PCC_7424_gnl|BL_ORD_ID|2656  gi|218439670|ref|YP_002377999.1| hypothetical protein PCC7424_2719 [Cyanothece</BlastOutput_query-def>
+  <BlastOutput_query-len>264</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>Cyanothece_PCC_7424_gnl|BL_ORD_ID|2656  gi|218439670|ref|YP_002377999.1| hypothetical protein PCC7424_2719 [Cyanothece</Iteration_query-def>
+      <Iteration_query-len>264</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1048</Hit_id>
+          <Hit_def>@Cyanothece_PCC_7425@ gi|220906503|ref|YP_002481814.1| unnamed protein product [Cyanothece sp. PCC 7425]</Hit_def>
+          <Hit_accession>1048</Hit_accession>
+          <Hit_len>266</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>268.47</Hsp_bit-score>
+              <Hsp_score>685</Hsp_score>
+              <Hsp_evalue>1.06767e-89</Hsp_evalue>
+              <Hsp_query-from>1</Hsp_query-from>
+              <Hsp_query-to>262</Hsp_query-to>
+              <Hsp_hit-from>3</Hsp_hit-from>
+              <Hsp_hit-to>264</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>134</Hsp_identity>
+              <Hsp_positive>187</Hsp_positive>
+              <Hsp_gaps>2</Hsp_gaps>
+              <Hsp_align-len>263</Hsp_align-len>
+              <Hsp_qseq>MILIGIICLIVGVILLFFWRSNRSKLRNLRLASASTISSLQTIANQIAEEIGGGSLREYVKIRGVIECDRPLISQLKQEPCVYYSMTVTWEYNEEVIKQDNEGKTIREKERKSETVAQNSRSIPFTLQDSTGEIRVNPERAEIETVKVLEEFRPENFSGGSLTFGNFSINL-PSFEERRQTIGYRYQEEILPIGRQILVIGTATDEEGMITIRKPTEKGQRYFISLKSEEELSQATNNAIRGTFYSMIFFLTLGLILLVAGVL</Hsp_qseq>
+              <Hsp_hseq>LAIVGAILLVTGGILYFVQRHYQQKLYSIKLARKTTVAELKQLADQVGAEIGQGSLREYVKLSGQIKCDTPLISELKQVPCVYYQMQVEREYEERLTERDNDGETREKTQRGSETIASNSQSTPFFLQDQSGAIEVDPSGAAIETVQVLNEFRPEAGS-ARISFGNFSLSVGGSFPAGRETIGYRYRESILPPDRRILIVATASDSSGILSLQKPVEKRQKFIISLKSEDHLAQSTQQTATYTFYGMIACLGLGAILLVVGLI</Hsp_hseq>
+              <Hsp_midline>+ ++G I L+ G IL F  R  + KL +++LA  +T++ L+ +A+Q+  EIG GSLREYVK+ G I+CD PLIS+LKQ PCVYY M V  EY E + ++DN+G+T  + +R SET+A NS+S PF LQD +G I V+P  A IETV+VL EFRPE  S   ++FGNFS+++  SF   R+TIGYRY+E ILP  R+IL++ TA+D  G+++++KP EK Q++ ISLKSE+ L+Q+T      TFY MI  L LG ILLV G++</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|3318</Hit_id>
+          <Hit_def>@Cyanothece_PCC_7425@ gi|220908773|ref|YP_002484084.1| unnamed protein product [Cyanothece sp. PCC 7425]</Hit_def>
+          <Hit_accession>3318</Hit_accession>
+          <Hit_len>283</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>27.7202</Hsp_bit-score>
+              <Hsp_score>60</Hsp_score>
+              <Hsp_evalue>1.09394</Hsp_evalue>
+              <Hsp_query-from>47</Hsp_query-from>
+              <Hsp_query-to>80</Hsp_query-to>
+              <Hsp_hit-from>150</Hsp_hit-from>
+              <Hsp_hit-to>179</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>14</Hsp_identity>
+              <Hsp_positive>22</Hsp_positive>
+              <Hsp_gaps>4</Hsp_gaps>
+              <Hsp_align-len>34</Hsp_align-len>
+              <Hsp_qseq>IAEEIGGGSLREYVKIRGVIECDRPLISQLKQEP</Hsp_qseq>
+              <Hsp_hseq>LAEELATGNFREFVR-RWY---DQPLFASLKKHP</Hsp_hseq>
+              <Hsp_midline>+AEE+  G+ RE+V+ R     D+PL + LK+ P</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1134</Hit_id>
+          <Hit_def>@Cyanothece_PCC_7425@ gi|220906589|ref|YP_002481900.1| unnamed protein product [Cyanothece sp. PCC 7425]</Hit_def>
+          <Hit_accession>1134</Hit_accession>
+          <Hit_len>1927</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>26.9498</Hsp_bit-score>
+              <Hsp_score>58</Hsp_score>
+              <Hsp_evalue>1.94</Hsp_evalue>
+              <Hsp_query-from>99</Hsp_query-from>
+              <Hsp_query-to>157</Hsp_query-to>
+              <Hsp_hit-from>684</Hsp_hit-from>
+              <Hsp_hit-to>744</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>19</Hsp_identity>
+              <Hsp_positive>25</Hsp_positive>
+              <Hsp_gaps>2</Hsp_gaps>
+              <Hsp_align-len>61</Hsp_align-len>
+              <Hsp_qseq>QDNEGKTIREKERKSETVAQNSRSIPFTLQDSTG--EIRVNPERAEIETVKVLEEFRPENF</Hsp_qseq>
+              <Hsp_hseq>QDPNGKTIDLGEQTSNEFGSFAIEVPFKSDQPLGYYTIQATAGDKQITGEFRLAEFKPPNF</Hsp_hseq>
+              <Hsp_midline>QD  GKTI   E+ S      +  +PF      G   I+      +I     L EF+P NF</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|3259</Hit_id>
+          <Hit_def>@Cyanothece_PCC_7425@ gi|220908714|ref|YP_002484025.1| unnamed protein product [Cyanothece sp. PCC 7425]</Hit_def>
+          <Hit_accession>3259</Hit_accession>
+          <Hit_len>529</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>26.1794</Hsp_bit-score>
+              <Hsp_score>56</Hsp_score>
+              <Hsp_evalue>3.40325</Hsp_evalue>
+              <Hsp_query-from>127</Hsp_query-from>
+              <Hsp_query-to>169</Hsp_query-to>
+              <Hsp_hit-from>15</Hsp_hit-from>
+              <Hsp_hit-to>54</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>16</Hsp_identity>
+              <Hsp_positive>22</Hsp_positive>
+              <Hsp_gaps>3</Hsp_gaps>
+              <Hsp_align-len>43</Hsp_align-len>
+              <Hsp_qseq>LQDSTGEIRVNPERAEIETVKVLEEFRPENFSGGSLTFGNFSI</Hsp_qseq>
+              <Hsp_hseq>LQDFLNLARSQPQRVESETIPVSVGFVP---TMGALHAGHLSL</Hsp_hseq>
+              <Hsp_midline>LQD     R  P+R E ET+ V   F P   + G+L  G+ S+</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>5</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|4589</Hit_id>
+          <Hit_def>@Cyanothece_PCC_7425@ gi|220910044|ref|YP_002485355.1| unnamed protein product [Cyanothece sp. PCC 7425]</Hit_def>
+          <Hit_accession>4589</Hit_accession>
+          <Hit_len>262</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>25.0238</Hsp_bit-score>
+              <Hsp_score>53</Hsp_score>
+              <Hsp_evalue>6.91584</Hsp_evalue>
+              <Hsp_query-from>4</Hsp_query-from>
+              <Hsp_query-to>23</Hsp_query-to>
+              <Hsp_hit-from>16</Hsp_hit-from>
+              <Hsp_hit-to>35</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>7</Hsp_identity>
+              <Hsp_positive>15</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>20</Hsp_align-len>
+              <Hsp_qseq>IGIICLIVGVILLFFWRSNR</Hsp_qseq>
+              <Hsp_hseq>LGLACVLLGVAIVCFWKRPR</Hsp_hseq>
+              <Hsp_midline>+G+ C+++GV ++ FW+  R</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>5327</Statistics_db-num>
+          <Statistics_db-len>1638061</Statistics_db-len>
+          <Statistics_hsp-len>83</Statistics_hsp-len>
+          <Statistics_eff-space>216461520</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

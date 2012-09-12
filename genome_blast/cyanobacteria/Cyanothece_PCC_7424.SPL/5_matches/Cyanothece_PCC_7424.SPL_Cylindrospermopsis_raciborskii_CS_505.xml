@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/cyanobacteria/all//Cylindrospermopsis_raciborskii_CS_505</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Cyanothece_PCC_7424_gnl|BL_ORD_ID|2656  gi|218439670|ref|YP_002377999.1| hypothetical protein PCC7424_2719 [Cyanothece</BlastOutput_query-def>
+  <BlastOutput_query-len>264</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>Cyanothece_PCC_7424_gnl|BL_ORD_ID|2656  gi|218439670|ref|YP_002377999.1| hypothetical protein PCC7424_2719 [Cyanothece</Iteration_query-def>
+      <Iteration_query-len>264</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|3366</Hit_id>
+          <Hit_def>@Cylindrospermopsis_raciborskii_CS_505@ 647107707 CRC_03432 3-beta hydroxysteroid dehydrogenase/isomerase [Cylindrospermopsis raciborskii CS-505]</Hit_def>
+          <Hit_accession>3366</Hit_accession>
+          <Hit_len>276</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>28.4906</Hsp_bit-score>
+              <Hsp_score>62</Hsp_score>
+              <Hsp_evalue>0.38688</Hsp_evalue>
+              <Hsp_query-from>1</Hsp_query-from>
+              <Hsp_query-to>52</Hsp_query-to>
+              <Hsp_hit-from>1</Hsp_hit-from>
+              <Hsp_hit-to>54</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>18</Hsp_identity>
+              <Hsp_positive>28</Hsp_positive>
+              <Hsp_gaps>2</Hsp_gaps>
+              <Hsp_align-len>54</Hsp_align-len>
+              <Hsp_qseq>MIL-IGII-CLIVGVILLFFWRSNRSKLRNLRLASASTISSLQTIANQIAEEIG</Hsp_qseq>
+              <Hsp_hseq>MIMNVAIIGCGYVGYAVAKFWRQNPSFRVTVTTTSEHKVSTLQEVADAVEVTMG</Hsp_hseq>
+              <Hsp_midline>MI+ + II C  VG  +  FWR N S    +   S   +S+LQ +A+ +   +G</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|2820</Hit_id>
+          <Hit_def>@Cylindrospermopsis_raciborskii_CS_505@ 647107155 CRC_02808 Magnesium and cobalt transport protein CorA [Cylindrospermopsis raciborskii CS-505]</Hit_def>
+          <Hit_accession>2820</Hit_accession>
+          <Hit_len>390</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>27.335</Hsp_bit-score>
+              <Hsp_score>59</Hsp_score>
+              <Hsp_evalue>0.943144</Hsp_evalue>
+              <Hsp_query-from>4</Hsp_query-from>
+              <Hsp_query-to>20</Hsp_query-to>
+              <Hsp_hit-from>361</Hsp_hit-from>
+              <Hsp_hit-to>377</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>8</Hsp_identity>
+              <Hsp_positive>14</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>17</Hsp_align-len>
+              <Hsp_qseq>IGIICLIVGVILLFFWR</Hsp_qseq>
+              <Hsp_hseq>LGLMAVIAGSLMLFFWR</Hsp_hseq>
+              <Hsp_midline>+G++ +I G ++LFFWR</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1557</Hit_id>
+          <Hit_def>@Cylindrospermopsis_raciborskii_CS_505@ 647105878 CRC_01505 ABC transporter, transmembrane region protein [Cylindrospermopsis raciborskii CS-505]</Hit_def>
+          <Hit_accession>1557</Hit_accession>
+          <Hit_len>722</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>26.9498</Hsp_bit-score>
+              <Hsp_score>58</Hsp_score>
+              <Hsp_evalue>1.24893</Hsp_evalue>
+              <Hsp_query-from>81</Hsp_query-from>
+              <Hsp_query-to>123</Hsp_query-to>
+              <Hsp_hit-from>31</Hsp_hit-from>
+              <Hsp_hit-to>73</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>12</Hsp_identity>
+              <Hsp_positive>22</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>43</Hsp_align-len>
+              <Hsp_qseq>CVYYSMTVTWEYNEEVIKQDNEGKTIREKERKSETVAQNSRSI</Hsp_qseq>
+              <Hsp_hseq>CKYYGRFLTINKSREAVGTGQLGTTLLGLKRGSDSLGFNSRAV</Hsp_hseq>
+              <Hsp_midline>C YY   +T   + E +     G T+   +R S+++  NSR++</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1648</Hit_id>
+          <Hit_def>@Cylindrospermopsis_raciborskii_CS_505@ 647105972 CRC_01599 hypothetical protein [Cylindrospermopsis raciborskii CS-505]</Hit_def>
+          <Hit_accession>1648</Hit_accession>
+          <Hit_len>761</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>26.5646</Hsp_bit-score>
+              <Hsp_score>57</Hsp_score>
+              <Hsp_evalue>1.91148</Hsp_evalue>
+              <Hsp_query-from>3</Hsp_query-from>
+              <Hsp_query-to>44</Hsp_query-to>
+              <Hsp_hit-from>183</Hsp_hit-from>
+              <Hsp_hit-to>220</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>15</Hsp_identity>
+              <Hsp_positive>22</Hsp_positive>
+              <Hsp_gaps>4</Hsp_gaps>
+              <Hsp_align-len>42</Hsp_align-len>
+              <Hsp_qseq>LIGIICLIVGVILLFFWRSNRSKLRNLRLASASTISSLQTIA</Hsp_qseq>
+              <Hsp_hseq>LLSLCFLYIGSQLLWLWRANLF----LHRSSTKVIPDLQTIS</Hsp_hseq>
+              <Hsp_midline>L+ +  L +G  LL+ WR+N      L  +S   I  LQTI+</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>5</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|2731</Hit_id>
+          <Hit_def>@Cylindrospermopsis_raciborskii_CS_505@ 647107065 CRC_02718 conserved hypothetical protein [Cylindrospermopsis raciborskii CS-505]</Hit_def>
+          <Hit_accession>2731</Hit_accession>
+          <Hit_len>668</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>26.1794</Hsp_bit-score>
+              <Hsp_score>56</Hsp_score>
+              <Hsp_evalue>2.47014</Hsp_evalue>
+              <Hsp_query-from>139</Hsp_query-from>
+              <Hsp_query-to>191</Hsp_query-to>
+              <Hsp_hit-from>529</Hsp_hit-from>
+              <Hsp_hit-to>576</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>17</Hsp_identity>
+              <Hsp_positive>28</Hsp_positive>
+              <Hsp_gaps>5</Hsp_gaps>
+              <Hsp_align-len>53</Hsp_align-len>
+              <Hsp_qseq>ERAEIETVKVLEEFRPENFSGGSLTFGNFSINLPSFEERRQTIGYRYQEEILP</Hsp_qseq>
+              <Hsp_hseq>KNSEIEKQIVISRNLAENFSLGNIFF-----SMKSLAENRQGIGDQFKQVYYP</Hsp_hseq>
+              <Hsp_midline>+ +EIE   V+     ENFS G++ F     ++ S  E RQ IG ++++   P</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>3449</Statistics_db-num>
+          <Statistics_db-len>1092535</Statistics_db-len>
+          <Statistics_hsp-len>81</Statistics_hsp-len>
+          <Statistics_eff-space>148809378</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

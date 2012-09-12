@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/bacteria/aa//Desulfovibrio_vulgaris_DP4</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>gnl|BL_ORD_ID|11 @Treponema_pallidum_DAL_1@ gi|378974645|ref|YP_005223253.1| lon1 gene product [Treponema pallidum subsp. pallidum DAL-1]</BlastOutput_query-def>
+  <BlastOutput_query-len>857</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>gnl|BL_ORD_ID|11 @Treponema_pallidum_DAL_1@ gi|378974645|ref|YP_005223253.1| lon1 gene product [Treponema pallidum subsp. pallidum DAL-1]</Iteration_query-def>
+      <Iteration_query-len>857</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1749</Hit_id>
+          <Hit_def>@Desulfovibrio_vulgaris_DP4@ gi|120602651|ref|YP_967051.1| peptidase S16 [Desulfovibrio vulgaris DP4]</Hit_def>
+          <Hit_accession>1749</Hit_accession>
+          <Hit_len>815</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>350.903</Hsp_bit-score>
+              <Hsp_score>899</Hsp_score>
+              <Hsp_evalue>8.16886e-108</Hsp_evalue>
+              <Hsp_query-from>43</Hsp_query-from>
+              <Hsp_query-to>857</Hsp_query-to>
+              <Hsp_hit-from>35</Hsp_hit-from>
+              <Hsp_hit-to>808</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>258</Hsp_identity>
+              <Hsp_positive>407</Hsp_positive>
+              <Hsp_gaps>83</Hsp_gaps>
+              <Hsp_align-len>836</Hsp_align-len>
+              <Hsp_qseq>HPFLLAHERACAAIRLGMRMYGDGYNICVIGASGTGK----RTTLQYLLKDFVPRPEQMWDIAYAYNFVHPHEPQVLQFPAGEGMPFATALRRSVNAILNTAQDIVKSDAFLRERRTLLA--DIETRECAELSRIEAELYTRGFRVRWHRKRGTYSFDLVPLLKGKDSSFEALHDLASRAKLSRCVVHELHARYRLSCDEVSSLLHTLRTARRAARRRLAQYYRARLRLIILEQMACIKKRVACYAPVFSPPPVSCAAEQTEREKTSSSRLIEVPHEFEEMRARIISYIERIQTDVQVRVQCLMSMRISALVKKRFFDRYTLNFVCVHTEHAGY-VFTEHQPNLANLCGSIESKGNEGDTLENGHLRIRAGALHRAHAGVLIVQLEDLLAEEEAWTHLKRALRTKQVLL----PAGSSQSQGMLRPEGVPLTCKLVLVGEPCSFERLSQEDSSFRELFKVCAEFDTSMPNSDKNQVALIAYLDRVVARYGT----FSLDSSAYARLLAYAEELAESHTRLSTSFVQIADLVLESHAVAVDMHPDVSVITAHVVQEALNRRQYVCSRARERFQRMIACGELLVEVQGYRIGRINALAIEEHCGHSFGIVISLTAQASAGKEGVMNIEREAGLSGEIYDKAHLIITSLLREKCLSAFADAAFDPAVDDLGKGQDSFPLCLSAALCFEQSYHGIDGDSASAAEFLVLLSAIGRFPLRQDRAITGSVNQLGQVQAIGGVSEKISGFYDVCALNGLTGMQGVLIPKSSCAQLFLPERVQDAVRAGTFHVWAVCTIDDALELM--VPDDLK-EQGS---AQLYQCVRARLRDFYVTVKGHCE</Hsp_qseq>
+              <Hsp_hseq>HDGIIGQRRGVEAFRFGMGMDGRGYNIFVTGASGIGKLAMTRQLLQQAGGGVVPD-----DLCYVNNFTVPEEPVLLRFPAGRGKRFKADVQAFLDTIKRDIPQLFESQEYINSKNEIIETHDRKTRDF--FKNLEAKVKDAGFVLVNMQMGQVQRPDIVPMVDGEPVHLLKLEEMAEKGRFPREELVQLQAKYKVLKEEIDTIFLEVRELQKEVKRKSEEVDR----LMFLNAARDLAR------PLF--------AEYAEEK---------VVAHFEGMLQHMSDNLDALRAMGQPQ-QGPMGMFVPVTAESVLHD-YQVNLLVDNSGLEGPPIIFESYPTYRKLFGSIERAMDRSGLWRTDFTKINAGSFVRANGGYLVLNLMDAISEPGVWQTLKRALKTSEIEIQTFDPYYFITAQG-LKPEPVKMEVKVVVLATPQLYHMLRHYDPEVTKIFKVWADFDSVMNRDD----AAVEAVTRLMASFANERKLMPFGREAVALLLEHSVRLAGRREKMSTTFPALCD-IMEEAHFFAHAAAAETVGATHVRDAILARRDR-AGQYEEKVQEMIDRGSVFIDTEGAVVGQVNGLAVFGVGDHMFGKPTRITATTAMGREGIINIERESDLSGAIHNKGMLILAGFLRRR----FA--------------QDK-PLTLAASIAFEQSYGGVDGDSASSTELYAILSSLAGVPLSQGIAVTGSVNQKGEVQPIGGVNEKIEGFFECCRRNGLTDGQGVMIPAANVGDLMLDEDVMEAVREGRFHIWAVKTIEEGIELLTGMPAGVRGEDGTFPDGTLFALADARLRALAEGLKAFGE</Hsp_hseq>
+              <Hsp_midline>H  ++   R   A R GM M G GYNI V GASG GK    R  LQ      VP      D+ Y  NF  P EP +L+FPAG G  F   ++  ++ I      + +S  ++  +  ++   D +TR+      +EA++   GF +   +       D+VP++ G+      L ++A + +  R  + +L A+Y++  +E+ ++   +R  ++  +R+  +  R    L+ L     + +      P+F        AE  E +         V   FE M   +   ++ ++   Q + Q  M M +    +    D Y +N +  ++   G  +  E  P    L GSIE   +          +I AG+  RA+ G L++ L D ++E   W  LKRAL+T ++ +    P     +QG L+PE V +  K+V++  P  +  L   D    ++FKV A+FD+ M   D    A +  + R++A +            A A LL ++  LA    ++ST+F  + D ++E            +V   HV    L RR     +  E+ Q MI  G + ++ +G  +G++N LA+     H FG    +TA  + G+EG++NIERE+ LSG I++K  LI+   LR +    FA              QD  PL L+A++ FEQSY G+DGDSAS+ E   +LS++   PL Q  A+TGSVNQ G+VQ IGGV+EKI GF++ C  NGLT  QGV+IP ++   L L E V +AVR G FH+WAV TI++ +EL+  +P  ++ E G+     L+    ARLR     +K   E</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1414</Hit_id>
+          <Hit_def>@Desulfovibrio_vulgaris_DP4@ gi|120602316|ref|YP_966716.1| peptidase S16 [Desulfovibrio vulgaris DP4]</Hit_def>
+          <Hit_accession>1414</Hit_accession>
+          <Hit_len>806</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>288.5</Hsp_bit-score>
+              <Hsp_score>737</Hsp_score>
+              <Hsp_evalue>5.09667e-85</Hsp_evalue>
+              <Hsp_query-from>51</Hsp_query-from>
+              <Hsp_query-to>825</Hsp_query-to>
+              <Hsp_hit-from>41</Hsp_hit-from>
+              <Hsp_hit-to>765</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>226</Hsp_identity>
+              <Hsp_positive>376</Hsp_positive>
+              <Hsp_gaps>98</Hsp_gaps>
+              <Hsp_align-len>799</Hsp_align-len>
+              <Hsp_qseq>RACAAIRLGMRMYGDGYNICVIGASGTGKRTTLQYLLKDFV-PRPEQMW---DIAYAYNFVHPHEPQVLQFPAGEGMPFATALRRSVNAILNTAQDIVKSDAFLRERRTLLADIETRECAELSRIEAELYTRGFRVRWHRKRGTYSFDLVPLLKGKDSSFEALHDLASRAKLSRCVVHELHARYRLSCDEVSSLLHTLRTARRAARRRLAQYYRARLRLI------ILEQMACIKKRVA--CYAPVFSPPPVSCAAEQTEREKTSSSRLIEVPHEFEEMRARIISYIER-IQTDVQVRVQCLMSMRISALVKKRFFD--RYTLNFVCVHTEHAGY-VFTEHQPNLANLCGSIESKGNEGDTLENGHLRIRAGALHRAHAGVLIVQLEDLLAEEEAWTHLKRALRTKQVLL--PAG---SSQSQGMLRPEGVPLTCKLVLVGEPCSFERLSQEDSSFRELFKVCAEFDTSMPNSDKNQVALIAY---LDRVVARYGTFSLDSSAYARLLAYAEELAESHTRLSTSFVQIADLVLESHAVAVDMHPDVSVITAHVVQEALNRRQYVCSRARERFQRMIACGELLVEVQGYRIGRINALAIEEHCGHSFGIVISLTAQASAGKEGVMNIEREAGLSGEIYDKAHLIITSLLREKCLSAFADAAFDPAVDDLGKGQDSFPLCLSAALCFEQSYHGIDGDSASAAEFLVLLSAIGRFPLRQDRAITGSVNQLGQVQAIGGVSEKISGFYDVCALNGLTGMQGVLIPKSSCAQLFLPERVQDAVRAGTFHVWAVCTIDDALELMV</Hsp_qseq>
+              <Hsp_hseq>RALQALELALHIRDGGYNVYLSGEPNLGR----TYMLREFLAPRTRKSPTPPDLVYVNNFDDPDRPRLIELPAGQGRKLRAALIQALSRIRKEIPSRFENHAVVKKRAALLDKFQTVRSRLFKKMDDVATTQGFNLDMDDQ---GSLTLYPVIEGK----------------------------RLSEEEFDKLDNGLRQSLKLKGDKLLQAMTGLMRQLTRAEQDFIEDERSLEREVARNVLDAVLTP-----VAERFSKACPGK----DLPAFFAALRDDIIENLEGFVHRDAGLPHQAASG----GDTPPSPFDEYRYDVNLFVDNSATTGAPIIVDDHPTPSNLLGCVERESEMGALVTDFTL-IKAGSIHKANGGFLVLHMEDILQHPAAWEGLLRALRSGSARIEDPGDGQDTTKTKG-IEPEPLTLRLKVVLIGTEDLYEALLESDDRFPKLFKLKAHLNDA---TERNAEGIRIYTHRMARIIDEAGLLPFDREAMAGLVDFGSRIIEDQRKLSLKFPLVRELMLEASAHAA--MRGKKLVDRAVLDEALQGRVYRANLYEEHFMEEYDRELIKVKTDGEAVGRVNGLSVTWYGNFEFGLPHQISGTVGVGHGGIIDLEREAELGGPIHTKAMMILKSYL----------------VDQFARNK---PLVLTGSLCFEQSYAGIEGDSASGAELAALLSAISGVPIKLSLAFTGAVSQSGQIMAVGGVTRKIEGFFEVCCRRGLTGSQGVIIPQDNVDHLMLKQDIVDAVEQGRFAIYPVGHITDALELLT</Hsp_hseq>
+              <Hsp_midline>RA  A+ L + +   GYN+ + G    G+     Y+L++F+ PR  +     D+ Y  NF  P  P++++ PAG+G     AL ++++ I        ++ A +++R  LL   +T       +++    T+GF +    +    S  L P+++GK                            RLS +E   L + LR + +    +L Q     +R +       +E    +++ VA      V +P      AE+  +         ++P  F  +R  II  +E  +  D  +  Q               FD  RY +N    ++   G  +  +  P  +NL G +E +   G  + +  L I+AG++H+A+ G L++ +ED+L    AW  L RALR+    +  P     +++++G + PE + L  K+VL+G    +E L + D  F +LFK+ A  + +   +++N   +  Y   + R++   G    D  A A L+ +   + E   +LS  F  + +L+LE+ A A        ++   V+ EAL  R Y  +   E F        + V+  G  +GR+N L++  +    FG+   ++     G  G++++EREA L G I+ KA +I+ S L                VD   + +   PL L+ +LCFEQSY GI+GDSAS AE   LLSAI   P++   A TG+V+Q GQ+ A+GGV+ KI GF++VC   GLTG QGV+IP+ +   L L + + DAV  G F ++ V  I DALEL+ </Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|2008</Hit_id>
+          <Hit_def>@Desulfovibrio_vulgaris_DP4@ gi|120602910|ref|YP_967310.1| ATP-dependent protease La [Desulfovibrio vulgaris DP4]</Hit_def>
+          <Hit_accession>2008</Hit_accession>
+          <Hit_len>856</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>40.817</Hsp_bit-score>
+              <Hsp_score>94</Hsp_score>
+              <Hsp_evalue>0.000357816</Hsp_evalue>
+              <Hsp_query-from>719</Hsp_query-from>
+              <Hsp_query-to>794</Hsp_query-to>
+              <Hsp_hit-from>758</Hsp_hit-from>
+              <Hsp_hit-to>826</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>26</Hsp_identity>
+              <Hsp_positive>39</Hsp_positive>
+              <Hsp_gaps>9</Hsp_gaps>
+              <Hsp_align-len>77</Hsp_align-len>
+              <Hsp_qseq>DGDSASAAEFLVLLSAIGRFPLRQDRAITGSVNQLGQVQAIGGVSEKISGFYDVCALNGLT-GMQGVLIPKSSCAQL</Hsp_qseq>
+              <Hsp_hseq>DGPSAGVTLVTALISALTGRPVRSDLCMTGEITLRGRVLPVGGIKEKI--------LAGVARGLKHVVIPAQNAKDL</Hsp_hseq>
+              <Hsp_midline>DG SA       L+SA+   P+R D  +TG +   G+V  +GG+ EKI        L G+  G++ V+IP  +   L</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1874</Hit_id>
+          <Hit_def>@Desulfovibrio_vulgaris_DP4@ gi|120602776|ref|YP_967176.1| ATP-dependent protease La [Desulfovibrio vulgaris DP4]</Hit_def>
+          <Hit_accession>1874</Hit_accession>
+          <Hit_len>821</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>38.1206</Hsp_bit-score>
+              <Hsp_score>87</Hsp_score>
+              <Hsp_evalue>0.00215492</Hsp_evalue>
+              <Hsp_query-from>719</Hsp_query-from>
+              <Hsp_query-to>794</Hsp_query-to>
+              <Hsp_hit-from>690</Hsp_hit-from>
+              <Hsp_hit-to>758</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>26</Hsp_identity>
+              <Hsp_positive>39</Hsp_positive>
+              <Hsp_gaps>7</Hsp_gaps>
+              <Hsp_align-len>76</Hsp_align-len>
+              <Hsp_qseq>DGDSASAAEFLVLLSAIGRFPLRQDRAITGSVNQLGQVQAIGGVSEKISGFYDVCALNGLTGMQGVLIPKSSCAQL</Hsp_qseq>
+              <Hsp_hseq>DGPSAGITLATSMVSALLGIPVRNDVAMTGEITLRGRVLPIGGLREKL-----LAAHRGQIGK--VLVPRENEKDL</Hsp_hseq>
+              <Hsp_midline>DG SA       ++SA+   P+R D A+TG +   G+V  IGG+ EK+     + A  G  G   VL+P+ +   L</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>5</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|714</Hit_id>
+          <Hit_def>@Desulfovibrio_vulgaris_DP4@ gi|120601616|ref|YP_966016.1| ABC transporter [Desulfovibrio vulgaris DP4]</Hit_def>
+          <Hit_accession>714</Hit_accession>
+          <Hit_len>241</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>31.187</Hsp_bit-score>
+              <Hsp_score>69</Hsp_score>
+              <Hsp_evalue>0.199833</Hsp_evalue>
+              <Hsp_query-from>65</Hsp_query-from>
+              <Hsp_query-to>111</Hsp_query-to>
+              <Hsp_hit-from>27</Hsp_hit-from>
+              <Hsp_hit-to>78</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>19</Hsp_identity>
+              <Hsp_positive>30</Hsp_positive>
+              <Hsp_gaps>9</Hsp_gaps>
+              <Hsp_align-len>54</Hsp_align-len>
+              <Hsp_qseq>DGYNICVIGASGTGKRTTLQYLLKDFVPRPE----QMWDIAY---AYNFVHPHE</Hsp_qseq>
+              <Hsp_hseq>EGEIVTLIGANGAGKSTTLKSIMR--LPPPEAPRVSAGDITYKGQSLLNVEPHD</Hsp_hseq>
+              <Hsp_midline>+G  + +IGA+G GK TTL+ +++  +P PE       DI Y   +   V PH+</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>3091</Statistics_db-num>
+          <Statistics_db-len>1045473</Statistics_db-len>
+          <Statistics_hsp-len>90</Statistics_hsp-len>
+          <Statistics_eff-space>588506061</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

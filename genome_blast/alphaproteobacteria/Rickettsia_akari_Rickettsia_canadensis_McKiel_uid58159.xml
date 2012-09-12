@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/NCBI_bact_genomes/Proteobacteria/Alphaproteobacteria/aa//Rickettsia_canadensis_McKiel_uid58159</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Rickettsia_akari_str_Hartford gnl|BL_ORD_ID|412    gi|157825538|ref|YP_001493258.1| unnamed protein product [Rickettsia akari str. Hartford]</BlastOutput_query-def>
+  <BlastOutput_query-len>225</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>Rickettsia_akari_str_Hartford gnl|BL_ORD_ID|412    gi|157825538|ref|YP_001493258.1| unnamed protein product [Rickettsia akari str. Hartford]</Iteration_query-def>
+      <Iteration_query-len>225</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|784</Hit_id>
+          <Hit_def>gi|157803977|ref|YP_001492526.1| hypothetical protein A1E_04070 [Rickettsia canadensis str. McKiel]</Hit_def>
+          <Hit_accession>784</Hit_accession>
+          <Hit_len>219</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>335.88</Hsp_bit-score>
+              <Hsp_score>860</Hsp_score>
+              <Hsp_evalue>3.0851e-118</Hsp_evalue>
+              <Hsp_query-from>16</Hsp_query-from>
+              <Hsp_query-to>223</Hsp_query-to>
+              <Hsp_hit-from>1</Hsp_hit-from>
+              <Hsp_hit-to>214</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>169</Hsp_identity>
+              <Hsp_positive>189</Hsp_positive>
+              <Hsp_gaps>6</Hsp_gaps>
+              <Hsp_align-len>214</Hsp_align-len>
+              <Hsp_qseq>MKYPVVLSIVICFCLVACVEQPPAPIEYKVGDVTANNNSTALEHDE----GLIVQRTMEDDTVSEKVSGILEEPKAKIIECYNDDIEIPI--SRNEYEEEIEQSNFVKPLNGVMLTEFKDGKSKGIDIAVKEYSDVKSIAAGTVIYSGFNKQFGNLVIVKLDKDDLEVAYASLDDLLLKKGDKITKNSVIGHVKHKLYFAMRRNRIAVDPSKYI</Hsp_qseq>
+              <Hsp_hseq>MKYPVALSTIICFCLIACVDQPPAPIDYKVGAITANNNPTELDYDEDYDEGLIVQRTIEDTTTSEKVSGILEEPKAKIIEDDNDNIEIPIFQHENEDEEVIEQLNFAKPLNGVIITEFKAGKSKGIGIAVKEYSEVKSIAAGTVIYSGFNKQFGNLVIVKLDKDDLEVAYANLDDLLLNKGDKVAKNSVIGHVEHQLYFAMRKDKVAVDPSKYI</Hsp_hseq>
+              <Hsp_midline>MKYPV LS +ICFCL+ACV+QPPAPI+YKVG +TANNN T L++DE    GLIVQRT+ED T SEKVSGILEEPKAKIIE  ND+IEIPI    NE EE IEQ NF KPLNGV++TEFK GKSKGI IAVKEYS+VKSIAAGTVIYSGFNKQFGNLVIVKLDKDDLEVAYA+LDDLLL KGDK+ KNSVIGHV+H+LYFAMR++++AVDPSKYI</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|908</Hit_id>
+          <Hit_def>gi|157804101|ref|YP_001492650.1| periplasmic protein [Rickettsia canadensis str. McKiel]</Hit_def>
+          <Hit_accession>908</Hit_accession>
+          <Hit_len>284</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>37.7354</Hsp_bit-score>
+              <Hsp_score>86</Hsp_score>
+              <Hsp_evalue>7.34837e-05</Hsp_evalue>
+              <Hsp_query-from>134</Hsp_query-from>
+              <Hsp_query-to>223</Hsp_query-to>
+              <Hsp_hit-from>183</Hsp_hit-from>
+              <Hsp_hit-to>278</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>26</Hsp_identity>
+              <Hsp_positive>47</Hsp_positive>
+              <Hsp_gaps>8</Hsp_gaps>
+              <Hsp_align-len>97</Hsp_align-len>
+              <Hsp_qseq>GIDIAVKEYSDVKSIAAGTVIYSGFNKQFGNLVIVKLDKDDLEVAYASLDDLLLKKGDKITKNSVIG-------HVKHKLYFAMRRNRIAVDPSKYI</Hsp_qseq>
+              <Hsp_hseq>GIDLQAKKAAPIYAAASGVVIKVARASDYGNFVEIK-HGHKFITKYAHLKEIQIKEGNKIKRGQLIGIQGRTGNATGEHLHFEILLDNKAINPFDFI</Hsp_hseq>
+              <Hsp_midline>GID+  K+ + + + A+G VI       +GN V +K         YA L ++ +K+G+KI +  +IG            L+F +  +  A++P  +I</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|118</Hit_id>
+          <Hit_def>gi|157803308|ref|YP_001491857.1| protease activity modulator HflK [Rickettsia canadensis str. McKiel]</Hit_def>
+          <Hit_accession>118</Hit_accession>
+          <Hit_len>346</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>32.3426</Hsp_bit-score>
+              <Hsp_score>72</Hsp_score>
+              <Hsp_evalue>0.00396754</Hsp_evalue>
+              <Hsp_query-from>76</Hsp_query-from>
+              <Hsp_query-to>202</Hsp_query-to>
+              <Hsp_hit-from>225</Hsp_hit-from>
+              <Hsp_hit-to>342</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>36</Hsp_identity>
+              <Hsp_positive>61</Hsp_positive>
+              <Hsp_gaps>11</Hsp_gaps>
+              <Hsp_align-len>128</Hsp_align-len>
+              <Hsp_qseq>EKVSGILEEPKAKIIECYNDDIEIPISRNEYEEEIEQSNFVKPLNGVMLTEFKDGKSKGIDIAVKEYSDVKSIAAG-TVIYSGFNKQFGNLVIVKLDKDDLEVAYASLDDLLLKKGDKITKNSVIGHV</Hsp_qseq>
+              <Hsp_hseq>EKVQLLKAEPPAEVIDAYRD---VQTSKADKEKEINQA---QAYNNKILPEARGAAAKIIQEAEGYREEVISKAEGDSQRFNAIYKQYTTGRQVTRDRLYLEVA----EEILSGSNKTIINNVLLPHM</Hsp_hseq>
+              <Hsp_midline>EKV  +  EP A++I+ Y D   +  S+ + E+EI Q+   +  N  +L E +   +K I  A     +V S A G +  ++   KQ+     V  D+  LEVA    +++L      I  N ++ H+</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|956</Hit_id>
+          <Hit_def>gi|157804149|ref|YP_001492698.1| hypothetical protein A1E_04985 [Rickettsia canadensis str. McKiel]</Hit_def>
+          <Hit_accession>956</Hit_accession>
+          <Hit_len>836</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>23.0978</Hsp_bit-score>
+              <Hsp_score>48</Hsp_score>
+              <Hsp_evalue>4.6196</Hsp_evalue>
+              <Hsp_query-from>73</Hsp_query-from>
+              <Hsp_query-to>108</Hsp_query-to>
+              <Hsp_hit-from>25</Hsp_hit-from>
+              <Hsp_hit-to>62</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>15</Hsp_identity>
+              <Hsp_positive>20</Hsp_positive>
+              <Hsp_gaps>2</Hsp_gaps>
+              <Hsp_align-len>38</Hsp_align-len>
+              <Hsp_qseq>TVSEKVSGILEEPKAKIIECY--NDDIEIPISRNEYEE</Hsp_qseq>
+              <Hsp_hseq>TVYSANKGSLNEPLKKIIEFYLSKNDIKAVLHNLEFKE</Hsp_hseq>
+              <Hsp_midline>TV     G L EP  KIIE Y   +DI+  +   E++E</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>5</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|181</Hit_id>
+          <Hit_def>gi|157803371|ref|YP_001491920.1| dihydrolipoamide succinyltransferase [Rickettsia canadensis str. McKiel]</Hit_def>
+          <Hit_accession>181</Hit_accession>
+          <Hit_len>401</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>22.7126</Hsp_bit-score>
+              <Hsp_score>47</Hsp_score>
+              <Hsp_evalue>6.61493</Hsp_evalue>
+              <Hsp_query-from>87</Hsp_query-from>
+              <Hsp_query-to>178</Hsp_query-to>
+              <Hsp_hit-from>195</Hsp_hit-from>
+              <Hsp_hit-to>289</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>28</Hsp_identity>
+              <Hsp_positive>47</Hsp_positive>
+              <Hsp_gaps>21</Hsp_gaps>
+              <Hsp_align-len>104</Hsp_align-len>
+              <Hsp_qseq>AKIIECYND-DIEIPIS-RNEYEEEIEQSNFVK----------PLNGVMLTEFKDGKSKGIDIAVKEYSDVKSIAAGTVIYSGFNKQFGNLVIVKLDKDDLEVA</Hsp_qseq>
+              <Hsp_hseq>AAILTTFNEIDMSKVIALRNQYKEEFEKKHAVKLGFMSFFVKATIEALKLIPSVNAEIDGNDLVYKNYYDI-GVAVGT--------ELGLVVPVVRGADKMEFA</Hsp_hseq>
+              <Hsp_midline>A I+  +N+ D+   I+ RN+Y+EE E+ + VK           +  + L    + +  G D+  K Y D+  +A GT        + G +V V    D +E A</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>1090</Statistics_db-num>
+          <Statistics_db-len>287492</Statistics_db-len>
+          <Statistics_hsp-len>70</Statistics_hsp-len>
+          <Statistics_eff-space>32734760</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

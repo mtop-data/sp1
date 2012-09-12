@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/NCBI_bact_genomes/Proteobacteria/Alphaproteobacteria/aa//Methylobacterium_extorquens_AM1_uid57605</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Rickettsia_akari_str_Hartford gnl|BL_ORD_ID|412    gi|157825538|ref|YP_001493258.1| unnamed protein product [Rickettsia akari str. Hartford]</BlastOutput_query-def>
+  <BlastOutput_query-len>225</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>Rickettsia_akari_str_Hartford gnl|BL_ORD_ID|412    gi|157825538|ref|YP_001493258.1| unnamed protein product [Rickettsia akari str. Hartford]</Iteration_query-def>
+      <Iteration_query-len>225</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|4295</Hit_id>
+          <Hit_def>gi|240141050|ref|YP_002965530.1| unnamed protein product [Methylobacterium extorquens AM1]</Hit_def>
+          <Hit_accession>4295</Hit_accession>
+          <Hit_len>446</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>56.6102</Hsp_bit-score>
+              <Hsp_score>135</Hsp_score>
+              <Hsp_evalue>2.60466e-10</Hsp_evalue>
+              <Hsp_query-from>114</Hsp_query-from>
+              <Hsp_query-to>223</Hsp_query-to>
+              <Hsp_hit-from>328</Hsp_hit-from>
+              <Hsp_hit-to>444</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>37</Hsp_identity>
+              <Hsp_positive>65</Hsp_positive>
+              <Hsp_gaps>9</Hsp_gaps>
+              <Hsp_align-len>118</Hsp_align-len>
+              <Hsp_qseq>NFVKPLNGVMLTEFKDGKSKGIDIAVKEYSDVKSIAAGTVIYSGFN-KQFGNLVIVKLDKDDLEVAYASLDDLLLKKGDK------ITKNSVIGHV-KHKLYFAMRRNRIAVDPSKYI</Hsp_qseq>
+              <Hsp_hseq>SFRWPAKGRIINAYGSSGNEGINIAVPEGTPVKAAEDGTVAYAGSDVKGYGKLVLVRHNNGYVS-AYAHNGELDVRPGEKVKRGQTIAKSGATGNVTSPQLHFELRKGATPVDPMPHL</Hsp_hseq>
+              <Hsp_midline>+F  P  G ++  +    ++GI+IAV E + VK+   GTV Y+G + K +G LV+V+ +   +  AYA   +L ++ G+K      I K+   G+V   +L+F +R+    VDP  ++</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|2981</Hit_id>
+          <Hit_def>gi|240139735|ref|YP_002964212.1| unnamed protein product [Methylobacterium extorquens AM1]</Hit_def>
+          <Hit_accession>2981</Hit_accession>
+          <Hit_len>392</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>38.1206</Hsp_bit-score>
+              <Hsp_score>87</Hsp_score>
+              <Hsp_evalue>0.000405755</Hsp_evalue>
+              <Hsp_query-from>102</Hsp_query-from>
+              <Hsp_query-to>224</Hsp_query-to>
+              <Hsp_hit-from>238</Hsp_hit-from>
+              <Hsp_hit-to>383</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>34</Hsp_identity>
+              <Hsp_positive>60</Hsp_positive>
+              <Hsp_gaps>25</Hsp_gaps>
+              <Hsp_align-len>147</Hsp_align-len>
+              <Hsp_qseq>SRNEYEEEIEQSN------FVKPLNG---------VMLTEFKDGKS--KGIDIAVKEYSDVKSIAAGTVIYSGFNKQFGNLVIVKLDKDDLEVAYASLDDLLLKKGDKITKNSVIG-------HVKHKLYFAMRRNRIAVDPSKYIE</Hsp_qseq>
+              <Hsp_hseq>ARRQIEEETHLRRVTAALPFRQPLPGELAFTSSFGARLDPFTRGYALHTGVDMRAETGAPVRATAAGRITAAEYAGGYGNMVEVDHGR-GLVTRYAHLSGTAVAVGQRVEAGSVVGFAGSTGRSTGSHLHYETRIDGEPVDPQRFLR</Hsp_hseq>
+              <Hsp_midline>+R + EEE           F +PL G           L  F  G +   G+D+  +  + V++ AAG +  + +   +GN+V V   +  L   YA L    +  G ++   SV+G            L++  R +   VDP +++ </Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|3381</Hit_id>
+          <Hit_def>gi|240140136|ref|YP_002964613.1| unnamed protein product [Methylobacterium extorquens AM1]</Hit_def>
+          <Hit_accession>3381</Hit_accession>
+          <Hit_len>153</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>26.5646</Hsp_bit-score>
+              <Hsp_score>57</Hsp_score>
+              <Hsp_evalue>1.71572</Hsp_evalue>
+              <Hsp_query-from>174</Hsp_query-from>
+              <Hsp_query-to>210</Hsp_query-to>
+              <Hsp_hit-from>10</Hsp_hit-from>
+              <Hsp_hit-to>42</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>14</Hsp_identity>
+              <Hsp_positive>18</Hsp_positive>
+              <Hsp_gaps>4</Hsp_gaps>
+              <Hsp_align-len>37</Hsp_align-len>
+              <Hsp_qseq>DLEVAYASLDDLLLKKGDKITKNSVIGHVKHKLYFAM</Hsp_qseq>
+              <Hsp_hseq>DTRAAYPRLVPLTTRWGD----NDVYGHVNNVVYYAF</Hsp_hseq>
+              <Hsp_midline>D   AY  L  L  + GD    N V GHV + +Y+A </Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|3713</Hit_id>
+          <Hit_def>gi|240140468|ref|YP_002964947.1| unnamed protein product [Methylobacterium extorquens AM1]</Hit_def>
+          <Hit_accession>3713</Hit_accession>
+          <Hit_len>733</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>26.5646</Hsp_bit-score>
+              <Hsp_score>57</Hsp_score>
+              <Hsp_evalue>2.39587</Hsp_evalue>
+              <Hsp_query-from>123</Hsp_query-from>
+              <Hsp_query-to>186</Hsp_query-to>
+              <Hsp_hit-from>143</Hsp_hit-from>
+              <Hsp_hit-to>207</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>19</Hsp_identity>
+              <Hsp_positive>32</Hsp_positive>
+              <Hsp_gaps>3</Hsp_gaps>
+              <Hsp_align-len>66</Hsp_align-len>
+              <Hsp_qseq>MLTEFKDGKSKGIDIAVKEYSDVKSIAAGTVI--YSGFNKQFGNLVIVKLDKDDLEVAYASLDDLL</Hsp_qseq>
+              <Hsp_hseq>ILTEYADQDSFDLDIKIQRVSDTLSIYLDPDIEDFDGSDARWG-FVFRDVPKERFEAEYPQWKDVV</Hsp_hseq>
+              <Hsp_midline>+LTE+ D  S  +DI ++  SD  SI     I  + G + ++G  V   + K+  E  Y    D++</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>6212</Statistics_db-num>
+          <Statistics_db-len>1852936</Statistics_db-len>
+          <Statistics_hsp-len>82</Statistics_hsp-len>
+          <Statistics_eff-space>192127936</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

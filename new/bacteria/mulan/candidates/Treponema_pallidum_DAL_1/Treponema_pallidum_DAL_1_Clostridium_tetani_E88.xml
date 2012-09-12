@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/bacteria/aa//Clostridium_tetani_E88</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>gnl|BL_ORD_ID|11 @Treponema_pallidum_DAL_1@ gi|378974645|ref|YP_005223253.1| lon1 gene product [Treponema pallidum subsp. pallidum DAL-1]</BlastOutput_query-def>
+  <BlastOutput_query-len>857</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>gnl|BL_ORD_ID|11 @Treponema_pallidum_DAL_1@ gi|378974645|ref|YP_005223253.1| lon1 gene product [Treponema pallidum subsp. pallidum DAL-1]</Iteration_query-def>
+      <Iteration_query-len>857</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1470</Hit_id>
+          <Hit_def>@Clostridium_tetani_E88@ gi|28211304|ref|NP_782248.1| ATP-dependent protease La [Clostridium tetani E88]</Hit_def>
+          <Hit_accession>1470</Hit_accession>
+          <Hit_len>762</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>170.244</Hsp_bit-score>
+              <Hsp_score>430</Hsp_score>
+              <Hsp_evalue>5.60591e-45</Hsp_evalue>
+              <Hsp_query-from>56</Hsp_query-from>
+              <Hsp_query-to>825</Hsp_query-to>
+              <Hsp_hit-from>36</Hsp_hit-from>
+              <Hsp_hit-to>737</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>183</Hsp_identity>
+              <Hsp_positive>350</Hsp_positive>
+              <Hsp_gaps>94</Hsp_gaps>
+              <Hsp_align-len>783</Hsp_align-len>
+              <Hsp_qseq>IRLGMRMYGDGYNICVIGASGTGKRTTLQYLL-KDFVPRPEQMWDIAYAY--NFVHPHEPQVLQFPAGEGMPFATALRRSVNAILNTAQDIVKSDAFLRERRTLLADIETRECAELSRIEAELYTRGFRVRWHRKRGTYSFDLVPLLKGKDSSFEALHDLASRAKLSRCVVH--ELHARYRLSCDEVSSLLHTLRTARRAARRRLAQYYRARLRLIILEQMACIKKRVACYAPVFSPPPVSCAAEQTEREKTSSSRLIEVPHEFEEMRARIISYIERIQTDVQVRVQCLMSMRISALVKKRFFDRYTLNFVCVHTEHAGYVFTEHQPNLANLCGSIESKGNEGDTLENGHLRIRAGALHRAHAGVLIVQLEDLLAEEEAWTHLKRALRTKQVLLPAGSSQSQGML--------RPEGVPLTCKLVLVGEPCSFERLSQEDSSFRELFKVCAEFDTSMPNSDKNQVALIAYLDRVVARYGTFSLDSSAYARLLAYAEELAESHTRLSTSFVQIADLVLESHAVAVDMHPDVSVITAHVVQEALNRRQYVCSRARERFQRMIACGELLVEVQGYRIGRINALAIEEHCGHSFGIVISLTAQASAGKEGVMNIEREAGLSGEIYDKAHLIITSLLREKCLSAFADAAFDPAVDDLGKGQDSFPLCLSAALCFEQSYHGIDGDSASAAEFLVLLSAIGRFPLRQDRAITGSVNQLGQVQAIGGVSEKISGFYDVCALNGLTGMQGVLIPKSSCAQLFLPERVQDAVRAGTFHVWAVCTIDDALELMV</Hsp_qseq>
+              <Hsp_hseq>IKKALSIDKEGYNLYLIDDFSKDKLKNIIYFINKEF--KNVNLEDICYVIKENIKKPT-PIILSW--GNGIILKKALKDIQDKYWNLASEFYNSSKN-EKKEQFLEEIEDMKSDLLEKIIETSKDKGFDIKLSKSGIVFE----PLKEDGEPMTEKEFELLSREKRGKILVKISELKK-------EAEHLLEVLHDKEEKLLEGIKKIFKEYLN----ENMKDIK---AYYDNLL----------KEERQATEYLNYVYSKIEMDLVE----SYSEDYDFEEEDTAEIIYKYGVSIILD----NKDTECMPCIY---------EEDPNLENLLGAIEYENKNGNYVTDINM-IKPGSMLRANGGCLILRANKLLTNAASYYYFKKTIMSGKIDM----NYSKGYLEVLALSGMQPEPIKIKEKVILIGDFETYDILYNHDEDFRKIFKIRGQYDPIVNINKKSKSSLISSIDDICKKNNLKPVKEGGIFEIAKALSRKAEDRRKFYFKLEELEKILVMANNRAVEENKDF--IDGEEVVSGFYKEDMLEDKIIEEFKD----GKIYMNLKGNAIGEINGLTVLDAGYLSFGKPVKITCNCYNGSGNIIDVQKDSNLSGKIHNKAINILKGYIN----------------DTFGRYS---RLPVDFHISFEQVYGKIDGDSASVAEVISIISAISRIGIKRNIAVTGSINQKGEVQPIGGVNEKIEGFFNVCKNLDTVKNKGVAIPYSNRDNLVLNREVEEEVENGNFRIYLMKTVEDAVEIFM</Hsp_hseq>
+              <Hsp_midline>I+  + +  +GYN+ +I      K   + Y + K+F  +   + DI Y    N   P  P +L +  G G+    AL+   +   N A +   S     ++   L +IE  +   L +I      +GF ++  +    +     PL +  +   E   +L SR K  + +V   EL         E   LL  L          + + ++  L     E M  IK   A Y  +           + ER+ T     +    E + +     SY E    + +   + +    +S ++     ++ T    C++         E  PNL NL G+IE +   G+ + + ++ I+ G++ RA+ G LI++   LL    ++ + K+ + + ++ +    + S+G L        +PE + +  K++L+G+  +++ L   D  FR++FK+  ++D  +  + K++ +LI+ +D +  +     +       +       AE   +      ++  +++ ++  AV+ + D   I    V     +   +  +  E F+     G++ + ++G  IG IN L + +    SFG  + +T     G   ++++++++ LSG+I++KA  I+   +                 D  G+      L +   + FEQ Y  IDGDSAS AE + ++SAI R  ++++ A+TGS+NQ G+VQ IGGV+EKI GF++VC        +GV IP S+   L L   V++ V  G F ++ + T++DA+E+ +</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|49</Hit_id>
+          <Hit_def>@Clostridium_tetani_E88@ gi|28209884|ref|NP_780828.1| ATP-dependent protease LA [Clostridium tetani E88]</Hit_def>
+          <Hit_accession>49</Hit_accession>
+          <Hit_len>628</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>49.2914</Hsp_bit-score>
+              <Hsp_score>116</Hsp_score>
+              <Hsp_evalue>5.84261e-07</Hsp_evalue>
+              <Hsp_query-from>718</Hsp_query-from>
+              <Hsp_query-to>824</Hsp_query-to>
+              <Hsp_hit-from>536</Hsp_hit-from>
+              <Hsp_hit-to>627</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>34</Hsp_identity>
+              <Hsp_positive>59</Hsp_positive>
+              <Hsp_gaps>15</Hsp_gaps>
+              <Hsp_align-len>107</Hsp_align-len>
+              <Hsp_qseq>IDGDSASAAEFLVLLSAIGRFPLRQDRAITGSVNQLGQVQAIGGVSEKISGFYDVCALNGLTGMQGVLIPKSSCAQLFLPERVQDAVRAGTFHVWAVCTIDDALELM</Hsp_qseq>
+              <Hsp_hseq>IDGPSAGAAITVCIISALLDKPIKQDIAITGEISLKGKVKPVGGIFEKIYGAR-------RKRIKTVVIPKENLRE--APQGLDD------IQIKAVDNIEELLDIV</Hsp_hseq>
+              <Hsp_midline>IDG SA AA  + ++SA+   P++QD AITG ++  G+V+ +GG+ EKI G            ++ V+IPK +  +   P+ + D        + AV  I++ L+++</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|2130</Hit_id>
+          <Hit_def>@Clostridium_tetani_E88@ gi|28211964|ref|NP_782908.1| ATP-dependent protease La [Clostridium tetani E88]</Hit_def>
+          <Hit_accession>2130</Hit_accession>
+          <Hit_len>771</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>42.743</Hsp_bit-score>
+              <Hsp_score>99</Hsp_score>
+              <Hsp_evalue>6.18947e-05</Hsp_evalue>
+              <Hsp_query-from>719</Hsp_query-from>
+              <Hsp_query-to>805</Hsp_query-to>
+              <Hsp_hit-from>674</Hsp_hit-from>
+              <Hsp_hit-to>754</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>26</Hsp_identity>
+              <Hsp_positive>43</Hsp_positive>
+              <Hsp_gaps>8</Hsp_gaps>
+              <Hsp_align-len>88</Hsp_align-len>
+              <Hsp_qseq>DGDSASAAEFLVLLSAIGRFPLRQDRAITGSVNQLGQVQAIGGVSEKISGFYDVCALNGLTGMQGVLIPKSSCAQLF-LPERVQDAVR</Hsp_qseq>
+              <Hsp_hseq>DGPSAGVTMITAMVSALSSKKVKHNVAMTGEITLTGEVLAIGGLKEKTLAAY-------RAGIDTVIIPKDNEKDLIKIPNSVKRKIK</Hsp_hseq>
+              <Hsp_midline>DG SA       ++SA+    ++ + A+TG +   G+V AIGG+ EK    Y         G+  V+IPK +   L  +P  V+  ++</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|2131</Hit_id>
+          <Hit_def>@Clostridium_tetani_E88@ gi|28211965|ref|NP_782909.1| ATP-dependent protease La-like protein [Clostridium tetani E88]</Hit_def>
+          <Hit_accession>2131</Hit_accession>
+          <Hit_len>563</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>38.891</Hsp_bit-score>
+              <Hsp_score>89</Hsp_score>
+              <Hsp_evalue>0.000988193</Hsp_evalue>
+              <Hsp_query-from>718</Hsp_query-from>
+              <Hsp_query-to>766</Hsp_query-to>
+              <Hsp_hit-from>441</Hsp_hit-from>
+              <Hsp_hit-to>489</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>20</Hsp_identity>
+              <Hsp_positive>30</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>49</Hsp_align-len>
+              <Hsp_qseq>IDGDSASAAEFLVLLSAIGRFPLRQDRAITGSVNQLGQVQAIGGVSEKI</Hsp_qseq>
+              <Hsp_hseq>IDGPSAGISIAIGIYSAINLVPIDNMVAMTGEISLYGDVKAVGGVNSKI</Hsp_hseq>
+              <Hsp_midline>IDG SA  +  + + SAI   P+    A+TG ++  G V+A+GGV+ KI</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>5</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|929</Hit_id>
+          <Hit_def>@Clostridium_tetani_E88@ gi|28210764|ref|NP_781708.1| caffeoyl-CoA O-methyltransferase [Clostridium tetani E88]</Hit_def>
+          <Hit_accession>929</Hit_accession>
+          <Hit_len>215</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>29.261</Hsp_bit-score>
+              <Hsp_score>64</Hsp_score>
+              <Hsp_evalue>0.536804</Hsp_evalue>
+              <Hsp_query-from>629</Hsp_query-from>
+              <Hsp_query-to>705</Hsp_query-to>
+              <Hsp_hit-from>63</Hsp_hit-from>
+              <Hsp_hit-to>147</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>26</Hsp_identity>
+              <Hsp_positive>36</Hsp_positive>
+              <Hsp_gaps>8</Hsp_gaps>
+              <Hsp_align-len>85</Hsp_align-len>
+              <Hsp_qseq>GHSFGIVISLTAQASAGKEGVMNIERE---AGLSGE-IYDKAHLIITSLLREKCLSAFA--DAAFDPAVDDLGKGQDS--FPLCL</Hsp_qseq>
+              <Hsp_hseq>GTAIGYSAILMEKASQGKSSITTIERDRDMVALANENIKKSGYEEKIKIVEGDCLEVLSKIDEKFDLIFMDAGKGHYNHFFPECL</Hsp_hseq>
+              <Hsp_midline>G + G    L  +AS GK  +  IER+     L+ E I    +     ++   CL   +  D  FD    D GKG  +  FP CL</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>2439</Statistics_db-num>
+          <Statistics_db-len>815070</Statistics_db-len>
+          <Statistics_hsp-len>89</Statistics_hsp-len>
+          <Statistics_eff-space>459263232</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

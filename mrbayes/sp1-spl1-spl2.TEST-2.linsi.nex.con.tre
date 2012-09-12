@@ -1,0 +1,97 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=18;
+	taxlabels
+	Rhodomicrobium_vannielii_ATCC_17100-1
+	Synechococcus_elongatus_PCC_7942
+	Thermosynechococcus_elongatus_BP_1
+	Rubrobacter_xylanophilus_DSM_9941
+	Sphaerobacter_thermophilus_DSM_20745
+	SPL2_NP_564653
+	Physcomitrella_patens
+	Oryza_sativa
+	Rhodomicrobium_vannielii_ATCC_17100
+	Hyphomicrobium_denitrificans_ATCC_51888
+	SP1_NM_105064
+	'Oryza_sativa_LOC_Os07g45350.1_PACid_16873618'
+	Physcomitrella_patens-1
+	SPL1_NP_564745_AT1G59560
+	Mesorhizobium_ciceri_biovar_biserrulae_WSM1271
+	Mesorhizobium_opportunistum_WSM2075
+	Mulan_NP_078820
+	'Mus_musculus_gi_12832384_dbj_BAB22084.1__unnamed_protein_product__Mus_musculus_'
+;
+end;
+
+begin trees;
+	tree con_50_majrule = [&U] (Rhodomicrobium_vannielii_ATCC_17100-1[&length_mean=1.252269513716815,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=1.260620495624252,prob=1.0,length_95%HPD={0.8412898215550233,1.663169757557846}]:1.260620495624252,((Synechococcus_elongatus_PCC_7942[&length_mean=0.3564690428407633,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.3557650190852417,prob=1.0,length_95%HPD={0.2240106459041239,0.4836232193322332}]:0.3557650190852417,Thermosynechococcus_elongatus_BP_1[&length_mean=0.6684774845864567,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.6700165384425797,prob=1.0,length_95%HPD={0.5105211498144174,0.8143760559670368}]:0.6700165384425797)[&length_mean=0.2425170575330155,prob_range={0.9880159786950732,0.9946737683089214},prob(percent)="99",prob_stddev=0.004707768183665442,prob+-sd="99+-0",length_median=0.2369196805482327,prob=0.9913448735019973,length_95%HPD={0.09010003634663932,0.4021233321705387}]:0.2369196805482327,(Rubrobacter_xylanophilus_DSM_9941[&length_mean=0.4760186301711787,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.4711445617379773,prob=1.0,length_95%HPD={0.3365134274635602,0.6123950642335678}]:0.4711445617379773,Sphaerobacter_thermophilus_DSM_20745[&length_mean=0.3335748413664714,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.3288178438598303,prob=1.0,length_95%HPD={0.2160588488445417,0.4797525807904439}]:0.3288178438598303)[&length_mean=0.3907160347124855,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.3880534135220753,prob=1.0,length_95%HPD={0.209024982856969,0.5686336153220534}]:0.3880534135220753)[&length_mean=0.6593606019552164,prob_range={0.9946737683089214,0.9986684420772304},prob(percent)="100",prob_stddev=0.002824660910199297,prob+-sd="100+-0",length_median=0.662406330356275,prob=0.9966711051930759,length_95%HPD={0.3488579776917308,0.9779019087227112}]:0.662406330356275,(((SPL2_NP_564653[&length_mean=0.4158813396624644,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,!color=#-717298,prob+-sd="100+-0",length_median=0.4316663960696522,prob=1.0,length_95%HPD={0.1573055444318724,0.577445396594726}]:0.4316663960696522,Physcomitrella_patens[&length_mean=0.5860994186732303,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.5837026184561753,prob=1.0,length_95%HPD={0.4751437199648503,0.7194485281010005}]:0.5837026184561753)[&length_mean=0.1057808741714714,prob_range={0.5832223701731025,0.5952063914780293},prob(percent)="59",prob_stddev=0.00847398273059785,prob+-sd="59+-1",length_median=0.0998317236918295,prob=0.5892143808255659,length_95%HPD={0.008309092688615353,0.1994258097399512}]:0.0998317236918295,Oryza_sativa[&length_mean=0.4493368648552544,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.4496825735893547,prob=1.0,length_95%HPD={0.3215750700607027,0.5912554923141045}]:0.4496825735893547)[&length_mean=0.4057034502004838,prob_range={0.8828229027962716,0.8988015978695073},prob(percent)="89",prob_stddev=0.01129864364079703,prob+-sd="89+-1",length_median=0.4043339075736443,prob=0.8908122503328895,length_95%HPD={0.1215433374968662,0.6943733618715758}]:0.4043339075736443,(Rhodomicrobium_vannielii_ATCC_17100[&length_mean=0.2072194316935798,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.1275203423823043,prob=1.0,length_95%HPD={1.626902982274723E-4,0.735285354311637}]:0.1275203423823043,Hyphomicrobium_denitrificans_ATCC_51888[&length_mean=0.9000815254210379,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.8408441870432145,prob=1.0,length_95%HPD={0.2745839422064836,1.805946735078001}]:0.8408441870432145)[&length_mean=0.9407584732692856,prob_range={0.8561917443408789,0.8615179760319573},prob(percent)="86",prob_stddev=0.003766214546932291,prob+-sd="86+-0",length_median=0.9347330270273677,prob=0.8588548601864181,length_95%HPD={0.4244306622949804,1.481259814675157}]:0.9347330270273677)[&length_mean=0.3353757331987897,prob_range={0.7856191744340879,0.8042609853528628},prob(percent)="79",prob_stddev=0.01318175091426317,prob+-sd="79+-1",length_median=0.3277585343212265,prob=0.7949400798934754,length_95%HPD={0.05785661473431258,0.6464804236217788}]:0.3277585343212265,(((SP1_NM_105064[&length_mean=0.09778805765886586,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,!color=#-717298,prob+-sd="100+-0",length_median=0.09667571491578657,prob=1.0,length_95%HPD={0.05648490103613317,0.1462912979931746}]:0.09667571491578657,('Oryza_sativa_LOC_Os07g45350.1_PACid_16873618'[&length_mean=0.1899271294775726,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.1891978118928716,prob=1.0,length_95%HPD={0.1371827615181078,0.2421566931986295}]:0.1891978118928716,Physcomitrella_patens-1[&length_mean=0.234066063002322,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.233541644988668,prob=1.0,length_95%HPD={0.1808186543725458,0.297490487971894}]:0.233541644988668)[&length_mean=0.07332042830876782,prob_range={0.9973368841544608,1.0},prob(percent)="100",prob_stddev=0.001883107273466145,prob+-sd="100+-0",length_median=0.0722053638492256,prob=0.9986684420772304,length_95%HPD={0.03303456066803626,0.1207570620806182}]:0.0722053638492256)[&length_mean=0.1870338565769205,prob_range={0.9986684420772304,1.0},prob(percent)="100",prob_stddev=9.415536367331119E-4,prob+-sd="100+-0",length_median=0.1866581795481592,prob=0.9993342210386151,length_95%HPD={0.1019312765637457,0.2837300646080085}]:0.1866581795481592,(SPL1_NP_564745_AT1G59560[&length_mean=0.1164939545832158,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,!color=#-717298,prob+-sd="100+-0",length_median=0.09201533579855743,prob=1.0,length_95%HPD={4.547900205352712E-4,0.289005811099047}]:0.09201533579855743,(Mesorhizobium_ciceri_biovar_biserrulae_WSM1271[&length_mean=0.01545347995422129,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.01109401572633719,prob=1.0,length_95%HPD={8.170507303468618E-6,0.04446117318191774}]:0.01109401572633719,Mesorhizobium_opportunistum_WSM2075[&length_mean=0.01421633485092919,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.01023071496470513,prob=1.0,length_95%HPD={3.488483446054851E-5,0.04104773586402585}]:0.01023071496470513)[&length_mean=1.042274197872201,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=1.046453404808398,prob=1.0,length_95%HPD={0.5997016076281451,1.497254288964892}]:1.046453404808398)[&length_mean=0.2100487231324771,prob_range={0.7723035952063915,0.7736351531291611},prob(percent)="77",prob_stddev=9.415536367331119E-4,prob+-sd="77+-0",length_median=0.2163014267626417,prob=0.7729693741677763,length_95%HPD={0.05276372794330816,0.3318487356218166}]:0.2163014267626417)[&length_mean=0.4762199414936694,prob_range={0.8868175765645806,0.9001331557922769},prob(percent)="89",prob_stddev=0.009415536367330765,prob+-sd="89+-1",length_median=0.488301809705159,prob=0.8934753661784287,length_95%HPD={0.2121922033465789,0.7000920349146514}]:0.488301809705159,(Mulan_NP_078820[&length_mean=0.04968769132578085,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.04739386921155584,prob=1.0,length_95%HPD={0.007754345284754995,0.09750223241757684}]:0.04739386921155584,'Mus_musculus_gi_12832384_dbj_BAB22084.1__unnamed_protein_product__Mus_musculus_'[&length_mean=0.06267530032555246,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.06274236614173134,prob=1.0,length_95%HPD={0.01341370826966714,0.109168132218124}]:0.06274236614173134)[&length_mean=0.771587051401618,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.7734480279810954,prob=1.0,length_95%HPD={0.5738923289683564,0.9736226169988031}]:0.7734480279810954)[&length_mean=0.2059756734443096,prob_range={0.6644474034620506,0.7083888149134487},prob(percent)="69",prob_stddev=0.03107127001219191,prob+-sd="69+-3",length_median=0.2020563645305174,prob=0.6864181091877497,length_95%HPD={0.0330281291251705,0.3554638072173233}]:0.2020563645305174)[&length_mean=0.0,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.0,prob=1.0,length_95%HPD={0.0,0.0}];
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="User Selection";
+	set appearance.backgroundColour=#-1;
+	set appearance.branchColorAttribute="User Selection";
+	set appearance.branchLineWidth=2.0;
+	set appearance.foregroundColour=#-16777216;
+	set appearance.selectionColour=#-2144520576;
+	set branchLabels.colorAttribute="User Selection";
+	set branchLabels.displayAttribute="prob";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=true;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set nodeBars.barWidth=4.0;
+	set nodeLabels.colorAttribute="User Selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleAxis.significantDigits=4;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set scaleBar.significantDigits=4;
+	set tipLabels.colorAttribute="User Selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Courier 10 Pitch";
+	set tipLabels.fontSize=12;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

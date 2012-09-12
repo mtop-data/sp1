@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/cyanobacteria/all//Prochlorococcus_sp_CC9311</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Cyanothece_PCC_7424_gnl|BL_ORD_ID|2656  gi|218439670|ref|YP_002377999.1| hypothetical protein PCC7424_2719 [Cyanothece</BlastOutput_query-def>
+  <BlastOutput_query-len>264</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>Cyanothece_PCC_7424_gnl|BL_ORD_ID|2656  gi|218439670|ref|YP_002377999.1| hypothetical protein PCC7424_2719 [Cyanothece</Iteration_query-def>
+      <Iteration_query-len>264</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1446</Hit_id>
+          <Hit_def>@Prochlorococcus_sp_CC9311@ 638115069 sync_1481 hypothetical protein [Prochlorococcus sp. CC9311]</Hit_def>
+          <Hit_accession>1446</Hit_accession>
+          <Hit_len>60</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>26.1794</Hsp_bit-score>
+              <Hsp_score>56</Hsp_score>
+              <Hsp_evalue>0.36703</Hsp_evalue>
+              <Hsp_query-from>182</Hsp_query-from>
+              <Hsp_query-to>200</Hsp_query-to>
+              <Hsp_hit-from>38</Hsp_hit-from>
+              <Hsp_hit-to>56</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>9</Hsp_identity>
+              <Hsp_positive>15</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>19</Hsp_align-len>
+              <Hsp_qseq>GYRYQEEILPIGRQILVIG</Hsp_qseq>
+              <Hsp_hseq>GYRHKCHLMPITRFILIVG</Hsp_hseq>
+              <Hsp_midline>GYR++  ++PI R IL++G</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|2109</Hit_id>
+          <Hit_def>@Prochlorococcus_sp_CC9311@ 638115736 sync_2148 apocytochrome F [Prochlorococcus sp. CC9311]</Hit_def>
+          <Hit_accession>2109</Hit_accession>
+          <Hit_len>310</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>26.9498</Hsp_bit-score>
+              <Hsp_score>58</Hsp_score>
+              <Hsp_evalue>0.886516</Hsp_evalue>
+              <Hsp_query-from>102</Hsp_query-from>
+              <Hsp_query-to>229</Hsp_query-to>
+              <Hsp_hit-from>106</Hsp_hit-from>
+              <Hsp_hit-to>225</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>25</Hsp_identity>
+              <Hsp_positive>55</Hsp_positive>
+              <Hsp_gaps>12</Hsp_gaps>
+              <Hsp_align-len>130</Hsp_align-len>
+              <Hsp_qseq>EGKTIREKERKSETVAQNSRSIPFT--LQDSTGEIRVNPERAEIETVKVLEEFRPENFSGGSLTFGNFSINLPSFEERRQTIGYRYQEEILPIGRQILVIGTATDEEGMITIRKPTEKGQRYFISLKSEE</Hsp_qseq>
+              <Hsp_hseq>DGFTLAPQDRWTDEIKEETEGVYFTEYSDDQPNVILVGPIPGDEHQEIVFPVLAPDPATDSSISFGKYSIHV---------GGNRGRGQVYPTGEKSNNTVYTAPASGSVSAIEPGDNGAS-VVTVKSAD</Hsp_hseq>
+              <Hsp_midline>+G T+  ++R ++ + + +  + FT    D    I V P   +     V     P+  +  S++FG +SI++          G R + ++ P G +           G ++  +P + G    +++KS +</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|2580</Hit_id>
+          <Hit_def>@Prochlorococcus_sp_CC9311@ 638116219 sync_2632 hypothetical protein [Prochlorococcus sp. CC9311]</Hit_def>
+          <Hit_accession>2580</Hit_accession>
+          <Hit_len>402</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>25.409</Hsp_bit-score>
+              <Hsp_score>54</Hsp_score>
+              <Hsp_evalue>2.64191</Hsp_evalue>
+              <Hsp_query-from>136</Hsp_query-from>
+              <Hsp_query-to>170</Hsp_query-to>
+              <Hsp_hit-from>147</Hsp_hit-from>
+              <Hsp_hit-to>181</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>12</Hsp_identity>
+              <Hsp_positive>19</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>35</Hsp_align-len>
+              <Hsp_qseq>VNPERAEIETVKVLEEFRPENFSGGSLTFGNFSIN</Hsp_qseq>
+              <Hsp_hseq>INPETSLITPLRNVREFDDGTFGQGLLYTGDFYID</Hsp_hseq>
+              <Hsp_midline>+NPE + I  ++ + EF    F  G L  G+F I+</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|2009</Hit_id>
+          <Hit_def>@Prochlorococcus_sp_CC9311@ 638115634 sync_2046 hypothetical protein [Prochlorococcus sp. CC9311]</Hit_def>
+          <Hit_accession>2009</Hit_accession>
+          <Hit_len>51</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>22.7126</Hsp_bit-score>
+              <Hsp_score>47</Hsp_score>
+              <Hsp_evalue>4.69862</Hsp_evalue>
+              <Hsp_query-from>1</Hsp_query-from>
+              <Hsp_query-to>22</Hsp_query-to>
+              <Hsp_hit-from>6</Hsp_hit-from>
+              <Hsp_hit-to>27</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>8</Hsp_identity>
+              <Hsp_positive>14</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>22</Hsp_align-len>
+              <Hsp_qseq>MILIGIICLIVGVILLFFWRSN</Hsp_qseq>
+              <Hsp_hseq>LTLLGTFCILVGIFLWFTANSD</Hsp_hseq>
+              <Hsp_midline>+ L+G  C++VG+ L F   S+</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>5</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|144</Hit_id>
+          <Hit_def>@Prochlorococcus_sp_CC9311@ 638113736 sync_0147 possible sugar transferase [Prochlorococcus sp. CC9311]</Hit_def>
+          <Hit_accession>144</Hit_accession>
+          <Hit_len>460</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>24.6386</Hsp_bit-score>
+              <Hsp_score>52</Hsp_score>
+              <Hsp_evalue>5.01204</Hsp_evalue>
+              <Hsp_query-from>148</Hsp_query-from>
+              <Hsp_query-to>182</Hsp_query-to>
+              <Hsp_hit-from>226</Hsp_hit-from>
+              <Hsp_hit-to>260</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>14</Hsp_identity>
+              <Hsp_positive>17</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>35</Hsp_align-len>
+              <Hsp_qseq>VLEEFRPENFSGGSLTFGNFSINLPSFEERRQTIG</Hsp_qseq>
+              <Hsp_hseq>VLQRFPPEFLSDVELLRGEFSRPASKFETRLKRLG</Hsp_hseq>
+              <Hsp_midline>VL+ F PE  S   L  G FS     FE R + +G</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>2893</Statistics_db-num>
+          <Statistics_db-len>754454</Statistics_db-len>
+          <Statistics_hsp-len>78</Statistics_hsp-len>
+          <Statistics_eff-space>98356800</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

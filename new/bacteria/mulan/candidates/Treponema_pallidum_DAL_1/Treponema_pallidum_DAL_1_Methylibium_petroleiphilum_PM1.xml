@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/bacteria/aa//Methylibium_petroleiphilum_PM1</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>gnl|BL_ORD_ID|11 @Treponema_pallidum_DAL_1@ gi|378974645|ref|YP_005223253.1| lon1 gene product [Treponema pallidum subsp. pallidum DAL-1]</BlastOutput_query-def>
+  <BlastOutput_query-len>857</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>gnl|BL_ORD_ID|11 @Treponema_pallidum_DAL_1@ gi|378974645|ref|YP_005223253.1| lon1 gene product [Treponema pallidum subsp. pallidum DAL-1]</Iteration_query-def>
+      <Iteration_query-len>857</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1293</Hit_id>
+          <Hit_def>@Methylibium_petroleiphilum_PM1@ gi|124266487|ref|YP_001020491.1| endopeptidase La [Methylibium petroleiphilum PM1]</Hit_def>
+          <Hit_accession>1293</Hit_accession>
+          <Hit_len>805</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>51.6026</Hsp_bit-score>
+              <Hsp_score>122</Hsp_score>
+              <Hsp_evalue>1.86333e-07</Hsp_evalue>
+              <Hsp_query-from>719</Hsp_query-from>
+              <Hsp_query-to>823</Hsp_query-to>
+              <Hsp_hit-from>678</Hsp_hit-from>
+              <Hsp_hit-to>771</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>37</Hsp_identity>
+              <Hsp_positive>56</Hsp_positive>
+              <Hsp_gaps>13</Hsp_gaps>
+              <Hsp_align-len>106</Hsp_align-len>
+              <Hsp_qseq>DGDSASAAEFLVLLSAIGRFPLRQDRAITGSVNQLGQVQAIGGVSEKISGFYDVCALNGLTGMQGVLIPKSSCAQL-FLPERVQDAVRAGTFHVWAVCTIDDALEL</Hsp_qseq>
+              <Hsp_hseq>DGPSAGAAMTTAFVSALTGIPVRSDVAMTGEITLRGEVTAIGGLKEKL-----LAAHRG--GIKTVMIPEENVKDLQDIPENVKN-----HLEIVPVRWIDKVLEV</Hsp_hseq>
+              <Hsp_midline>DG SA AA     +SA+   P+R D A+TG +   G+V AIGG+ EK+     + A  G  G++ V+IP+ +   L  +PE V++        +  V  ID  LE+</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|501</Hit_id>
+          <Hit_def>@Methylibium_petroleiphilum_PM1@ gi|124265695|ref|YP_001019699.1| AAA ATPase [Methylibium petroleiphilum PM1]</Hit_def>
+          <Hit_accession>501</Hit_accession>
+          <Hit_len>303</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>29.6462</Hsp_bit-score>
+              <Hsp_score>65</Hsp_score>
+              <Hsp_evalue>0.993842</Hsp_evalue>
+              <Hsp_query-from>68</Hsp_query-from>
+              <Hsp_query-to>93</Hsp_query-to>
+              <Hsp_hit-from>96</Hsp_hit-from>
+              <Hsp_hit-to>121</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>11</Hsp_identity>
+              <Hsp_positive>17</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>26</Hsp_align-len>
+              <Hsp_qseq>NICVIGASGTGKRTTLQYLLKDFVPR</Hsp_qseq>
+              <Hsp_hseq>NVLLTGARGTGKSSLVKACLNEFAPR</Hsp_hseq>
+              <Hsp_midline>N+ + GA GTGK + ++  L +F PR</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|3540</Hit_id>
+          <Hit_def>@Methylibium_petroleiphilum_PM1@ gi|124268734|ref|YP_001022738.1| adp-heptose--lipopolysaccharide heptosyltransferase II protein [Methylibium petroleiphilum PM1]</Hit_def>
+          <Hit_accession>3540</Hit_accession>
+          <Hit_len>342</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>29.261</Hsp_bit-score>
+              <Hsp_score>64</Hsp_score>
+              <Hsp_evalue>1.13889</Hsp_evalue>
+              <Hsp_query-from>396</Hsp_query-from>
+              <Hsp_query-to>441</Hsp_query-to>
+              <Hsp_hit-from>222</Hsp_hit-from>
+              <Hsp_hit-to>267</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>14</Hsp_identity>
+              <Hsp_positive>22</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>46</Hsp_align-len>
+              <Hsp_qseq>LENGHLRIRAGALHRAHAGVLIVQLEDLLAEEEAWTHLKRALRTKQ</Hsp_qseq>
+              <Hsp_hseq>VHGGHCRVQAGAGSLADAMALIAGARGVVSNDSGWMHMAAAFGVPQ</Hsp_hseq>
+              <Hsp_midline>+  GH R++AGA   A A  LI     +++ +  W H+  A    Q</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1835</Hit_id>
+          <Hit_def>@Methylibium_petroleiphilum_PM1@ gi|124267029|ref|YP_001021033.1| hypothetical protein Mpe_A1840 [Methylibium petroleiphilum PM1]</Hit_def>
+          <Hit_accession>1835</Hit_accession>
+          <Hit_len>214</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>28.4906</Hsp_bit-score>
+              <Hsp_score>62</Hsp_score>
+              <Hsp_evalue>1.60722</Hsp_evalue>
+              <Hsp_query-from>72</Hsp_query-from>
+              <Hsp_query-to>129</Hsp_query-to>
+              <Hsp_hit-from>13</Hsp_hit-from>
+              <Hsp_hit-to>86</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>21</Hsp_identity>
+              <Hsp_positive>28</Hsp_positive>
+              <Hsp_gaps>22</Hsp_gaps>
+              <Hsp_align-len>77</Hsp_align-len>
+              <Hsp_qseq>IGASGTGKRTTLQYLLKDFVPRPEQMWDIAYAYNFVHPHEPQVLQFP-------------------AGEGMPFATAL</Hsp_qseq>
+              <Hsp_hseq>IGASGSGKGVSINKALAALKPQRLLIWDPRDEYG---KHAKRITTLPALVAEFKKAGDGPVRVRYVAGSGMPLADAF</Hsp_hseq>
+              <Hsp_midline>IGASG+GK  ++   L    P+   +WD    Y     H  ++   P                   AG GMP A A </Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>5</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|4183</Hit_id>
+          <Hit_def>@Methylibium_petroleiphilum_PM1@ gi|124262911|ref|YP_001023381.1| F-pilin subunit assembly into extended F pili [Methylibium petroleiphilum PM1]</Hit_def>
+          <Hit_accession>4183</Hit_accession>
+          <Hit_len>809</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>28.8758</Hsp_bit-score>
+              <Hsp_score>63</Hsp_score>
+              <Hsp_evalue>1.92877</Hsp_evalue>
+              <Hsp_query-from>67</Hsp_query-from>
+              <Hsp_query-to>104</Hsp_query-to>
+              <Hsp_hit-from>440</Hsp_hit-from>
+              <Hsp_hit-to>479</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>13</Hsp_identity>
+              <Hsp_positive>21</Hsp_positive>
+              <Hsp_gaps>2</Hsp_gaps>
+              <Hsp_align-len>40</Hsp_align-len>
+              <Hsp_qseq>YNICVIGASGTGKRTTLQYLLKDFVPRPEQMW--DIAYAY</Hsp_qseq>
+              <Hsp_hseq>YNGVVFAESGAGKSFFTQKLVSDYLAEGAKVWAIDVGHSY</Hsp_hseq>
+              <Hsp_midline>YN  V   SG GK    Q L+ D++    ++W  D+ ++Y</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>4449</Statistics_db-num>
+          <Statistics_db-len>1412766</Statistics_db-len>
+          <Statistics_hsp-len>92</Statistics_hsp-len>
+          <Statistics_eff-space>767645370</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

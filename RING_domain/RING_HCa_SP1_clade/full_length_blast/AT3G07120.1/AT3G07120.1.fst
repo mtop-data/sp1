@@ -1,0 +1,16 @@
+>AT3G07120.1|PACid:19661071
+M-----------------------------------------------------------
+------------------------------------------------------------
+----------------------------------------------------SALKS---
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------RSNSLAGLSLDAVLGGE-------ILIEPPSLPSP
+-------------------------------------------------PPLPSKSLVPH
+RPTSQTLFDIIREEYAKEGHKDRTTWQIFRE-----------------KLRLKRTGSA--
+WTSSLHIPASDI----LIPNP---------------KHIGTAFRSHSAG-----------
+---------------------------LNIRDLVHAIPMSDPPGSSGRAMFTRGSSMRVG
+SSKNPDDSPDISVLEDGPPSRSFKPQLSRHDSVRDHSEGEENNRRRHPIVTFVEERQMSA
+REAVAAQEAAEAEAA-AAGGSEDEDDDDEEDDSGETEEM--------------KSSSASE
+PKQTMSLMDLLEETDRQMGLTGSRYAMDEDEEYEEDEEDENNEEEGDSHGGGEGELSCCV
+CMVKIKGASFTPCGH-TFCKLCSKELMAQ-KGHCPVCSSFVLEFLEIF-----

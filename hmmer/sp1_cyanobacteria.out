@@ -1,0 +1,278 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.0 (March 2010); http://hmmer.org/
+# Copyright (C) 2010 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  sp1.hmm
+# target sequence database:        /home/mt258/db/genome_databases/cyanobacteria.fst
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       sp1.linsi  [M=345]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                                Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                                -----------
+    1.7e-13   54.0   0.0    2.2e-13   53.7   0.0    1.0  1  @Cyanothece_PCC_7425@                   gi|220906503|ref|YP_002481814.1|
+    5.5e-12   49.1   0.0    6.4e-12   48.9   0.0    1.1  1  @Cyanothece_PCC_7424@                   gi|218439670|ref|YP_002377999.1|
+    1.3e-10   44.6   0.0    1.5e-10   44.4   0.0    1.0  1  @Thermosynechococcus_elongatus_BP_1@    637313275 tll0660 hypothetical p
+    1.4e-08   37.9   0.0    3.8e-08   36.5   0.0    1.6  1  @Thermosynechococcus_elongatus_BP_1@    637312804 tll0199 hypothetical p
+    4.6e-08   36.2   0.1    5.4e-08   36.0   0.0    1.0  1  @Synechococcus_elongatus_PCC_6301@      637618204 syc2512_d hypothetical
+    4.6e-08   36.2   0.1    5.4e-08   36.0   0.0    1.0  1  @Synechococcus_elongatus_PCC_7942@      gi|81300335|ref|YP_400543.1| unn
+      3e-06   30.2   0.0    3.6e-06   30.0   0.0    1.0  1  @Acaryochloris_marina_MBIC11017@        641252794 AM1_3710 hypothetical 
+    0.00092   22.1   0.0      0.082   15.6   0.0    2.1  2  @Synechococcus_sp_JA_2_3B_a2_13@        637874588 CYB_0172 hypothetical 
+  ------ inclusion threshold ------
+        0.9   12.2   0.0        1.1   12.0   0.0    1.1  1  @Synechococcus_sp_CB0101@               650127929 SCB01_010100001846 ace
+       0.91   12.2   0.2          1   12.0   0.1    1.0  1  @Synechococcus_RCC307@                  gi|148243088|ref|YP_001228245.1|
+        1.2   11.9   0.6        1.4   11.6   0.4    1.0  1  @Synechococcus_WH_8102@                 gi|33864918|ref|NP_896477.1| hyp
+
+
+Domain annotation for each sequence (and alignments):
+>> @Cyanothece_PCC_7425@  gi|220906503|ref|YP_002481814.1| unnamed protein product [Cyanothece sp. PCC 7425]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   53.7   0.0     1e-17   2.2e-13       6     241 ..       7     261 ..       1     265 [. 0.78
+
+  Alignments for each domain:
+  == domain 1    score: 53.7 bits;  conditional E-value: 1e-17
+              sp1.linsi   6 Gvacclsgaalyllgrasgrdaealk..svarvnelkelaqllded..skvlPlvvavsGrvgsetpikcehsklraviveetaeqk. 88 
+                            G  ++++g++ly++ r  ++ +  +k    + v elk+la ++ ++  +  l   v +sG+++ +tp+ +e  ++ +v+ +++ e++ 
+  @Cyanothece_PCC_7425@   7 GAILLVTGGILYFVQRHYQQKLYSIKlaRKTTVAELKQLADQVGAEigQGSLREYVKLSGQIKCDTPLISELKQVPCVYYQMQVEREy 94 
+                            6667899*************99877611456678888888887666224556689********************9998665544431 PP
+
+              sp1.linsi  89 ...llkrndags....WiqdsalllsmskEvpWyLdDgtgrvqvvgarraaglaLtvasdvfeesgrs.......lvrgtldylqGlk 162
+                               l  r + g+      + s  ++s s+  p++L+D +g ++v  +  aa  +++v ++   e+g++        +        G +
+  @Cyanothece_PCC_7425@  95 eerLTERDNDGEtrekTQRGSETIASNSQSTPFFLQDQSGAIEVDPSG-AAIETVQVLNEFRPEAGSArisfgnfSLSVGGSFPAGRE 181
+                            11144444344311113456899******************9987665.5555679999999999998777777633333346789** PP
+
+              sp1.linsi 163 vlGvkrvervlptGtsLtvvGEavkddageirlrrp..rkgpFyvsqkpldelianlgkwsrvykalslgltvvgvalvak 241
+                             +G + +e +lp+  ++ +v  a  d  g + l++p  ++  F +s k+ d+l ++ ++ +    +  ++ +++g++l++ 
+  @Cyanothece_PCC_7425@ 182 TIGYRYRESILPPDRRILIVATA-SDSSGILSLQKPveKRQKFIISLKSEDHLAQSTQQTATYTFYGMIACLGLGAILLVV 261
+                            ********************876.7999********555789********************9999999******999875 PP
+
+>> @Cyanothece_PCC_7424@  gi|218439670|ref|YP_002377999.1| hypothetical protein PCC7424_2719 [Cyanothece sp. PCC 7424]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   48.9   0.0     3e-16   6.4e-12       5     244 ..       4     262 ..       1     264 [] 0.78
+
+  Alignments for each domain:
+  == domain 1    score: 48.9 bits;  conditional E-value: 3e-16
+              sp1.linsi   5 gGvacclsgaalyllgrasgrdaeal..ksvarvnelkelaqllded..skvlPlvvavsGrvgsetpikcehsklraviveet.... 84 
+                             G+ c++ g++l +  r++   +++l  +s+  +++l+  a+++ e+     l   v + G ++ + p+ ++  +  +v+  +t    
+  @Cyanothece_PCC_7424@   4 IGIICLIVGVILLFFWRSNRSKLRNLrlASASTISSLQTIANQIAEEigGGSLREYVKIRGVIECDRPLISQLKQEPCVYYSMTvtwe 91 
+                            599999***99988888887777765116888899999999988766223456689*******************9888866652221 PP
+
+              sp1.linsi  85 aeqkllkrndagsWiq....dsalllsmskEvpWyLdDgtgrvqvvgarraaglaLtvasdvfee.sgrslvrgtldyl.....qGlk 162
+                             +++++k+ + g+ i+    +s  +++ s+ +p+ L+D+tg+++v   r + +++  + +  +e+ sg sl  g    +     +  +
+  @Cyanothece_PCC_7424@  92 YNEEVIKQDNEGKTIRekerKSETVAQNSRSIPFTLQDSTGEIRVNPERAEIETVKVLEEFRPENfSGGSLTFGNFSINlpsfeERRQ 179
+                            57889999999999973333699*********************99988888776655555777734556555554443111116679 PP
+
+              sp1.linsi 163 vlGvkrvervlptGtsLtvvGEavkddageirlrrprk..gpFyvsqkpldelianlgkwsrvykalslgltvvgvalvakkai 244
+                             +G +  e +lp+G ++ v+G a  d+ g+i +r+p++    +++s k+ +el +  ++  r   +  + ++++g++l+++ ++
+  @Cyanothece_PCC_7424@ 180 TIGYRYQEEILPIGRQILVIGTAT-DEEGMITIRKPTEkgQRYFISLKSEEELSQATNNAIRGTFYSMIFFLTLGLILLVAGVL 262
+                            9********************986.777********753346889*******9999999999999999999*******998765 PP
+
+>> @Thermosynechococcus_elongatus_BP_1@  637313275 tll0660 hypothetical protein [Thermosynechococcus elongatus BP-1]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   44.4   0.0     7e-15   1.5e-10      21     240 ..      23     253 ..       2     254 .] 0.74
+
+  Alignments for each domain:
+  == domain 1    score: 44.4 bits;  conditional E-value: 7e-15
+                             sp1.linsi  21 rasgrdaealksvarvnelkelaqllded..skvlPlvvavsGrvgsetpikcehsklravive...etaeqk 88 
+                                           r + r ++ + s +++ +l+el++ + ++     l   v +sG++ ++ p+ +e   l +v      ++  + 
+  @Thermosynechococcus_elongatus_BP_1@  23 RLKVRALNLAVSSTPA-QLHELQRRVAQEigGGYLQEYVKISGQIVADRPLVSELKRLPCVHYRlcvSRVYKT 94 
+                                           5555555555555554.6666666665541145666789*************999999777543111333445 PP
+
+                             sp1.linsi  89 llkrndags.WiqdsalllsmskEvpWyLdDgtgrvqvvgarraaglaLtvasdvfeesgrs......lvrgt 154
+                                            + + d++s       +l s ++ +p++L Dg  +++v + r+a+  +++v ++  e+++ +      +  + 
+  @Thermosynechococcus_elongatus_BP_1@  95 TESHEDGSSeTKYRHEILSSNTQTIPFRLRDGDMEIYV-DPRGAEIETVQVLNEFQEDNNTThlafgrFQMDL 166
+                                           556665544044567899999***********999986.7899999999999998877777655544322233 PP
+
+                             sp1.linsi 155 ldylqGlkvlGvkrvervlptGtsLtvvGEavkddageirlrrprk..gpFyvsqkpldelianlgkwsrvyk 225
+                                               + +  +G +  e +lp+  ++ vvG a  d+ g++r+rrp++    F++s ++ ++l +++ +++r+  
+  @Thermosynechococcus_elongatus_BP_1@ 167 SSLPKHSDTVGYRYEEWILPVNQQVFVVGTA-SDERGKLRIRRPHQkgQLFFISLESEENLTKKVRQYARASI 238
+                                           334578899********************87.7999********984458*********************** PP
+
+                             sp1.linsi 226 alslgltvvgvalva 240
+                                            ++  + ++g++l++
+  @Thermosynechococcus_elongatus_BP_1@ 239 IAAGVFSGLGILLIL 253
+                                           ************996 PP
+
+>> @Thermosynechococcus_elongatus_BP_1@  637312804 tll0199 hypothetical protein [Thermosynechococcus elongatus BP-1]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.5   0.0   1.8e-12   3.8e-08      30     237 ..      31     242 ..       3     248 .. 0.69
+
+  Alignments for each domain:
+  == domain 1    score: 36.5 bits;  conditional E-value: 1.8e-12
+                             sp1.linsi  30 lksvarvnelkelaqlldedskvlP..lvvavsGrvgsetpikcehsklraviveetaeqkllkrndagsWiq 100
+                                           ++s   + el++ +q++ ++         v v G+v++ +p+ +e   + +v+ ++   ++++k+ +     +
+  @Thermosynechococcus_elongatus_BP_1@  31 VASPSTIGELEKFQQQVAQEMGSGSwrEYVQVVGQVTTSQPLLSEVKRIPCVYYKTIISREYEKEGSD----R 99 
+                                           34555667788877777666443332378889999999999999999999999998888888887732....6 PP
+
+                             sp1.linsi 101 dsalllsmskEvpWyLdDgtgrvqvvgarraaglaLtvasd.vfeesgrs......lvrgtldylqGlkvlGv 166
+                                            s ++    +   + L D  g+++v    +a+  a++v  +  + ++ ++      ++       +G   lG 
+  @Thermosynechococcus_elongatus_BP_1@ 100 PSEIIGRHEQSTLFLLRDHQGEIEVNPF-GAEIEAVQVLDElRPADQPHAfalslgFLSFNWHFGKG-TTLGY 170
+                                           7888888888888999999998776543.33333444444423333333333333333333444444.579** PP
+
+                             sp1.linsi 167 krvervlptGtsLtvvGEavkddageirlrrprk..gpFyvsqkpldelianlgkwsrvykalslgltvvgva 237
+                                           +  e vlp G +++vvG a  d+ g +rl++p++    F +s    d li++  +  r + ++slg t+ gv+
+  @Thermosynechococcus_elongatus_BP_1@ 171 RYQEWVLPLGQPVSVVGMA-SDQGGVLRLQKPQNrgQKFIISLSFEDPLIQQYKQQKRKMTYASLGATLCGVC 242
+                                           *****************76.6888********86446899999999*************************97 PP
+
+>> @Synechococcus_elongatus_PCC_6301@  637618204 syc2512_d hypothetical protein [Synechococcus elongatus PCC 6301]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.0   0.0   2.5e-12   5.4e-08      11     237 ..      12     256 ..       4     263 .] 0.74
+
+  Alignments for each domain:
+  == domain 1    score: 36.0 bits;  conditional E-value: 2.5e-12
+                           sp1.linsi  11 lsgaalyllgrasgrdaealksvarv..nelkelaqllded..skvlPlvvavsGrvgsetpikcehsklravi. 80 
+                                         +++ +ly++ r     ++ l  ++++   +lke a+ +  +     l   v + G+++ e+p+ +e  +  +v+ 
+  @Synechococcus_elongatus_PCC_6301@  12 IAAIVLYFVRRHYRFKLQSLLLAQPAtsLQLKEIAEHVAGEigGGNLRQYVKMWGAIEVEQPLVSELKQESCVYy 86 
+                                         45677888888887777777666666224667777766444114456689999**************99988874 PP
+
+                           sp1.linsi  81 ...veetaeqkllkrndag..sWi..qdsalllsmskEvpWyLdDgtgrvqvvgarraaglaLtvasd.vfeesg 147
+                                            v +  e+++ k+ + g   W   + s  + +  +  p+yL D  grv+v     a   ++ v  +  +++s 
+  @Synechococcus_elongatus_PCC_6301@  87 cstVSREYEERVRKEDSEGkvTWTteRRSETISQNRRSTPFYLRDQHGRVRVEPESAAI-ATIPVLDEfRPDSSA 160
+                                         3335666677777776544226984457999********************98766555.55666666589**** PP
+
+                           sp1.linsi 148 rslvrgt....ldylqGl.kvlGvkrvervlptGtsLtvvGEavkddageirl..rrprkgpFyvsqkpldelia 215
+                                         +sl+ g+    l    Gl k lG + +e +lp   s+ vvG a  d++ge+ l      +  F+++ kp   l++
+  @Synechococcus_elongatus_PCC_6301@ 161 SSLIFGAfslsLSTTAGLgKTLGYRYREEILPCDRSVLVVGAA-SDETGELTLgpSSEARQQFFIALKPETALLQ 234
+                                         **9998733336678998899********************65.799999999333556789*******999999 PP
+
+                           sp1.linsi 216 nlgkwsrvykalslgltvvgva 237
+                                         ++ +  ++    +++ +vv v+
+  @Synechococcus_elongatus_PCC_6301@ 235 EVKQTIQWLTIGAIASVVVTVV 256
+                                         9999888888777776666654 PP
+
+>> @Synechococcus_elongatus_PCC_7942@  gi|81300335|ref|YP_400543.1| unnamed protein product [Synechococcus elongatus PCC
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   36.0   0.0   2.5e-12   5.4e-08      11     237 ..      12     256 ..       4     263 .] 0.74
+
+  Alignments for each domain:
+  == domain 1    score: 36.0 bits;  conditional E-value: 2.5e-12
+                           sp1.linsi  11 lsgaalyllgrasgrdaealksvarv..nelkelaqllded..skvlPlvvavsGrvgsetpikcehsklravi. 80 
+                                         +++ +ly++ r     ++ l  ++++   +lke a+ +  +     l   v + G+++ e+p+ +e  +  +v+ 
+  @Synechococcus_elongatus_PCC_7942@  12 IAAIVLYFVRRHYRFKLQSLLLAQPAtsLQLKEIAEHVAGEigGGNLRQYVKMWGAIEVEQPLVSELKQESCVYy 86 
+                                         45677888888887777777666666224667777766444114456689999**************99988874 PP
+
+                           sp1.linsi  81 ...veetaeqkllkrndag..sWi..qdsalllsmskEvpWyLdDgtgrvqvvgarraaglaLtvasd.vfeesg 147
+                                            v +  e+++ k+ + g   W   + s  + +  +  p+yL D  grv+v     a   ++ v  +  +++s 
+  @Synechococcus_elongatus_PCC_7942@  87 cstVSREYEERVRKEDSEGkvTWTteRRSETISQNRRSTPFYLRDQHGRVRVEPESAAI-ATIPVLDEfRPDSSA 160
+                                         3335666677777776544226984457999********************98766555.55666666589**** PP
+
+                           sp1.linsi 148 rslvrgt....ldylqGl.kvlGvkrvervlptGtsLtvvGEavkddageirl..rrprkgpFyvsqkpldelia 215
+                                         +sl+ g+    l    Gl k lG + +e +lp   s+ vvG a  d++ge+ l      +  F+++ kp   l++
+  @Synechococcus_elongatus_PCC_7942@ 161 SSLIFGAfslsLSTTAGLgKTLGYRYREEILPCDRSVLVVGAA-SDETGELTLgpSSEARQQFFIALKPETALLQ 234
+                                         **9998733336678998899********************65.799999999333556789*******999999 PP
+
+                           sp1.linsi 216 nlgkwsrvykalslgltvvgva 237
+                                         ++ +  ++    +++ +vv v+
+  @Synechococcus_elongatus_PCC_7942@ 235 EVKQTIQWLTIGAIASVVVTVV 256
+                                         9999888888777776666654 PP
+
+>> @Acaryochloris_marina_MBIC11017@  641252794 AM1_3710 hypothetical protein [Acaryochloris marina MBIC11017]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   30.0   0.0   1.7e-10   3.6e-06       5     239 ..       4     257 ..       1     263 [. 0.70
+
+  Alignments for each domain:
+  == domain 1    score: 30.0 bits;  conditional E-value: 1.7e-10
+                         sp1.linsi   5 gGvacclsgaalyllgrasgrdaealksvarv..nelkelaql..ldedskvlPlvvavsGrvgsetpikcehskl. 76 
+                                        G+ +++ g +l+++  ++ r +  l+ + ++   el++la    l+  s      v + G+++ ++p+ +e  ++ 
+  @Acaryochloris_marina_MBIC11017@   4 IGIILIVIGIILFFVYSNLKRKLASLRQARPAsiAELNHLASEiaLEMGSGSWRDYVKLRGTIQCDQPLISELKQMp 80 
+                                       599999*****************999988765335555555431145666677789*******************96 PP
+
+                         sp1.linsi  77 ....raviveetaeqkllkrndag...sWiqdsalllsmskEvpWyLdDgtgrvqv..vgarraaglaLtvasdvfe 144
+                                           +  +v e +eq  ++ +d     +  + s  l +    vp++L+D+tg++ v   ga+ ++  +L   s +  
+  @Acaryochloris_marina_MBIC11017@  81 cvhyNMTVVREYEEQVTERDSDDKvvtKTQRGSETLSQNRESVPFFLQDDTGEIWVepEGAQIETVRVLDEFSPEQP 157
+                                       6666666788889999999885431113334567777778889**********665114555555555544443333 PP
+
+                         sp1.linsi 145 esgrs....lvrgtldylqGlkvlGvkrvervlptGtsLtvvGEavkddageirlrrprk..gpFyvsqkpldelia 215
+                                       + g+     +         G + +G +  e vlp+  ++ vv   v d  ++++l++p+     F +s k+ +  +a
+  @Acaryochloris_marina_MBIC11017@ 158 SGGQLsfggFSLSLSSAETGRQTIGYRYQESVLPVQRQVFVVAQ-VSDFNQSLVLENPTTkgQRFVISLKSEE-ALA 232
+                                       3444255554455556789********************99987.5788899999999752246888888755.555 PP
+
+                         sp1.linsi 216 nlgkwsrvykalsl.gltvvgvalv 239
+                                       +  + s +y+  ++ + +vvg +lv
+  @Acaryochloris_marina_MBIC11017@ 233 QTTQTSVTYAFYGMiSTLVVGGLLV 257
+                                       5666666666666525556676666 PP
+
+>> @Synechococcus_sp_JA_2_3B_a2_13@  637874588 CYB_0172 hypothetical protein [Synechococcus sp. JA-2-3Ba(2-13)]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    4.3   0.0     0.011   2.3e+02      10      82 ..      75     148 ..      68     155 .. 0.80
+   2 !   15.6   0.0   3.8e-06     0.082     105     241 ..     285     427 ..     274     433 .. 0.79
+
+  Alignments for each domain:
+  == domain 1    score: 4.3 bits;  conditional E-value: 0.011
+                         sp1.linsi  10 clsgaalyllgrasgrdaealksvarvnelkelaqlldedskvlP.lvvavsGrvgsetpikcehsklravive 82 
+                                       cl ++++ ++     + + +  s++r  ++ el++l +++ +     +  v Grv  + p+ +e s   +v+ +
+  @Synechococcus_sp_JA_2_3B_a2_13@  75 CLPASLFSFVEYLRSQRLVQQLSATRLLKIAELRHLGQTNPQAKGaNLAQVYGRVVCDRPLVSELSRQPCVYYK 148
+                                       67777776665555555666668899999999999999887766658899****************99999865 PP
+
+  == domain 2    score: 15.6 bits;  conditional E-value: 3.8e-06
+                         sp1.linsi 105 llsmskEvpWyLdDgtgrvqvvgarraaglaLtvasd.vfeesgrs........lvrgtldylqGlkvlGvkrverv 172
+                                       l+s+++ +p++++D tgrv+v  +  a+  a++v+ + +f  +g s         + g+  +++  +       e v
+  @Synechococcus_sp_JA_2_3B_a2_13@ 285 LHSVVRQIPFFIEDETGRVRVDPTG-AEIEAMSVVDEhIFPGKGPSrfnfnlkrYLSGVRTENRSTRAF--IYKEWV 358
+                                       68999***************97665.5555666666659*****9964444444444444444444433..34699* PP
+
+                         sp1.linsi 173 lptGtsLtvvGEavkddageirlrrprkg.pFyvsqkpldelianlgkwsrvykalslgltvvgvalvak 241
+                                       +p+ ++   +G  v+ +ag  ++r+p  g  F++++k+ + l+++  + +  y   s+ l+++g++ v++
+  @Synechococcus_sp_JA_2_3B_a2_13@ 359 IPVDAMAFTMGQ-VRFEAGDPVIRKPLSGeRFMIAPKSPEALLEEQRSNASSYLVGSVVLLGIGIFTVLH 427
+                                       ******999997.57889999*****98846**********************************98875 PP
+
+>> @Synechococcus_sp_CB0101@  650127929 SCB01_010100001846 acetylornithine aminotransferase [Synechococcus sp. CB0101]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.0   0.0     5e-05       1.1       5      46 ..      46      87 ..      43     106 .. 0.92
+
+  Alignments for each domain:
+  == domain 1    score: 12.0 bits;  conditional E-value: 5e-05
+                  sp1.linsi  5 gGvacclsgaalyllgrasgrdaealksvarvnelkelaqll 46
+                               +G+a+c  g   +++ ra+gr++++l+ v    ++ e +ql+
+  @Synechococcus_sp_CB0101@ 46 AGIAVCTLGHSSAVMRRALGRQLRKLQHVSNLYRIPEQEQLA 87
+                               8*****************************999999999886 PP
+
+>> @Synechococcus_RCC307@  gi|148243088|ref|YP_001228245.1| hypothetical protein SynRCC307_1989 [Synechococcus sp. RCC30
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.0   0.1   4.8e-05         1     105     146 ..      12      53 ..       6      55 .. 0.89
+
+  Alignments for each domain:
+  == domain 1    score: 12.0 bits;  conditional E-value: 4.8e-05
+               sp1.linsi 105 llsmskEvpWyLdDgtgrvqvvgarraaglaLtvasdvfees 146
+                             l +++ E    L+D t  + v++a ra   +L  +s++f++s
+  @Synechococcus_RCC307@  12 LVAVAIESTVGLEDHTQSAAVADAMRACTAQLMSVSEQFQDS 53 
+                             56778899999****************************987 PP
+
+>> @Synechococcus_WH_8102@  gi|33864918|ref|NP_896477.1| hypothetical protein SYNW0382 [Synechococcus sp. WH 8102]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.6   0.4   6.5e-05       1.4     193     275 ..      28     113 ..      21     124 .. 0.77
+
+  Alignments for each domain:
+  == domain 1    score: 11.6 bits;  conditional E-value: 6.5e-05
+                sp1.linsi 193 irlrrprkgpFyvsqkpldelianlgkw...srvykalslgltvvgvalvakkairailerrRraelrkRvleaaakraaqeaege 275
+                              ++ r p++  F v++k+   l ++l +    sr  + +  gl  +  + v + +i+ + + + r++ ++R++  ++++++  ++++
+  @Synechococcus_WH_8102@  28 LHYRPPHQTKFQVAPKSSAILFRSLRDLskpSRQTARARRGLRSLVSTTVDTGIIDRRSTTWTRQNAKQRLNLQKHRKQEMRSASG 113
+                              67899***********98888776665500056666777899999999999999*99999999999****9987777776665544 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (345 nodes)
+Target sequences:                     237005  (69574710 residues)
+Passed MSV filter:                      7968  (0.0336195); expected 4740.1 (0.02)
+Passed bias filter:                     6736  (0.0284213); expected 4740.1 (0.02)
+Passed Vit filter:                       593  (0.00250206); expected 237.0 (0.001)
+Passed Fwd filter:                        14  (5.90705e-05); expected 2.4 (1e-05)
+Initial search space (Z):             237005  [actual number of targets]
+Domain search space  (domZ):              11  [number of targets reported over threshold]
+# CPU time: 2.88u 0.01s 00:00:02.88 Elapsed: 00:00:01.47
+# Mc/sec: 16328.76
+//

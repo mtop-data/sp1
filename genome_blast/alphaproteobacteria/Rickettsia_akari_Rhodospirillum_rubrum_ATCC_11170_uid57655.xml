@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/NCBI_bact_genomes/Proteobacteria/Alphaproteobacteria/aa//Rhodospirillum_rubrum_ATCC_11170_uid57655</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Rickettsia_akari_str_Hartford gnl|BL_ORD_ID|412    gi|157825538|ref|YP_001493258.1| unnamed protein product [Rickettsia akari str. Hartford]</BlastOutput_query-def>
+  <BlastOutput_query-len>225</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>Rickettsia_akari_str_Hartford gnl|BL_ORD_ID|412    gi|157825538|ref|YP_001493258.1| unnamed protein product [Rickettsia akari str. Hartford]</Iteration_query-def>
+      <Iteration_query-len>225</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1808</Hit_id>
+          <Hit_def>gi|83593102|ref|YP_426854.1| peptidase M23B [Rhodospirillum rubrum ATCC 11170]</Hit_def>
+          <Hit_accession>1808</Hit_accession>
+          <Hit_len>465</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>63.929</Hsp_bit-score>
+              <Hsp_score>154</Hsp_score>
+              <Hsp_evalue>6.70387e-13</Hsp_evalue>
+              <Hsp_query-from>115</Hsp_query-from>
+              <Hsp_query-to>223</Hsp_query-to>
+              <Hsp_hit-from>338</Hsp_hit-from>
+              <Hsp_hit-to>457</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>37</Hsp_identity>
+              <Hsp_positive>63</Hsp_positive>
+              <Hsp_gaps>13</Hsp_gaps>
+              <Hsp_align-len>121</Hsp_align-len>
+              <Hsp_qseq>FVKPLNGVMLTEF----KDGKSKGIDIAVKEYSDVKSIAAGTVIYSGFN-KQFGNLVIVKLDKDDLEVAYASLDDLLLKKGDKITKNSVIGHVKH-------KLYFAMRRNRIAVDPSKYI</Hsp_qseq>
+              <Hsp_hseq>FAWPVRGTVLSGFGATPKGQHNDGINIAAPRGTPVTAAETGVVAYAGNEIRGFGNLLLIK-HEGGFMTAYAHNDALLVKRGETVSRGQTIARVGSSGGVGAPQIHFEIRRNGKPIDPTPYL</Hsp_hseq>
+              <Hsp_midline>F  P+ G +L+ F    K   + GI+IA    + V +   G V Y+G   + FGNL+++K  +     AYA  D LL+K+G+ +++   I  V         +++F +RRN   +DP+ Y+</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1909</Hit_id>
+          <Hit_def>gi|83593203|ref|YP_426955.1| peptidase M23B [Rhodospirillum rubrum ATCC 11170]</Hit_def>
+          <Hit_accession>1909</Hit_accession>
+          <Hit_len>460</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>36.5798</Hsp_bit-score>
+              <Hsp_score>83</Hsp_score>
+              <Hsp_evalue>0.000966422</Hsp_evalue>
+              <Hsp_query-from>118</Hsp_query-from>
+              <Hsp_query-to>224</Hsp_query-to>
+              <Hsp_hit-from>346</Hsp_hit-from>
+              <Hsp_hit-to>452</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>25</Hsp_identity>
+              <Hsp_positive>56</Hsp_positive>
+              <Hsp_gaps>16</Hsp_gaps>
+              <Hsp_align-len>115</Hsp_align-len>
+              <Hsp_qseq>PLNGVMLTEFKDGKSKGIDIAVKEYSDVKSIAAGTVIYSGFNKQFGNLVIVKLDKD-DLEVAYASLDDLLLKKGDKITKNSVIGHVKHK-------LYFAMRRNRIAVDPSKYIE</Hsp_qseq>
+              <Hsp_hseq>PVNGRL------SRHEGLDMGAPMDTPVSATGPGKVVYAGWRGRYGR--VVEIDHGMGLSTRYAHLRTIKVQLGQSVGRGDVIGALGNSGRSTGPHLHYEVRVNGNPRNPTVFLK</Hsp_hseq>
+              <Hsp_midline>P+NG +       + +G+D+     + V +   G V+Y+G+  ++G   +V++D    L   YA L  + ++ G  + +  VIG + +        L++ +R N    +P+ +++</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|816</Hit_id>
+          <Hit_def>gi|83592109|ref|YP_425861.1| peptidase M23B [Rhodospirillum rubrum ATCC 11170]</Hit_def>
+          <Hit_accession>816</Hit_accession>
+          <Hit_len>533</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>33.113</Hsp_bit-score>
+              <Hsp_score>74</Hsp_score>
+              <Hsp_evalue>0.0148507</Hsp_evalue>
+              <Hsp_query-from>104</Hsp_query-from>
+              <Hsp_query-to>202</Hsp_query-to>
+              <Hsp_hit-from>357</Hsp_hit-from>
+              <Hsp_hit-to>466</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>27</Hsp_identity>
+              <Hsp_positive>47</Hsp_positive>
+              <Hsp_gaps>13</Hsp_gaps>
+              <Hsp_align-len>111</Hsp_align-len>
+              <Hsp_qseq>NEYEEEIEQSNFVKPLNGVMLTEFKDGKS----------KGIDIAVKEYSDVKSIAAGTVIYSGFNKQFGNLVIVKLDKDDLEVAYASLDDLL--LKKGDKITKNSVIGHV</Hsp_qseq>
+              <Hsp_hseq>NGKGEGIRKALLRTPINGARLSSGFGLRRHPVLGFSKMHKGVDFAAPPGTPIYAAGDGVVEKAGPFSSYGNYVRLR-HTEDYKTAYAHMKGFAAGITAGKKVRQGQVIGYV</Hsp_hseq>
+              <Hsp_midline>N   E I ++    P+NG  L+     +           KG+D A    + + +   G V  +G    +GN V ++   +D + AYA +      +  G K+ +  VIG+V</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1276</Hit_id>
+          <Hit_def>gi|83592569|ref|YP_426321.1| peptidase M23B [Rhodospirillum rubrum ATCC 11170]</Hit_def>
+          <Hit_accession>1276</Hit_accession>
+          <Hit_len>491</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>30.4166</Hsp_bit-score>
+              <Hsp_score>67</Hsp_score>
+              <Hsp_evalue>0.10637</Hsp_evalue>
+              <Hsp_query-from>133</Hsp_query-from>
+              <Hsp_query-to>168</Hsp_query-to>
+              <Hsp_hit-from>384</Hsp_hit-from>
+              <Hsp_hit-to>419</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>12</Hsp_identity>
+              <Hsp_positive>22</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>36</Hsp_align-len>
+              <Hsp_qseq>KGIDIAVKEYSDVKSIAAGTVIYSGFNKQFGNLVIV</Hsp_qseq>
+              <Hsp_hseq>KGVRVVTRGGGQVVSPHEGTVVFAGPFRGYGNLLII</Hsp_hseq>
+              <Hsp_midline>KG+ +  +    V S   GTV+++G  + +GNL+I+</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>5</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|733</Hit_id>
+          <Hit_def>gi|83592026|ref|YP_425778.1| NAD synthetase [Rhodospirillum rubrum ATCC 11170]</Hit_def>
+          <Hit_accession>733</Hit_accession>
+          <Hit_len>558</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>29.6462</Hsp_bit-score>
+              <Hsp_score>65</Hsp_score>
+              <Hsp_evalue>0.177699</Hsp_evalue>
+              <Hsp_query-from>144</Hsp_query-from>
+              <Hsp_query-to>219</Hsp_query-to>
+              <Hsp_hit-from>380</Hsp_hit-from>
+              <Hsp_hit-to>448</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>24</Hsp_identity>
+              <Hsp_positive>37</Hsp_positive>
+              <Hsp_gaps>7</Hsp_gaps>
+              <Hsp_align-len>76</Hsp_align-len>
+              <Hsp_qseq>DVKSIAAGTVIYSGFNKQFGNLVIVKLDKDDLEVAYASLDDLLLKKGDKITKNSVIGHVKHKLYFAMRRNRIAVDP</Hsp_qseq>
+              <Hsp_hseq>NLQSRARGLTLMALSNK-FGPMVLSTGNKSEMSVGYATL------YGDMCGGYSVLKDVYKTAVFAVSRWRNANHP</Hsp_hseq>
+              <Hsp_midline>+++S A G  + +  NK FG +V+   +K ++ V YA+L       GD     SV+  V     FA+ R R A  P</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>3838</Statistics_db-num>
+          <Statistics_db-len>1293366</Statistics_db-len>
+          <Statistics_hsp-len>80</Statistics_hsp-len>
+          <Statistics_eff-space>143017270</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

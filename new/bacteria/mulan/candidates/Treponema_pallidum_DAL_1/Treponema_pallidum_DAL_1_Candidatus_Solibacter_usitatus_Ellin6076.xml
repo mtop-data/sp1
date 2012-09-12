@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/bacteria/aa//Candidatus_Solibacter_usitatus_Ellin6076</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>gnl|BL_ORD_ID|11 @Treponema_pallidum_DAL_1@ gi|378974645|ref|YP_005223253.1| lon1 gene product [Treponema pallidum subsp. pallidum DAL-1]</BlastOutput_query-def>
+  <BlastOutput_query-len>857</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>gnl|BL_ORD_ID|11 @Treponema_pallidum_DAL_1@ gi|378974645|ref|YP_005223253.1| lon1 gene product [Treponema pallidum subsp. pallidum DAL-1]</Iteration_query-def>
+      <Iteration_query-len>857</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|2000</Hit_id>
+          <Hit_def>@Candidatus_Solibacter_usitatus_Ellin6076@ gi|116621146|ref|YP_823302.1| unnamed protein product [Candidatus Solibacter usitatus Ellin6076]</Hit_def>
+          <Hit_accession>2000</Hit_accession>
+          <Hit_len>806</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>40.4318</Hsp_bit-score>
+              <Hsp_score>93</Hsp_score>
+              <Hsp_evalue>0.00125286</Hsp_evalue>
+              <Hsp_query-from>719</Hsp_query-from>
+              <Hsp_query-to>823</Hsp_query-to>
+              <Hsp_hit-from>683</Hsp_hit-from>
+              <Hsp_hit-to>776</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>30</Hsp_identity>
+              <Hsp_positive>54</Hsp_positive>
+              <Hsp_gaps>11</Hsp_gaps>
+              <Hsp_align-len>105</Hsp_align-len>
+              <Hsp_qseq>DGDSASAAEFLVLLSAIGRFPLRQDRAITGSVNQLGQVQAIGGVSEKISGFYDVCALNGLTGMQGVLIPKSSCAQLFLPERVQDAVRAGTFHVWAVCTIDDALEL</Hsp_qseq>
+              <Hsp_hseq>DGPSAGITLATTICSALTKIPVRGDLAMTGEITLRGKVLPIGGLKEKLMAAHR-------HGILEAIMPKENEKD--LPD-IPDAIKK-TMKLHFVESMDEVLKI</Hsp_hseq>
+              <Hsp_midline>DG SA       + SA+ + P+R D A+TG +   G+V  IGG+ EK+   +         G+   ++PK +     LP+ + DA++  T  +  V ++D+ L++</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|6951</Hit_id>
+          <Hit_def>@Candidatus_Solibacter_usitatus_Ellin6076@ gi|116626097|ref|YP_828253.1| unnamed protein product [Candidatus Solibacter usitatus Ellin6076]</Hit_def>
+          <Hit_accession>6951</Hit_accession>
+          <Hit_len>790</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>35.8094</Hsp_bit-score>
+              <Hsp_score>81</Hsp_score>
+              <Hsp_evalue>0.0298605</Hsp_evalue>
+              <Hsp_query-from>719</Hsp_query-from>
+              <Hsp_query-to>766</Hsp_query-to>
+              <Hsp_hit-from>689</Hsp_hit-from>
+              <Hsp_hit-to>736</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>19</Hsp_identity>
+              <Hsp_positive>26</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>48</Hsp_align-len>
+              <Hsp_qseq>DGDSASAAEFLVLLSAIGRFPLRQDRAITGSVNQLGQVQAIGGVSEKI</Hsp_qseq>
+              <Hsp_hseq>DGPSAGITMATALLSMLTERRVRTNLAMTGEITLTGQVLPIGGIKEKV</Hsp_hseq>
+              <Hsp_midline>DG SA       LLS +    +R + A+TG +   GQV  IGG+ EK+</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|2691</Hit_id>
+          <Hit_def>@Candidatus_Solibacter_usitatus_Ellin6076@ gi|116621837|ref|YP_823993.1| unnamed protein product [Candidatus Solibacter usitatus Ellin6076]</Hit_def>
+          <Hit_accession>2691</Hit_accession>
+          <Hit_len>406</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>30.4166</Hsp_bit-score>
+              <Hsp_score>67</Hsp_score>
+              <Hsp_evalue>1.231</Hsp_evalue>
+              <Hsp_query-from>19</Hsp_query-from>
+              <Hsp_query-to>70</Hsp_query-to>
+              <Hsp_hit-from>245</Hsp_hit-from>
+              <Hsp_hit-to>300</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>20</Hsp_identity>
+              <Hsp_positive>28</Hsp_positive>
+              <Hsp_gaps>4</Hsp_gaps>
+              <Hsp_align-len>56</Hsp_align-len>
+              <Hsp_qseq>LSWQEVTGIVAPDTIAYLKARAQDHPF--LLAHERACAAIRLGMR--MYGDGYNIC</Hsp_qseq>
+              <Hsp_hseq>FSYQRSSHITMPDVMVSAKPLACGIPLGVIMANERAAAAIKPGMHGSTFGGGPLAC</Hsp_hseq>
+              <Hsp_midline> S+Q  + I  PD +   K  A   P   ++A+ERA AAI+ GM    +G G   C</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|7737</Hit_id>
+          <Hit_def>@Candidatus_Solibacter_usitatus_Ellin6076@ gi|116626883|ref|YP_829039.1| unnamed protein product [Candidatus Solibacter usitatus Ellin6076]</Hit_def>
+          <Hit_accession>7737</Hit_accession>
+          <Hit_len>331</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>29.261</Hsp_bit-score>
+              <Hsp_score>64</Hsp_score>
+              <Hsp_evalue>2.93758</Hsp_evalue>
+              <Hsp_query-from>570</Hsp_query-from>
+              <Hsp_query-to>606</Hsp_query-to>
+              <Hsp_hit-from>239</Hsp_hit-from>
+              <Hsp_hit-to>279</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>17</Hsp_identity>
+              <Hsp_positive>21</Hsp_positive>
+              <Hsp_gaps>4</Hsp_gaps>
+              <Hsp_align-len>41</Hsp_align-len>
+              <Hsp_qseq>PDVSVITAHVVQEALNRRQYVCSRARERF----QRMIACGE</Hsp_qseq>
+              <Hsp_hseq>PGVRDITSHVNFTALEERGAECGLVKERFETLAQSLLAAGE</Hsp_hseq>
+              <Hsp_midline>P V  IT+HV   AL  R   C   +ERF    Q ++A GE</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>5</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|5904</Hit_id>
+          <Hit_def>@Candidatus_Solibacter_usitatus_Ellin6076@ gi|116625050|ref|YP_827206.1| unnamed protein product [Candidatus Solibacter usitatus Ellin6076]</Hit_def>
+          <Hit_accession>5904</Hit_accession>
+          <Hit_len>597</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>28.4906</Hsp_bit-score>
+              <Hsp_score>62</Hsp_score>
+              <Hsp_evalue>5.22405</Hsp_evalue>
+              <Hsp_query-from>65</Hsp_query-from>
+              <Hsp_query-to>121</Hsp_query-to>
+              <Hsp_hit-from>29</Hsp_hit-from>
+              <Hsp_hit-to>82</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>17</Hsp_identity>
+              <Hsp_positive>26</Hsp_positive>
+              <Hsp_gaps>3</Hsp_gaps>
+              <Hsp_align-len>57</Hsp_align-len>
+              <Hsp_qseq>DGYNICVIGASGTGKRTTLQYLLKDFVPRPEQMWDIAYAYNFVHPHEPQVLQFPAGE</Hsp_qseq>
+              <Hsp_hseq>DGERLGLIGRNGAGKSTLLRILAGQIEP---DSGSVSMRRNTRTGYVPQDAEFPEGQ</Hsp_hseq>
+              <Hsp_midline>DG  + +IG +G GK T L+ L     P       ++   N    + PQ  +FP G+</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>7826</Statistics_db-num>
+          <Statistics_db-len>2997215</Statistics_db-len>
+          <Statistics_hsp-len>98</Statistics_hsp-len>
+          <Statistics_eff-space>1692772653</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

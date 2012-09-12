@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/cyanobacteria/all//Oscillatoria_sp_PCC_6506</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Cyanothece_PCC_7424_gnl|BL_ORD_ID|2656  gi|218439670|ref|YP_002377999.1| hypothetical protein PCC7424_2719 [Cyanothece</BlastOutput_query-def>
+  <BlastOutput_query-len>264</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>Cyanothece_PCC_7424_gnl|BL_ORD_ID|2656  gi|218439670|ref|YP_002377999.1| hypothetical protein PCC7424_2719 [Cyanothece</Iteration_query-def>
+      <Iteration_query-len>264</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|3051</Hit_id>
+          <Hit_def>@Oscillatoria_sp_PCC_6506@ 648858089 OSCI_3080032 conserved hypothetical protein [Oscillatoria sp. PCC 6506]</Hit_def>
+          <Hit_accession>3051</Hit_accession>
+          <Hit_len>372</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>31.5722</Hsp_bit-score>
+              <Hsp_score>70</Hsp_score>
+              <Hsp_evalue>0.0707982</Hsp_evalue>
+              <Hsp_query-from>45</Hsp_query-from>
+              <Hsp_query-to>156</Hsp_query-to>
+              <Hsp_hit-from>5</Hsp_hit-from>
+              <Hsp_hit-to>116</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>31</Hsp_identity>
+              <Hsp_positive>53</Hsp_positive>
+              <Hsp_gaps>14</Hsp_gaps>
+              <Hsp_align-len>119</Hsp_align-len>
+              <Hsp_qseq>NQIAEEIGGGSLREYVKIRGVIECDRPLISQLKQEPCVYYSMTVTWEYNEEVIKQ---DNEGKTIREKERKS----ETVAQNSRSIPFTLQDSTGEIRVNPERAEIETVKVLEEFRPEN</Hsp_qseq>
+              <Hsp_hseq>NQVASALEGKDYRKAAQLLKQLQKDSPENPWVKFYIARYYELTNKLESAEKIYRQLLRDTTSPKIVAQTRQAIQRLETIEQNRR------KDAIALSKNDPRNAE-PGLLILEPVSPEN</Hsp_hseq>
+              <Hsp_midline>NQ+A  + G   R+  ++   ++ D P    +K     YY +T   E  E++ +Q   D     I  + R++    ET+ QN R      +D+    + +P  AE   + +LE   PEN</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|428</Hit_id>
+          <Hit_def>@Oscillatoria_sp_PCC_6506@ 648855403 OSCI_410006 conserved membrane hypothetical protein [Oscillatoria sp. PCC 6506]</Hit_def>
+          <Hit_accession>428</Hit_accession>
+          <Hit_len>540</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>29.261</Hsp_bit-score>
+              <Hsp_score>64</Hsp_score>
+              <Hsp_evalue>0.374689</Hsp_evalue>
+              <Hsp_query-from>22</Hsp_query-from>
+              <Hsp_query-to>63</Hsp_query-to>
+              <Hsp_hit-from>174</Hsp_hit-from>
+              <Hsp_hit-to>215</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>13</Hsp_identity>
+              <Hsp_positive>24</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>42</Hsp_align-len>
+              <Hsp_qseq>NRSKLRNLRLASASTISSLQTIANQIAEEIGGGSLREYVKIR</Hsp_qseq>
+              <Hsp_hseq>DRGKVENIIFPGGFSLSAVQLLPFQVAIEVGFGVLIGYIAAR</Hsp_hseq>
+              <Hsp_midline>+R K+ N+      ++S++Q +  Q+A E+G G L  Y+  R</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|2965</Hit_id>
+          <Hit_def>@Oscillatoria_sp_PCC_6506@ 648858003 OSCI_3040018 serine/threonine kinase protein [Oscillatoria sp. PCC 6506]</Hit_def>
+          <Hit_accession>2965</Hit_accession>
+          <Hit_len>1798</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>26.5646</Hsp_bit-score>
+              <Hsp_score>57</Hsp_score>
+              <Hsp_evalue>3.51342</Hsp_evalue>
+              <Hsp_query-from>47</Hsp_query-from>
+              <Hsp_query-to>74</Hsp_query-to>
+              <Hsp_hit-from>12</Hsp_hit-from>
+              <Hsp_hit-to>37</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>15</Hsp_identity>
+              <Hsp_positive>19</Hsp_positive>
+              <Hsp_gaps>2</Hsp_gaps>
+              <Hsp_align-len>28</Hsp_align-len>
+              <Hsp_qseq>IAEEIGGGSLREYVKIRGVIECDRPLIS</Hsp_qseq>
+              <Hsp_hseq>ITEQIYGGS-RTLV-YRGIRECDRTLVA</Hsp_hseq>
+              <Hsp_midline>I E+I GGS R  V  RG+ ECDR L++</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>5822</Statistics_db-num>
+          <Statistics_db-len>1812051</Statistics_db-len>
+          <Statistics_hsp-len>84</Statistics_hsp-len>
+          <Statistics_eff-space>238140540</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

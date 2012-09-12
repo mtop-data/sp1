@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/bacteria/aa//Deinococcus_radiodurans_R1</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>gnl|BL_ORD_ID|11 @Treponema_pallidum_DAL_1@ gi|378974645|ref|YP_005223253.1| lon1 gene product [Treponema pallidum subsp. pallidum DAL-1]</BlastOutput_query-def>
+  <BlastOutput_query-len>857</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>gnl|BL_ORD_ID|11 @Treponema_pallidum_DAL_1@ gi|378974645|ref|YP_005223253.1| lon1 gene product [Treponema pallidum subsp. pallidum DAL-1]</Iteration_query-def>
+      <Iteration_query-len>857</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|2140</Hit_id>
+          <Hit_def>@Deinococcus_radiodurans_R1@ gi|15806972|ref|NP_295697.1| ATP-dependent protease LA [Deinococcus radiodurans R1]</Hit_def>
+          <Hit_accession>2140</Hit_accession>
+          <Hit_len>813</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>40.4318</Hsp_bit-score>
+              <Hsp_score>93</Hsp_score>
+              <Hsp_evalue>0.000370672</Hsp_evalue>
+              <Hsp_query-from>719</Hsp_query-from>
+              <Hsp_query-to>814</Hsp_query-to>
+              <Hsp_hit-from>695</Hsp_hit-from>
+              <Hsp_hit-to>779</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>32</Hsp_identity>
+              <Hsp_positive>51</Hsp_positive>
+              <Hsp_gaps>11</Hsp_gaps>
+              <Hsp_align-len>96</Hsp_align-len>
+              <Hsp_qseq>DGDSASAAEFLVLLSAIGRFPLRQDRAITGSVNQLGQVQAIGGVSEKISGFYDVCALNGLTGMQGVLIPKSSCAQLFLPERVQDAVRAGTFHVWAV</Hsp_qseq>
+              <Hsp_hseq>DGPSAGITIATAVISAVTGRPVRLDVAMTGEISLRGRVLPIGGLKEKL-----LAAHQG--GIREVIFPKDNEPSL---QEVPESIR-GDLKVHAV</Hsp_hseq>
+              <Hsp_midline>DG SA       ++SA+   P+R D A+TG ++  G+V  IGG+ EK+     + A  G  G++ V+ PK +   L   + V +++R G   V AV</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|515</Hit_id>
+          <Hit_def>@Deinococcus_radiodurans_R1@ gi|15805378|ref|NP_294072.1| ATP-dependent protease LA [Deinococcus radiodurans R1]</Hit_def>
+          <Hit_accession>515</Hit_accession>
+          <Hit_len>821</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>39.2762</Hsp_bit-score>
+              <Hsp_score>90</Hsp_score>
+              <Hsp_evalue>0.000812829</Hsp_evalue>
+              <Hsp_query-from>719</Hsp_query-from>
+              <Hsp_query-to>830</Hsp_query-to>
+              <Hsp_hit-from>688</Hsp_hit-from>
+              <Hsp_hit-to>788</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>32</Hsp_identity>
+              <Hsp_positive>57</Hsp_positive>
+              <Hsp_gaps>13</Hsp_gaps>
+              <Hsp_align-len>113</Hsp_align-len>
+              <Hsp_qseq>DGDSASAAEFLVLLSAIGRFPLRQDRAITGSVNQLGQVQAIGGVSEKISGFYDVCALNGLTGMQGVLIPKSSCAQLF-LPERVQDAVRAGTFHVWAVCTIDDALELMVPDDLK</Hsp_qseq>
+              <Hsp_hseq>EGPSAGGAMATSLISALTGIPARHDVAMTGEMTLTGRYLPIGGLKEKVLGAR-------RAGIKHIILPKANERDINDIPLHLRSSMR---FH--PCETVDQVLDVALVGGLK</Hsp_hseq>
+              <Hsp_midline>+G SA  A    L+SA+   P R D A+TG +   G+   IGG+ EK+ G           G++ +++PK++   +  +P  ++ ++R   FH     T+D  L++ +   LK</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|2679</Hit_id>
+          <Hit_def>@Deinococcus_radiodurans_R1@ gi|15807501|ref|NP_296236.1| hypothetical protein DR_2516 [Deinococcus radiodurans R1]</Hit_def>
+          <Hit_accession>2679</Hit_accession>
+          <Hit_len>375</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>31.187</Hsp_bit-score>
+              <Hsp_score>69</Hsp_score>
+              <Hsp_evalue>0.235607</Hsp_evalue>
+              <Hsp_query-from>573</Hsp_query-from>
+              <Hsp_query-to>642</Hsp_query-to>
+              <Hsp_hit-from>296</Hsp_hit-from>
+              <Hsp_hit-to>366</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>21</Hsp_identity>
+              <Hsp_positive>32</Hsp_positive>
+              <Hsp_gaps>3</Hsp_gaps>
+              <Hsp_align-len>72</Hsp_align-len>
+              <Hsp_qseq>SVITAHVV--QEALNRRQYVCSRARERFQRMIACGELLVEVQGYRIGRINALAIEEHCGHSFGIVISLTAQA</Hsp_qseq>
+              <Hsp_hseq>TALTTGVVFGAESLRSRAYALTRDLALFGRVRPPGEVRAELSALTLGQVNAFLANYHPAEQI-TVVSLGPDA</Hsp_hseq>
+              <Hsp_midline>+ +T  VV   E+L  R Y  +R    F R+   GE+  E+    +G++NA     H       V+SL   A</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|2568</Hit_id>
+          <Hit_def>@Deinococcus_radiodurans_R1@ gi|15807394|ref|NP_296125.1| ABC transporter ATP-binding protein [Deinococcus radiodurans R1]</Hit_def>
+          <Hit_accession>2568</Hit_accession>
+          <Hit_len>633</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>30.8018</Hsp_bit-score>
+              <Hsp_score>68</Hsp_score>
+              <Hsp_evalue>0.292771</Hsp_evalue>
+              <Hsp_query-from>65</Hsp_query-from>
+              <Hsp_query-to>156</Hsp_query-to>
+              <Hsp_hit-from>407</Hsp_hit-from>
+              <Hsp_hit-to>482</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>26</Hsp_identity>
+              <Hsp_positive>40</Hsp_positive>
+              <Hsp_gaps>24</Hsp_gaps>
+              <Hsp_align-len>96</Hsp_align-len>
+              <Hsp_qseq>DGYNICVIGASGTGKRTTLQYLLKDFVPRPEQMWDIAYAYNFVHPHEPQVLQFPAGEGMPF----ATALRRSVNAILNTAQDIVKSDAFLRERRTL</Hsp_qseq>
+              <Hsp_hseq>EGQTVAIVGENGAGKTTLVKLLLR-----------------FYDPSEGRILIGGAGEQTDLRDLDVNAWRRQVAAVF---QDFARFEWTLRDNVTL</Hsp_hseq>
+              <Hsp_midline>+G  + ++G +G GK T ++ LL+                 F  P E ++L   AGE          A RR V A+    QD  + +  LR+  TL</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>5</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|2363</Hit_id>
+          <Hit_def>@Deinococcus_radiodurans_R1@ gi|15807191|ref|NP_295920.1| ABC transporter ATP-binding protein [Deinococcus radiodurans R1]</Hit_def>
+          <Hit_accession>2363</Hit_accession>
+          <Hit_len>248</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>29.6462</Hsp_bit-score>
+              <Hsp_score>65</Hsp_score>
+              <Hsp_evalue>0.539847</Hsp_evalue>
+              <Hsp_query-from>66</Hsp_query-from>
+              <Hsp_query-to>96</Hsp_query-to>
+              <Hsp_hit-from>50</Hsp_hit-from>
+              <Hsp_hit-to>78</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>16</Hsp_identity>
+              <Hsp_positive>22</Hsp_positive>
+              <Hsp_gaps>2</Hsp_gaps>
+              <Hsp_align-len>31</Hsp_align-len>
+              <Hsp_qseq>GYNICVIGASGTGKRTTLQYLLKDFVPRPEQ</Hsp_qseq>
+              <Hsp_hseq>GEFLCVVGPSGSGK-STLLSLLAGFL-RPQQ</Hsp_hseq>
+              <Hsp_midline>G  +CV+G SG+GK +TL  LL  F+ RP+Q</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>3167</Statistics_db-num>
+          <Statistics_db-len>980285</Statistics_db-len>
+          <Statistics_hsp-len>90</Statistics_hsp-len>
+          <Statistics_eff-space>533260585</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/NCBI_bact_genomes/Proteobacteria/Alphaproteobacteria/aa//Dinoroseobacter_shibae_DFL_12_uid58707</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Rickettsia_akari_str_Hartford gnl|BL_ORD_ID|412    gi|157825538|ref|YP_001493258.1| unnamed protein product [Rickettsia akari str. Hartford]</BlastOutput_query-def>
+  <BlastOutput_query-len>225</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>Rickettsia_akari_str_Hartford gnl|BL_ORD_ID|412    gi|157825538|ref|YP_001493258.1| unnamed protein product [Rickettsia akari str. Hartford]</Iteration_query-def>
+      <Iteration_query-len>225</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|2132</Hit_id>
+          <Hit_def>gi|159044681|ref|YP_001533475.1| hypothetical protein Dshi_2138 [Dinoroseobacter shibae DFL 12]</Hit_def>
+          <Hit_accession>2132</Hit_accession>
+          <Hit_len>409</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>45.4394</Hsp_bit-score>
+              <Hsp_score>106</Hsp_score>
+              <Hsp_evalue>1.2335e-06</Hsp_evalue>
+              <Hsp_query-from>108</Hsp_query-from>
+              <Hsp_query-to>223</Hsp_query-to>
+              <Hsp_hit-from>290</Hsp_hit-from>
+              <Hsp_hit-to>408</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>31</Hsp_identity>
+              <Hsp_positive>60</Hsp_positive>
+              <Hsp_gaps>7</Hsp_gaps>
+              <Hsp_align-len>121</Hsp_align-len>
+              <Hsp_qseq>EEIEQSNFVKPLNGVMLTEFKDGKSKGIDIAVKEYSDVKSIAAGTVIYSGFNKQFGNLVIVKL-DKDDLEVAYASLDDLLLKKGDKITKNSVIGHVKHK----LYFAMRRNRIAVDPSKYI</Hsp_qseq>
+              <Hsp_hseq>EASDSASFAFPVAGRIIRDYDKGRNDGIGIAADPGTPV--VAAGDGEVAAITRDTDQVPILVLRHPDNLLTVYANVGDIAVEKGDTVRRGQQVATVATGDPSFLHFEIREGIESVDPVPYL</Hsp_hseq>
+              <Hsp_midline>E  + ++F  P+ G ++ ++  G++ GI IA    + V  +AAG    +   +    + I+ L   D+L   YA++ D+ ++KGD + +   +  V       L+F +R    +VDP  Y+</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1170</Hit_id>
+          <Hit_def>gi|159043725|ref|YP_001532519.1| peptidase M23B [Dinoroseobacter shibae DFL 12]</Hit_def>
+          <Hit_accession>1170</Hit_accession>
+          <Hit_len>442</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>38.1206</Hsp_bit-score>
+              <Hsp_score>87</Hsp_score>
+              <Hsp_evalue>0.000290691</Hsp_evalue>
+              <Hsp_query-from>133</Hsp_query-from>
+              <Hsp_query-to>200</Hsp_query-to>
+              <Hsp_hit-from>339</Hsp_hit-from>
+              <Hsp_hit-to>405</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>18</Hsp_identity>
+              <Hsp_positive>36</Hsp_positive>
+              <Hsp_gaps>1</Hsp_gaps>
+              <Hsp_align-len>68</Hsp_align-len>
+              <Hsp_qseq>KGIDIAVKEYSDVKSIAAGTVIYSGFNKQFGNLVIVKLDKDDLEVAYASLDDLLLKKGDKITKNSVIG</Hsp_qseq>
+              <Hsp_hseq>KGTDFAAAHGTPIYATADGVVVDAGWHSGFGRMVKIR-HAFGYQTVYAHMSKLRVKEGQRVSRGDRIG</Hsp_hseq>
+              <Hsp_midline>KG D A    + + + A G V+ +G++  FG +V ++      +  YA +  L +K+G ++++   IG</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|87</Hit_id>
+          <Hit_def>gi|159042646|ref|YP_001531440.1| peptidase M23B [Dinoroseobacter shibae DFL 12]</Hit_def>
+          <Hit_accession>87</Hit_accession>
+          <Hit_len>367</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>31.9574</Hsp_bit-score>
+              <Hsp_score>71</Hsp_score>
+              <Hsp_evalue>0.029879</Hsp_evalue>
+              <Hsp_query-from>133</Hsp_query-from>
+              <Hsp_query-to>222</Hsp_query-to>
+              <Hsp_hit-from>257</Hsp_hit-from>
+              <Hsp_hit-to>361</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>24</Hsp_identity>
+              <Hsp_positive>45</Hsp_positive>
+              <Hsp_gaps>17</Hsp_gaps>
+              <Hsp_align-len>106</Hsp_align-len>
+              <Hsp_qseq>KGIDIAVKEYSDVKSIAAGTVIYSGFNKQFGNLVIVKLDKDDLEVAYASLDDLLLKKGDKITKNSVIGHV----------------KHKLYFAMRRNRIAVDPSKY</Hsp_qseq>
+              <Hsp_hseq>PGLVLAAPAQALVTAPFAATVRYTGTLLDYGNVIVLEPQTGVLLI-LAGLDALYVDGGDVLAPGAPLGLMGGDPAQQTGFASGQTRQETLYLELRESGAPVDPEDW</Hsp_hseq>
+              <Hsp_midline> G+ +A    + V +  A TV Y+G    +GN+++++     L +  A LD L +  GD +   + +G +                +  LY  +R +   VDP  +</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|2125</Hit_id>
+          <Hit_def>gi|159044674|ref|YP_001533468.1| hypothetical protein Dshi_2131 [Dinoroseobacter shibae DFL 12]</Hit_def>
+          <Hit_accession>2125</Hit_accession>
+          <Hit_len>156</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>30.4166</Hsp_bit-score>
+              <Hsp_score>67</Hsp_score>
+              <Hsp_evalue>0.0553324</Hsp_evalue>
+              <Hsp_query-from>162</Hsp_query-from>
+              <Hsp_query-to>211</Hsp_query-to>
+              <Hsp_hit-from>36</Hsp_hit-from>
+              <Hsp_hit-to>86</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>14</Hsp_identity>
+              <Hsp_positive>29</Hsp_positive>
+              <Hsp_gaps>1</Hsp_gaps>
+              <Hsp_align-len>51</Hsp_align-len>
+              <Hsp_qseq>FGNLVIVKLDKDDLEVAYASLDDLLLKKGDKITKNSVIGHVKH-KLYFAMR</Hsp_qseq>
+              <Hsp_hseq>FGDRILVLQSREDLHAALSSYRSILVRAGLAFIQTTVMGTPRFAQARFSMR</Hsp_hseq>
+              <Hsp_midline>FG+ ++V   ++DL  A +S   +L++ G    + +V+G  +  +  F+MR</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>5</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|939</Hit_id>
+          <Hit_def>gi|159043494|ref|YP_001532288.1| peptidase M23B [Dinoroseobacter shibae DFL 12]</Hit_def>
+          <Hit_accession>939</Hit_accession>
+          <Hit_len>321</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>28.1054</Hsp_bit-score>
+              <Hsp_score>61</Hsp_score>
+              <Hsp_evalue>0.485353</Hsp_evalue>
+              <Hsp_query-from>161</Hsp_query-from>
+              <Hsp_query-to>202</Hsp_query-to>
+              <Hsp_hit-from>229</Hsp_hit-from>
+              <Hsp_hit-to>270</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>11</Hsp_identity>
+              <Hsp_positive>25</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>42</Hsp_align-len>
+              <Hsp_qseq>QFGNLVIVKLDKDDLEVAYASLDDLLLKKGDKITKNSVIGHV</Hsp_qseq>
+              <Hsp_hseq>RLGNHVILRCGEADIVLAHMRQASVLVQRGDRVEAGDPLGQV</Hsp_hseq>
+              <Hsp_midline>+ GN VI++  + D+ +A+     +L+++GD++     +G V</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>4192</Statistics_db-num>
+          <Statistics_db-len>1319545</Statistics_db-len>
+          <Statistics_hsp-len>80</Statistics_hsp-len>
+          <Statistics_eff-space>142706825</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

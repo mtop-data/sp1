@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/NCBI_bact_genomes/Proteobacteria/Alphaproteobacteria/aa//Sinorhizobium_fredii_HH103_uid86865</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Rickettsia_akari_str_Hartford gnl|BL_ORD_ID|412    gi|157825538|ref|YP_001493258.1| unnamed protein product [Rickettsia akari str. Hartford]</BlastOutput_query-def>
+  <BlastOutput_query-len>225</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>Rickettsia_akari_str_Hartford gnl|BL_ORD_ID|412    gi|157825538|ref|YP_001493258.1| unnamed protein product [Rickettsia akari str. Hartford]</Iteration_query-def>
+      <Iteration_query-len>225</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1251</Hit_id>
+          <Hit_def>gi|378825849|ref|YP_005188581.1| unnamed protein product [Sinorhizobium fredii HH103]</Hit_def>
+          <Hit_accession>1251</Hit_accession>
+          <Hit_len>513</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>55.8398</Hsp_bit-score>
+              <Hsp_score>133</Hsp_score>
+              <Hsp_evalue>6.45097e-10</Hsp_evalue>
+              <Hsp_query-from>103</Hsp_query-from>
+              <Hsp_query-to>224</Hsp_query-to>
+              <Hsp_hit-from>377</Hsp_hit-from>
+              <Hsp_hit-to>513</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>36</Hsp_identity>
+              <Hsp_positive>75</Hsp_positive>
+              <Hsp_gaps>17</Hsp_gaps>
+              <Hsp_align-len>138</Hsp_align-len>
+              <Hsp_qseq>RNEYEEEIEQSNFVK----PLNGVMLTEFK---DG-KSKGIDIAVKEYSDVKSIAAGTVIYSGFN-KQFGNLVIVKLDKDDLEVAYASLDDLLLKKGDKITKNSVIG-------HVKHKLYFAMRRNRIAVDPSKYIE</Hsp_qseq>
+              <Hsp_hseq>KTDIDEESPKSTGIGKYRWPVRGAVVASYGANVDGNRNDGINISVPEGTPIKAAENGVVIYSGSSLKELGNAVLVRHDDGTVTV-YGNASQLKVQRGEKVQRGQTLAASGMTGKASQPQVHFEVRKNATPVNPATFLE</Hsp_hseq>
+              <Hsp_midline>+ + +EE  +S  +     P+ G ++  +    DG ++ GI+I+V E + +K+   G VIYSG + K+ GN V+V+ D   + V Y +   L +++G+K+ +   +          + +++F +R+N   V+P+ ++E</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|3193</Hit_id>
+          <Hit_def>gi|378827791|ref|YP_005190523.1| unnamed protein product [Sinorhizobium fredii HH103]</Hit_def>
+          <Hit_accession>3193</Hit_accession>
+          <Hit_len>467</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>32.7278</Hsp_bit-score>
+              <Hsp_score>73</Hsp_score>
+              <Hsp_evalue>0.0252828</Hsp_evalue>
+              <Hsp_query-from>112</Hsp_query-from>
+              <Hsp_query-to>225</Hsp_query-to>
+              <Hsp_hit-from>324</Hsp_hit-from>
+              <Hsp_hit-to>442</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>28</Hsp_identity>
+              <Hsp_positive>53</Hsp_positive>
+              <Hsp_gaps>7</Hsp_gaps>
+              <Hsp_align-len>120</Hsp_align-len>
+              <Hsp_qseq>QSNFVKPLNGVMLTEFKD----GKS-KGIDIAVKEYSDVKSIAAGTVIYSGFNKQFGNLVIVKLDKDDLEVAYASLDDLLLKKGDKITKNSVIGHVKHKLYFAMRRNRIAVD-PSKYIEF</Hsp_qseq>
+              <Hsp_hseq>QQRLSYPAAGSILRQFGDADGTGHSLQGIMLETNAGALVTTPADGWIVYAGSFRSYGQMIILN-PGDGYHIVLAGMEGVGVRPGQFVVAGEPIATMGAKRVASATALTLETDRPTIYIEF</Hsp_hseq>
+              <Hsp_midline>Q     P  G +L +F D    G S +GI +     + V + A G ++Y+G  + +G ++I+    D   +  A ++ + ++ G  +     I  +  K   +     +  D P+ YIEF</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1568</Hit_id>
+          <Hit_def>gi|378826166|ref|YP_005188898.1| nadE gene product [Sinorhizobium fredii HH103]</Hit_def>
+          <Hit_accession>1568</Hit_accession>
+          <Hit_len>560</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>28.1054</Hsp_bit-score>
+              <Hsp_score>61</Hsp_score>
+              <Hsp_evalue>0.680697</Hsp_evalue>
+              <Hsp_query-from>133</Hsp_query-from>
+              <Hsp_query-to>182</Hsp_query-to>
+              <Hsp_hit-from>371</Hsp_hit-from>
+              <Hsp_hit-to>418</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>15</Hsp_identity>
+              <Hsp_positive>31</Hsp_positive>
+              <Hsp_gaps>2</Hsp_gaps>
+              <Hsp_align-len>50</Hsp_align-len>
+              <Hsp_qseq>KGIDIAVKEYSDVKSIAAGTVIYSGFNKQFGNLVIVKLDKDDLEVAYASL</Hsp_qseq>
+              <Hsp_hseq>EGTESGITE-ENLQSRTRGTILMALSNK-FGSMVVTTGNKSEMSVGYATL</Hsp_hseq>
+              <Hsp_midline>+G +  + E  +++S   GT++ +  NK FG++V+   +K ++ V YA+L</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|187</Hit_id>
+          <Hit_def>gi|378824785|ref|YP_005187517.1| fadb1 gene product [Sinorhizobium fredii HH103]</Hit_def>
+          <Hit_accession>187</Hit_accession>
+          <Hit_len>737</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>28.1054</Hsp_bit-score>
+              <Hsp_score>61</Hsp_score>
+              <Hsp_evalue>0.897412</Hsp_evalue>
+              <Hsp_query-from>60</Hsp_query-from>
+              <Hsp_query-to>134</Hsp_query-to>
+              <Hsp_hit-from>405</Hsp_hit-from>
+              <Hsp_hit-to>483</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>22</Hsp_identity>
+              <Hsp_positive>36</Hsp_positive>
+              <Hsp_gaps>4</Hsp_gaps>
+              <Hsp_align-len>79</Hsp_align-len>
+              <Hsp_qseq>DEGLIVQRTMEDDTVSEKVSGILEEPKAKIIECYNDDIEIPIS----RNEYEEEIEQSNFVKPLNGVMLTEFKDGKSKG</Hsp_qseq>
+              <Hsp_hseq>DAGLVVEAVFEDRQVKKDVIEKVEAVIAPDAIFASNTSTLPITGLAKNSKRPEQFIGVHFFSPVEKMMLTEVIVGKETG</Hsp_hseq>
+              <Hsp_midline>D GL+V+   ED  V + V   +E   A      ++   +PI+     ++  E+    +F  P+  +MLTE   GK  G</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>5</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|291</Hit_id>
+          <Hit_def>gi|378824889|ref|YP_005187621.1| cheA gene product [Sinorhizobium fredii HH103]</Hit_def>
+          <Hit_accession>291</Hit_accession>
+          <Hit_len>767</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>27.335</Hsp_bit-score>
+              <Hsp_score>59</Hsp_score>
+              <Hsp_evalue>1.60065</Hsp_evalue>
+              <Hsp_query-from>35</Hsp_query-from>
+              <Hsp_query-to>75</Hsp_query-to>
+              <Hsp_hit-from>279</Hsp_hit-from>
+              <Hsp_hit-to>322</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>15</Hsp_identity>
+              <Hsp_positive>22</Hsp_positive>
+              <Hsp_gaps>3</Hsp_gaps>
+              <Hsp_align-len>44</Hsp_align-len>
+              <Hsp_qseq>EQPP---APIEYKVGDVTANNNSTALEHDEGLIVQRTMEDDTVS</Hsp_qseq>
+              <Hsp_hseq>EEPPMQPVPFDLSLLDDDVPASSGAAEDEEQVVAQREARDDAVS</Hsp_hseq>
+              <Hsp_midline>E+PP    P +  + D     +S A E +E ++ QR   DD VS</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>6159</Statistics_db-num>
+          <Statistics_db-len>1898645</Statistics_db-len>
+          <Statistics_hsp-len>83</Statistics_hsp-len>
+          <Statistics_eff-space>197017616</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

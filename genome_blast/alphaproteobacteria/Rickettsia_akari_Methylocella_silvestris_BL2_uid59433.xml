@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/NCBI_bact_genomes/Proteobacteria/Alphaproteobacteria/aa//Methylocella_silvestris_BL2_uid59433</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Rickettsia_akari_str_Hartford gnl|BL_ORD_ID|412    gi|157825538|ref|YP_001493258.1| unnamed protein product [Rickettsia akari str. Hartford]</BlastOutput_query-def>
+  <BlastOutput_query-len>225</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>Rickettsia_akari_str_Hartford gnl|BL_ORD_ID|412    gi|157825538|ref|YP_001493258.1| unnamed protein product [Rickettsia akari str. Hartford]</Iteration_query-def>
+      <Iteration_query-len>225</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1320</Hit_id>
+          <Hit_def>gi|217977521|ref|YP_002361668.1| peptidase M23 [Methylocella silvestris BL2]</Hit_def>
+          <Hit_accession>1320</Hit_accession>
+          <Hit_len>417</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>67.3958</Hsp_bit-score>
+              <Hsp_score>163</Hsp_score>
+              <Hsp_evalue>4.67856e-14</Hsp_evalue>
+              <Hsp_query-from>115</Hsp_query-from>
+              <Hsp_query-to>223</Hsp_query-to>
+              <Hsp_hit-from>299</Hsp_hit-from>
+              <Hsp_hit-to>414</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>38</Hsp_identity>
+              <Hsp_positive>67</Hsp_positive>
+              <Hsp_gaps>9</Hsp_gaps>
+              <Hsp_align-len>117</Hsp_align-len>
+              <Hsp_qseq>FVKPLNGVMLTEFKDGKSKGIDIAVKEYSDVKSIAAGTVIYSGFN-KQFGNLVIVKLDKDDLEVAYASLDDLLLKKGDKITKNSVI------GHVKH-KLYFAMRRNRIAVDPSKYI</Hsp_qseq>
+              <Hsp_hseq>FRWPARGRIIQAFKPGGNDGINIAVPEGTSVKAAESGVVAYAGSELKGYGNLILIR-HPNGFVSAYANNGDIEVKRGETVKRGQTIAKSGQSGNVASPQLHFELRKGATPVDPTQYL</Hsp_hseq>
+              <Hsp_midline>F  P  G ++  FK G + GI+IAV E + VK+  +G V Y+G   K +GNL++++   +    AYA+  D+ +K+G+ + +   I      G+V   +L+F +R+    VDP++Y+</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|630</Hit_id>
+          <Hit_def>gi|217976831|ref|YP_002360978.1| peptidase M23 [Methylocella silvestris BL2]</Hit_def>
+          <Hit_accession>630</Hit_accession>
+          <Hit_len>457</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>27.335</Hsp_bit-score>
+              <Hsp_score>59</Hsp_score>
+              <Hsp_evalue>0.963564</Hsp_evalue>
+              <Hsp_query-from>130</Hsp_query-from>
+              <Hsp_query-to>222</Hsp_query-to>
+              <Hsp_hit-from>339</Hsp_hit-from>
+              <Hsp_hit-to>446</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>25</Hsp_identity>
+              <Hsp_positive>46</Hsp_positive>
+              <Hsp_gaps>17</Hsp_gaps>
+              <Hsp_align-len>109</Hsp_align-len>
+              <Hsp_qseq>GKSKGIDIAVKEYSDVKSIAAGTVIYSGFNKQFGNLVIVKLDKDDLEVAYASLDDLLLKKGDKITKN---SVIGHVKHK-------------LYFAMRRNRIAVDPSKY</Hsp_qseq>
+              <Hsp_hseq>GTEKGMLIATRANAIVVSPADGWAAYAGPYRSYGQVLIINAGQ-GYYIILAGMDRINVNVGQFLVAGEPVAVMGDGSAKTAAAIAIGAAQPILYIEFRKDGAAIDPGPW</Hsp_hseq>
+              <Hsp_midline>G  KG+ IA +  + V S A G   Y+G  + +G ++I+   +    +  A +D + +  G  +      +V+G    K             LY   R++  A+DP  +</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1407</Hit_id>
+          <Hit_def>gi|217977608|ref|YP_002361755.1| hypothetical protein Msil_1428 [Methylocella silvestris BL2]</Hit_def>
+          <Hit_accession>1407</Hit_accession>
+          <Hit_len>164</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>24.2534</Hsp_bit-score>
+              <Hsp_score>51</Hsp_score>
+              <Hsp_evalue>5.53362</Hsp_evalue>
+              <Hsp_query-from>165</Hsp_query-from>
+              <Hsp_query-to>191</Hsp_query-to>
+              <Hsp_hit-from>10</Hsp_hit-from>
+              <Hsp_hit-to>36</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>11</Hsp_identity>
+              <Hsp_positive>19</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>27</Hsp_align-len>
+              <Hsp_qseq>LVIVKLDKDDLEVAYASLDDLLLKKGD</Hsp_qseq>
+              <Hsp_hseq>LRLIALDKEDLDIVSANLQDALVLVGE</Hsp_hseq>
+              <Hsp_midline>L ++ LDK+DL++  A+L D L+  G+</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|2809</Hit_id>
+          <Hit_def>gi|217979010|ref|YP_002363157.1| serine/threonine protein kinase [Methylocella silvestris BL2]</Hit_def>
+          <Hit_accession>2809</Hit_accession>
+          <Hit_len>626</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>24.2534</Hsp_bit-score>
+              <Hsp_score>51</Hsp_score>
+              <Hsp_evalue>9.12506</Hsp_evalue>
+              <Hsp_query-from>146</Hsp_query-from>
+              <Hsp_query-to>174</Hsp_query-to>
+              <Hsp_hit-from>28</Hsp_hit-from>
+              <Hsp_hit-to>58</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>13</Hsp_identity>
+              <Hsp_positive>19</Hsp_positive>
+              <Hsp_gaps>2</Hsp_gaps>
+              <Hsp_align-len>31</Hsp_align-len>
+              <Hsp_qseq>KSIAAGTV--IYSGFNKQFGNLVIVKLDKDD</Hsp_qseq>
+              <Hsp_hseq>EPIAAGGMGEIYKGHAIQTGDIVAIKLIRSD</Hsp_hseq>
+              <Hsp_midline>+ IAAG +  IY G   Q G++V +KL + D</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>3818</Statistics_db-num>
+          <Statistics_db-len>1219994</Statistics_db-len>
+          <Statistics_hsp-len>80</Statistics_hsp-len>
+          <Statistics_eff-space>132610330</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

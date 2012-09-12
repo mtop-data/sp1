@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/bacteria/aa//Nitratiruptor_SB155_2</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>gnl|BL_ORD_ID|11 @Treponema_pallidum_DAL_1@ gi|378974645|ref|YP_005223253.1| lon1 gene product [Treponema pallidum subsp. pallidum DAL-1]</BlastOutput_query-def>
+  <BlastOutput_query-len>857</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>gnl|BL_ORD_ID|11 @Treponema_pallidum_DAL_1@ gi|378974645|ref|YP_005223253.1| lon1 gene product [Treponema pallidum subsp. pallidum DAL-1]</Iteration_query-def>
+      <Iteration_query-len>857</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1337</Hit_id>
+          <Hit_def>@Nitratiruptor_SB155_2@ gi|152991091|ref|YP_001356813.1| ATP-dependent Lon protease [Nitratiruptor sp. SB155-2]</Hit_def>
+          <Hit_accession>1337</Hit_accession>
+          <Hit_len>805</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>32.3426</Hsp_bit-score>
+              <Hsp_score>72</Hsp_score>
+              <Hsp_evalue>0.0657452</Hsp_evalue>
+              <Hsp_query-from>719</Hsp_query-from>
+              <Hsp_query-to>822</Hsp_query-to>
+              <Hsp_hit-from>708</Hsp_hit-from>
+              <Hsp_hit-to>801</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>28</Hsp_identity>
+              <Hsp_positive>48</Hsp_positive>
+              <Hsp_gaps>16</Hsp_gaps>
+              <Hsp_align-len>107</Hsp_align-len>
+              <Hsp_qseq>DGDSASAAEFLVLLSAIGRFPLRQDRAITGSVNQLGQVQAIGGVSEKISGFYDVCALNGLTGMQGVLIPKSSCAQLFLPERVQDAVRA---GTFHVWAVCTIDDALE</Hsp_qseq>
+              <Hsp_hseq>DGPSAGITMATSIASLLSGRRVRNDVAMTGELTLTGRVLPIGGLKEKLIAAYK-------AKIKKVLIPRKNY------DRDLDEIPAEVLNSMDIVPVSSIEEVLK</Hsp_hseq>
+              <Hsp_midline>DG SA       + S +    +R D A+TG +   G+V  IGG+ EK+   Y          ++ VLIP+ +       +R  D + A    +  +  V +I++ L+</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|378</Hit_id>
+          <Hit_def>@Nitratiruptor_SB155_2@ gi|152990132|ref|YP_001355854.1| twitching motility protein PilT [Nitratiruptor sp. SB155-2]</Hit_def>
+          <Hit_accession>378</Hit_accession>
+          <Hit_len>393</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>31.5722</Hsp_bit-score>
+              <Hsp_score>70</Hsp_score>
+              <Hsp_evalue>0.110795</Hsp_evalue>
+              <Hsp_query-from>69</Hsp_query-from>
+              <Hsp_query-to>166</Hsp_query-to>
+              <Hsp_hit-from>142</Hsp_hit-from>
+              <Hsp_hit-to>230</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>29</Hsp_identity>
+              <Hsp_positive>46</Hsp_positive>
+              <Hsp_gaps>13</Hsp_gaps>
+              <Hsp_align-len>100</Hsp_align-len>
+              <Hsp_qseq>ICVIGASGTGKRTTLQYLLKDF-VPRPEQMWDIAYAYNFVHPHEPQVL-QFPAGEGMPFATALRRSVNAILNTAQDIVKSDAFLRERRTLLADIETRECA</Hsp_qseq>
+              <Hsp_hseq>VLVTGVTGSGKSTTLAALIDEINSTRKEHIITIEDPVEFVHQDKKSIINQRNIGQD---AKSFSRALKAALREDPDVI----LVGEMR----DLETIEMA</Hsp_hseq>
+              <Hsp_midline>+ V G +G+GK TTL  L+ +    R E +  I     FVH  +  ++ Q   G+    A +  R++ A L    D++     + E R    D+ET E A</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1029</Hit_id>
+          <Hit_def>@Nitratiruptor_SB155_2@ gi|152990783|ref|YP_001356505.1| ABC transporter ATP-binding protein [Nitratiruptor sp. SB155-2]</Hit_def>
+          <Hit_accession>1029</Hit_accession>
+          <Hit_len>647</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>28.1054</Hsp_bit-score>
+              <Hsp_score>61</Hsp_score>
+              <Hsp_evalue>1.39758</Hsp_evalue>
+              <Hsp_query-from>69</Hsp_query-from>
+              <Hsp_query-to>92</Hsp_query-to>
+              <Hsp_hit-from>360</Hsp_hit-from>
+              <Hsp_hit-to>383</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>12</Hsp_identity>
+              <Hsp_positive>15</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>24</Hsp_align-len>
+              <Hsp_qseq>ICVIGASGTGKRTTLQYLLKDFVP</Hsp_qseq>
+              <Hsp_hseq>IAIVGKNGTGKSTFLQLLLGQTKP</Hsp_hseq>
+              <Hsp_midline>I ++G +GTGK T LQ LL    P</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1706</Hit_id>
+          <Hit_def>@Nitratiruptor_SB155_2@ gi|152991460|ref|YP_001357182.1| hypothetical protein NIS_1719 [Nitratiruptor sp. SB155-2]</Hit_def>
+          <Hit_accession>1706</Hit_accession>
+          <Hit_len>425</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>27.335</Hsp_bit-score>
+              <Hsp_score>59</Hsp_score>
+              <Hsp_evalue>2.30351</Hsp_evalue>
+              <Hsp_query-from>181</Hsp_query-from>
+              <Hsp_query-to>233</Hsp_query-to>
+              <Hsp_hit-from>350</Hsp_hit-from>
+              <Hsp_hit-to>397</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>19</Hsp_identity>
+              <Hsp_positive>28</Hsp_positive>
+              <Hsp_gaps>5</Hsp_gaps>
+              <Hsp_align-len>53</Hsp_align-len>
+              <Hsp_qseq>RVRWHRKRGTYSFDLVPLLKGKDSSFEALHDLASRAKLSRCVVHELHARYRLS</Hsp_qseq>
+              <Hsp_hseq>KIRWAQKRVEAAKNYYKLTKGR---FE--NQLASADELSRAIADLAKARAELS</Hsp_hseq>
+              <Hsp_midline>++RW +KR   + +   L KG+   FE  + LAS  +LSR +     AR  LS</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>5</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1554</Hit_id>
+          <Hit_def>@Nitratiruptor_SB155_2@ gi|152991308|ref|YP_001357030.1| general secretory pathway protein D [Nitratiruptor sp. SB155-2]</Hit_def>
+          <Hit_accession>1554</Hit_accession>
+          <Hit_len>495</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>26.9498</Hsp_bit-score>
+              <Hsp_score>58</Hsp_score>
+              <Hsp_evalue>2.73214</Hsp_evalue>
+              <Hsp_query-from>519</Hsp_query-from>
+              <Hsp_query-to>612</Hsp_query-to>
+              <Hsp_hit-from>151</Hsp_hit-from>
+              <Hsp_hit-to>251</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>21</Hsp_identity>
+              <Hsp_positive>40</Hsp_positive>
+              <Hsp_gaps>9</Hsp_gaps>
+              <Hsp_align-len>102</Hsp_align-len>
+              <Hsp_qseq>RYGTFSLDSSAYARLLA--------YAEELAESHTRLSTSFVQIADLVLESHAVAVDMHPDVSVITAHVVQEALNRRQYVCSRARERFQRMIACGELLVEVQ</Hsp_qseq>
+              <Hsp_hseq>RYGAYGT-SGSYGSFGATQGGQSSDYTSIITTSEFKFWDSLKQQLQTFLHDPHSDVFLNKDASIVTVTGTKEELDKVERFLQKLQDRMHKQVMIEAKIIEVQ</Hsp_hseq>
+              <Hsp_midline>RYG +   S +Y    A        Y   +  S  +   S  Q     L      V ++ D S++T    +E L++ +    + ++R  + +     ++EVQ</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>1843</Statistics_db-num>
+          <Statistics_db-len>587077</Statistics_db-len>
+          <Statistics_hsp-len>86</Statistics_hsp-len>
+          <Statistics_eff-space>330434409</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

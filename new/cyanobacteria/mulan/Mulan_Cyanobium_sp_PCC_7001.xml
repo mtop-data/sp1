@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/cyanobacteria/all//Cyanobium_sp_PCC_7001</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Mulan_NP_078820</BlastOutput_query-def>
+  <BlastOutput_query-len>352</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>Mulan_NP_078820</Iteration_query-def>
+      <Iteration_query-len>352</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|890</Hit_id>
+          <Hit_def>@Cyanobium_sp_PCC_7001@ 647589153 CPCC7001_2726 MscS Mechanosensitive ion channel [Cyanobium sp. PCC 7001]</Hit_def>
+          <Hit_accession>890</Hit_accession>
+          <Hit_len>589</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>30.8018</Hsp_bit-score>
+              <Hsp_score>68</Hsp_score>
+              <Hsp_evalue>0.0986205</Hsp_evalue>
+              <Hsp_query-from>224</Hsp_query-from>
+              <Hsp_query-to>298</Hsp_query-to>
+              <Hsp_hit-from>181</Hsp_hit-from>
+              <Hsp_hit-to>257</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>16</Hsp_identity>
+              <Hsp_positive>39</Hsp_positive>
+              <Hsp_gaps>2</Hsp_gaps>
+              <Hsp_align-len>77</Hsp_align-len>
+              <Hsp_qseq>QDFDSLLQRQESSVRLWKVLALVFGFATCATLFFILRKQYLQRQERL--RLKQMQEEFQEHEAQLLSRAKPEDRESL</Hsp_qseq>
+              <Hsp_hseq>RDYDLSLQPENLRRSLWRFVRILLGMVAATGVIILIKRRIARRQLVLQQRLQAMREQVEQEAPSQPSEGDADGQDAL</Hsp_hseq>
+              <Hsp_midline>+D+D  LQ +     LW+ + ++ G      +  +++++  +RQ  L  RL+ M+E+ ++      S    + +++L</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1636</Hit_id>
+          <Hit_def>@Cyanobium_sp_PCC_7001@ 647589923 CPCC7001_396 conserved domain protein [Cyanobium sp. PCC 7001]</Hit_def>
+          <Hit_accession>1636</Hit_accession>
+          <Hit_len>426</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>30.0314</Hsp_bit-score>
+              <Hsp_score>66</Hsp_score>
+              <Hsp_evalue>0.147868</Hsp_evalue>
+              <Hsp_query-from>260</Hsp_query-from>
+              <Hsp_query-to>331</Hsp_query-to>
+              <Hsp_hit-from>310</Hsp_hit-from>
+              <Hsp_hit-to>388</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>23</Hsp_identity>
+              <Hsp_positive>32</Hsp_positive>
+              <Hsp_gaps>9</Hsp_gaps>
+              <Hsp_align-len>80</Hsp_align-len>
+              <Hsp_qseq>RKQYLQRQERLRLKQMQEEFQEHEA--------QLLSRAKPEDRESLKSACVVCLSSFKSCVFLECGHVCSCTECYRALP</Hsp_qseq>
+              <Hsp_hseq>RNGAVAVAERMRIGQ-QVQFQLRDASASRQELRQLLRRQHQRESTPLAALLFACLGRGQGLYGEPNGDVALCRECFGDLP</Hsp_hseq>
+              <Hsp_midline>R   +   ER+R+ Q Q +FQ  +A        QLL R    +   L +    CL   +       G V  C EC+  LP</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|2584</Hit_id>
+          <Hit_def>@Cyanobium_sp_PCC_7001@ 647590882 CPCC7001_2263 ATP synthase F1, beta subunit [Cyanobium sp. PCC 7001]</Hit_def>
+          <Hit_accession>2584</Hit_accession>
+          <Hit_len>486</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>26.9498</Hsp_bit-score>
+              <Hsp_score>58</Hsp_score>
+              <Hsp_evalue>1.62997</Hsp_evalue>
+              <Hsp_query-from>203</Hsp_query-from>
+              <Hsp_query-to>245</Hsp_query-to>
+              <Hsp_hit-from>358</Hsp_hit-from>
+              <Hsp_hit-to>400</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>14</Hsp_identity>
+              <Hsp_positive>23</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>43</Hsp_align-len>
+              <Hsp_qseq>LDNNSVRLQPPKQGMQYYLSSQDFDSLLQRQESSVRLWKVLAL</Hsp_qseq>
+              <Hsp_hseq>LDSTSTMLQPAVVGDEHYRTARAVQSTLQRYKELQDIIAILGL</Hsp_hseq>
+              <Hsp_midline>LD+ S  LQP   G ++Y +++   S LQR +    +  +L L</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>2771</Statistics_db-num>
+          <Statistics_db-len>822309</Statistics_db-len>
+          <Statistics_hsp-len>81</Statistics_hsp-len>
+          <Statistics_eff-space>162019518</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/NCBI_bact_genomes/Proteobacteria/Alphaproteobacteria/aa//Ketogulonicigenium_vulgare_Y25_uid59581</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Rickettsia_akari_str_Hartford gnl|BL_ORD_ID|412    gi|157825538|ref|YP_001493258.1| unnamed protein product [Rickettsia akari str. Hartford]</BlastOutput_query-def>
+  <BlastOutput_query-len>225</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>Rickettsia_akari_str_Hartford gnl|BL_ORD_ID|412    gi|157825538|ref|YP_001493258.1| unnamed protein product [Rickettsia akari str. Hartford]</Iteration_query-def>
+      <Iteration_query-len>225</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1386</Hit_id>
+          <Hit_def>gi|310815671|ref|YP_003963635.1| LysM domain-containing protein [Ketogulonicigenium vulgare Y25]</Hit_def>
+          <Hit_accession>1386</Hit_accession>
+          <Hit_len>391</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>51.9878</Hsp_bit-score>
+              <Hsp_score>123</Hsp_score>
+              <Hsp_evalue>5.8505e-09</Hsp_evalue>
+              <Hsp_query-from>113</Hsp_query-from>
+              <Hsp_query-to>223</Hsp_query-to>
+              <Hsp_hit-from>277</Hsp_hit-from>
+              <Hsp_hit-to>390</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>36</Hsp_identity>
+              <Hsp_positive>61</Hsp_positive>
+              <Hsp_gaps>5</Hsp_gaps>
+              <Hsp_align-len>115</Hsp_align-len>
+              <Hsp_qseq>SNFVKPLNGVMLTEFKDGKSKGIDIAVKEYSDVKSIAAGTVIYSGFNKQFGNLVIVKLDKDDLEVAYASLDDLLLKKGDKITKNSVIGHVKHK----LYFAMRRNRIAVDPSKYI</Hsp_qseq>
+              <Hsp_hseq>STLQRPVAGNIIRAYARGRNDGIDIGAPAGTDVQAAAAGTVAAITTNTDGIQIVVIRHDGNLMTV-YTHLDRLTVARGASVSRGQVIGKVADGATPYLHFEVRRGLDSVDPSTML</Hsp_hseq>
+              <Hsp_midline>S   +P+ G ++  +  G++ GIDI     +DV++ AAGTV     N     +V+++ D + + V Y  LD L + +G  +++  VIG V       L+F +RR   +VDPS  +</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|630</Hit_id>
+          <Hit_def>gi|310814915|ref|YP_003962879.1| peptidase, M23/M37 family protein [Ketogulonicigenium vulgare Y25]</Hit_def>
+          <Hit_accession>630</Hit_accession>
+          <Hit_len>423</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>38.891</Hsp_bit-score>
+              <Hsp_score>89</Hsp_score>
+              <Hsp_evalue>0.000130496</Hsp_evalue>
+              <Hsp_query-from>133</Hsp_query-from>
+              <Hsp_query-to>224</Hsp_query-to>
+              <Hsp_hit-from>320</Hsp_hit-from>
+              <Hsp_hit-to>417</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>23</Hsp_identity>
+              <Hsp_positive>49</Hsp_positive>
+              <Hsp_gaps>8</Hsp_gaps>
+              <Hsp_align-len>99</Hsp_align-len>
+              <Hsp_qseq>KGIDIAVKEYSDVKSIAAGTVIYSGFNKQFGNLVIVKLDKDDLEVAYASLDDLLLKKGDKITKNSVIG-------HVKHKLYFAMRRNRIAVDPSKYIE</Hsp_qseq>
+              <Hsp_hseq>EGLDFGMPIGTPVYATAEGTVTFAGWQSGYGRIVKIR-HQFGFETRYAHLNEINVRVGQRVSRGDHIADSGNTGRSTGPHLHYEVRVNGAAQNPLNYIR</Hsp_hseq>
+              <Hsp_midline>+G+D  +   + V + A GTV ++G+   +G +V ++  +   E  YA L+++ ++ G ++++   I             L++ +R N  A +P  YI </Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|598</Hit_id>
+          <Hit_def>gi|310814883|ref|YP_003962847.1| undecaprenyldiphospho-muramoylpentapeptide beta-N- acetylglucosaminyltransferase [Ketogulonicigenium vulgare Y25]</Hit_def>
+          <Hit_accession>598</Hit_accession>
+          <Hit_len>374</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>27.7202</Hsp_bit-score>
+              <Hsp_score>60</Hsp_score>
+              <Hsp_evalue>0.464415</Hsp_evalue>
+              <Hsp_query-from>40</Hsp_query-from>
+              <Hsp_query-to>85</Hsp_query-to>
+              <Hsp_hit-from>286</Hsp_hit-from>
+              <Hsp_hit-to>332</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>15</Hsp_identity>
+              <Hsp_positive>23</Hsp_positive>
+              <Hsp_gaps>1</Hsp_gaps>
+              <Hsp_align-len>47</Hsp_align-len>
+              <Hsp_qseq>PIEYKVGD-VTANNNSTALEHDEGLIVQRTMEDDTVSEKVSGILEEP</Hsp_qseq>
+              <Hsp_hseq>PFAAATGDHQTANAAGLVQQGAAALLPERSFEVDALSQLLEGILSDP</Hsp_hseq>
+              <Hsp_midline>P     GD  TAN      +    L+ +R+ E D +S+ + GIL +P</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|2547</Hit_id>
+          <Hit_def>gi|310816832|ref|YP_003964796.1| flagella basal body P-ring formation protein FlgA [Ketogulonicigenium vulgare Y25]</Hit_def>
+          <Hit_accession>2547</Hit_accession>
+          <Hit_len>138</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>26.1794</Hsp_bit-score>
+              <Hsp_score>56</Hsp_score>
+              <Hsp_evalue>0.988485</Hsp_evalue>
+              <Hsp_query-from>110</Hsp_query-from>
+              <Hsp_query-to>172</Hsp_query-to>
+              <Hsp_hit-from>21</Hsp_hit-from>
+              <Hsp_hit-to>84</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>17</Hsp_identity>
+              <Hsp_positive>32</Hsp_positive>
+              <Hsp_gaps>5</Hsp_gaps>
+              <Hsp_align-len>66</Hsp_align-len>
+              <Hsp_qseq>IEQSNFVKPLNGVMLTEFKDGKSKGIDIAVKEYSDVKSIAAGTVIYSGF---NKQFGNLVIVKLDK</Hsp_qseq>
+              <Hsp_hseq>VAQRNL--PANGIITADLLGLRPGEVPGAITDPSEIIGLEARTPIYAGRPLQASQFGQPAIVQRNQ</Hsp_hseq>
+              <Hsp_midline>+ Q N   P NG++  +    +   +  A+ + S++  + A T IY+G      QFG   IV+ ++</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>5</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|2733</Hit_id>
+          <Hit_def>gi|310817018|ref|YP_003964982.1| DNA-directed RNA polymerase subunit beta [Ketogulonicigenium vulgare Y25]</Hit_def>
+          <Hit_accession>2733</Hit_accession>
+          <Hit_len>1381</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>26.9498</Hsp_bit-score>
+              <Hsp_score>58</Hsp_score>
+              <Hsp_evalue>1.0636</Hsp_evalue>
+              <Hsp_query-from>80</Hsp_query-from>
+              <Hsp_query-to>154</Hsp_query-to>
+              <Hsp_hit-from>608</Hsp_hit-from>
+              <Hsp_hit-to>684</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>18</Hsp_identity>
+              <Hsp_positive>35</Hsp_positive>
+              <Hsp_gaps>2</Hsp_gaps>
+              <Hsp_align-len>77</Hsp_align-len>
+              <Hsp_qseq>GILEEPKAKIIEC-YNDDIEIPISRNEYEEEIEQSNFVKPLNGVMLTEFKDGKSKG-IDIAVKEYSDVKSIAAGTVI</Hsp_qseq>
+              <Hsp_hseq>GFIETPYRKVVEGKVTDDVQYMSATEEMRHTIAQANAILDDEGRFVDELVDTRQAGDYTLATRETVDLIDVSPKQLV</Hsp_hseq>
+              <Hsp_midline>G +E P  K++E    DD++   +  E    I Q+N +    G  + E  D +  G   +A +E  D+  ++   ++</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>3213</Statistics_db-num>
+          <Statistics_db-len>958798</Statistics_db-len>
+          <Statistics_hsp-len>78</Statistics_hsp-len>
+          <Statistics_eff-space>104103048</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

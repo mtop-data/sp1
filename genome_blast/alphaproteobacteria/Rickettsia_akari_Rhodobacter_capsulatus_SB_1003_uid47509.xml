@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/NCBI_bact_genomes/Proteobacteria/Alphaproteobacteria/aa//Rhodobacter_capsulatus_SB_1003_uid47509</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Rickettsia_akari_str_Hartford gnl|BL_ORD_ID|412    gi|157825538|ref|YP_001493258.1| unnamed protein product [Rickettsia akari str. Hartford]</BlastOutput_query-def>
+  <BlastOutput_query-len>225</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>Rickettsia_akari_str_Hartford gnl|BL_ORD_ID|412    gi|157825538|ref|YP_001493258.1| unnamed protein product [Rickettsia akari str. Hartford]</Iteration_query-def>
+      <Iteration_query-len>225</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|2391</Hit_id>
+          <Hit_def>gi|294677949|ref|YP_003578564.1| M23 family peptidase [Rhodobacter capsulatus SB 1003]</Hit_def>
+          <Hit_accession>2391</Hit_accession>
+          <Hit_len>416</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>51.2174</Hsp_bit-score>
+              <Hsp_score>121</Hsp_score>
+              <Hsp_evalue>1.21242e-08</Hsp_evalue>
+              <Hsp_query-from>108</Hsp_query-from>
+              <Hsp_query-to>224</Hsp_query-to>
+              <Hsp_hit-from>297</Hsp_hit-from>
+              <Hsp_hit-to>416</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>35</Hsp_identity>
+              <Hsp_positive>64</Hsp_positive>
+              <Hsp_gaps>5</Hsp_gaps>
+              <Hsp_align-len>121</Hsp_align-len>
+              <Hsp_qseq>EEIEQSNFVKPLNGVMLTEFKDGKSKGIDIAVKEYSDVKSIAAGTVIYSGFNKQFGNLVIVKLDKDDLEVAYASLDDLLLKKGDKITKNSVIGHVKHK----LYFAMRRNRIAVDPSKYIE</Hsp_qseq>
+              <Hsp_hseq>EASRSSKFVMPVPGAIIRPYAKGKNDGVDIRAAAGTAVKAADAGTVAAITKDTEQVPILVLRHEGGLLTV-YANIDGITVAKGDKVRRGQSIAKVRAGDTGFLHFEVRKGYDSVDPMPYLD</Hsp_hseq>
+              <Hsp_midline>E    S FV P+ G ++  +  GK+ G+DI     + VK+  AGTV     + +   +++++ +   L V YA++D + + KGDK+ +   I  V+      L+F +R+   +VDP  Y++</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1529</Hit_id>
+          <Hit_def>gi|294677087|ref|YP_003577702.1| M23 family peptidase [Rhodobacter capsulatus SB 1003]</Hit_def>
+          <Hit_accession>1529</Hit_accession>
+          <Hit_len>436</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>36.965</Hsp_bit-score>
+              <Hsp_score>84</Hsp_score>
+              <Hsp_evalue>0.000625404</Hsp_evalue>
+              <Hsp_query-from>104</Hsp_query-from>
+              <Hsp_query-to>224</Hsp_query-to>
+              <Hsp_hit-from>299</Hsp_hit-from>
+              <Hsp_hit-to>430</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>31</Hsp_identity>
+              <Hsp_positive>61</Hsp_positive>
+              <Hsp_gaps>13</Hsp_gaps>
+              <Hsp_align-len>133</Hsp_align-len>
+              <Hsp_qseq>NEYEEEIEQSNFVKPL-NGVMLTE---FKDGK-SKGIDIAVKEYSDVKSIAAGTVIYSGFNKQFGNLVIVKLDKDDLEVAYASLDDLLLKKGDKITKNSVIGHVKH-------KLYFAMRRNRIAVDPSKYIE</Hsp_qseq>
+              <Hsp_hseq>NMYRIAVDQLPFAIPIKGGYRFTSPFGWRWGRLHAGIDLAGPVGMDVHAPADGVVTDAGWENGYGQVIKLR-HKFGVSTVYGHLSKIRVKVGQKVSRGEIIGDTGNTGRSTGPHLHYEIRVGGAPINPMTFIK</Hsp_hseq>
+              <Hsp_midline>N Y   ++Q  F  P+  G   T    ++ G+   GID+A     DV + A G V  +G+   +G ++ ++  K  +   Y  L  + +K G K+++  +IG   +        L++ +R     ++P  +I+</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|9</Hit_id>
+          <Hit_def>gi|294675567|ref|YP_003576182.1| flagellar P-ring protein FlgI [Rhodobacter capsulatus SB 1003]</Hit_def>
+          <Hit_accession>9</Hit_accession>
+          <Hit_len>365</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>26.9498</Hsp_bit-score>
+              <Hsp_score>58</Hsp_score>
+              <Hsp_evalue>1.0002</Hsp_evalue>
+              <Hsp_query-from>104</Hsp_query-from>
+              <Hsp_query-to>165</Hsp_query-to>
+              <Hsp_hit-from>73</Hsp_hit-from>
+              <Hsp_hit-to>133</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>18</Hsp_identity>
+              <Hsp_positive>25</Hsp_positive>
+              <Hsp_gaps>1</Hsp_gaps>
+              <Hsp_align-len>62</Hsp_align-len>
+              <Hsp_qseq>NEYEEEIEQSNFVKPLNGVMLTEFKDGKSKGIDIAVKEYSDVKSIAAGTVIYSGFNKQFGNL</Hsp_qseq>
+              <Hsp_hseq>NVSGEQFRPKNVAAVMVTAALPPFARAGSK-IDVTVSAIGDAKSLLGGTLIMTPLNAADGEI</Hsp_hseq>
+              <Hsp_midline>N   E+    N    +    L  F    SK ID+ V    D KS+  GT+I +  N   G +</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|515</Hit_id>
+          <Hit_def>gi|294676073|ref|YP_003576688.1| tyrosine phenol-lyase [Rhodobacter capsulatus SB 1003]</Hit_def>
+          <Hit_accession>515</Hit_accession>
+          <Hit_len>481</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>26.9498</Hsp_bit-score>
+              <Hsp_score>58</Hsp_score>
+              <Hsp_evalue>1.22146</Hsp_evalue>
+              <Hsp_query-from>39</Hsp_query-from>
+              <Hsp_query-to>118</Hsp_query-to>
+              <Hsp_hit-from>27</Hsp_hit-from>
+              <Hsp_hit-to>121</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>22</Hsp_identity>
+              <Hsp_positive>38</Hsp_positive>
+              <Hsp_gaps>15</Hsp_gaps>
+              <Hsp_align-len>95</Hsp_align-len>
+              <Hsp_qseq>APIEYKVGDVTANNNSTALEHDEGLIVQ-------RTMEDDTVSEKV--------SGILEEPKAKIIECYNDDIEIPISRNEYEEEIEQSNFVKP</Hsp_qseq>
+              <Hsp_hseq>APIEERLKAIAAAGNNTFLLQNRDIFMDMLTDSGVNAMSDRQMAAMMVADDSYAGSATYEKFAAKLVELFGMDFILPTHQGRACENILSQVLVKP</Hsp_hseq>
+              <Hsp_midline>APIE ++  + A  N+T L  +  + +          M D  ++  +        S   E+  AK++E +  D  +P  +    E I     VKP</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>5</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|3001</Hit_id>
+          <Hit_def>gi|294678559|ref|YP_003579174.1| hypothetical protein RCAP_rcc03043 [Rhodobacter capsulatus SB 1003]</Hit_def>
+          <Hit_accession>3001</Hit_accession>
+          <Hit_len>476</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>26.1794</Hsp_bit-score>
+              <Hsp_score>56</Hsp_score>
+              <Hsp_evalue>1.723</Hsp_evalue>
+              <Hsp_query-from>37</Hsp_query-from>
+              <Hsp_query-to>61</Hsp_query-to>
+              <Hsp_hit-from>255</Hsp_hit-from>
+              <Hsp_hit-to>279</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>10</Hsp_identity>
+              <Hsp_positive>15</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>25</Hsp_align-len>
+              <Hsp_qseq>PPAPIEYKVGDVTANNNSTALEHDE</Hsp_qseq>
+              <Hsp_hseq>PPAPVEIRNADYSTASLSTHLQHSR</Hsp_hseq>
+              <Hsp_midline>PPAP+E +  D +  + ST L+H  </Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>3642</Statistics_db-num>
+          <Statistics_db-len>1163623</Statistics_db-len>
+          <Statistics_hsp-len>80</Statistics_hsp-len>
+          <Statistics_eff-space>126478135</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

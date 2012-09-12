@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/cyanobacteria/all//Arthrospira_platensis_NIES_39</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Cyanothece_PCC_7424_gnl|BL_ORD_ID|2656  gi|218439670|ref|YP_002377999.1| hypothetical protein PCC7424_2719 [Cyanothece</BlastOutput_query-def>
+  <BlastOutput_query-len>264</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>Cyanothece_PCC_7424_gnl|BL_ORD_ID|2656  gi|218439670|ref|YP_002377999.1| hypothetical protein PCC7424_2719 [Cyanothece</Iteration_query-def>
+      <Iteration_query-len>264</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|5206</Hit_id>
+          <Hit_def>@Arthrospira_platensis_NIES_39@ 650388547 NIES39_M02110 hypothetical protein [Arthrospira platensis NIES-39]</Hit_def>
+          <Hit_accession>5206</Hit_accession>
+          <Hit_len>835</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>31.187</Hsp_bit-score>
+              <Hsp_score>69</Hsp_score>
+              <Hsp_evalue>0.111286</Hsp_evalue>
+              <Hsp_query-from>138</Hsp_query-from>
+              <Hsp_query-to>178</Hsp_query-to>
+              <Hsp_hit-from>456</Hsp_hit-from>
+              <Hsp_hit-to>498</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>17</Hsp_identity>
+              <Hsp_positive>23</Hsp_positive>
+              <Hsp_gaps>2</Hsp_gaps>
+              <Hsp_align-len>43</Hsp_align-len>
+              <Hsp_qseq>PERA--EIETVKVLEEFRPENFSGGSLTFGNFSINLPSFEERR</Hsp_qseq>
+              <Hsp_hseq>PEEGWEEISTYRDLIELRPDSFQWGPLIFAHNTPTLKGFWERK</Hsp_hseq>
+              <Hsp_midline>PE    EI T + L E RP++F  G L F + +  L  F ER+</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|2697</Hit_id>
+          <Hit_def>@Arthrospira_platensis_NIES_39@ 650386017 NIES39_E03120 putative Na+-dependent bicarbonate transporter [Arthrospira platensis NIES-39]</Hit_def>
+          <Hit_accession>2697</Hit_accession>
+          <Hit_len>378</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>27.335</Hsp_bit-score>
+              <Hsp_score>59</Hsp_score>
+              <Hsp_evalue>1.47583</Hsp_evalue>
+              <Hsp_query-from>1</Hsp_query-from>
+              <Hsp_query-to>40</Hsp_query-to>
+              <Hsp_hit-from>70</Hsp_hit-from>
+              <Hsp_hit-to>109</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>11</Hsp_identity>
+              <Hsp_positive>22</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>40</Hsp_align-len>
+              <Hsp_qseq>MILIGIICLIVGVILLFFWRSNRSKLRNLRLASASTISSL</Hsp_qseq>
+              <Hsp_hseq>MLLPAVFALVTGIVIVFIGRYTLAKLPNVKTVDAIATAGL</Hsp_hseq>
+              <Hsp_midline>M+L  +  L+ G++++F  R   +KL N++   A   + L</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|3197</Hit_id>
+          <Hit_def>@Arthrospira_platensis_NIES_39@ 650386521 NIES39_H01140 hypothetical protein [Arthrospira platensis NIES-39]</Hit_def>
+          <Hit_accession>3197</Hit_accession>
+          <Hit_len>536</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>26.5646</Hsp_bit-score>
+              <Hsp_score>57</Hsp_score>
+              <Hsp_evalue>2.66278</Hsp_evalue>
+              <Hsp_query-from>89</Hsp_query-from>
+              <Hsp_query-to>119</Hsp_query-to>
+              <Hsp_hit-from>151</Hsp_hit-from>
+              <Hsp_hit-to>183</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>12</Hsp_identity>
+              <Hsp_positive>21</Hsp_positive>
+              <Hsp_gaps>2</Hsp_gaps>
+              <Hsp_align-len>33</Hsp_align-len>
+              <Hsp_qseq>TWEYNE--EVIKQDNEGKTIREKERKSETVAQN</Hsp_qseq>
+              <Hsp_hseq>SWEFNQFLERLKSTNPSTVVYLKEYRAQTVAEN</Hsp_hseq>
+              <Hsp_midline>+WE+N+  E +K  N    +  KE +++TVA+N</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|3011</Hit_id>
+          <Hit_def>@Arthrospira_platensis_NIES_39@ 650386333 NIES39_G00700 putative sensor protein [Arthrospira platensis NIES-39]</Hit_def>
+          <Hit_accession>3011</Hit_accession>
+          <Hit_len>460</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>26.1794</Hsp_bit-score>
+              <Hsp_score>56</Hsp_score>
+              <Hsp_evalue>3.68591</Hsp_evalue>
+              <Hsp_query-from>176</Hsp_query-from>
+              <Hsp_query-to>207</Hsp_query-to>
+              <Hsp_hit-from>110</Hsp_hit-from>
+              <Hsp_hit-to>137</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>15</Hsp_identity>
+              <Hsp_positive>18</Hsp_positive>
+              <Hsp_gaps>4</Hsp_gaps>
+              <Hsp_align-len>32</Hsp_align-len>
+              <Hsp_qseq>ERRQTIGYRYQEEILPIGRQILVIGTATDEEG</Hsp_qseq>
+              <Hsp_hseq>ERGDFIGVQQQ----PDGTQVLVIGNAAEAEG</Hsp_hseq>
+              <Hsp_midline>ER   IG + Q    P G Q+LVIG A + EG</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>5</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|5027</Hit_id>
+          <Hit_def>@Arthrospira_platensis_NIES_39@ 650388367 NIES39_M00310 translation initiation factor IF-3 [Arthrospira platensis NIES-39]</Hit_def>
+          <Hit_accession>5027</Hit_accession>
+          <Hit_len>181</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>25.0238</Hsp_bit-score>
+              <Hsp_score>53</Hsp_score>
+              <Hsp_evalue>5.73145</Hsp_evalue>
+              <Hsp_query-from>50</Hsp_query-from>
+              <Hsp_query-to>137</Hsp_query-to>
+              <Hsp_hit-from>33</Hsp_hit-from>
+              <Hsp_hit-to>112</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>23</Hsp_identity>
+              <Hsp_positive>40</Hsp_positive>
+              <Hsp_gaps>10</Hsp_gaps>
+              <Hsp_align-len>89</Hsp_align-len>
+              <Hsp_qseq>EIGGGSLREYVKIRGVIECDRPLISQLKQEPCVYYSMTV-TWEYNEEVIKQDNEGKTIREKERKSETVAQNSRSIPFTLQDSTGEIRVN</Hsp_qseq>
+              <Hsp_hseq>QLGIMTPREAMKLAQEKELDLVLVSD-KADPPVCRIMDYGKFKYEQE--------KKVREARKKQHTADVKEVKMRYKIDDHDYQVRVN</Hsp_hseq>
+              <Hsp_midline>++G  + RE +K+    E D  L+S  K +P V   M    ++Y +E        K +RE  +K  T       + + + D   ++RVN</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>6630</Statistics_db-num>
+          <Statistics_db-len>1832829</Statistics_db-len>
+          <Statistics_hsp-len>84</Statistics_hsp-len>
+          <Statistics_eff-space>229663620</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

@@ -1,0 +1,489 @@
+#NEXUS
+[saved by seaview on Wed Jun 13 20:42:23 2012]
+BEGIN DATA;
+  DIMENSIONS NTAX=33 NCHAR=710;
+  FORMAT DATATYPE=PROTEIN
+  GAP=-
+  ;
+MATRIX
+[1] Physcomitrella_patens
+MAGHEDELCAALMRLALAGD----------------------------------------
+-------GLVMGVGMTVLAFR-TWIKFWSHSKALKDIKDTPVT-RIADLRTLVEEPDVQA
+KEKIRTPEKISPPHQDIEVFATRSKVKMPSRPWMVERLPIPSLETKQEKLVIVRGRVQTK
+AFVESEGDQRDAEALIPLNVPE-------KAVFVERTQTYVLTE----------------
+------------------------------------------------------------
+-----------------------------MSNFLGWI---------TQKDLVKFTRQVVP
+-FVLAETEAHWSFRPSDMAV----------YVHINLDESQHPIP-LVTVHHQ-LHPVPAS
+SYT------LFQAM----FGRRYPVGLLDEEKILPLGAEITAVGV-------------LH
+TAPDGTPVV-KSSKR----LP---------------------------------------
+IFLTEFTREQLLVELASSTKVLFWMGVAVSTVAAGVLGYSLVKNWTRW-------KQRQQ
+QRQSQNNSENRQNSTIEDEA------------------------ENFEDIPDGELCVVCL
+LRRRRAAFIYCGHRVCCMGCAERVEHGANPRCPVCRQSVTGIVRVYDS--
+[2] Oryza_sativa
+MSARDRETAVALARLAAALD----------------------------------------
+-------GAVLGLGTAALAVA-SWVKYLAASGQLRRIASAPAA-AIPDLRSLLAEYGGGG
+GD------------------------------------------GDQPILAVVRGHVRAA
+P--R-------GKYLVPPGSGE-------HCVVAKHTQLCLFNE----------------
+------------------------------------------------------------
+-----------------------------WRGIFGWTFDLHALFFKSIKEQIITSFRWVP
+-FVLVDPE--------NMTG----------MVHVKLDRAMQPLP-LTTVYHK-LTPVDST
+PYT------LFQTI----IGNGYPIALLDEEKILPVGKEITAIGY--------------I
+RPHKASVEI-SSCSE----IP---------------------------------------
+FFLSDLTKDEMEAELSSRAKTLFWASVVLGTMSVCLLGFATYRSWKKI-------KERRE
+ARQAQEVFRQTTDEVTDDQSSD----------------------EEAGEMGDGQLCVICL
+RKRRKAAFIPCGHLVCCCKCALIVERQFDPLCPMCRQDIRYMIRIYDN--
+[3] SPL2_NP_564653
+MSSPERALLNLLTDIALSFD----------------------------------------
+-------GAILGLTLAVSAVG-SALKYASTNAALKKIKDAPEV-SISDLRSLLPASEDKS
+ETNDNRK-------------------------------------SNDQRIVVVRGVVKPK
+I--SGDEGYKNNNVLISPETGD-------KALIIQRTQTYVYSG----------------
+------------------------------------------------------------
+-----------------------------WKRLFQST-GHRFMLERSLRKHGADFTRTVP
+-FVIVGKDQQ------SNSS----------FVAVNMDGSRQPLP-LTTVYNR-LQPINSS
+---------FLQAF----LYPDYPVGLLDIEKILPPGKDITAVGI--------------Y
+SFNNGVPEI-KSCQD----LP---------------------------------------
+YFLSEMTKDKMIEDLMEQTNFIFLGSVILGIVSVGILSYAAVRTWNKW-------KQWNH
+QRELPQR---PNDSVVDDEP------------------------EDADEIPDGELCVICV
+SRRRVPAFIPCGHVVCCRRCASTVERELNPKCPVCLQSIRGSMRVYYS--
+[4] Physcomitrella_patens
+M-----------------------------------------------------------
+-------LSWGGITLCLSGAA-LYCLSRNTGRDALNLRSIERVNQLKDLAILLESAC---
+--------------------------------------------KVVPLVVTVAGRVGSE
+T--P----------IACEHSSL-------RGVILEETAEQHFLK----------------
+------------------------------------------------------------
+-----------------------------HNDTGSWI---------QDSALMLSISKEVP
+-WYL---E--------DGTG----------RVYIVGARNAAGME-LTVASEV-FEESGRS
+---------LVRGT-LDYLQGLKMLGVKRVERVLPTGTNLTVVGE-------------AV
+QDDRGLIRI-QKPNK----GP---------------------------------------
+FYVTPKSLDQLVANLGRWSRWYKYMSLGFTIVGI---YFITSHAIKHF-------MERRR
+REALHRRVMEAAALRQASQREGGDGDMGDVTSHPLDDSVDT---SQKKDRGTPDLCVICL
+EQDYNAVFLPCGHMCCCTSCSAQL-----TSCPLCRRHIDKFVKTYRH--
+[5] Physcomitrella_patens
+M-----------------------------------------------------------
+-------LSWGGITLCFSGAA-LYCLSRNTGRDALHLMSVERVNQLEDLAKLLESAC---
+--------------------------------------------TVVPWVVTVAGRVGAE
+A--P----------IASEHSSL-------RGVILEKSAEQHFLK----------------
+------------------------------------------------------------
+-----------------------------HNDTGSWI---------QHSALMLSISKEVP
+-WYL---E--------DGTS----------RVFIIGARNAAGMD-LTVASES-FEEYGGS
+---------LVRGT-LDYLQGLKMLGVKRVERVLPTGTNLTVVGE-------------AV
+QDDRGLIRI-QKPDK----GP---------------------------------------
+FYVTPQSQDQLIENLGRWSRWCQYMSFGLTLVGI---YFITSRAIKHM-------LERWR
+REALLTRVMEAAALRKALQQEGVDEESDGVTAFPHDDNAHT---AQKKDGGMPSLCVICL
+EQDYNAVLVPCGHMCCCTSCSSQL-----SLCPLCRRHIDQVVKTFRH--
+[6] SP1
+M-----------------------------------------------------------
+-------IPWGGVTCCLSAAA-LYLLGRSSGRDAEVLETVTRVNQLKELAQLLELDS---
+--------------------------------------------KILPFIVAVSGRVGSE
+T--P----------IKCEHSGI-------RGVIVEETAEQHFLK----------------
+------------------------------------------------------------
+-----------------------------HNETGSWV---------QDSALMLSMSKEVP
+-WFL---D--------DGTS----------RVHVMGARGATGFA-LTVGSEV-FEESGRS
+---------LVRGT-LDYLQGLKMLGVKRIERVLPTGIPLTIVGE-------------AV
+KDDIGEFRI-QKPDR----GP---------------------------------------
+FYVSSKSLDQLISNLGKWSRLYKYASMGFTVLGV---FLITKHVIDSV-------LERRR
+RRQLQKRVLDAAAKRAELESEGSNGTRESI---------SD---STKKEDAVPDLCVICL
+EQEYNAVFVPCGHMCCCTACSSHL-----TSCPLCRRRIDLAVKTYRH--
+[7] Oryza_sativa_LOC_Os07g45350.1_PACid_16873618
+L-----------------------------------------------------------
+-------IPWGGVGCCLSAAA-LYLLGRSSGRDAEVLRSVARAGSTKDLAAILDTAS---
+--------------------------------------------KVLPLVVAVSGRVGSD
+T--P----------LICQQSGM-------RGVIVEETAEQHFLK----------------
+------------------------------------------------------------
+-----------------------------HNDAGSWI---------QDSAVMLSVSKEVP
+-WYL---D--------DGTG----------RVFVVGARGAAGLV-LTVASEV-FEESGRT
+---------LVRGT-LDYLQGLKMLGVKRTERVLPTGTSLTVVGE-------------AI
+KDDVGTIRI-QRPHK----GP---------------------------------------
+FYVSPKSIDQLIMNLGKWAKLYQLASMGFAAFGV---FLLAKRALQHF-------LERKR
+RHELQKRVHAAAAQRQAREAEGGNGTSD----------VDS---NNKKDQLVLDICVICL
+EQEYNAVFVPCGHMCCCMNCSSHL-----TNCPLCRRRIDQAVRTFRH--
+[8] SPL1_NP_564745
+M-----------------------------------------------------------
+-------IHLAGFTCCLGGVA-LYLLTRSTGRD---IKSITRVYQLKDLEQLVEVES---
+--------------------------------------------KVVPLIIAVSGDVGSE
+T--P----------IKCEHSYV-------LGVFLKRTAEQQVLR----------------
+------------------------------------------------------------
+-----------------------------RNWRFSWV---------RNSTLMQPMTKEVP
+-WYL---D--------DGTG----------RVNVDVSQGELGLA-LTVGSDV-FEKAEPV
+S--------LVQGA-LGYLKGFKILGVRHVERVVPIGTPLTVVGE-------------AV
+RDGMGNVRI-QKPEQ----GP---------------------------------------
+FYVTYIPLDQLISKLGDLSRRFKYASMGLTVLGV---ILISKPVIEYILKRIEDTLERRR
+RQFALKRVVDAAARRAKPVTGG----------------------GTSRDGDTPDLCVVCL
+DQKYNTAFVECGHMCCCTPCSLQL-----RTCPLCRERIQQVLKIYRH--
+[9] Chlorella_variabilis_gnl|BL_ORD_ID|28282
+MTHFVSPMLFTSL-----------------------------------------------
+-------LGYGGLATCALGGL-LALVGLAKGKQARQLGAAVPVESLSELKQLLALVP---
+------------------------------------------------VIVAVTGRVLAP
+K--P----------YRCEMSDT-------DAAIIEMREEKKSER----------------
+------------------------------------------------------------
+------------------------------RAGAEWV---------GTTQLLRESVKEAE
+-WGL---V--------DGSG---------TEVPVVAGRRADGDY-LQMSGDR-LIPDNQT
+QG-------FLGRV-VDEVQGSRSVGVRQVERMLPVGTMLTAVGELATAVEHPSVFKGAV
+RKGGKMLVL-RAPRD----GA---------------------------------------
+FYLSRQPLPDVIASLQASSLACQQWAAAFTAVGA---SMLVAAATQHA-------LTWVR
+QRRLRQRVEKAMRERAAAAAAAGGGGAAGAPAASAAEPQPADVAEAAEGGARPSLCVVCL
+ERPCATVFPACGHMCACSRCSHGL-----RRCPICRSR-GAPIRVYTA--
+[10] Micromonas_sp._RCC299_gi|255086321|ref|XP_002509127.1|
+MAGEGH------------------------------------------------------
+-------VSWPGVACIATGAL-FGYSSRAFKRNIPQYTDFRAL--ERDLRAAASRARAEP
+TRRRHHPTHAAGENEIRARPAQADD---------------DDDDAPFGMLVAITGAARSD
+V--L----------VPCVHAKRPDGRTPERAIYVDAVTDQYLAR----------------
+------------------------------------------------------------
+----------------------------QAVRSGEWI---------RDCVVVAAMAKEAP
+TWRL---E--------DPAGHGVNMHRATSMAQASDAARAADWH-LSLVHDE-FESAGSA
+GAGSSLHSRIIANA-LDVNMGLNVLGLRHRERVLAPGARLTAVGEVFIAPNGGPVGVD-G
+GDGAGEIRL-RRPRRRKGWRRHGRGWRRKGGTPGDEKSAPGDGDGDGDDAAMSPRMDPNV
+FTVTQKPFDEYVDGFGSWGKVNAALGLGFLGVGV---ALVLTKLWRAR-------LTRWR
+EARFLRRMREAEEARRAAGGGEG---------DDGGDTAGTNTDTAGAKVSPGETCVVCM
+YARSEVVYKECGHLVCCGVCAGRM-----DRCPLCRRR-SAHMRVYRAGL
+[11] Mulan_NP_078820
+MESGGRPSLCQ-------------------------------------------------
+-------FILLGTTSVVTAA--LYSVYRQKARVSQELKGAKKVHLGEDLKSILSEAP---
+--------------------------------------------GKCVPYAVIEGAVRSV
+K--E---------TLNSQFVEN------CKGVIQRLTLQEHKMV----------------
+------------------------------------------------------------
+----------------------------WNRTTHLWN---------DCSKIIHQRTNTVP
+-FDLVPHE--------DGVD---------VAVRVLKPLDSVDLG-LETVYEK-FHPSIQS
+---------FTDVI-GHYISGERPKGIQETEEMLKVGATLTGVGE--------------L
+VLDNNSVRL-QPPKQ---GMQ---------------------------------------
+YYLSSQDFDSLLQRQESSVRLWKVLALVFGFATCATLFFILRKQYLQR-------QERLR
+LKQMQEEFQEHEAQLLSRA-------------------------KPEDRESLKSACVVCL
+SSFKSCVFLECGHVCSCTECYRALPEP--KKCPICRQAITRVIPLYNS--
+[12] Sus_scrofa_gi|335290618|ref|XP_003356224.1|
+MESGGRPSLGQ-------------------------------------------------
+-------FILLGTSSVVTAV--LYSVYRQKAQVAQELKGAKRIHLGEDLKSILSEAP---
+--------------------------------------------GKCVPYAVIEGAVRSV
+K--E---------TLNSQFVEN------CKGVIQRLTLQEHKMV----------------
+------------------------------------------------------------
+----------------------------WNRTTHLWN---------DCSKIIHQRTNTVP
+-FDLVPHE--------DGVD---------VAVRVLKPLDSLDLG-LETVYEK-FHPSIQS
+---------FTDVI-GHYISGERPKGIQETEEMLKVGATLTGVGE--------------L
+VLDNNAVRL-QPPKQ---GMQ---------------------------------------
+YYLSSQDFDSLLQRQESSVRLWKVLMLVFGFATCATLFFILRKQYLQR-------QERLR
+LKQLEEEFREHEARLLSGA-------------------------QPEDRESLKSACVVCL
+SNFRSCVFLECGHVCSCAECYRALPEP--KRCPICRQAITRVIPLYNS--
+[13] Loxodonta_africana_gi|344283431|ref|XP_003413475.1|
+MESGGRPSLSQ-------------------------------------------------
+-------FILLGTSSVVTAI--LYSVYRQKAQVSHELKGAKKIHLGEDLKSILLEAP---
+--------------------------------------------GKCVPYAVIEGAVRSV
+K--E---------TLNSQFVEN------CKGVIQRLTLQEHKMV----------------
+------------------------------------------------------------
+----------------------------WNRTTHLWN---------DYSKIIHQRTNTVP
+-FDLVPHE--------DGVD---------VAVRVLKPLDSVDLG-LETVYEK-FHPSIQS
+---------FTDVI-GHYISGERPKGIQETEEMLKVGATLTGVGE--------------L
+VLDNNSVRL-QPPKQ---GMQ---------------------------------------
+YYLSSQDFDSLLQRQESSVRLWKILTLLFGFAACATLFFILRKQYLQR-------QERLR
+LKQMQEEFREREAQLLSRA-------------------------TPEDRENLKSACVVCL
+SNFKSCVFLECGHVCSCTECYRALPEP--KSCPICRQEITRVVPLYNS--
+[14] Canis_lupus
+MESGGRPSLGQ-------------------------------------------------
+-------FILLGTSSVVTAV--LYSVYRQKAQVAQELKGAKRIHLGEDLKSILSEAP---
+--------------------------------------------GKCVPYAVIEGAVRSV
+K--E---------TLNSQFVEN------CKGVIQRLTLQEHKMV----------------
+------------------------------------------------------------
+----------------------------WNRTTHLWN---------DYSKIIHQRTNTVP
+-FDLVPHE--------DGVG---------VAVRVLKPLDSQDLG-LETVYEK-FHPSIQS
+---------FTDVI-GHYISGERPKGIQETEEMLKVGATLTGVGE--------------L
+VLDNNSVRL-QPPKQ---GMQ---------------------------------------
+YYLSSQDFDSLLQRQESSVRLWKVLTLVFGFATCAALFFILRKHYLQR-------QERQR
+LRQMEKEFQEHEAQLLSRA-------------------------KPEDRESLKSACVVCL
+NSFKSCVFLECGHVCSCAECYRALPEP--KRCPICRQEITRVIPLYNS--
+[15] Mus_musculus_gi_18043560_gb_AAH19516.1
+MESGSRPSLGQ-------------------------------------------------
+-------VILLGTSSMVTAV--LYSIYRQKAQVAQELKGAKKIHLGEDLKGILSEAP---
+--------------------------------------------GKCVPYAVIEGAVRSV
+K--E---------TLNSQFVEN------CKGVIQRLSLQEHKMV----------------
+------------------------------------------------------------
+----------------------------WNRTTHLWN---------DYSKIIHQRTNTVP
+-FDLVPHE--------DGVA---------VSVRVLKPLDSVDLG-LETVYEK-FHPSVQS
+---------FTDAI-GHYISGERPKGIQETEEMLKVGATLTGIGE--------------L
+VLDNNAVRL-QPPKQ---GMQ---------------------------------------
+YYLSSQDFDSLLHRQESSVRLWKVLVLVFGFATCATLFFILRKQYLHR-------QERLR
+QQQLQEEFLEHEAQLLSQA-------------------------SPEDRESLKSACVVCL
+SNFKSCVFLECGHVCSCRQCYLALPEP--KRCPICRREITRVIPLYNS--
+[16] Monodelphis_domestica_gi|126328467|ref|XP_001366550.1|
+MDSGGRPSAIQ-------------------------------------------------
+-------LILLGTSSAVAAA--LYSVYRHKAQAARELKGAKKIHLGEDLKSILIDAP---
+--------------------------------------------GKCVPYAVIEGAVRSV
+K--E---------TLNSQFVEN------CKGVIQRLTLQEHKMV----------------
+------------------------------------------------------------
+----------------------------WNRTTHLWN---------DCEKIIHQRTNTVP
+-FDLVPHE--------DGTG---------VAVRVLKPLDSADLG-LETVYEK-FHPTIQS
+---------FTDVI-GHYISGERPKGIQETEEMLKVGATITGVGE--------------L
+VLDNNSIRL-QPPKQ---GLQ---------------------------------------
+YYLSSQDFDTLLQRQESSVKLWKILTVIFGFATCATLFFILRRQYLHR-------RERQR
+MKQMQEEFRQHEARVLRAA-------------------------SAEERETLKNACVVCL
+SSTKSCVFLECGHVCSCSECYQALSEP--KKCPICRQEIVRVVPLYNS--
+[17] Ornithorhynchus_anatinus_gi|345318835|ref|XP_001515759.2|
+MENGGRPSAGQ-------------------------------------------------
+-------LILLGASSAITAI--LYSVYRRKSQVAHSLKGAKKINLDRDLKNILMEAP---
+--------------------------------------------GKCVPYAVIEGAVRSV
+K--E---------TLSSQFLEN------CKGVIQRLTLQEHKMV----------------
+------------------------------------------------------------
+----------------------------WNRTTHLWN---------DCEKVIHQRTNTVP
+-FDLVPHE--------EGTG---------VSIRVLKPLDSVDLG-LERVYEK-FHPAVQS
+---------FADVI-GHYISGERPKGVQETEEMLKVGAAVTGIGE--------------L
+VLDDSSIRL-QPPKQ---GLH---------------------------------------
+YYLSSQDFDTLLQRQESSVRLWKVLTAVFGFATCATLFFLLRRQYLRH-------RERRR
+AKRMQEEFRENEARLLSGA-------------------------GGEDREAPKDACVVCL
+GNVKTCVFLECGHVCSCTECYRALPQP--KRCPICRREISRVVPLYNS--
+[18] Danio_rerio_gi_148922854_ref_NP_001092230.1
+MEASGKPSTAQ-------------------------------------------------
+-------IVLLATSSALTAV--LYTIYKRKSSHVARLREAKKMSLNPELKTILSEAP---
+--------------------------------------------GKCVPYAVIEGVVRSV
+K--E---------TLNSQFVDN------CKGVIQRLTLNEKKMV----------------
+------------------------------------------------------------
+----------------------------WNRTTNLWN---------DCEKVIHQRTNTVP
+-FDLAPHD--------DTVP---------TTVRVLRPLDAAELD-LETTYEN-FHPSQQS
+---------LTNVI-GHFISGERPQGIQETEEMLRLGASMTGVGE--------------L
+VLDNNLVRL-QPPKK---GLR---------------------------------------
+YFLSRLDYDTLLSKQEGHLRIWRVLTVLLGLTACATFFYLLWRQYVLR-------KERRK
+EQSVLDEYRKWQSKRFQEL-------------------------HLAKEDVSPTACTICL
+NHERSCVFLECGHVCACEGCYRALPEP--KKCPICRATIDRIVSLYNS--
+[19] Drosophila_melanogaster_gi_21356375_ref_NP_647847.1
+MEFLHE------------------------------------------------------
+-------SVALGVDLLILGL--CAREYVHYKRTAKVLKAAPQYNIDGDLKSVVERQR---
+--------------------------------------------DKKIPYAVIRGTVTPI
+G-VP----------LRSSLVPS------VSGVLQIVKLHEHRVT----------------
+------------------------------------------------------------
+-----------------------------RGFAGFWT---------EQHKLLHESANEMP
+-FEL---R--------NQSH----------GVEIVDALSAAVLD-VDVVYDN-YEPSNLS
+---------LFDHV-FGFFSGVRQRGLQTTEEVLREGSFLTAIGE--------------L
+ELDGDTLRM-QPSNE----GP---------------------------------------
+LFLTTATKSTLIKRFEDAKTTTILKLVVCSTISAILVAFIAKKLYRKR-------KQERE
+EAKIRERLDTERRERRAR--------------------------SRPHTLSQDQLCVVCS
+TNPKEIILLPCGHVCLCEDCAQKIS----VTCPVCRGSIVSKAAAFIA--
+[20] Cyanothece_sp_PCC_7425
+MG----------------------------------------------------------
+-------LAIVGAILLVTGGI-LYFVQRHYQQKLYSIKLARKT-TVAELKQLADQVGAEI
+GQ------------------------------------------GSLREYVKLSGQIKCD
+T--P----------LISELKQV-------PCVYYQMQVEREYEE----------------
+------------------------------------------------------------
+----------------RLTERDNDGETR--------------EKTQRGSETIASNSQSTP
+-FFL---Q--------DQSG----------AIEVD--PSGAAIE-TVQVLNE-FRPEA--
+GSARISFGNFSLSVGGSFPAGRETIGYRYRESILPPDRRILIVAT--------------A
+SDSSGILSL-QKPVE--KRQK---------------------------------------
+FIISLKSEDHLAQSTQQTATYTFYGMIACLGLGA---ILLVVGLIIR-------------
+------------------------------------------------------------
+--------------------------------------------------
+[21] Acaryochloris_marina_MBIC11017
+------------------------------------------------------------
+-------MKIIGIILIVIGII-LFFVYSNLKRKLASLRQARPA-SIAELNHLASEIALEM
+GS------------------------------------------GSWRDYVKLRGTIQCD
+Q--P----------LISELKQM-------PCVHYNMTVVREYEE----------------
+------------------------------------------------------------
+----------------QVTERDSDDKVV--------------TKTQRGSETLSQNRESVP
+-FFL---Q--------DDTG----------EIWVE--PEGAQIE-TVRVLDE-FSPEQP-
+SGGQLSFGGFSLSL-SSAETGRQTIGYRYQESVLPVQRQVFVVAQ--------------V
+SDFNQSLVL-ENPTT--KGQR---------------------------------------
+FVISLKSEEALAQTTQTSVTYAFYGMISTLVVGG---LLVIFGLLSA-------------
+------------------------------------------------------------
+--------------------------------------------------
+[22] Cyanothece_sp_PCC_7424
+------------------------------------------------------------
+-------MILIGIICLIVGVI-LLFFWRSNRSKLRNLRLASAS-TISSLQTIANQIAEEI
+GG------------------------------------------GSLREYVKIRGVIECD
+R--P----------LISQLKQE-------PCVYYSMTVTWEYNE----------------
+------------------------------------------------------------
+----------------EVIKQDNEGKTI--------------REKERKSETVAQNSRSIP
+-FTL---Q--------DSTG----------EIRVN--PERAEIE-TVKVLEE-FRPENF-
+SGGSLTFGNFSINL-PSFEERRQTIGYRYQEEILPIGRQILVIGT--------------A
+TDEEGMITI-RKPTE--KGQR---------------------------------------
+YFISLKSEEELSQATNNAIRGTFYSMIFFLTLGL---ILLVAGVLRG-------------
+------------------------------------------------------------
+--------------------------------------------------
+[23] Synechococcus_elongatus_PCC_7942
+MA----------------------------------------------------------
+-------AIILAAITAIAAIV-LYFVRRHYRFKLQSLLLAQPA-TSLQLKEIAEHVAGEI
+GG------------------------------------------GNLRQYVKMWGAIEVE
+Q--P----------LVSELKQE-------SCVYYCSTVSREYEE----------------
+------------------------------------------------------------
+----------------RVRKEDSEGKVT--------------WTTERRSETISQNRRSTP
+-FYL---R--------DQHG----------RVRVE--PESAAIA-TIPVLDE-FRPDS--
+SASSLIFGAFSLSL-STTAGLGKTLGYRYREEILPCDRSVLVVGA--------------A
+SDETGELTL-GPSSE--ARQQ---------------------------------------
+FFIALKPETALLQEVKQTIQWLTIGAIASVVVTV---VAAIAALL---------------
+------------------------------------------------------------
+--------------------------------------------------
+[24] 'Thermosynechococcus_elongatus_BP-1'
+------------------------------------------------------------
+-------MGVLGGILLVIAVL-VLCGWWDYRLKVRALNLAVSS-TPAQLHELQRRVAQEI
+GG------------------------------------------GYLQEYVKISGQIVAD
+R--P----------LVSELKRL-------PCVHYRLCVSRVYKT----------------
+------------------------------------------------------------
+----------------TESHEDGS------------------SETKYRHEILSSNTQTIP
+-FRL---R--------DGDM----------EIYVD--PRGAEIE-TVQVLNE-FQEDN--
+NTTHLAFGRFQMDL-SSLPKHSDTVGYRYEEWILPVNQQVFVVGT--------------A
+SDERGKLRI-RRPHQ--KGQL---------------------------------------
+FFISLESEENLTKKVRQYARASIIAAGVFSGLGI---LLILL------------------
+------------------------------------------------------------
+--------------------------------------------------
+[25] 'Thermosynechococcus_elongatus_BP-1'
+------------------------------------------------------------
+-------MGVFAHLCLTGSAF-LFALEGYYRLQLRGIKVASPS-TIGELEKFQQQVAQEM
+GS------------------------------------------GSWREYVQVVGQVTTS
+Q--P----------LLSEVKRI-------PCVYYKTIISREYEK----------------
+------------------------------------------------------------
+------------------------------------------EGSDRPSEIIGRHEQSTL
+-FLL---R--------DHQG----------EIEVN--PFGAEIE-AVQVLDE-LRPADQP
+HAFALSLGFLSFNW---HFGKGTTLGYRYQEWVLPLGQPVSVVGM--------------A
+SDQGGVLRL-QKPQN--RGQK---------------------------------------
+FIISLSFEDPLIQQYKQQKRKMTYASLGATLCGV---CGLVLALF---------------
+------------------------------------------------------------
+--------------------------------------------------
+[26] Rubrobacter_xylanophilus_DSM_9941
+MVGTVV------------------------------------------------------
+-------FLLVGVVLCVAGGV-LLYFRRRMLGKAELMRRTRTS-GAAGVSALSP------
+-----------------------------------------------GTLVEVKGTLRCE
+R--P----------LQSEMAKE-------RCAYYSSKVVREYLE----------------
+------------------------------------------------------------
+----------------RDRGDGA-------------------PGSGRRSEVLARSERFAP
+-FVV---E--------DDTG----------GVPVS--AEGAEVD-AKKVVDR-FERGAGA
+AGLSVTIGGATIDL----GGGERTLGYRHTEEILPVDAPVYVLGA--------------V
+RRDGGI----GPPEE--GAGR---------------------------------------
+FVVSWRSEEALGESLGRGARLLGLIALGLFLAGA---AFLAVGAAAALGYLQFR------
+------------------------------------------------------------
+--------------------------------------------------
+[27] Sphaerobacter_thermophilus_DSM_20745
+MGTSGV------------------------------------------------------
+-------LLIIGLVAAGIGAV-LLFIGRRIQAKTDLLAKVPTV-DASEVASLIP------
+-----------------------------------------------GEMIEVKGVIRCD
+T--P----------LTAELAQR-------ACVYYSSRVVREYEY----------------
+------------------------------------------------------------
+----------------RRRNAKGE------------------TVRSRRSETVAHNEQFTP
+-FYV---E--------DSSG----------RVLVD--PEGAEVD-AQKLVDR-FERNPGA
+LGPTISLGGISLNL----GGDDGTIGYRYQEHVLPVDIPVYVLGV--------------V
+QEGGTI----GRPPAALKGRR---------------------------------------
+FIISYRAEEALRESWGKKARWLGISAVALFALAV---ILFVVAVGMLVA-----------
+------------------------------------------------------------
+--------------------------------------------------
+[28] Thermomicrobium_roseum_DSM_5159
+MIF---------------------------------------------------------
+-------VTLCFLITAGVGLV-CLIGYRRTRQQLRLLRLVATC-PIAELHERIP------
+-----------------------------------------------GEMVEITGTVHCA
+T--P----------LRSEYTGQ-------PCVYYRTVTERVVER----------------
+------------------------------------------------------------
+----------------HGRSKKGG----------------------RLSEVVAQNEQRIA
+-FEV---D--------DGTG----------RVAVD--PVGAEID-GRKLLDR-FEPVENG
+EGATLRIAGMSVEV---RAAEWRTLGYRKIEEAVLVGYPVYVLGV--------------L
+QDDGSI----GRPPEGSRLRE---------------------------------------
+FLISARSEEELATSLRRRSYLFLAGAITSFVVAG---MLLIALLVQSVISIS--------
+------------------------------------------------------------
+--------------------------------------------------
+[29] 'Chloroflexus_aurantiacus_J-10-fl'
+------------------------------------------------------------
+-------MIVGGVLLLVLAVI-FFFVARANAGKLQALNAVDTY-DTATLSAIHRRITTAL
+GA------------------------------------------HDFAQPCEVMGLIECA
+T--P----------LTGPVSGQ-------ALVAYLYTTHREYEE----------------
+------------------------------------------------------------
+----------------RITTQESGRST---------------TRIERRSEQLEQNERRVP
+-FTI---R--------DDTG----------QVLVV--PDGAKID-LIETANR-FLETPQP
+-----------------WTGATRTLGQRQFERGLEVGIRVFVSGT--------------A
+IDQNGQVVIARHPTN--SKQT---------------------------------------
+FIISRKSEHELANSAATWARNMRYAAIASGVIGL---ALVVGGVLVSG------------
+------------------------------------------------------------
+--------------------------------------------------
+[30] 'Chloroflexus_sp._Y-400-fl'
+------------------------------------------------------------
+-------MIVGGVLLLVLAVI-FFFVARANAGKLQALNAVDTY-DTATLSAIHRRITTAL
+GA------------------------------------------HDFAQPCEVMGLIECA
+T--P----------LTGPVSGQ-------ALVAYLYTTHREYEE----------------
+------------------------------------------------------------
+----------------RITTQESGRST---------------TRIERRSEQLEQNERRVP
+-FTI---R--------DDTG----------QVLVV--PDGAKID-LIETANR-FLETPQP
+-----------------WTGATRTLGQRQFERGLEVGIRVFVSGT--------------A
+IDQNGQVVIARHPTN--SKQT---------------------------------------
+FIISRKSEHELANSAATWARNMRYAAIASGVIGL---ALVVGGVLVSG------------
+------------------------------------------------------------
+--------------------------------------------------
+[31] @Synechococcus_sp_JA_2_3B_a2_13@
+MGVSYRRSNRAKAVLEGRGFRPSFLVKFGTARIRDCLKLLLNPVSQVTASMRPTSLPPPE
+RKAFMNWLMLLGLLCLPASLF-SFVEYLRSQRLVQQLSATRLL-KIAELRHLGQTNPQAK
+GA----------------------------------------------NLAQVYGRVVCD
+R--P----------LVSELSRQ-------PCVYYKSEISWEYDEIECYRRYLNSRGDVAY
+SERISEGEYQNALRLGSRAKSYPGEMVGKKPGLGYSDSGSFQKRVDPDYSNSFPQKPNPG
+YPQQLGSPGYPQKSPFSEVSSPQKHYANVYYDPSTGREYLLERETRTRDETLHSVVRQIP
+-FFI---E--------DETG----------RVRVD--PTGAEIE-AMSVVDEHIFPGKGP
+SRFNFNLKRYLSGV---RTENRSTRAFIYKEWVIPVDAMAFTMGQ--------------V
+RFEAGDPVI-RKPLS---GER---------------------------------------
+FMIAPKSPEALLEEQRSNASSYLVGSVVLLGIGIFTVLHLLQSLQPYR------------
+------------------------------------------------------------
+--------------------------------------------------
+[32] Pseudonocardia_dioxanivorans_CB1190
+------------------------------------------------------------
+-------MWVIGVVVVLVGAG-FLWSAVRAQRSVHAMLAAETL-SVPELEEL-RRVSDDL
+GAR-----------------------------------------GSFRKVCEVVGAAHPS
+P--E--------GVLRSELSGV-------ECVWHSHRVQRRYKH----------------
+------------------------------------------------------------
+----------------YDRDRDGS------------------TRVTTRTETVAEQTSGPG
+-FAL---L--------RDGR----------TIGVD--HAGRRPDGVEQVTDR-FEQTQEP
+SNGWADVVGALVGS-----DRDETIGYQYTEWVLRPGTPMYVLGE--------------V
+HDAIGPLVI-APPAD--PKQP---------------------------------------
+FVMSTSTEQQLTDAARGRQRFRSRLGAALVVVGI---VVVVLALVL--------------
+------------------------------------------------------------
+--------------------------------------------------
+[33] Acetobacterium_woodii_DSM_1030
+M-----------------------------------------------------------
+-------AIIIGLLIIIAGIFYAVYIYRKNTNKVQEIQFQQTT-CIKDVLDIVGDLSSLD
+--------------------------------------------ENYRHYSEVKGQLHSV
+S-----------GNVEAPFSQR-------PVAYYENEVYSVHEE----------------
+------------------------------------------------------------
+----------------TRTERDDKGNTR--------------TVTDKVETSLSSEKSPVE
+-VYL---S--------DSSS--------DEKVYIDLASFGSDVD-LMPGCNR-MESKDSD
+--WVRNNFNFSVNQ----NRGSRFLGYRFFEEILPEDQPMYILGE--------------I
+HKRGNRLYV-GRSVA--AKKP---------------------------------------
+SHVTYKSEDELLDDIKNEKLVAIGIGVAGVVVGIAVMFLF--------------------
+------------------------------------------------------------
+--------------------------------------------------
+;
+END;
+BEGIN NOTES;
+  TEXT TAXON=1 TEXT='subsp. patens_gi|168019172|ref|XP_001762119.1| predicted protein [Physcomitrella patens subsp. patens]gi|162686836|gb|EDQ73223.1| predicted protein [Physcomitrella patens subsp. patens]
+';
+  TEXT TAXON=2 TEXT='Japonica Group_gi|115451087|ref|NP_001049144.1| Os03g0177300 [Oryza sativa Japonica Group]gi|108706473|gb|ABF94268.1| C3HC4 zinc finger containing protein, putative, expressed [Oryza sativa Japonica Group]gi|113547615|dbj|BAF11058.1| Os03g
+';
+  TEXT TAXON=4 TEXT='subsp. patens_gi|168002970|ref|XP_001754186.1| predicted protein [Physcomitrella patens subsp. patens]gi|162694740|gb|EDQ81087.1| predicted protein [Physcomitrella patens subsp. patens]
+';
+  TEXT TAXON=5 TEXT='subsp. patens_gi|168043801|ref|XP_001774372.1| predicted protein [Physcomitrella patens subsp. patens]gi|162674364|gb|EDQ60874.1| predicted protein [Physcomitrella patens subsp. patens]
+';
+  TEXT TAXON=9 TEXT='jgi|ChlNC64A_1|139486|IGS.gm_25_00037
+';
+  TEXT TAXON=12 TEXT='PREDICTED: mitochondrial ubiquitin ligase activator of NFKB 1 [Sus scrofa]
+';
+  TEXT TAXON=13 TEXT='PREDICTED: mitochondrial ubiquitin ligase activator of NFKB 1 [Loxodonta africana]
+';
+  TEXT TAXON=14 TEXT='familiaris_gi|73950663|ref|XP_544520.2| PREDICTED: mitochondrial ubiquitin ligase activator of NFKB 1 [Canis lupus familiaris]
+';
+  TEXT TAXON=16 TEXT='PREDICTED: mitochondrial ubiquitin ligase activator of NFKB 1 [Monodelphis domestica]
+';
+  TEXT TAXON=17 TEXT='PREDICTED: mitochondrial ubiquitin ligase activator of NFKB 1-like [Ornithorhynchus anatinus]
+';
+  TEXT TAXON=20 TEXT='gi|220906503|ref|YP_002481814.1| unnamed protein product [Cyanothece sp. PCC 7425]
+';
+  TEXT TAXON=21 TEXT='gi|158336842|ref|YP_001518016.1| unnamed protein product [Acaryochloris marina MBIC11017]
+';
+  TEXT TAXON=22 TEXT='gi|218439670|ref|YP_002377999.1| hypothetical protein PCC7424_2719 [Cyanothece sp. PCC 7424]
+';
+  TEXT TAXON=23 TEXT='gi|81300335|ref|YP_400543.1| unnamed protein product [Synechococcus elongatus PCC 7942]
+';
+  TEXT TAXON=24 TEXT='gi|22298202|ref|NP_681449.1| unnamed protein product [Thermosynechococcus elongatus BP-1]
+';
+  TEXT TAXON=25 TEXT='gi|22297743|ref|NP_680990.1| unnamed protein product [Thermosynechococcus elongatus BP-1]
+';
+  TEXT TAXON=26 TEXT='gi|108805164|ref|YP_645101.1| hypothetical protein Rxyl_2361 [Rubrobacter xylanophilus DSM 9941]
+';
+  TEXT TAXON=27 TEXT='gi|269838375|ref|YP_003320603.1| hypothetical protein Sthe_2360 [Sphaerobacter thermophilus DSM 20745]
+';
+  TEXT TAXON=28 TEXT='gi|221632287|ref|YP_002521508.1| unnamed protein product [Thermomicrobium roseum DSM 5159]
+';
+  TEXT TAXON=29 TEXT='gi|163846705|ref|YP_001634749.1| hypothetical protein Caur_1130 [Chloroflexus aurantiacus J-10-fl]
+';
+  TEXT TAXON=30 TEXT='gi|222524514|ref|YP_002568985.1| hypothetical protein Chy400_1238 [Chloroflexus sp. Y-400-fl]
+';
+  TEXT TAXON=31 TEXT='637874588 CYB_0172 hypothetical protein [Synechococcus sp. JA-2-3Ba(2-13)]
+';
+  TEXT TAXON=32 TEXT='gi|331695440|ref|YP_004331679.1| hypothetical protein Psed_1589 [Pseudonocardia dioxanivorans CB1190]
+';
+  TEXT TAXON=33 TEXT='gi|379012200|ref|YP_005270012.1| unnamed protein product [Acetobacterium woodii DSM 1030]
+';
+END;

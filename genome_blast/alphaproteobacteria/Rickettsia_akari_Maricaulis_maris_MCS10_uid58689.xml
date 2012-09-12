@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/NCBI_bact_genomes/Proteobacteria/Alphaproteobacteria/aa//Maricaulis_maris_MCS10_uid58689</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Rickettsia_akari_str_Hartford gnl|BL_ORD_ID|412    gi|157825538|ref|YP_001493258.1| unnamed protein product [Rickettsia akari str. Hartford]</BlastOutput_query-def>
+  <BlastOutput_query-len>225</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>Rickettsia_akari_str_Hartford gnl|BL_ORD_ID|412    gi|157825538|ref|YP_001493258.1| unnamed protein product [Rickettsia akari str. Hartford]</Iteration_query-def>
+      <Iteration_query-len>225</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1896</Hit_id>
+          <Hit_def>gi|114570451|ref|YP_757131.1| unnamed protein product [Maricaulis maris MCS10]</Hit_def>
+          <Hit_accession>1896</Hit_accession>
+          <Hit_len>323</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>54.6842</Hsp_bit-score>
+              <Hsp_score>130</Hsp_score>
+              <Hsp_evalue>5.42708e-10</Hsp_evalue>
+              <Hsp_query-from>109</Hsp_query-from>
+              <Hsp_query-to>224</Hsp_query-to>
+              <Hsp_hit-from>197</Hsp_hit-from>
+              <Hsp_hit-to>323</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>36</Hsp_identity>
+              <Hsp_positive>64</Hsp_positive>
+              <Hsp_gaps>13</Hsp_gaps>
+              <Hsp_align-len>128</Hsp_align-len>
+              <Hsp_qseq>EIEQSNFVKPLNGVMLTEF---KDG-KSKGIDIAVKEYSDVKSIAAGTVIYSGFN-KQFGNLVIVKLDKDDLEVAYASLDDLLLKKGDKITKNSVIGHV-------KHKLYFAMRRNRIAVDPSKYIE</Hsp_qseq>
+              <Hsp_hseq>EAGAPSFDWPVRGSVLASFGRRPNGERNDGINIEAAAGADVRASAPGQVVYAGSELAGYGQLVLVR-HSGGFVTAYAHNSRLLVREGDQVSRGQVIAQAGATGTVDRPQVHFEIRSGVNPVDPMSYLR</Hsp_hseq>
+              <Hsp_midline>E    +F  P+ G +L  F    +G ++ GI+I     +DV++ A G V+Y+G     +G LV+V+        AYA    LL+++GD++++  VI          + +++F +R     VDP  Y+ </Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1299</Hit_id>
+          <Hit_def>gi|114569854|ref|YP_756534.1| unnamed protein product [Maricaulis maris MCS10]</Hit_def>
+          <Hit_accession>1299</Hit_accession>
+          <Hit_len>413</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>43.1282</Hsp_bit-score>
+              <Hsp_score>100</Hsp_score>
+              <Hsp_evalue>5.73634e-06</Hsp_evalue>
+              <Hsp_query-from>116</Hsp_query-from>
+              <Hsp_query-to>223</Hsp_query-to>
+              <Hsp_hit-from>297</Hsp_hit-from>
+              <Hsp_hit-to>404</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>26</Hsp_identity>
+              <Hsp_positive>55</Hsp_positive>
+              <Hsp_gaps>24</Hsp_gaps>
+              <Hsp_align-len>120</Hsp_align-len>
+              <Hsp_qseq>VKPLNGVMLTEFKDGKSKGIDIAVKEYSDVKSIAAGTVIYSGFNKQFGNLVIVKLDKD-DLEVAYASLDDLLLKKGDKITKNSVIG-----------HVKHKLYFAMRRNRIAVDPSKYI</Hsp_qseq>
+              <Hsp_hseq>IDPFNG------RPTSHRGMDFAAYRRAPIEATGPGRVIYAGWRGGYGR--TVEIDHGYGFVTRYAHLHEIDVRRGDTVERGQRIGGMGSTGRSTATHLHYEVWY----NGSAIDPERLL</Hsp_hseq>
+              <Hsp_midline>+ P NG      +    +G+D A    + +++   G VIY+G+   +G    V++D        YA L ++ +++GD + +   IG           H+ +++++    N  A+DP + +</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|2780</Hit_id>
+          <Hit_def>gi|114571335|ref|YP_758015.1| unnamed protein product [Maricaulis maris MCS10]</Hit_def>
+          <Hit_accession>2780</Hit_accession>
+          <Hit_len>401</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>35.8094</Hsp_bit-score>
+              <Hsp_score>81</Hsp_score>
+              <Hsp_evalue>0.0012439</Hsp_evalue>
+              <Hsp_query-from>128</Hsp_query-from>
+              <Hsp_query-to>222</Hsp_query-to>
+              <Hsp_hit-from>298</Hsp_hit-from>
+              <Hsp_hit-to>398</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>29</Hsp_identity>
+              <Hsp_positive>47</Hsp_positive>
+              <Hsp_gaps>8</Hsp_gaps>
+              <Hsp_align-len>102</Hsp_align-len>
+              <Hsp_qseq>KDG-KSKGIDIAVKEYSDVKSIAAGTVIYSGFNKQFGNLVIVKLDKD------DLEVAYASLDDLLLKKGDKITKNSVIGHVKHKLYFAMRRNRIAVDPSKY</Hsp_qseq>
+              <Hsp_hseq>EDGTASEGIFIRTRPRAQVVSPFDGRVEFAGPFNTYGGLLILNVGDGYYVVLAGMAVTYASVGQSVLA-GEPVGAMSENAQPASDLYLELRRNDDAIDPGPW</Hsp_hseq>
+              <Hsp_midline>+DG  S+GI I  +  + V S   G V ++G    +G L+I+ +          + V YAS+   +L  G+ +   S        LY  +RRN  A+DP  +</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|978</Hit_id>
+          <Hit_def>gi|114569533|ref|YP_756213.1| unnamed protein product [Maricaulis maris MCS10]</Hit_def>
+          <Hit_accession>978</Hit_accession>
+          <Hit_len>552</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>27.7202</Hsp_bit-score>
+              <Hsp_score>60</Hsp_score>
+              <Hsp_evalue>0.602212</Hsp_evalue>
+              <Hsp_query-from>116</Hsp_query-from>
+              <Hsp_query-to>182</Hsp_query-to>
+              <Hsp_hit-from>353</Hsp_hit-from>
+              <Hsp_hit-to>412</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>19</Hsp_identity>
+              <Hsp_positive>34</Hsp_positive>
+              <Hsp_gaps>7</Hsp_gaps>
+              <Hsp_align-len>67</Hsp_align-len>
+              <Hsp_qseq>VKPLNGVMLTEFKDGKSKGIDIAVKEYSDVKSIAAGTVIYSGFNKQFGNLVIVKLDKDDLEVAYASL</Hsp_qseq>
+              <Hsp_hseq>IASFNAILSTPFKGTKPDTTE------ENLQSRARGVVLMALSNK-FGPMVLSTGNKSEMAVGYATL</Hsp_hseq>
+              <Hsp_midline>+   N ++ T FK  K    +       +++S A G V+ +  NK FG +V+   +K ++ V YA+L</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>5</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|2246</Hit_id>
+          <Hit_def>gi|114570801|ref|YP_757481.1| unnamed protein product [Maricaulis maris MCS10]</Hit_def>
+          <Hit_accession>2246</Hit_accession>
+          <Hit_len>502</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>24.6386</Hsp_bit-score>
+              <Hsp_score>52</Hsp_score>
+              <Hsp_evalue>4.96675</Hsp_evalue>
+              <Hsp_query-from>54</Hsp_query-from>
+              <Hsp_query-to>100</Hsp_query-to>
+              <Hsp_hit-from>227</Hsp_hit-from>
+              <Hsp_hit-to>275</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>16</Hsp_identity>
+              <Hsp_positive>28</Hsp_positive>
+              <Hsp_gaps>2</Hsp_gaps>
+              <Hsp_align-len>49</Hsp_align-len>
+              <Hsp_qseq>STALEHDEGLIVQR-TMEDDTVSE-KVSGILEEPKAKIIECYNDDIEIP</Hsp_qseq>
+              <Hsp_hseq>AVVLGADPGTILAAVTPIPDTLSEYQFAGILRGKKAELVDCKTVPLKVP</Hsp_hseq>
+              <Hsp_midline>+  L  D G I+   T   DT+SE + +GIL   KA++++C    +++P</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>3063</Statistics_db-num>
+          <Statistics_db-len>1006730</Statistics_db-len>
+          <Statistics_hsp-len>79</Statistics_hsp-len>
+          <Statistics_eff-space>111653938</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

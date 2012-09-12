@@ -1,0 +1,971 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.0 (March 2010); http://hmmer.org/
+# Copyright (C) 2010 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  mulan.hmm
+# target sequence database:        /home/mt258/db/genome_databases/bacteria.fst
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Animals.linsi  [M=352]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                         Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                         -----------
+  ------ inclusion threshold ------
+      0.083   19.7   0.1      0.095   19.5   0.1    1.1  1  gi|308173480|ref|YP_003920185.1| cell-division protein [Bacillus 
+      0.083   19.7   0.1      0.095   19.5   0.1    1.1  1  gi|384159502|ref|YP_005541575.1| ftsL gene product [Bacillus amyl
+      0.083   19.7   0.1      0.095   19.5   0.1    1.1  1  gi|384164061|ref|YP_005545440.1| ftsL gene product [Bacillus amyl
+      0.083   19.7   0.1      0.095   19.5   0.1    1.1  1  gi|384168553|ref|YP_005549931.1| ftsL gene product [Bacillus amyl
+       0.14   18.9   0.1       0.17   18.7   0.0    1.1  1  gi|154685934|ref|YP_001421095.1| hypothetical protein RBAM_015010
+       0.14   18.9   0.1       0.17   18.7   0.0    1.1  1  gi|375362162|ref|YP_005130201.1| ftsL gene product [Bacillus amyl
+       0.29   17.9   0.1       0.39   17.4   0.0    1.1  1  gi|296137889|ref|YP_003645132.1| unnamed protein product [Tsukamu
+       0.36   17.5   1.1       0.58   16.9   0.7    1.3  1  gi|150009355|ref|YP_001304098.1| hypothetical protein BDI_2763 [P
+       0.72   16.6   0.9       0.78   16.4   0.6    1.0  1  gi|375143728|ref|YP_005006169.1| unnamed protein product [Niastel
+        1.1   16.0   0.0        1.1   16.0   0.0    1.0  1  gi|197294547|ref|YP_001799088.1| hypothetical protein PAa_0502 [C
+        1.1   15.9   0.0        1.4   15.7   0.0    1.1  1  gi|157164694|ref|YP_001467670.1| hypothetical protein CCC13826_17
+        1.3   15.7   0.2        2.1   15.0   0.1    1.3  1  gi|375012466|ref|YP_004989454.1| unnamed protein product [Owenwee
+        1.3   15.7   0.4        7.2   13.3   0.0    1.9  2  gi|313676216|ref|YP_004054212.1| regulatory protein arsr [Marivir
+        1.8   15.2   0.5        1.8   15.2   0.3    1.7  2  gi|29349477|ref|NP_812980.1|     regulatory protein [Bacteroides 
+        2.2   15.0   0.3        4.3   14.0   0.2    1.4  1  gi|90022618|ref|YP_528445.1|     unnamed protein product [Sacchar
+        2.2   14.9   0.0        3.2   14.4   0.0    1.2  1  gi|114570480|ref|YP_757160.1|    unnamed protein product [Maricau
+        2.5   14.8   0.0         24   11.6   0.0    2.0  2  gi|333895859|ref|YP_004469734.1| unnamed protein product [Alterom
+        3.1   14.5   0.1        3.5   14.3   0.1    1.1  1  gi|311068035|ref|YP_003972958.1| unnamed protein product [Bacillu
+        3.3   14.4   0.0        3.9   14.1   0.0    1.1  1  gi|256425340|ref|YP_003125993.1| unnamed protein product [Chitino
+        3.6   14.3   0.4        3.7   14.2   0.3    1.0  1  gi|116512203|ref|YP_809419.1|    hypothetical protein LACR_1488 [
+        3.6   14.3   0.0        4.2   14.0   0.0    1.1  1  gi|261822665|ref|YP_003260771.1| hypothetical protein Pecwa_3426 
+        3.8   14.2   1.4        7.3   13.2   0.9    1.4  1  gi|319900474|ref|YP_004160202.1| integral membrane sensor signal 
+          4   14.1   1.2    6.4e+02    6.9   0.0    2.2  2  gi|383789462|ref|YP_005474036.1| unnamed protein product [Spiroch
+        4.2   14.0   0.7          5   13.8   0.5    1.1  1  gi|108799713|ref|YP_639910.1|    hypothetical protein Mmcs_2747 [
+        4.2   14.0   0.7          5   13.8   0.5    1.1  1  gi|119868823|ref|YP_938775.1|    hypothetical protein Mkms_2791 [
+        4.2   14.0   0.7          5   13.8   0.5    1.1  1  gi|126435357|ref|YP_001071048.1| hypothetical protein Mjls_2777 [
+        4.2   14.0   0.6        5.1   13.7   0.4    1.1  1  gi|169824695|ref|YP_001692306.1| hypothetical protein FMG_0998 [F
+        4.4   14.0   0.2        4.8   13.8   0.1    1.1  1  gi|52080117|ref|YP_078908.1|     cell-division protein [Bacillus 
+        4.4   14.0   0.2        4.8   13.8   0.1    1.1  1  gi|52785491|ref|YP_091320.1|     hypothetical protein BLi01732 [B
+        4.7   13.9   2.5        6.6   13.4   1.7    1.1  1  gi|203288579|ref|YP_002223486.1| p23-like cell envelope protein [
+        4.8   13.9   0.0         10   12.7   0.0    1.5  1  gi|269202592|ref|YP_003281861.1| hypothetical protein SAAV_0940 [
+        4.8   13.9   0.0         10   12.7   0.0    1.5  1  gi|148267412|ref|YP_001246355.1| hypothetical protein SaurJH9_097
+        4.8   13.9   0.0         10   12.7   0.0    1.5  1  gi|150393465|ref|YP_001316140.1| hypothetical protein SaurJH1_099
+        4.8   13.9   0.0         10   12.7   0.0    1.5  1  gi|156979305|ref|YP_001441564.1| hypothetical protein SAHV_0974 [
+        4.8   13.9   0.0         10   12.7   0.0    1.5  1  gi|15923969|ref|NP_371503.1|     hypothetical protein SAV0979 [St
+        4.8   13.9   0.0         10   12.7   0.0    1.5  1  gi|15926568|ref|NP_374101.1|     hypothetical protein SA0839 [Sta
+        5.1   13.8   0.0        6.6   13.4   0.0    1.2  1  gi|218676250|ref|YP_002395069.1| hypothetical protein VS_II0472 [
+        5.1   13.8   0.0        7.1   13.3   0.0    1.3  1  gi|160881170|ref|YP_001560138.1| hypothetical protein Cphy_3042 [
+        5.2   13.7   0.3        8.4   13.1   0.2    1.2  1  gi|302337778|ref|YP_003802984.1| LuxR family transcriptional regu
+        5.6   13.6   0.1         10   12.8   0.0    1.3  1  gi|49483140|ref|YP_040364.1|     unnamed protein product [Staphyl
+        5.8   13.6   0.0        9.2   12.9   0.0    1.3  1  gi|83648943|ref|YP_437378.1|     hypothetical protein HCH_06306 [
+        5.8   13.6   0.1        6.2   13.5   0.1    1.0  1  gi|57238724|ref|YP_179428.1|     hypothetical protein CJE1442 [Ca
+          6   13.5   0.0         10   12.7   0.0    1.3  1  gi|21282590|ref|NP_645678.1|     hypothetical protein MW0861 [Sta
+          6   13.5   0.2         12   12.5   0.2    1.4  1  gi|254788089|ref|YP_003075518.1| integral membrane sensor hybrid 
+          6   13.5   0.0         10   12.7   0.0    1.3  1  gi|151221061|ref|YP_001331883.1| hypothetical protein NWMN_0849 [
+          6   13.5   0.0         10   12.7   0.0    1.3  1  gi|161509179|ref|YP_001574838.1| hypothetical protein USA300HOU_0
+          6   13.5   0.0         10   12.7   0.0    1.3  1  gi|379014174|ref|YP_005290410.1| unnamed protein product [Staphyl
+          6   13.5   0.0         10   12.7   0.0    1.3  1  gi|49485755|ref|YP_042976.1|     unnamed protein product [Staphyl
+          6   13.5   0.0         10   12.7   0.0    1.3  1  gi|57651670|ref|YP_185851.1|     hypothetical protein SACOL0983 [
+          6   13.5   0.0         10   12.7   0.0    1.3  1  gi|87160454|ref|YP_493581.1|     hypothetical protein SAUSA300_08
+          6   13.5   0.0         10   12.7   0.0    1.3  1  gi|88194673|ref|YP_499469.1|     hypothetical protein SAOUHSC_009
+        6.1   13.5   0.0        8.9   13.0   0.0    1.1  1  gi|330835747|ref|YP_004410475.1| phosphomethylpyrimidine kinase [
+        6.2   13.5   2.3        8.9   13.0   1.6    1.2  1  gi|203288313|ref|YP_002223363.1| p23-like cell envelope protein [
+        6.7   13.4   0.1         11   12.6   0.0    1.3  1  gi|218439894|ref|YP_002378223.1| hypothetical protein PCC7424_295
+        7.2   13.3   2.6        8.1   13.1   1.8    1.1  1  gi|253702111|ref|YP_003023300.1| hypothetical protein GM21_3521 [
+        7.3   13.3   0.0         10   12.8   0.0    1.3  1  gi|333896631|ref|YP_004470505.1| rubrerythrin [Thermoanaerobacter
+        7.6   13.2   0.4         13   12.4   0.2    1.3  1  gi|300715897|ref|YP_003740700.1| unnamed protein product [Erwinia
+        7.8   13.1   0.3         11   12.7   0.1    1.3  1  gi|226308941|ref|YP_002768901.1| hypothetical protein RER_54540 [
+        7.9   13.1   0.1        9.7   12.8   0.1    1.0  1  gi|56459813|ref|YP_155094.1|     hypothetical protein IL0704 [Idi
+          8   13.1   0.1         13   12.4   0.0    1.4  1  gi|383788267|ref|YP_005472835.1| unnamed protein product [Caldise
+          8   13.1   3.0        8.9   13.0   2.1    1.1  1  gi|322418176|ref|YP_004197399.1| class III cytochrome c [Geobacte
+        8.2   13.1   1.3      1e+02    9.5   0.0    2.4  2  gi|310642354|ref|YP_003947112.1| unnamed protein product [Paeniba
+        8.3   13.1   0.0        8.5   13.0   0.0    1.1  1  gi|288555003|ref|YP_003426938.1| unnamed protein product [Bacillu
+        8.9   13.0   1.0         10   12.8   0.7    1.1  1  gi|219871081|ref|YP_002475456.1| hypothetical protein HAPS_0879 [
+        9.2   12.9   0.2         14   12.3   0.2    1.2  1  gi|332304537|ref|YP_004432388.1| general secretion pathway protei
+        9.3   12.9   0.0         13   12.4   0.0    1.3  1  gi|304317459|ref|YP_003852604.1| rubrerythrin [Thermoanaerobacter
+
+
+Domain annotation for each sequence (and alignments):
+>> gi|308173480|ref|YP_003920185.1|  cell-division protein [Bacillus amyloliquefaciens DSM 7]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   19.5   0.1   1.1e-06     0.095     232     291 ..      25      85 ..      15     102 .. 0.80
+
+  Alignments for each domain:
+  == domain 1    score: 19.5 bits;  conditional E-value: 1.1e-06
+                     Animals.linsi 232 rqessvrl.wkvlalvfglatcatlffilrkqylqrkerrrlkqlqeefrekeakllseak 291
+                                       ++ +s+ l  kvl ++f +a  +t +fi+ k y  ++ + + ++l+e+  ek+++    +k
+  gi|308173480|ref|YP_003920185.1|  25 KKRASITLgEKVLLVLFAIAVLSTSMFIVSKAYAAYQSNIEVQKLEEKVSEKNKQIADLEK 85 
+                                       44455555269**************************************999887664433 PP
+
+>> gi|384159502|ref|YP_005541575.1|  ftsL gene product [Bacillus amyloliquefaciens TA208]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   19.5   0.1   1.1e-06     0.095     232     291 ..      25      85 ..      15     102 .. 0.80
+
+  Alignments for each domain:
+  == domain 1    score: 19.5 bits;  conditional E-value: 1.1e-06
+                     Animals.linsi 232 rqessvrl.wkvlalvfglatcatlffilrkqylqrkerrrlkqlqeefrekeakllseak 291
+                                       ++ +s+ l  kvl ++f +a  +t +fi+ k y  ++ + + ++l+e+  ek+++    +k
+  gi|384159502|ref|YP_005541575.1|  25 KKRASITLgEKVLLVLFAIAVLSTSMFIVSKAYAAYQSNIEVQKLEEKVSEKNKQIADLEK 85 
+                                       44455555269**************************************999887664433 PP
+
+>> gi|384164061|ref|YP_005545440.1|  ftsL gene product [Bacillus amyloliquefaciens LL3]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   19.5   0.1   1.1e-06     0.095     232     291 ..      25      85 ..      15     102 .. 0.80
+
+  Alignments for each domain:
+  == domain 1    score: 19.5 bits;  conditional E-value: 1.1e-06
+                     Animals.linsi 232 rqessvrl.wkvlalvfglatcatlffilrkqylqrkerrrlkqlqeefrekeakllseak 291
+                                       ++ +s+ l  kvl ++f +a  +t +fi+ k y  ++ + + ++l+e+  ek+++    +k
+  gi|384164061|ref|YP_005545440.1|  25 KKRASITLgEKVLLVLFAIAVLSTSMFIVSKAYAAYQSNIEVQKLEEKVSEKNKQIADLEK 85 
+                                       44455555269**************************************999887664433 PP
+
+>> gi|384168553|ref|YP_005549931.1|  ftsL gene product [Bacillus amyloliquefaciens XH7]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   19.5   0.1   1.1e-06     0.095     232     291 ..      25      85 ..      15     102 .. 0.80
+
+  Alignments for each domain:
+  == domain 1    score: 19.5 bits;  conditional E-value: 1.1e-06
+                     Animals.linsi 232 rqessvrl.wkvlalvfglatcatlffilrkqylqrkerrrlkqlqeefrekeakllseak 291
+                                       ++ +s+ l  kvl ++f +a  +t +fi+ k y  ++ + + ++l+e+  ek+++    +k
+  gi|384168553|ref|YP_005549931.1|  25 KKRASITLgEKVLLVLFAIAVLSTSMFIVSKAYAAYQSNIEVQKLEEKVSEKNKQIADLEK 85 
+                                       44455555269**************************************999887664433 PP
+
+>> gi|154685934|ref|YP_001421095.1|  hypothetical protein RBAM_015010 [Bacillus amyloliquefaciens FZB42]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   18.7   0.0     2e-06      0.17     232     287 ..      25      81 ..      15     101 .. 0.81
+
+  Alignments for each domain:
+  == domain 1    score: 18.7 bits;  conditional E-value: 2e-06
+                     Animals.linsi 232 rqessvrl.wkvlalvfglatcatlffilrkqylqrkerrrlkqlqeefrekeakll 287
+                                       ++ +s+ l  kvl ++f +a  +t +fi+ k y  ++ + + ++l+e+  ek+++  
+  gi|154685934|ref|YP_001421095.1|  25 KKRASITLgEKVLLVLFAIAVLSTSMFIVSKAYAAYQSNIEVQKLEEKVSEKNKQIG 81 
+                                       44455555269**************************************99988754 PP
+
+>> gi|375362162|ref|YP_005130201.1|  ftsL gene product [Bacillus amyloliquefaciens subsp. plantarum CAU B946]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   18.7   0.0     2e-06      0.17     232     287 ..      25      81 ..      15     101 .. 0.81
+
+  Alignments for each domain:
+  == domain 1    score: 18.7 bits;  conditional E-value: 2e-06
+                     Animals.linsi 232 rqessvrl.wkvlalvfglatcatlffilrkqylqrkerrrlkqlqeefrekeakll 287
+                                       ++ +s+ l  kvl ++f +a  +t +fi+ k y  ++ + + ++l+e+  ek+++  
+  gi|375362162|ref|YP_005130201.1|  25 KKRASITLgEKVLLVLFAIAVLSTSMFIVSKAYAAYQSNIEVQKLEEKVSEKNKQIG 81 
+                                       44455555269**************************************99988754 PP
+
+>> gi|296137889|ref|YP_003645132.1|  unnamed protein product [Tsukamurella paurometabola DSM 20162]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   17.4   0.0   4.7e-06      0.39     232     299 ..     181     248 ..     171     261 .. 0.85
+
+  Alignments for each domain:
+  == domain 1    score: 17.4 bits;  conditional E-value: 4.7e-06
+                     Animals.linsi 232 rqessvrlwkvlalvfglatcatlffilrkqylqrkerrrlkqlqeefrekeakllseakaedreslk 299
+                                       ++ +  r+  ++ +v+g+ + ++l  +l  q ++r +++++k l++e + ++++  ++aka ++    
+  gi|296137889|ref|YP_003645132.1| 181 QNAAGFRWATLIGVVIGVIAAIALAIFLEVQRRKRAKKKQQKALEKEAKAAQKQAEKDAKAAEKALKS 248
+                                       556678899999****************************************9999999988876554 PP
+
+>> gi|150009355|ref|YP_001304098.1|  hypothetical protein BDI_2763 [Parabacteroides distasonis ATCC 8503]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   16.9   0.7     7e-06      0.58     188     296 ..     318     424 ..     266     443 .. 0.71
+
+  Alignments for each domain:
+  == domain 1    score: 16.9 bits;  conditional E-value: 7e-06
+                     Animals.linsi 188 mlkvgatltgvgelvldnnsvrlqppkqglqyylssqdfdsllqrqe...ssvrlwkvlalvfglatcatlffilrk 261
+                                        +++g+ +      + d + +r    k    y   +++ ++l  + e    ++r++++l+l fgl   +tl+fi r 
+  gi|150009355|ref|YP_001304098.1| 318 YVRLGQQVQDSIRKITDSEEIR----KMTSLYNYQKRETENLRLKGEndrMQIRIYRILSL-FGLGLSITLLFIYRL 389
+                                       5555555555555555555555....333344445555555544433111589******96.9*************9 PP
+
+                     Animals.linsi 262 qylqrkerrrlkqlqeefrekeakllseakaedre 296
+                                       + ++ +  r+ + lq+e +e+ ++ ++  +a++ +
+  gi|150009355|ref|YP_001304098.1| 390 KRQKERLARQFEALQREKQEQYERSFQYVEANNAK 424
+                                       9999999999*******999999988877766654 PP
+
+>> gi|375143728|ref|YP_005006169.1|  unnamed protein product [Niastella koreensis GR20-10]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   16.4   0.6   9.4e-06      0.78     245     300 ..       3      58 ..       1      64 [. 0.79
+
+  Alignments for each domain:
+  == domain 1    score: 16.4 bits;  conditional E-value: 9.4e-06
+                     Animals.linsi 245 lvfglatcatlffilrkqylqrkerrrlkqlqeefrekeakllseakaedreslks 300
+                                        vf +a  a l+fi  ++ylqrk+  r++q +e  +e+ ++ ++++++++ e+ ++
+  gi|375143728|ref|YP_005006169.1|   3 FVFLVAITALLIFIYFNRYLQRKRDDRREQWRERREETLQQFFETTRKQHTETNNE 58 
+                                       789999*****************999999988887777777776666666665544 PP
+
+>> gi|197294547|ref|YP_001799088.1|  hypothetical protein PAa_0502 [Candidatus Phytoplasma australiense]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   16.0   0.0   1.3e-05       1.1     239     289 ..       6      55 ..       2      67 .. 0.83
+
+  Alignments for each domain:
+  == domain 1    score: 16.0 bits;  conditional E-value: 1.3e-05
+                     Animals.linsi 239 lwkvlalvfglatcatlffilrkqylqrkerrrlkqlqeefrekeakllse 289
+                                       +w +l +++g+   a l+f   k+ylq++   +++q++e fr+  +   ++
+  gi|197294547|ref|YP_001799088.1|   6 IW-ILGILIGMVLGAFLMFYWFKKYLQKNPPINERQIKEMFRQMGRTPSEK 55 
+                                       45.899************************************987655444 PP
+
+>> gi|157164694|ref|YP_001467670.1|  hypothetical protein CCC13826_1724 [Campylobacter concisus 13826]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   15.7   0.0   1.6e-05       1.4     238     329 ..       2      94 ..       1     107 [. 0.70
+
+  Alignments for each domain:
+  == domain 1    score: 15.7 bits;  conditional E-value: 1.6e-05
+                     Animals.linsi 238 rlwkvlalvfglatcatlffilrkqylqrk..errrlkqlqeefrekeakllseakaedreslksacvvclskeksc 312
+                                       ++ k++++++ +  c  ++f+l +   +++  e   + +++++f ++++k  +e  +ed+ +  +  ++ ++k++  
+  gi|157164694|ref|YP_001467670.1|   2 KIGKIITIILAVLICGIMVFMLSQTPPKKEkaEASVQPKVEQNFTKQQSKSSEEFASEDELKKVKELSLSVAKTQN- 77 
+                                       7889******************998665540144455678889999988888877777665544444444444333. PP
+
+                     Animals.linsi 313 vflecghvcscaecyra 329
+                                         +   ++ sca c+ a
+  gi|157164694|ref|YP_001467670.1|  78 EGVSRQYLTSCAPCHGA 94 
+                                       23566788888888766 PP
+
+>> gi|375012466|ref|YP_004989454.1|  unnamed protein product [Owenweeksia hongkongensis DSM 17368]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   15.0   0.1   2.6e-05       2.1     231     285 ..      37      90 ..      25     117 .. 0.72
+
+  Alignments for each domain:
+  == domain 1    score: 15.0 bits;  conditional E-value: 2.6e-05
+                     Animals.linsi 231 qrqessvrlwkvlalvfglatcatlffilrkqylqrkerrrlkqlqeefrekeak 285
+                                       ++ +++++lw++ a+++ + +   l +il  q  ++k r++  ql  e + + a 
+  gi|375012466|ref|YP_004989454.1|  37 NKYSQKLQLWRIAAVILAFVAVGQLAYILVSQGENQKMRNE-TQLAAESKSSGAF 90 
+                                       4567789************************9988766655.5555555554443 PP
+
+>> gi|313676216|ref|YP_004054212.1|  regulatory protein arsr [Marivirga tractuosa DSM 4126]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.5   0.1      0.66   5.5e+04     324     348 ..       3      27 ..       1      31 [. 0.86
+   2 ?   13.3   0.0   8.7e-05       7.2      54      89 ..      86     121 ..      71     124 .] 0.88
+
+  Alignments for each domain:
+  == domain 1    score: 0.5 bits;  conditional E-value: 0.66
+                     Animals.linsi 324 aecyralpepkkcpicrqeitrvvp 348
+                                       ++c r +++ ++   c++ei+rv p
+  gi|313676216|ref|YP_004054212.1|   3 KSCIRVFADVEQIKQCKEEINRVAP 27 
+                                       5799999999999999****99987 PP
+
+  == domain 2    score: 13.3 bits;  conditional E-value: 8.7e-05
+                     Animals.linsi  54 ilseapgkcvpyaviegavrsvketlnsqfvenckg 89 
+                                       + se  g+ v y ++eg+++ ++++l+s f++n k 
+  gi|313676216|ref|YP_004054212.1|  86 VTSEKVGQTVFYFLVEGSIQIIRHVLESLFIDNKKE 121
+                                       679999***************************886 PP
+
+>> gi|29349477|ref|NP_812980.1|  regulatory protein [Bacteroides thetaiotaomicron VPI-5482]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   15.2   0.3   2.2e-05       1.8     229     307 ..     320     400 ..     312     406 .. 0.82
+   2 ?   -3.3   0.0       9.6     8e+05     216     275 ..     454     516 ..     440     530 .. 0.51
+
+  Alignments for each domain:
+  == domain 1    score: 15.2 bits;  conditional E-value: 2.2e-05
+                 Animals.linsi 229 llqrqessvrlwkvlalvfglatcatlffilrkqylqrkerrrlkqlqeefrekeakllseakaedres..lksacvvcls 307
+                                    l++q++++r++ +l+ +f +a  +tl+f  ++  +  + +++l+ ++ee+   +++l + +  ++r +    + c+v ++
+  gi|29349477|ref|NP_812980.1| 320 RLEKQKQNLRFYILLTSLFVVALAITLYFTYKQTKIVSRAKKNLNVMNEELVALNKNLDEANLIKERYVgyFMNQCAVYIN 400
+                                   589***********************************************9988877766665555543115667777665 PP
+
+  == domain 2    score: -3.3 bits;  conditional E-value: 9.6
+                 Animals.linsi 216 glqyylssqdfdsllqrq.essvrlwkvlal.vfglatcatlf.filrkqylqrkerrrlkql 275
+                                    ++  l   d+  l + q ++++r++ ++ + +  ++  a+++ + ++  y  + + +r+  l
+  gi|29349477|ref|NP_812980.1| 454 EFNSLLKPEDYYKLDKDQlNTELRIFALMRMgITDVSQIAVFLhYSVQTIYNYKSKVKRMSLL 516
+                                   555666677777776666355677777666523344444443313344444444444444444 PP
+
+>> gi|90022618|ref|YP_528445.1|  unnamed protein product [Saccharophagus degradans 2-40]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.0   0.2   5.2e-05       4.3     223     298 ..     589     667 ..     579     680 .. 0.74
+
+  Alignments for each domain:
+  == domain 1    score: 14.0 bits;  conditional E-value: 5.2e-05
+                 Animals.linsi 223 sqdfdsllqrqessvrlwkvlalvfglatcatlffilrkqyl...qrkerrrlkqlqeefrekeakllseakaedresl 298
+                                   +   dsl  +q  +  lwkv+ ++  +a  ++ +f+l +q +   q + + ++++l +e + +e+  l+ +ka+++ ++
+  gi|90022618|ref|YP_528445.1| 589 NIKTDSLTINQLLEATLWKVFFILTIVAGVICWLFVLAHQSQivaQEESQTQTRKLVQEIEAHEKTDLKLQKAKEQAEA 667
+                                   56678999999999**********************9987642114444567788888998888887776655554433 PP
+
+>> gi|114570480|ref|YP_757160.1|  unnamed protein product [Maricaulis maris MCS10]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.4   0.0   3.8e-05       3.2     194     299 ..     147     252 ..     142     289 .. 0.79
+
+  Alignments for each domain:
+  == domain 1    score: 14.4 bits;  conditional E-value: 3.8e-05
+                  Animals.linsi 194 tltgvgelvldnns.vrlqppkqglqyylssqdfdsllqrq.essvrlwkvlalvfglatcatlffilrkqylqrkerrr 271
+                                     l gvg++ l   +   +  pk+ +   l ++d  sll+   ++ + l  +la +  +a  a l +i+++q   +++r  
+  gi|114570480|ref|YP_757160.1| 147 FLKGVGKMALVAVAaFLVIYPKREILAGLPALDIGSLLSLVrQGAIEL--LLAALTVYAVIAGLDYIFQRQSFMKRNRMS 224
+                                    578999888766541455679999999999******997530344444..677888889999****************** PP
+
+                  Animals.linsi 272 lkqlqeefrekeakllseakaedreslk 299
+                                    ++++++e++++e   l +ak  +  + +
+  gi|114570480|ref|YP_757160.1| 225 RREIKDEMKQSEGDPLVRAKLRQLRQER 252
+                                    ***********99888887766544444 PP
+
+>> gi|333895859|ref|YP_004469734.1|  unnamed protein product [Alteromonas sp. SN2]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    0.8   0.0      0.54   4.5e+04     253     295 ..      13      55 ..       6      68 .. 0.77
+   2 ?   11.6   0.0   0.00029        24     216     296 ..     340     423 ..     336     444 .. 0.74
+
+  Alignments for each domain:
+  == domain 1    score: 0.8 bits;  conditional E-value: 0.54
+                     Animals.linsi 253 atlffilrkqylqrkerrrlkqlqeefrekeakllseakaedr 295
+                                       a + f+l++q+++    +  +q+q e  e+ ++ + + +  ++
+  gi|333895859|ref|YP_004469734.1|  13 ALVSFLLWQQWQKEYGPQPVQQVQTEQAEQVSQGVPSFDDAQS 55 
+                                       45679*********************99998877665555544 PP
+
+  == domain 2    score: 11.6 bits;  conditional E-value: 0.00029
+                     Animals.linsi 216 glqyylssqdfdsllqrqessvrlwkvlalvfglatcatlffilrkqylqrkerr....rlkqlqeefrekeaklls 288
+                                       g+ +++s+  f sll   +s v  w v  +++ +    +++++ +kqy    + r    +++ql++ f + ++k+ +
+  gi|333895859|ref|YP_004469734.1| 340 GILWWISQSLF-SLLTFLHSLVNNWGVAIILITIVVKGAMYWLTKKQYESMARMRnlapKMQQLKDRFGDDRQKMSQ 415
+                                       66667765555.899999******************************87655442333789999999888777655 PP
+
+                     Animals.linsi 289 eakaedre 296
+                                       ++ +  ++
+  gi|333895859|ref|YP_004469734.1| 416 SMMELYKK 423
+                                       54433333 PP
+
+>> gi|311068035|ref|YP_003972958.1|  unnamed protein product [Bacillus atrophaeus 1942]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.3   0.1   4.2e-05       3.5     230     286 ..      24      80 ..       5     101 .. 0.80
+
+  Alignments for each domain:
+  == domain 1    score: 14.3 bits;  conditional E-value: 4.2e-05
+                     Animals.linsi 230 lqrqessvrlwkvlalvfglatcatlffilrkqylqrkerrrlkqlqeefrekeakl 286
+                                       ++r+ s     kvl ++f +a  ++ +fi+ k y  ++ + + ++l+e+   ++++ 
+  gi|311068035|ref|YP_003972958.1|  24 VKRRASITLGEKVLLVLFVIAVLSVSLFIVSKAYAAYQTNIEVQKLEEKISSENKRI 80 
+                                       444444444469**********************************99988776654 PP
+
+>> gi|256425340|ref|YP_003125993.1|  unnamed protein product [Chitinophaga pinensis DSM 2588]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.1   0.0   4.7e-05       3.9     163     235 ..      17      90 ..       9     120 .. 0.88
+
+  Alignments for each domain:
+  == domain 1    score: 14.1 bits;  conditional E-value: 4.7e-05
+                     Animals.linsi 163 vqsftdvighyisge.rpkgiqeteemlkvgatltgvgelvldnnsvrlqppkqglqyylssqdfdsllqrqes 235
+                                       v  + d + h++    r + i+ t eml+v +tl+  ge+  ++ +  l+  k+ ++y l ++   +l++r e 
+  gi|256425340|ref|YP_003125993.1|  17 VSNLRDAMRHFVQRRlREQNIDLTFEMLQVINTLSEKGEINQQEIANLLNKDKTSITYLLDNLSKRGLVRRVED 90 
+                                       667899999**9865499************************999999***************99999999774 PP
+
+>> gi|116512203|ref|YP_809419.1|  hypothetical protein LACR_1488 [Lactococcus lactis subsp. cremoris SK11]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.2   0.3   4.4e-05       3.7     238     291 ..      12      66 ..       4      68 .] 0.83
+
+  Alignments for each domain:
+  == domain 1    score: 14.2 bits;  conditional E-value: 4.4e-05
+                  Animals.linsi 238 rlwkvlalvfglatcatlff.ilrkqylqrkerrrlkqlqeefrekeakllseak 291
+                                    + w  l  ++gl   + +ff i++k+ ++ ++++++kq+ +e  e+++k + + +
+  gi|116512203|ref|YP_809419.1|  12 KDWTWLLFILGLMLIILFFFlIIWKRRKKSQKEEEEKQVLREKIEAQEKIIDDLN 66 
+                                    56999999***9999888773679999999999999***9999999998877665 PP
+
+>> gi|261822665|ref|YP_003260771.1|  hypothetical protein Pecwa_3426 [Pectobacterium wasabiae WPP163]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.0   0.0   5.1e-05       4.2     135     165 ..      91     121 ..      71     127 .. 0.90
+
+  Alignments for each domain:
+  == domain 1    score: 14.0 bits;  conditional E-value: 5.1e-05
+                     Animals.linsi 135 vdvavrvlkpldavdlgletvyekfhpsvqs 165
+                                       v+ + rv +p +  ++ ++t+ye+fhp +q+
+  gi|261822665|ref|YP_003260771.1|  91 VTESFRVARPKEKNNVRMNTMYEEFHPIIQA 121
+                                       56689***********************995 PP
+
+>> gi|319900474|ref|YP_004160202.1|  integral membrane sensor signal transduction histidine kinase [Bacteroides helcogen
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.2   0.9   8.8e-05       7.3     200     286 ..     401     490 ..     391     510 .. 0.67
+
+  Alignments for each domain:
+  == domain 1    score: 13.2 bits;  conditional E-value: 8.8e-05
+                     Animals.linsi 200 elvldnnsvrlqppkqglqyylssqdfdsllqrqessvrlwkvl...alvfglatcatl.ff.ilrkqylqrkerrr 271
+                                       +l+ldn+ + +q  k       s+ + ++ll +q+++   ++++   +++f +a  +++ ++ ++r+++  r+  ++
+  gi|319900474|ref|YP_004160202.1| 401 QLILDNRELDVQRLKGEAALQQSKAQQQALLLKQQQEASHYRIIifcTVIFSMAVFIAFlVYhLIRRRHHVRQ--LE 475
+                                       69*************9999999********9999988888888633367788877655313313344333333..22 PP
+
+                     Animals.linsi 272 lkqlqeefrekeakl 286
+                                       +k+l+    + +a+ 
+  gi|319900474|ref|YP_004160202.1| 476 KKNLELSVARDQAQS 490
+                                       333333333333333 PP
+
+>> gi|383789462|ref|YP_005474036.1|  unnamed protein product [Spirochaeta africana DSM 8902]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    6.9   0.0    0.0077   6.4e+02     318     344 ..      35      61 ..      31      69 .. 0.85
+   2 ?    6.1   0.2     0.013   1.1e+03     319     344 ..      80     110 ..      73     117 .. 0.75
+
+  Alignments for each domain:
+  == domain 1    score: 6.9 bits;  conditional E-value: 0.0077
+                     Animals.linsi 318 ghvcscaecyralpepkkcpicrqeit 344
+                                       gh  + a+ + a p  + cp+cr+++ 
+  gi|383789462|ref|YP_005474036.1|  35 GHRSASAQRFGATPGARSCPVCRSTLG 61 
+                                       89999999***************9875 PP
+
+  == domain 2    score: 6.1 bits;  conditional E-value: 0.013
+                     Animals.linsi 319 hvcscaecy...r..alpepkkcpicrqeit 344
+                                       h+  c +c+   +  a p+ ++cp+c +e+t
+  gi|383789462|ref|YP_005474036.1|  80 HIFGCPDCFpkhQplANPRERRCPVCTKELT 110
+                                       8889999974444224455579****99976 PP
+
+>> gi|108799713|ref|YP_639910.1|  hypothetical protein Mmcs_2747 [Mycobacterium sp. MCS]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.8   0.5     6e-05         5     236     298 ..       4      65 ..       1      87 [. 0.73
+
+  Alignments for each domain:
+  == domain 1    score: 13.8 bits;  conditional E-value: 6e-05
+                  Animals.linsi 236 svrlwkvlalvfglatcatlffilrkqylqrkerrrlkqlqeefrekeakllseakaedresl 298
+                                    s  +w ++a+v+ l   a+l ++ rk+  + k++++ +q+++e +e++++  ++    +++++
+  gi|108799713|ref|YP_639910.1|   4 STIVWIIVAVVVALLIIAALAMMARKRR-NEKRHLEAQQIRQEVQEHHQHVEQRDLVAQQSEA 65 
+                                    6678**************9998887765.5566778888888888887776655444433333 PP
+
+>> gi|119868823|ref|YP_938775.1|  hypothetical protein Mkms_2791 [Mycobacterium sp. KMS]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.8   0.5     6e-05         5     236     298 ..       4      65 ..       1      87 [. 0.73
+
+  Alignments for each domain:
+  == domain 1    score: 13.8 bits;  conditional E-value: 6e-05
+                  Animals.linsi 236 svrlwkvlalvfglatcatlffilrkqylqrkerrrlkqlqeefrekeakllseakaedresl 298
+                                    s  +w ++a+v+ l   a+l ++ rk+  + k++++ +q+++e +e++++  ++    +++++
+  gi|119868823|ref|YP_938775.1|   4 STIVWIIVAVVVALLIIAALAMMARKRR-NEKRHLEAQQIRQEVQEHHQHVEQRDLVAQQSEA 65 
+                                    6678**************9998887765.5566778888888888887776655444433333 PP
+
+>> gi|126435357|ref|YP_001071048.1|  hypothetical protein Mjls_2777 [Mycobacterium sp. JLS]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.8   0.5     6e-05         5     236     298 ..       4      65 ..       1      87 [. 0.73
+
+  Alignments for each domain:
+  == domain 1    score: 13.8 bits;  conditional E-value: 6e-05
+                     Animals.linsi 236 svrlwkvlalvfglatcatlffilrkqylqrkerrrlkqlqeefrekeakllseakaedresl 298
+                                       s  +w ++a+v+ l   a+l ++ rk+  + k++++ +q+++e +e++++  ++    +++++
+  gi|126435357|ref|YP_001071048.1|   4 STIVWIIVAVVVALLIIAALAMMARKRR-NEKRHLEAQQIRQEVQEHHQHVEQRDLVAQQSEA 65 
+                                       6678**************9998887765.5566778888888888887776655444433333 PP
+
+>> gi|169824695|ref|YP_001692306.1|  hypothetical protein FMG_0998 [Finegoldia magna ATCC 29328]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.7   0.4   6.2e-05       5.1     232     292 ..      10      70 ..       3      85 .. 0.70
+
+  Alignments for each domain:
+  == domain 1    score: 13.7 bits;  conditional E-value: 6.2e-05
+                     Animals.linsi 232 rqessvrlwkvlalvfglatcatlffilrkqylqrkerrrlkqlqeefrekeakllseaka 292
+                                       ++ ++v  +++++  + + +c+tl+f + kq +q ++ ++ k  q++ + + +k + + + 
+  gi|169824695|ref|YP_001692306.1|  10 KRRKNVNKFRIIVSAITIFACITLLFTIFKQQIQIRNINNVKIEQQNKKAELEKEIVKLSD 70 
+                                       5556788899999999999*************99988777665555544444444444333 PP
+
+>> gi|52080117|ref|YP_078908.1|  cell-division protein [Bacillus licheniformis ATCC 14580]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.8   0.1   5.8e-05       4.8     228     293 ..      21      86 ..       9     104 .. 0.76
+
+  Alignments for each domain:
+  == domain 1    score: 13.8 bits;  conditional E-value: 5.8e-05
+                 Animals.linsi 228 sllqrqessvrl.wkvlalvfglatcatlffilrkqylqrkerrrlkqlqeefrekeakllseakae 293
+                                   s++ r+ +s+ l  kvl ++f la  ++ +f++ k +  ++ + + ++l+++ + + ++   + ++e
+  gi|52080117|ref|YP_078908.1|  21 SVIIRRRASITLgEKVLIVLFALAVLSASLFMISKAFAAYQTNIEIQKLEKKVETESSRVD-DLEKE 86 
+                                   455555666666269*********************************9998876655543.33333 PP
+
+>> gi|52785491|ref|YP_091320.1|  hypothetical protein BLi01732 [Bacillus licheniformis ATCC 14580]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.8   0.1   5.8e-05       4.8     228     293 ..      21      86 ..       9     104 .. 0.76
+
+  Alignments for each domain:
+  == domain 1    score: 13.8 bits;  conditional E-value: 5.8e-05
+                 Animals.linsi 228 sllqrqessvrl.wkvlalvfglatcatlffilrkqylqrkerrrlkqlqeefrekeakllseakae 293
+                                   s++ r+ +s+ l  kvl ++f la  ++ +f++ k +  ++ + + ++l+++ + + ++   + ++e
+  gi|52785491|ref|YP_091320.1|  21 SVIIRRRASITLgEKVLIVLFALAVLSASLFMISKAFAAYQTNIEIQKLEKKVETESSRVD-DLEKE 86 
+                                   455555666666269*********************************9998876655543.33333 PP
+
+>> gi|203288579|ref|YP_002223486.1|  p23-like cell envelope protein [Borrelia duttonii Ly]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.4   1.7     8e-05       6.6     245     341 ..      10     107 ..       2     117 .. 0.75
+
+  Alignments for each domain:
+  == domain 1    score: 13.4 bits;  conditional E-value: 8e-05
+                     Animals.linsi 245 lvfglatcatlffilrkqylqrkerrrlkqlqeefrekeakllseakaedreslksacvvclskekscvflecghvc 321
+                                       l + + + a+ f   +  y + +  + l ++  ++++++ k l++++ e++e+ +++  v  +++  c+ + c   c
+  gi|203288579|ref|YP_002223486.1|  10 LFIIILSMASCFLDDQIDYSKVQLDQALSNIISKYNHNKLKDLQKENVEEEEE-QTTFEVIEGQKEQCMCISCWLWC 85 
+                                       333444445556666779999*********************99999888776.5666777899999********** PP
+
+                     Animals.linsi 322 sca..ecyralpepkkcpicrq 341
+                                       sc   +cy +  + k   i  q
+  gi|203288579|ref|YP_002223486.1|  86 SCPkpKCYITWMKIKAKEIVDQ 107
+                                       **63369988777776666655 PP
+
+>> gi|269202592|ref|YP_003281861.1|  hypothetical protein SAAV_0940 [Staphylococcus aureus subsp. aureus ED98]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.7   0.0   0.00013        10       8      53 ..      34      79 ..      31      84 .. 0.91
+
+  Alignments for each domain:
+  == domain 1    score: 12.7 bits;  conditional E-value: 0.00013
+                     Animals.linsi  8 slaqlillgtssvvtavlysvyrqkarvaqelkgakkvsleedlks 53
+                                      s+ ql +l +s  ++a+l+s+y++k     +lk+++k+ ++e +k 
+  gi|269202592|ref|YP_003281861.1| 34 SIIQLEILMASYGIAAFLFSLYKEKCFKICNLKDSNKLVVSEIFKI 79
+                                      789999********************************99887765 PP
+
+>> gi|148267412|ref|YP_001246355.1|  hypothetical protein SaurJH9_0978 [Staphylococcus aureus subsp. aureus JH9]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.7   0.0   0.00013        10       8      53 ..      34      79 ..      31      84 .. 0.91
+
+  Alignments for each domain:
+  == domain 1    score: 12.7 bits;  conditional E-value: 0.00013
+                     Animals.linsi  8 slaqlillgtssvvtavlysvyrqkarvaqelkgakkvsleedlks 53
+                                      s+ ql +l +s  ++a+l+s+y++k     +lk+++k+ ++e +k 
+  gi|148267412|ref|YP_001246355.1| 34 SIIQLEILMASYGIAAFLFSLYKEKCFKICNLKDSNKLVVSEIFKI 79
+                                      789999********************************99887765 PP
+
+>> gi|150393465|ref|YP_001316140.1|  hypothetical protein SaurJH1_0997 [Staphylococcus aureus subsp. aureus JH1]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.7   0.0   0.00013        10       8      53 ..      34      79 ..      31      84 .. 0.91
+
+  Alignments for each domain:
+  == domain 1    score: 12.7 bits;  conditional E-value: 0.00013
+                     Animals.linsi  8 slaqlillgtssvvtavlysvyrqkarvaqelkgakkvsleedlks 53
+                                      s+ ql +l +s  ++a+l+s+y++k     +lk+++k+ ++e +k 
+  gi|150393465|ref|YP_001316140.1| 34 SIIQLEILMASYGIAAFLFSLYKEKCFKICNLKDSNKLVVSEIFKI 79
+                                      789999********************************99887765 PP
+
+>> gi|156979305|ref|YP_001441564.1|  hypothetical protein SAHV_0974 [Staphylococcus aureus subsp. aureus Mu3]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.7   0.0   0.00013        10       8      53 ..      34      79 ..      31      84 .. 0.91
+
+  Alignments for each domain:
+  == domain 1    score: 12.7 bits;  conditional E-value: 0.00013
+                     Animals.linsi  8 slaqlillgtssvvtavlysvyrqkarvaqelkgakkvsleedlks 53
+                                      s+ ql +l +s  ++a+l+s+y++k     +lk+++k+ ++e +k 
+  gi|156979305|ref|YP_001441564.1| 34 SIIQLEILMASYGIAAFLFSLYKEKCFKICNLKDSNKLVVSEIFKI 79
+                                      789999********************************99887765 PP
+
+>> gi|15923969|ref|NP_371503.1|  hypothetical protein SAV0979 [Staphylococcus aureus subsp. aureus Mu50]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.7   0.0   0.00013        10       8      53 ..      34      79 ..      31      84 .. 0.91
+
+  Alignments for each domain:
+  == domain 1    score: 12.7 bits;  conditional E-value: 0.00013
+                 Animals.linsi  8 slaqlillgtssvvtavlysvyrqkarvaqelkgakkvsleedlks 53
+                                  s+ ql +l +s  ++a+l+s+y++k     +lk+++k+ ++e +k 
+  gi|15923969|ref|NP_371503.1| 34 SIIQLEILMASYGIAAFLFSLYKEKCFKICNLKDSNKLVVSEIFKI 79
+                                  789999********************************99887765 PP
+
+>> gi|15926568|ref|NP_374101.1|  hypothetical protein SA0839 [Staphylococcus aureus subsp. aureus N315]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.7   0.0   0.00013        10       8      53 ..      34      79 ..      31      84 .. 0.91
+
+  Alignments for each domain:
+  == domain 1    score: 12.7 bits;  conditional E-value: 0.00013
+                 Animals.linsi  8 slaqlillgtssvvtavlysvyrqkarvaqelkgakkvsleedlks 53
+                                  s+ ql +l +s  ++a+l+s+y++k     +lk+++k+ ++e +k 
+  gi|15926568|ref|NP_374101.1| 34 SIIQLEILMASYGIAAFLFSLYKEKCFKICNLKDSNKLVVSEIFKI 79
+                                  789999********************************99887765 PP
+
+>> gi|218676250|ref|YP_002395069.1|  hypothetical protein VS_II0472 [Vibrio splendidus LGP32]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.4   0.0   7.9e-05       6.6     107     167 ..      17      76 ..       8      99 .. 0.87
+
+  Alignments for each domain:
+  == domain 1    score: 13.4 bits;  conditional E-value: 7.9e-05
+                     Animals.linsi 107 thlwndlekiihqrtntvpfdlvphedgvdvavrvlkpldavdlgletvyekfhpsvqsft 167
+                                       +h+    + +i q  +   fd++++ed+++ +v  ++ l+a + +  t y k++p    f 
+  gi|218676250|ref|YP_002395069.1|  17 SHVDTPNSSVIEQLEERFEFDMASREDSISRSVAFIRELNAREPK-ATFYVKYKPDASEFV 76 
+                                       577777899********************************9975.799******988775 PP
+
+>> gi|160881170|ref|YP_001560138.1|  hypothetical protein Cphy_3042 [Clostridium phytofermentans ISDg]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.3   0.0   8.6e-05       7.1      87     168 ..      12      96 ..       5     120 .. 0.72
+
+  Alignments for each domain:
+  == domain 1    score: 13.3 bits;  conditional E-value: 8.6e-05
+                     Animals.linsi  87 ckgviqrltlkehk...mvwnrtthlwndlekiihqrt..ntvpfdlvphedgvdvavrvlkpldavdlgletvyek 158
+                                        kg+i+rl+ + +    m  + + +l+ d++kii      ++v f l ++ +  d+   v +    + + l +  + 
+  gi|160881170|ref|YP_001560138.1|  12 VKGIIERLAKEHQIeviMFIDTSHELYSDYSKIITVSKapDAVDFALLNQTSPNDI--VVTQDYGVAAMALGKKAKA 86 
+                                       49******86533222255566667********98655116777777766666555..5667777777777788899 PP
+
+                     Animals.linsi 159 fhpsvqsftd 168
+                                       +hps + ft+
+  gi|160881170|ref|YP_001560138.1|  87 LHPSGKIFTN 96 
+                                       9999999986 PP
+
+>> gi|302337778|ref|YP_003802984.1|  LuxR family transcriptional regulator [Spirochaeta smaragdinae DSM 11293]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.1   0.2    0.0001       8.4     229     259 ..     134     164 ..     120     170 .. 0.83
+
+  Alignments for each domain:
+  == domain 1    score: 13.1 bits;  conditional E-value: 0.0001
+                     Animals.linsi 229 llqrqessvrlwkvlalvfglatcatlffil 259
+                                        l r e s+rlwkv+ +vf +a+  +lf i+
+  gi|302337778|ref|YP_003802984.1| 134 NLVRYEMSIRLWKVFFVVFAVAALFSLFSIM 164
+                                       467899*********************9987 PP
+
+>> gi|49483140|ref|YP_040364.1|  unnamed protein product [Staphylococcus aureus subsp. aureus MRSA252]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.8   0.0   0.00012        10       8      53 ..      34      79 ..      31      85 .. 0.91
+
+  Alignments for each domain:
+  == domain 1    score: 12.8 bits;  conditional E-value: 0.00012
+                 Animals.linsi  8 slaqlillgtssvvtavlysvyrqkarvaqelkgakkvsleedlks 53
+                                  s+ ql +l +s  ++a+l+s+y++k     +lk+++k+ ++e +k 
+  gi|49483140|ref|YP_040364.1| 34 SIIQLEILMASYGIAAFLFSLYKEKCFKICNLKDSNKLVVSEIFKI 79
+                                  789999********************************99887765 PP
+
+>> gi|83648943|ref|YP_437378.1|  hypothetical protein HCH_06306 [Hahella chejuensis KCTC 2396]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.9   0.0   0.00011       9.2     243     302 ..       8      68 ..       2      86 .. 0.69
+
+  Alignments for each domain:
+  == domain 1    score: 12.9 bits;  conditional E-value: 0.00011
+                 Animals.linsi 243 lalvfglatcatlffilrkqylqrkerrrlkqlqe.efrekeakllseakaedreslksac 302
+                                   + +++g+a+c  l f++r+q    +e+rrl+  q+     ++a+ +++ +   r++l +  
+  gi|83648943|ref|YP_437378.1|   8 ILILVGVAACLFLGFFIRRQLHVLREHRRLEAEQQsRTAANRARAIESITVLARCILSDQV 68 
+                                   45788********999999999999988887655404555666666666666666665555 PP
+
+>> gi|57238724|ref|YP_179428.1|  hypothetical protein CJE1442 [Campylobacter jejuni RM1221]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.5   0.1   7.4e-05       6.2     231     294 ..      24      86 ..       3      92 .. 0.68
+
+  Alignments for each domain:
+  == domain 1    score: 13.5 bits;  conditional E-value: 7.4e-05
+                 Animals.linsi 231 qrqessvrlwkvlalvfglatcatlffilrkqylqrkerrrlkqlqeefrekeakllseakaed 294
+                                   ++++ s  +w ++   fg+  c+ l+  ++k y++ ++  ++++l+     ke++ +sea+ e+
+  gi|57238724|ref|YP_179428.1|  24 KQRNMSSLWWGIVGFFFGIFGCI-LYLAVKKPYRREQKISKMRDLEFLRGLKEKRCISEAEYEK 86 
+                                   33445566899***********7.77788999*9999999998886544455566666666554 PP
+
+>> gi|21282590|ref|NP_645678.1|  hypothetical protein MW0861 [Staphylococcus aureus subsp. aureus MW2]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.7   0.0   0.00013        10       8      53 ..      34      79 ..      31      84 .. 0.91
+
+  Alignments for each domain:
+  == domain 1    score: 12.7 bits;  conditional E-value: 0.00013
+                 Animals.linsi  8 slaqlillgtssvvtavlysvyrqkarvaqelkgakkvsleedlks 53
+                                  s+ ql +l +s  ++a+l+s+y++k     +lk+++k+ ++e +k 
+  gi|21282590|ref|NP_645678.1| 34 SIIQLEILMASYGIAAFLFSLYKEKCFKICNLKDSNKLVVSEIFKI 79
+                                  789999********************************99887765 PP
+
+>> gi|254788089|ref|YP_003075518.1|  integral membrane sensor hybrid histidine kinase [Teredinibacter turnerae T7901]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.5   0.2   0.00015        12     237     300 ..     606     673 ..     599     684 .. 0.68
+
+  Alignments for each domain:
+  == domain 1    score: 12.5 bits;  conditional E-value: 0.00015
+                     Animals.linsi 237 vrlwkvlalvfglatcatlffilrkqyl...qrkerrrlkqlqeefrekeakllseakaed.reslks 300
+                                         lwkv+ +++ +a  ++ +f+l ++ +   q + +r+++ lqee   +e+  ++ ++a++  e+++s
+  gi|254788089|ref|YP_003075518.1| 606 AMLWKVFFILLIIAGVVAWLFVLAHESRlvaQEESQRQNRLLQEEITAHEETDRKLQQAKEkAEAANS 673
+                                       579******************99865431114444556677899998887765544444330344433 PP
+
+>> gi|151221061|ref|YP_001331883.1|  hypothetical protein NWMN_0849 [Staphylococcus aureus subsp. aureus str. Newman]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.7   0.0   0.00013        10       8      53 ..      34      79 ..      31      84 .. 0.91
+
+  Alignments for each domain:
+  == domain 1    score: 12.7 bits;  conditional E-value: 0.00013
+                     Animals.linsi  8 slaqlillgtssvvtavlysvyrqkarvaqelkgakkvsleedlks 53
+                                      s+ ql +l +s  ++a+l+s+y++k     +lk+++k+ ++e +k 
+  gi|151221061|ref|YP_001331883.1| 34 SIIQLEILMASYGIAAFLFSLYKEKCFKICNLKDSNKLVVSEIFKI 79
+                                      789999********************************99887765 PP
+
+>> gi|161509179|ref|YP_001574838.1|  hypothetical protein USA300HOU_0938 [Staphylococcus aureus subsp. aureus USA300_TCH
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.7   0.0   0.00013        10       8      53 ..      34      79 ..      31      84 .. 0.91
+
+  Alignments for each domain:
+  == domain 1    score: 12.7 bits;  conditional E-value: 0.00013
+                     Animals.linsi  8 slaqlillgtssvvtavlysvyrqkarvaqelkgakkvsleedlks 53
+                                      s+ ql +l +s  ++a+l+s+y++k     +lk+++k+ ++e +k 
+  gi|161509179|ref|YP_001574838.1| 34 SIIQLEILMASYGIAAFLFSLYKEKCFKICNLKDSNKLVVSEIFKI 79
+                                      789999********************************99887765 PP
+
+>> gi|379014174|ref|YP_005290410.1|  unnamed protein product [Staphylococcus aureus subsp. aureus VC40]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.7   0.0   0.00013        10       8      53 ..      34      79 ..      31      84 .. 0.91
+
+  Alignments for each domain:
+  == domain 1    score: 12.7 bits;  conditional E-value: 0.00013
+                     Animals.linsi  8 slaqlillgtssvvtavlysvyrqkarvaqelkgakkvsleedlks 53
+                                      s+ ql +l +s  ++a+l+s+y++k     +lk+++k+ ++e +k 
+  gi|379014174|ref|YP_005290410.1| 34 SIIQLEILMASYGIAAFLFSLYKEKCFKICNLKDSNKLVVSEIFKI 79
+                                      789999********************************99887765 PP
+
+>> gi|49485755|ref|YP_042976.1|  unnamed protein product [Staphylococcus aureus subsp. aureus MSSA476]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.7   0.0   0.00013        10       8      53 ..      34      79 ..      31      84 .. 0.91
+
+  Alignments for each domain:
+  == domain 1    score: 12.7 bits;  conditional E-value: 0.00013
+                 Animals.linsi  8 slaqlillgtssvvtavlysvyrqkarvaqelkgakkvsleedlks 53
+                                  s+ ql +l +s  ++a+l+s+y++k     +lk+++k+ ++e +k 
+  gi|49485755|ref|YP_042976.1| 34 SIIQLEILMASYGIAAFLFSLYKEKCFKICNLKDSNKLVVSEIFKI 79
+                                  789999********************************99887765 PP
+
+>> gi|57651670|ref|YP_185851.1|  hypothetical protein SACOL0983 [Staphylococcus aureus subsp. aureus COL]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.7   0.0   0.00013        10       8      53 ..      34      79 ..      31      84 .. 0.91
+
+  Alignments for each domain:
+  == domain 1    score: 12.7 bits;  conditional E-value: 0.00013
+                 Animals.linsi  8 slaqlillgtssvvtavlysvyrqkarvaqelkgakkvsleedlks 53
+                                  s+ ql +l +s  ++a+l+s+y++k     +lk+++k+ ++e +k 
+  gi|57651670|ref|YP_185851.1| 34 SIIQLEILMASYGIAAFLFSLYKEKCFKICNLKDSNKLVVSEIFKI 79
+                                  789999********************************99887765 PP
+
+>> gi|87160454|ref|YP_493581.1|  hypothetical protein SAUSA300_0881 [Staphylococcus aureus subsp. aureus USA300_FPR3757]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.7   0.0   0.00013        10       8      53 ..      34      79 ..      31      84 .. 0.91
+
+  Alignments for each domain:
+  == domain 1    score: 12.7 bits;  conditional E-value: 0.00013
+                 Animals.linsi  8 slaqlillgtssvvtavlysvyrqkarvaqelkgakkvsleedlks 53
+                                  s+ ql +l +s  ++a+l+s+y++k     +lk+++k+ ++e +k 
+  gi|87160454|ref|YP_493581.1| 34 SIIQLEILMASYGIAAFLFSLYKEKCFKICNLKDSNKLVVSEIFKI 79
+                                  789999********************************99887765 PP
+
+>> gi|88194673|ref|YP_499469.1|  hypothetical protein SAOUHSC_00916 [Staphylococcus aureus subsp. aureus NCTC 8325]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.7   0.0   0.00013        10       8      53 ..      34      79 ..      31      84 .. 0.91
+
+  Alignments for each domain:
+  == domain 1    score: 12.7 bits;  conditional E-value: 0.00013
+                 Animals.linsi  8 slaqlillgtssvvtavlysvyrqkarvaqelkgakkvsleedlks 53
+                                  s+ ql +l +s  ++a+l+s+y++k     +lk+++k+ ++e +k 
+  gi|88194673|ref|YP_499469.1| 34 SIIQLEILMASYGIAAFLFSLYKEKCFKICNLKDSNKLVVSEIFKI 79
+                                  789999********************************99887765 PP
+
+>> gi|330835747|ref|YP_004410475.1|  phosphomethylpyrimidine kinase [Metallosphaera cuprina Ar-4]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.0   0.0   0.00011       8.9      17     102 ..     207     297 ..     200     306 .. 0.77
+
+  Alignments for each domain:
+  == domain 1    score: 13.0 bits;  conditional E-value: 0.00011
+                     Animals.linsi  17 tssvvtavlysvyrqkarvaqelkgakkvsleedlksils..eapgkcvpyaviegavr..svketlns..qfvenc 87 
+                                       +  v++a + +   +  +  +++k+akk+   e +k  ls     g   p++v+e +v+    +e+l+   +++e  
+  gi|330835747|ref|YP_004410475.1| 207 SGDVLSASITAFLSKGLKLKEAVKEAKKIVT-ESIKFSLSlgSGNGPVDPFSVVEKIVKieEARESLEKlvEYIEKN 282
+                                       5567777777777778888999******965.56666555115667789*******9973357889985448***** PP
+
+                     Animals.linsi  88 kgviqrltlkehkmv 102
+                                       + +++r+  +e+km 
+  gi|330835747|ref|YP_004410475.1| 283 RDIVDRVLYQEDKMN 297
+                                       **************6 PP
+
+>> gi|203288313|ref|YP_002223363.1|  p23-like cell envelope protein [Borrelia recurrentis A1]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.0   1.6   0.00011       8.9     245     341 ..      10     106 ..       2     116 .. 0.75
+
+  Alignments for each domain:
+  == domain 1    score: 13.0 bits;  conditional E-value: 0.00011
+                     Animals.linsi 245 lvfglatcatlffilrkqylqrkerrrlkqlqeefrekeakllseakaedreslksacvvclskekscvflecghvc 321
+                                       l + + + a+ f   +  y + +  + l ++ +++++++ k l+++k e++e+  ++  v  +++  c+ + c   c
+  gi|203288313|ref|YP_002223363.1|  10 LFIIILSMASCFLDDQIDYSKVQLDQALSNIINKYNHNKLKDLQKEKVEEEEQ--TTFEVIEGQKEQCMCIGCWFWC 84 
+                                       3334444445566667789999999************9999999988887765..56788899999*********** PP
+
+                     Animals.linsi 322 sca..ecyralpepkkcpicrq 341
+                                       sc   +cy +  + k   i  q
+  gi|203288313|ref|YP_002223363.1|  85 SCPkpKCYITWMKIKAKEIVDQ 106
+                                       **63369988777776666655 PP
+
+>> gi|218439894|ref|YP_002378223.1|  hypothetical protein PCC7424_2952 [Cyanothece sp. PCC 7424]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.6   0.0   0.00014        11     239     294 ..     126     184 ..     115     221 .. 0.79
+
+  Alignments for each domain:
+  == domain 1    score: 12.6 bits;  conditional E-value: 0.00014
+                     Animals.linsi 239 lwk.vlalvfglatcatlff..ilrkqylqrkerrrlkqlqeefrekeakllseakaed 294
+                                       +w+ v a+++gl tc+++ +  +  k+ + ++er+r  q +ee+r+k +k + +  +e 
+  gi|218439894|ref|YP_002378223.1| 126 IWQyVSAIMLGLPTCIAVTYysVKEKELIGKQERKRIDQSEEELRQKAEKIIGKIPKEL 184
+                                       5663668999*****876552256678899****************9998876554432 PP
+
+>> gi|253702111|ref|YP_003023300.1|  hypothetical protein GM21_3521 [Geobacter sp. M21]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.1   1.8   9.7e-05       8.1     293     341 ..      37      88 ..      24      89 .] 0.85
+
+  Alignments for each domain:
+  == domain 1    score: 13.1 bits;  conditional E-value: 9.7e-05
+                     Animals.linsi 293 edreslksacvvclsk...ekscvflecghvcscaecyralpepkkcpicrq 341
+                                       ++ +s+k+ c vc ++    k  +  e  h  +c+ec+ a   p kc  c +
+  gi|253702111|ref|YP_003023300.1|  37 HKGHSAKNECKVCHGDgapAKIAINKEAAHGKACKECHAAKGGPTKCGDCHK 88 
+                                       5667899******9763337889999*********************99986 PP
+
+>> gi|333896631|ref|YP_004470505.1|  rubrerythrin [Thermoanaerobacterium xylanolyticum LX-11]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.8   0.0   0.00012        10     278     348 ..     108     181 ..      88     182 .] 0.65
+
+  Alignments for each domain:
+  == domain 1    score: 12.8 bits;  conditional E-value: 0.00012
+                     Animals.linsi 278 efrekeakllseakaedres....lksacvvclskekscvflecghvcscaecyralpepkkcpicrqeitrvvp 348
+                                       ef+++++ l s + a + e+    l +   + ++  k   f e  h+cs     +  p p+kcp+c +e t+ v+
+  gi|333896631|ref|YP_004470505.1| 108 EFQQEQEALKSFTWAREAEKihadLFKEAKLSVDMGKDVGFNE-VHICSVCGYTTVGPIPEKCPVCGAEKTKFVS 181
+                                       5555444443332222222200002234456666667777766.5****99999999*********999988775 PP
+
+>> gi|300715897|ref|YP_003740700.1|  unnamed protein product [Erwinia billingiae Eb661]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.4   0.2   0.00016        13     229     288 ..     507     567 ..     482     586 .. 0.76
+
+  Alignments for each domain:
+  == domain 1    score: 12.4 bits;  conditional E-value: 0.00016
+                     Animals.linsi 229 llqrqessvrlwkvlalvfglatcatlffilrkqyl.qrkerrrlkqlqeefrekeaklls 288
+                                       l +  e+s+r   +++l+  l + + l+ +l ++yl qr+er++++ql+ e +e+e+ ++ 
+  gi|300715897|ref|YP_003740700.1| 507 LSEGAENSMRPISLFVLIAALFAIVFLLVLLIRRYLeQRRERLQRRQLELEREEAERANQM 567
+                                       44567999**99********99999999999999983566777777777666655543332 PP
+
+>> gi|226308941|ref|YP_002768901.1|  hypothetical protein RER_54540 [Rhodococcus erythropolis PR4]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.7   0.1   0.00013        11     236     301 ..      10      74 ..       4      92 .. 0.77
+
+  Alignments for each domain:
+  == domain 1    score: 12.7 bits;  conditional E-value: 0.00013
+                     Animals.linsi 236 svrlwkvlalvfglatcatlffilrkqylqrkerrrlkqlqeefrekeakllseakaedreslksa 301
+                                       s  +w ++a+v+ +a  a+l+++ r++  +r ++ + +q++e+  +k  +  +++   +++++k+ 
+  gi|226308941|ref|YP_002768901.1|  10 SSIIWIIVAVVVVIAIVAALLWVARNRRDER-RHIEAEQIREDVADKSLQVGEREARAEETAAKAR 74 
+                                       5568******************998876555.5677889999999998888777666666666554 PP
+
+>> gi|56459813|ref|YP_155094.1|  hypothetical protein IL0704 [Idiomarina loihiensis L2TR]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.8   0.1   0.00012       9.7     243     298 ..      42     102 ..      34     111 .. 0.65
+
+  Alignments for each domain:
+  == domain 1    score: 12.8 bits;  conditional E-value: 0.00012
+                 Animals.linsi 243 lalvfglatcatlffil....rkqylqrker.rrlkqlqeefrekeakllseakaedresl 298
+                                   l l fg+   a+lf ++    ++q    k+  r +kq ++ ++e++++ ++++++ ++++ 
+  gi|56459813|ref|YP_155094.1|  42 LGLAFGMVIAAVLFVLMipvmWRQRHAIKQVwRMRKQAKQHYQEQQRQYQKQQEHYENNKE 102
+                                   5688999999999876422226666555554155677788888888887776665554443 PP
+
+>> gi|383788267|ref|YP_005472835.1|  unnamed protein product [Caldisericum exile AZM16c01]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.4   0.0   0.00016        13      29      73 ..      65     109 ..      36     121 .. 0.79
+
+  Alignments for each domain:
+  == domain 1    score: 12.4 bits;  conditional E-value: 0.00016
+                     Animals.linsi  29 yrqkarvaqelkgakkvsleedlksilseapgkcvpyaviegavr 73 
+                                        + + +  + l++a    l e++k + s +p    py+vieg v 
+  gi|383788267|ref|YP_005472835.1|  65 LKARIEEERMLQEAIASDLREKIKEVESLTPDSIYPYTVIEGLVD 109
+                                       46677778899*******************************985 PP
+
+>> gi|322418176|ref|YP_004197399.1|  class III cytochrome c [Geobacter sp. M18]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.0   2.1   0.00011       8.9     293     341 ..      37      88 ..      24      89 .] 0.84
+
+  Alignments for each domain:
+  == domain 1    score: 13.0 bits;  conditional E-value: 0.00011
+                     Animals.linsi 293 edreslksacvvclsk...ekscvflecghvcscaecyralpepkkcpicrq 341
+                                       ++ +++k+ c vc ++    k  +  e  h  +c+ec+ a   p kc  c +
+  gi|322418176|ref|YP_004197399.1|  37 HKAHQAKNECKVCHGDgapAKIAINKEAAHGKACKECHAAKGGPTKCGDCHK 88 
+                                       5677899******9763337889999*********************99986 PP
+
+>> gi|310642354|ref|YP_003947112.1|  unnamed protein product [Paenibacillus polymyxa SC2]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.5   0.0    0.0012     1e+02      19      84 ..      19      91 ..       7     110 .. 0.74
+   2 ?    1.5   0.3      0.32   2.7e+04     229     267 ..     497     540 ..     487     570 .. 0.64
+
+  Alignments for each domain:
+  == domain 1    score: 9.5 bits;  conditional E-value: 0.0012
+                     Animals.linsi 19 svvtavlysvyrqkarvaqe.....lkgakk..vsleedlksilseapgkcvpyaviegavrsvketlnsqfv 84
+                                      +v+ +vly ++++k+ ++++     +++a+k    l+++l++++ +    c+   +  g ++sv++ l+ q+ 
+  gi|310642354|ref|YP_003947112.1| 19 AVLYTVLYGLHKHKSYAVRRgrihsVQEARKgkAVLQRELQTLMHKLYTLCMRVPITSGYITSVRKRLAGQHA 91
+                                      566777777777777655422222266776422679********************************99975 PP
+
+  == domain 2    score: 1.5 bits;  conditional E-value: 0.32
+                     Animals.linsi 229 llqrqessvrlwkvl.alvfglatcat...lffilrk.qylqrk 267
+                                       l + +e+ +++w vl ++v g+ +      l+++ rk +yl  k
+  gi|310642354|ref|YP_003947112.1| 497 LKDWNEEYIKWWEVLiSIVAGYVAYQMpmlLLYLQRKmRYLDMK 540
+                                       44557899*****9847999998876511133333332233332 PP
+
+>> gi|288555003|ref|YP_003426938.1|  unnamed protein product [Bacillus pseudofirmus OF4]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.0   0.0    0.0001       8.5     236     269 ..      26      59 ..      12      60 .] 0.83
+
+  Alignments for each domain:
+  == domain 1    score: 13.0 bits;  conditional E-value: 0.0001
+                     Animals.linsi 236 svrlwkvlalvfglatcatlffilrkqylqrker 269
+                                       +   w +l+lv+g a+   l+f+ +++y+q +e+
+  gi|288555003|ref|YP_003426938.1|  26 TGLNWFLLSLVLGPAATFILLFVEKREYKQVREN 59 
+                                       445699************************9986 PP
+
+>> gi|219871081|ref|YP_002475456.1|  hypothetical protein HAPS_0879 [Haemophilus parasuis SH0165]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.8   0.7   0.00012        10     240     291 ..       4      57 ..       1      74 [. 0.53
+
+  Alignments for each domain:
+  == domain 1    score: 12.8 bits;  conditional E-value: 0.00012
+                     Animals.linsi 240 wkvlalvfglatcatlffilrkqylqrkerrrlkqlqe...efrekeakllseak 291
+                                        k++++v+ la+c+ ++  l+ + l  ++r+ + + q+   e ++k+a+ ++ ak
+  gi|219871081|ref|YP_002475456.1|   4 VKIVTVVLFLAACVLFWLWLKAERLAERNRKLQAENQQqavEIQQKNAEVQN-AK 57 
+                                       699**********977766766665555544333333201133333332222.11 PP
+
+>> gi|332304537|ref|YP_004432388.1|  general secretion pathway protein L [Glaciecola sp. 4H-3-7+YE-5]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.3   0.2   0.00017        14     216     282 ..     225     291 ..     205     312 .. 0.76
+
+  Alignments for each domain:
+  == domain 1    score: 12.3 bits;  conditional E-value: 0.00017
+                     Animals.linsi 216 glqyylssqdfdsllqrqessvrlwkvlalvfglatcatlffilr.kqylqrkerrrlkqlqeefrek 282
+                                         q+ l + +f+s  ++q ++ r w++ a++  +a c+tl+  +  +q l +++ +   q++ ef+++
+  gi|332304537|ref|YP_004432388.1| 225 ATQFNLLQGEFKS-RKKQGGEFRKWRLAAVLAIVALCTTLIDKVAlQQQLSHEKAQLSAQVKSEFKRA 291
+                                       5567777777877.4899**********************9644314444455555667999999875 PP
+
+>> gi|304317459|ref|YP_003852604.1|  rubrerythrin [Thermoanaerobacterium thermosaccharolyticum DSM 571]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.4   0.0   0.00016        13     300     348 ..     134     181 ..      92     182 .] 0.65
+
+  Alignments for each domain:
+  == domain 1    score: 12.4 bits;  conditional E-value: 0.00016
+                     Animals.linsi 300 sacvvclskekscvflecghvcscaecyralpepkkcpicrqeitrvvp 348
+                                       +   + ++  k   f e  h+cs     +  p p+kcp+c +e t+ v+
+  gi|304317459|ref|YP_003852604.1| 134 KEAKLSVDMGKDVGFNE-VHICSICGYTTVGPIPEKCPVCGAEKTKFVS 181
+                                       33456666667766766.5****99999999*********999988775 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (352 nodes)
+Target sequences:                    5486869  (1733562373 residues)
+Passed MSV filter:                    149430  (0.0272341); expected 109737.4 (0.02)
+Passed bias filter:                   123647  (0.0225351); expected 109737.4 (0.02)
+Passed Vit filter:                      9589  (0.00174763); expected 5486.9 (0.001)
+Passed Fwd filter:                       305  (5.55873e-05); expected 54.9 (1e-05)
+Initial search space (Z):            5486869  [actual number of targets]
+Domain search space  (domZ):              66  [number of targets reported over threshold]
+# CPU time: 67.23u 0.41s 00:01:07.64 Elapsed: 00:00:33.32
+# Mc/sec: 18313.74
+//

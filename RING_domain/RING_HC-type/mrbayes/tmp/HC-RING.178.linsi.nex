@@ -1,0 +1,552 @@
+#NEXUS
+[saved by seaview on Thu May 17 12_00_29 2012]
+BEGIN DATA;
+  DIMENSIONS NTAX=178 NCHAR=103;
+  FORMAT DATATYPE=PROTEIN
+  GAP=-
+  ;
+MATRIX
+[1] AT2G39100.1
+CPICLE-NLTERRSA--AV-----------------ITVC--KHG-YCL-----------
+ACI-RK--W-SSFKR----------------NCPL-------C
+[2] AT2G46495.1
+CPICLS-EYASKETV--RC-----------------IPEC--DHC-FHS-----------
+ECI-DV--W-LKIHG----------------SCPL-------C
+[3] AT2G37150.3
+CAICLE-EYKEKEEL--GE-----------------VKGC--GHD-YHG-----------
+RCI-KK--W-LSMKN----------------SCPI-------C
+[4] AT4G10940.1
+CGICMD-----IIID-RGV-----------------LDCC--QHW-FCF-----------
+ECI-DN--W-STIMN----------------LCPL-------C
+[5] AT3G05670.1
+CGICLS-EEDMRRLK--GT-----------------LDCC--SHY-FCF-----------
+TCI-ME--W-SKVES----------------RCPL-------C
+[6] AT1G13195.1
+CGICLE-----TCTK--MV-----------------LPNC--CHS-MCI-----------
+KCY-RN--W-NLKSQ----------------SCPF-------C
+[7] AT1G24440.1
+CGICLE-----PCTK--MV-----------------LPNC--CHA-MCI-----------
+KCY-RN--W-NTKSE----------------SCPF-------C
+[8] AT3G47160.2
+CGICME-----MNNM--VV-----------------LPNC--THS-LCI-----------
+KCY-RD--W-HGRSE----------------SCPF-------C
+[9] AT5G58787.1
+CGICME-----MNSK--VV-----------------LPNC--THS-LCI-----------
+KCY-RD--W-RGRSQ----------------SCPF-------C
+[10] AT5G01520.1
+CGICLE-----IRNK--VV-----------------LPTC--NHS-MCI-----------
+NCY-RN--W-RARSQ----------------SCPF-------C
+[11] AT5G19430.1
+CAICLS--EIPLQET--AM-----------------VKGC--EHT-YCV-----------
+TCI-LR--W-ASCKESP--------------TCPQ-------C
+[12] AT5G12310.1
+CAICLD--TIPLQET--AM-----------------VKGC--EHA-YCV-----------
+TCI-LR--W-ASYKEKP--------------TCPQ-------C
+[13] AT1G18660.4
+CTVCLK-----LLYE--PA-----------------TTPC--GHT-FCR-----------
+SCL-FQ--S-MDRGN----------------KCPL-------C
+[14] AT3G27330.1
+CAICLE-----ICFE--PS-----------------TTTC--GHS-FCK-----------
+KCL-RS--A-ADKCGR---------------KCPK-------C
+[15] AT2G26350.1
+CTLCLS-----TRQH--PT-----------------ATPC--GHV-FCW-----------
+SCI-ME--W-CNEKQ----------------ECPL-------C
+[16] AT2G42030.1
+CYICLD-----LSKD--PV-----------------VTNC--GHL-YCW-----------
+SCL-YQ--W-LQVSEAK--------------ECPV-------C
+[17] AT3G58030.1
+CNICLD-----LSKE--PV-----------------LTCC--GHL-YCW-----------
+PCL-YQ--W-LQISDAK--------------ECPV-------C
+[18] AT2G23780.1
+CNICFE-----LAQD--PI-----------------VTLC--GHL-FCW-----------
+PCL-YR--W-LHHHSHSQ-------------ECPV-------C
+[19] AT1G19310.1
+CNICLD-----LAQD--PI-----------------VTLC--GHL-FCW-----------
+PCL-YK--W-LHLHSQSK-------------DCPV-------C
+[20] AT1G74990.1
+CNICLE-----LARE--PI-----------------VTLC--GHL-FCW-----------
+PCL-YK--W-LHYHSKSN-------------HCPV-------C
+[21] AT4G27470.1
+CNICLD-----TAHD--PV-----------------VTLC--GHL-FCW-----------
+PCI-YK--W-LHVQLSSVSVD---QHQN---NCPV-------C
+[22] AT4G03510.1
+CNICLD-----SVQE--PV-----------------VTLC--GHL-FCW-----------
+PCI-HK--W-LDVQSFSTS--DEYQRHR---QCPV-------C
+[23] AT4G28270.1
+CNICLD-----QVRD--PV-----------------VTLC--GHL-FCW-----------
+PCI-HK--W-TYASNNSRQRVDQYDHKREPPKCPV-------C
+[24] AT2G44410.1
+CNICLE-----KAED--PI-----------------LTCC--GHL-FCW-----------
+GCF-YQ--L-PLIYLNIK-------------ECPV-------C
+[25] AT3G24800.1
+CCVCLE-----LLYK--PI-----------------VLSC--GHL-SCF-----------
+WCV-HK--S-MNGFRES--------------HCPI-------C
+[26] AT3G07200.1
+CPICLC-----PFTQ--EV-----------------STKC--GHI-FCK-----------
+KCI-KN--A-LSLQA----------------KCPT-------C
+[27] AT5G48655.1
+CPICMC-----PFTE--EM-----------------STKC--GHI-FCK-----------
+GCI-KM--A-ISRQG----------------KCPT-------C
+[28] AT4G21070.1
+CPICLS-----LYNS--AV-----------------SLSC--NHV-FCN-----------
+ACI-VK--S-MKMDA----------------TCPV-------C
+[29] AT2G32950.1
+CPICMQ-----IIKD--AF-----------------LTAC--GHS-FCY-----------
+MCI-IT--H-LRNKS----------------DCPC-------C
+[30] AT5G43530.1
+CPICLE-----SADD--PV-----------------LTPC--AHR-MCR-----------
+ECL-LT--S-WRSPSCG--------------LCPI-------C
+[31] AT5G22750.1
+CPICLE-----ALED--AV-----------------LTPC--AHR-LCR-----------
+ECL-LA--S-WRNSTSG--------------LCPV-------C
+[32] AT5G05130.1
+CPICIS-----PPTN--II-----------------ITRC--AHI-FCR-----------
+ACI-LQ--T-LQRSKP---------------LCPL-------C
+[33] AT2G44950.1
+CKACND-----RPKE--VV-----------------ITKC--YHL-FCN-----------
+PCV-QK--L-TGTRQK---------------KCPT-------C
+[34] At1g55255
+CGVCFD-----RPKE--VV-----------------IVKC--YHL-FCQ-----------
+QCI-QR--S-LEIRHR---------------KCPG-------C
+[35] AT5G01960.1
+CAICQE-----KMHT--PI-----------------LLRC--KHM-FCE-----------
+DCV-SE--W-FERER----------------TCPL-------C
+[36] AT4G13100.2
+CCVCMV-----RSKG--AA-----------------FIPC--GHT-FCR-----------
+LCS-RE--L-WVQRG----------------NCPL-------C
+[37] AT3G25030.1
+CCVCMV-----RSKG--AA-----------------FIPC--GHT-FCR-----------
+LCS-RE--L-WVQRG----------------NCPL-------C
+[38] AT4G03965.1
+CCVCMG-----RKKG--AA-----------------FIPC--GHT-FCR-----------
+VCS-RE--V-WLNRG----------------SCPL-------C
+[39] AT4G22250.1
+CCVCMG-----RKKG--AA-----------------FIPC--GHT-FCR-----------
+VCS-RE--L-WLNRG----------------SCPL-------C
+[40] AT1G62370.1
+CCVCMG-----REKG--AA-----------------FIPC--GHT-YCR-----------
+VCS-RE--I-WMNRG----------------TCPL-------C
+[41] AT3G07120.1
+CCVCMV-----KIKG--AS-----------------FTPC--GHT-FCK-----------
+LCS-KE--L-MAQKG----------------HCPV-------C
+[42] AT1G50410.1
+CCVCHD-----PPED--PV-----------------VTLC--GHI-FCY-----------
+QCV-SD--Y-ITGDED---------------TCPA-----PRC
+[43] AT3G20010.1
+CYECNE-----PPEK--PV-----------------VTLC--GHI-FCY-----------
+ECV-LE--Y-ITGDEN---------------TCPV-----PRC
+[44] AT3G16600.1
+CSVCSD-----PPKD--PV-----------------VTLC--GHV-FCY-----------
+ECV-SV--N-INGDNN---------------TCPA-----LNC
+[45] AT1G11100.2
+CGICNV-----APKD--AV-----------------VSLC--GHV-FCN-----------
+QCI-CE--C-LTRDNN---------------QCPL-----SYC
+[46] AT1G61140.1
+CGICND-----APED--AV-----------------ASVC--GHV-FCK-----------
+QCI-YE--R-LTGDSN---------------HCPF-----ANC
+[47] AT2G38920.1
+CAICLE-----TVFN--PY-----------------ALKC--GHI-FCN-----------
+SCA-CS--A-ASVLIFQGIKAAPRHS-----KCPI-------C
+[48] AT1G02860.1
+CSICLD-----TVFD--PI-----------------SLTC--GHI-YCY-----------
+MCA-CS--A-ASVNVVDGLKTAEATE-----KCPL-------C
+[49] AT3G26730.1
+CPICLE-----YPLC--PQ-----------------ITSC--GHI-FCF-----------
+PCI-LQ--Y-LLTGVDNHKVDCFK-------RCPL-------C
+[50] AT2G21380.1
+CKVCFE-----SPTA--TI-----------------LLPC--RHFCLCK-----------
+SCS-LA--C-S--------------------ECPI-------C
+[51] AT4G39050.1
+CKVCFE-----SPTA--AI-----------------LLPC--RHFCLCK-----------
+SCS-LA--C-S--------------------ECPI-------C
+[52] AT1G73950.1
+CRVCFE-----REIS--VV-----------------LLPC--RHRVLCR-----------
+NCS-DK--C-K--------------------KCPF-------C
+[53] AT1G18470.1
+CRVCFE-----KDIS--LV-----------------LLPC--RHRVLCR-----------
+TCA-DK--C-T--------------------TCPI-------C
+[54] AT1G68820.1
+CRVCFE-----DPIN--VV-----------------LLPC--RHHVLCS-----------
+TCC-EK--C-K--------------------KCPI-------C
+[55] AT4G19700.1
+CKRCGE-----REAS--VL-----------------VLPC--RHLCLCT-----------
+VCG-GSALL-R--------------------TCPV-------C
+[56] AT5G45100.1
+CKRCGE-----LTAS--VL-----------------VLPC--RHLCLCT-----------
+VCG-SSALL-R--------------------TCPV-------C
+[57] AT1G79110.1
+CRNCGE-----EESC--VL-----------------LLPC--RHLCLCG-----------
+VCG-SS--V-H--------------------TCPI-------C
+[58] AT3G12920.1
+CRSCGK-----GEAS--VL-----------------LLPC--RHMCLCS-----------
+VCG-SS--L-N--------------------TCPI-------C
+[59] AT1G45976.1
+CRFCGV-----REMC--ML-----------------LLPC--NHMCLCK-----------
+ECE-RK--L-S--------------------SCPL-------C
+[60] AT4G17680.1
+CRICRR-----KSAT--VM-----------------ALPC--QHLILCN-----------
+GCDVGA--V-R--------------------VCPI-------C
+[61] AT5G47050.1
+CRICRR-----RSAT--VL-----------------ALPC--RHLVMCT-----------
+ECD-GS--V-R--------------------ICPL-------C
+[62] AT1G32740.1
+CKACRE-----REAT--VV-----------------VLPC--RHLSICP-----------
+GCD-RT--A-L--------------------ACPL-------C
+[63] AT1G10650.1
+CKMCNV-----KEVS--VL-----------------IVPC--RHLSLCK-----------
+ECD-VF--T-K--------------------ICPV-------C
+[64] AT1G60610.1
+CKLCNV-----KNVS--VL-----------------LVPC--RHLSLCK-----------
+DCD-VF--T-G--------------------VCPV-------C
+[65] AT5G23110.1
+CQICQT-----KEVE--VT-----------------IVPC--GHV-LCR-----------
+HCS-TS--V-S--------------------RCPF-------C
+[66] AT3G09770.1
+CVICLS-----EPRD--TT-----------------VLPC--RHMCMCS-----------
+GCA-KV--L-RFQTN----------------RCPI-------C
+[67] AT3G53410.1
+CVICLS-----EPRD--TT-----------------VLPC--RHMCMCS-----------
+GCA-KL--L-RFQTN----------------LCPI-------C
+[68] AT5G03200.1
+CVVCLS-----EPRD--TT-----------------VLPC--RHMCMCS-----------
+GCA-KA--L-RFQTN----------------LCPV-------C
+[69] AT3G06140.1
+CVICMT-----EAKD--TA-----------------VLPC--RHLCMCS-----------
+DCA-KE--L-RLQSN----------------KCPI-------C
+[70] AT5G19080.1
+CVICLT-----EPKD--TA-----------------VMPC--RHLCLCS-----------
+DCA-EE--L-RFQTN----------------KCPI-------C
+[71] SP1_AT1G63900.2
+CVICLE-----QEYN--AV-----------------FVPC--GHMCCCT-----------
+ACS-SH--L-T--------------------SCPL-------C
+[72] SPL1_AT1G59560.1
+CVVCLD-----QKYN--TA-----------------FVEC--GHMCCCT-----------
+PCS-LQ--L-R--------------------TCPL-------C
+[73] AT2G35330.1
+CLICMK-----DEVS--VV-----------------FLPC--AHQVVCA-----------
+SCS-DS--F-MGSGKA---------------TCPC-------C
+[74] AT1G32530.1
+CIICMK-----DEVS--VV-----------------FLPC--AHQVVCG-----------
+SCS-DS--F-FASNNGGSKV-----------TCPC-------C
+[75] AT4G03000.1
+CVMCLS-----EEMS--VI-----------------FLPC--AHQVLCS-----------
+KCN-QL--H-EKEAME---------------DCPS-------C
+[76] SPL2_AT1G54150.1
+CVICVS-----RRRV--PA-----------------FIPC--GHVVCCR-----------
+RCA-ST--V-ERELNP---------------KCPV-------C
+[77] AT4G35070.1
+CCNCGS-----NGVT-RVL-----------------FLPC--RHLCCCM-----------
+DCE-EG--L-L--------------------LCPI-------C
+[78] AT2G34920.1
+CCVCNE-----TQVE--TL-----------------LYRC--GHMCTCL-----------
+RCA-NE--L-QYNGG----------------KCPI-------C
+[79] AT1G30860.1
+CCVCDE-----TQVE--AV-----------------LYRC--GHMCMCL-----------
+KCA-NE--L-HWSGG----------------KCPI-------C
+[80] AT4G14365.1
+CVICVD-----APSE--AV-----------------CVPC--GHVAGCI-----------
+SCL-KE--I-ENKKM----------------GCPV-------C
+[81] AT3G23280.1
+CAICLD-----APSE--AV-----------------CVPC--GHVAGCM-----------
+SCL-KE--I-KSKNW----------------GCPV-------C
+[82] AT5G01450.1
+CAICYD-----APRD--CF-----------------FLSC--GHCVACF-----------
+QCG-TR--I-AETSG----------------FCPV-------C
+[83] At2g38190
+CAICFD-----VPRD--CF-----------------FLPC--GHSVSCY-----------
+ECG-TT--M-QEADG----------------SCPI-------C
+[84] AT4G01023.1
+CSICQN-----PFLD--PV-----------------VTNC--NHY-FCD-----------
+KCA-LK--H-HTEND----------------TCFV-------C
+[85] AT1G01350.1
+CFICRE-----PFVD--PV-----------------VTKC--KHY-FCE-----------
+HCA-LK--H-HTKNK----------------KCFV-------C
+[86] AT5G06420.1
+CFICRE-----PFLD--PV-----------------VTKC--KHY-FCE-----------
+HCA-LK--H-HTKNK----------------KCFV-------C
+[87] AT1G05120.1
+CGLCHD-----PAED--YV-----------------VTSC--AHV-FCK-----------
+ACL-IG--F-SASLGKV--------------TCPT-------C
+[88] AT1G67180.1
+CIICWT-----EFSS-SRG-----------------ILPC--GHR-FCY-----------
+SCI-QK--W-ADRLVSERKKT----------TCPL-------C
+[89] AT3G05250.1
+CPICLG-----QFLR-ESY-----------------LDTC--FHK-FCF-----------
+NCI-KQ--W-IKVVSSKASKQRSSV------TCPL-------C
+[90] AT3G54360.1
+CMLCQA-----LLYE-SSR-----------------CVPC--THV-FCK-----------
+VCL-TR--F-K--------------------DCPL-------C
+[91] AT2G30580.1
+CPLCDK-----LLRD-ATT-----------------ISEC--LHT-FCR-----------
+KCI-YE--K-ITEDEIE--------------SCPV-------C
+[92] AT3G23060.1
+CPICTN-----PFKD-ATT-----------------ISEC--LHT-FCR-----------
+SCI-RN--K-FINERVN--------------ACPV-------C
+[93] AT1G03770.2
+CSICLG-----IIRK-TRT-----------------VMEC--LHR-FCR-----------
+ECI-DK--S-MRLGNN---------------ECPT-------C
+[94] AT1G03770.2-2
+CSICLG-----IIRK-TRT-----------------VMEC--LHR-FCR-----------
+ECI-DK--S-MRLGNN---------------ECPT-------C
+[95] AT5G44280.1
+CPICLG-----IIKK-TRT-----------------VMEC--LHR-FCR-----------
+ECI-DK--S-MRLGNN---------------ECPA-------C
+[96] AT4G08590.1
+CSLCNQ-----LPDR--PV-----------------TILC--GHN-FCL-----------
+KCF-DK--W-IDQGNQ---------------ICAT-------C
+[97] AT1G57820.1
+CSFCMQ-----LPER--PV-----------------TKPC--GHN-ACL-----------
+KCF-EK--W-MGQGKR---------------TCGK-------C
+[98] AT1G66050.1
+CSICIQ-----LPER--PV-----------------TTPC--GHN-FCL-----------
+KCF-EK--WAVGQGKL---------------TCMI-------C
+[99] AT1G66040.1
+CSICIQ-----LPER--PV-----------------TTPC--GHN-FCL-----------
+KCF-EK--WAVGQGKL---------------TCMI-------C
+[100] AT5G39550.1
+CSICIQ-----LPER--PI-----------------TTPC--GHN-FCL-----------
+KCF-EK--WAVGQGKL---------------TCMI-------C
+[101] AT1G57800.1
+CSFCMQ-----SLQK--PVSVRVLFALALMLVWFLESTPC--GHN-ACL-----------
+KCF-LK--W-MGQGHR---------------SCGT-------C
+[102] AT1G79380.1
+CPICLT-----NRKD---V-----------------AFSC--GHM-TCG-----------
+DCG-SK--I-S--------------------NCPI-------C
+[103] AT5G63970.1
+CPICLT-----NPKD---M-----------------AFSC--GHT-TCK-----------
+ECG-VV--I-T--------------------TCPL-------C
+[104] AT1G67800.2
+CPVCLV-----SAKN---M-----------------AFNC--GHQ-TCA-----------
+GCG-ED--L-H--------------------VCPI-------C
+[105] AT3G01650.1
+CPICLS-----NPKN---M-----------------AFGC--GHQ-TCC-----------
+ECG-PD--L-K--------------------VCPI-------C
+[106] AT5G14420.1
+CPICLS-----NPKD---M-----------------AFGC--GHQ-TCC-----------
+ECG-PD--L-Q--------------------MCPI-------C
+[107] AT2G40770.1
+CPICHE-----ILRN-QKM-----------------VFQC--GHS-TCC-----------
+NCF-FA--M-TERKSVQETLQKWV-------MCPI-------C
+[108] AT2G41980.1
+CPVCTN-----LMYP--P------------------IHQCPNGHT-LCS-----------
+SCK-LR--V-QN-------------------TCPT-------C
+[109] AT3G58040.1
+CPVCTN-----LMYP--P------------------IHQCPNGHT-LCS-----------
+NCK-LR--V-QN-------------------TCPT-------C
+[110] AT4G27880.1
+CPVCTY-----SMYP--P------------------IHQCHNGHT-LCS-----------
+TCK-VR--V-HN-------------------RCPT-------C
+[111] AT3G61790.1
+CPVCTN-----SMYP--P------------------IHQCHNGHT-LCS-----------
+TCK-AR--V-HN-------------------RCPT-------C
+[112] AT1G66630.1
+CPICYH-----KLGA--P------------------IYQCDNGHI-ACS-----------
+SCC-KK--V-KY-------------------KCPY-------C
+[113] AT1G66610.1
+CPICCN-----ALTI--P------------------IFQCDKGHI-ACS-----------
+SCC-TN--V-SN-------------------KCPY-------C
+[114] AT1G66620.1
+CPICCH-----ALTS--P------------------IFQCDNGHI-ACS-----------
+SCC-TK--L-RN-------------------KCPS-------C
+[115] AT5G37910.1
+CPICCE-----ALTS--P------------------IFQCDNGHL-ACG-----------
+SCC-PK--L-SN-------------------KCPA-------C
+[116] AT5G37890.1
+CPICYE-----AFTI--P------------------IFQCDNGHL-ACS-----------
+SCC-PK--L-NN-------------------KCPA-------C
+[117] AT5G37870.1
+CPICYQ-----ALKI--P------------------VFQCGNGHL-ACS-----------
+SCC-PK--L-RN-------------------KCPA-------C
+[118] AT5G37930.1
+CPICCE-----PLKI--P------------------IFQCDNGHL-ACT-----------
+LCC-TK--V-RN-------------------RCPS-------C
+[119] AT1G66650.1
+CPNCFD-----PLKK--P------------------IFQCNNGHL-ACF-----------
+LCC-IK--L-KK-------------------RCSF-------C
+[120] AT1G74370.1
+CPICWE-SFNVVENV--PY-----------------VLWC--GHT-ICK-----------
+YCL-LG--L-QRAIVIKSSALPFQLPFFV--ACPW-------C
+[121] AT3G29270.1
+CPICWE-SFNIVENV--PY-----------------VLWC--GHT-MCK-----------
+NCI-LG--L-QWAIV-KLPTHPVQLPLFI--SCPW-------C
+[122] AT1G69330.1
+CPICWE-SFNIVENV--PY-----------------VLWC--GHT-LCQ-----------
+NCV-FG--L-QSAVL-RLSSQDIRIPFFV--SCPW-------C
+[123] At1g21655
+CPVCLQ-SYDGESTV--PR-----------------VLAC--GHT-ACE-----------
+ECL-TN--L-PKKFPDTI-------------RCPA-------C
+[124] AT5G13530.1
+CSVCHT-RYNEDERV--PL-----------------LLQC--GHG-FCK-----------
+DCL-SK--M-FSTSSDTTL------------TCPR-------C
+[125] AT3G08505.1
+CSVCLD-----RILS--KATPGERKFGL--------LTEC--DHP-FCI-----------
+QCI-RN--W-RSSAPVSGMDVNSTLR-----ACPI-------C
+[126] AT4G33940.1
+CPICFG-----SFTV--PC-----------------RGNC--GHW-YCG-----------
+NCI-LQ--Y-WNYAAISRPC-----------KCPM-------C
+[127] AT1G72175.1
+CSICHS-----HFTA--PC-----------------QANC--SHW-FCG-----------
+NCI-ML--V-WRHGSTLQPC-----------KCPL-------C
+[128] AT1G22510.1
+CSICHG-----HFNA--PC-----------------QSNC--SHW-FCG-----------
+NCI-ML--V-WRHGSTLRPC-----------KCPL-------C
+[129] AT2G42160.1
+CPICLE-RLDPDTSG--IV-----------------STLC--DHS-FQC-----------
+SCT-SK--W-TYLSCQ---------------VCRL-------C
+[130] AT1G61620.1
+CPSCKV-TLTNTMSL--VA-----------------LSSC--GHV-FCK-----------
+KCA-EK--F-MPVDK----------------VCLV-------C
+[131] AT2G31780.1
+CGICFE-----SYTRKEIA-----------------RVSC--GHP-YCK-----------
+TCW-TG--Y-ITTKIEDGPGCLRV-------KCPE-----PSC
+[132] AT2G31760.1
+CGICFE-----SYTRKEIA-----------------SVSC--GHP-YCK-----------
+TCW-TG--Y-ITTKIEDGPGCLRV-------KCPE-----PSC
+[133] AT2G31770.1
+CGICFE-----SYTREEIA-----------------RVSC--GHP-YCK-----------
+TCW-AG--Y-ITTKIEDGPGCLRV-------KCPE-----PSC
+[134] AT2G31510.1
+CGICFD-----SYPPEKIA-----------------SVSC--GHP-FCT-----------
+TCW-TG--Y-ISTTINDGPGCLML-------RCPD-----PSC
+[135] AT1G05890.2
+CGICFD-----SYTLEEIV-----------------SVSC--GHP-FCA-----------
+TCW-TG--Y-ISTTINDGPGCLML-------KCPD-----PSC
+[136] AT1G65430.1
+CGICFE-----TFLSDKLH-----------------AAAC--GHP-FCD-----------
+SCW-EG--Y-ITTAINDGPGCLTL-------RCPD-----PSC
+[137] AT1G05880.2
+CGACGE-----SHPHKNLA-----------------SVSC--GHR-ICT-----------
+RCW-TS--H-INKIISEKPAAEWNLWL----KCPVRVGLHASC
+[138] AT2G16090.1
+CDICVE-----DVPGYQLT-----------------RMDC--GHS-FCN-----------
+NCW-TG--H-FTVKINEGQSKRI--------ICMA-----HKC
+[139] AT4G34370.1
+CDVCME-----DLPGDHMT-----------------RMDC--GHC-FCN-----------
+NCW-TE--H-FTVQINEGQSKRI--------RCMA-----HQC
+[140] AT3G27710.1
+CDVCME----DDLPSNVMT-----------------RMEC--GHR-FCN-----------
+DCW-IG--H-FTVKINEGESKRI--------LCMA-----HEC
+[141] AT2G26130.1
+CNICLNDDINADQM---FS-----------------VDKS--GHM-CCS-----------
+ECV-KR--H-IEVRLLEGSLI----------TCPH-----YRC
+[142] AT3G45540.1
+CKICLDDDINENQM---FC-----------------VGKC--RHR-FCS-----------
+DCM-RR--H-IEVRLLEGSVM----------RCPH-----YRC
+[143] AT3G43750.1
+CSICFNNVLEAEKM---FS-----------------VAIC--GHQ-FCV-----------
+ECV-KH--Y-IEVKLLEGGVP----------RCLD-----YQC
+[144] AT3G45570.1
+CSICSGDNIEPEQI---FS-----------------VALC--GHE-FCM-----------
+ECV-KQ--H-IEVKLLSGGVP----------RCLH-----YQC
+[145] AT3G45580.1
+CSICSDDNFEPELM---FS-----------------VALC--GHE-FCV-----------
+ECV-KR--H-IEVRLLAGGVP----------RCLH-----YQC
+[146] AT3G43180.1
+CRICFDEDVKAEQM---YS-----------------VALC--GHQ-FCV-----------
+DCV-KQ--H-IESRLLEGCVP----------RCPH-----DQC
+[147] AT3G45555.1
+CSICFNDDFKSEQM---YY-----------------VALC--NHK-FCL-----------
+ECM-KR--Y-IEVRLLEGTVL----------ICPY-----YQC
+[148] AT3G45560.1
+CGICFNDDFKAEHM---FS-----------------VDLC--GHQ-FCV-----------
+ECM-TQ--Y-IKVRLLEESEM----------RCPH-----YQC
+[149] AT3G45480.1
+CGNCFNDGIKGENM---FS-----------------ADLC--SHY-FCV-----------
+ECM-KE--H-IEVSLNEGGLP----------RCPH-----DGC
+[150] AT3G45510.1
+CGICFVDDIEGQEM---FS-----------------AALC--SHY-FCV-----------
+ECM-KQ--R-IEVSLNEGGVP----------RCPR-----HGC
+[151] AT5G60250.1
+CAICFND-IVAEGM---FS-----------------VDKC--RHR-FCF-----------
+QCV-KQ--H-VEVKLLHGMAP----------KCPH-----DGC
+[152] AT2G25360.1
+CSICFEE-TEGERMF--FT-----------------TEKC--VHR-HCF-----------
+PCV-KQ--Y-VEVKLLSGTVP----------TCLD-----DGC
+[153] AT3G45470.1
+CVICLEE-TKADRM---FV-----------------MDKC--LHR-HCY-----------
+PCV-NQ--L-VEVKLRNGTVP----------TCLD-----YEC
+[154] AT5G37560.1
+CSICSDK-TDAEHM---LL-----------------NDKC--LHR-HCF-----------
+SCV-KQ--Q-VKVKLRSGIVP----------PCLE-----DGC
+[155] At2g25380
+CVICLEE-TVADRM---FF-----------------TDKC--LHR-YCF-----------
+SCV-KQ-------------------------TCVK-------C
+[156] AT2G21420.1
+CCICREN-TDADRM---FF-----------------TENC--FHR-QCF-----------
+SCV-NR--H-VQRMLLCGISP----------TCLH-----FPC
+[157] AT2G19610.2
+CPVCYA-YVSPNDK---FE-----------------VQGC--FHR-ICV-----------
+TCM-RK--P-FSSEQILRGNTA---------ICPY-----PDC
+[158] AT5G07640.1
+CPVCYE-HVTSDEK---FE-----------------VPGC--FHR-FCF-----------
+DCI-KK--Q-ADVALEFAKPVV---------NCPS-----FGC
+[159] AT4G19670.1
+CSICCE-----DRQSEMML-----------------SLKC--THK-FCS-----------
+HCM-KT--Y-VEGKVKTSEVPI---------RCPQ-----VQC
+[160] AT3G53690.1
+CEICVD-----SKSIIESFR----------------IGGC--SHF-YCN-----------
+DCV-SK--Y-IAAKLQDNILSI---------ECPV-----SGC
+[161] AT3G14250.1
+CMICMD-----EKPSSDIFRG---------------TTNC--THA-YCT-----------
+DCT-VR--Y-VATKIKENASRI---------KCPD-----VEC
+[162] AT1G32340.1
+CCICFS-----ESAGIDFV-----------------KLPC--QHF-FCL-----------
+KCM-KT--Y-TDIHVTEGTVNKL--------KCPD-----SKC
+[163] AT5G63750.1
+CGICFK-TCDDGDYL--IS-----------------TPFC--SHM-FCK-----------
+SCW-RK--Y-LEKNFYLVEKTQTRI------SCPH-----GAC
+[164] AT5G63760.1
+CGICSN-IGDDDYDGDAVVVDGDLIS----------TPFC--SHK-FCK-----------
+ACW-SK--Y-LKKNFFSVEKNHTAI------SCPD-----RDC
+[165] AT4G01020.1
+CPICLS-----EVDDGYS------------------LEGC--SHL-FCK-----------
+ACL-LE--Q-FEASMRNFDAFPI--------LCSH-----IDC
+[166] AT5G10370.1
+CPICLS-----EVDDGYS------------------LEGC--SHL-FCK-----------
+ACL-LE--Q-FEASMRNFDAFPI--------LCSH-----IDC
+[167] AT2G28840.1
+CCICFE-----QVCT--IE-----------------VKDC--GHQ-MCA-----------
+QCT-LA--L-CCHNKPNPTTSTVTPP-----VCPF-------C
+[168] AT5G07270.1
+CAVCLE-----RTCT--VA-----------------AEGC--EHQ-LCV-----------
+RCA-LY--L-CSSSNVPSVTVG-PPGSI---PCPL-------C
+[169] AT5G57740.1
+CAVCLE-----RKCT--VA-----------------ADGC--AHE-FCT-----------
+NCA-LY--L-STTSITSSKTSNVTPGSV---PCPL-------C
+[170] AT2G22010.2
+CCICYA-----GEAN--AM-----------------IAPC--SHR-SCY-----------
+GCI-TR--H-LLNCQ----------------RCFF-------C
+[171] AT1G79810.1
+CPICQV-----DPAIPFI------------------ALPC--QHR-YCY-----------
+YCI-RT--R-CASAASF--------------RCLR-------C
+[172] AT5G01160.1
+CVRCDF-----------PIAIYGR------------LIPC--DHA-FCL-----------
+ECA-RS--D-S--------------------ICYL-------C
+[173] AT2G47090.1
+CAVCAE-----NLEW--VG-----------------YGSC--GHREVCS-----------
+TCV-VR--L-RFILNDR--------------RCCI-------C
+[174] AT3G62240.1
+CAVCAD-----NLEW--VA-----------------YGSC--GHREVCS-----------
+TCV-VR--L-RFVLDDP--------------RCCI-------C
+[175] AT3G54460.1
+CKRCGE-----WCRL--PV-----------------ITPC--RHL-LCL-----------
+DCV-AL--D-SE-------------------RCTI-----SGC
+[176] AT3G28880.1
+CFWCNK-----NMIR--WA-----------------NFPC--RHKLWCS-----------
+SCK-QQ--I-TQSTSGEKILEEDHH------KCVV-------C
+[177] AT1G77770.1
+CPVCLE-----SPHN--AV-----------------LLLCSSYHK-GCRPYMCATSSRFA
+NCL-DQ--Y-RKSYGNENSGQPEL-------LCPL-------C
+[178] AT2G14835.1
+CCQCQA-TFDEGAGHQVT------------------RLGC--LHA-IHT-----------
+SCL-VS--L-IKSFPPHTAPAGY--------VCPA-------C
+;
+END;
+[
+charset protein = 1 - 103;
+prset aamodelpr = mixed;
+
+mcmc ngen=10000000 printfreq=1000 samplefreq=1000 nchains=4;
+
+END;
+]

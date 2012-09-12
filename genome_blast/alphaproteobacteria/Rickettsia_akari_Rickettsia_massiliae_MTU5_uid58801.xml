@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/NCBI_bact_genomes/Proteobacteria/Alphaproteobacteria/aa//Rickettsia_massiliae_MTU5_uid58801</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Rickettsia_akari_str_Hartford gnl|BL_ORD_ID|412    gi|157825538|ref|YP_001493258.1| unnamed protein product [Rickettsia akari str. Hartford]</BlastOutput_query-def>
+  <BlastOutput_query-len>225</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>Rickettsia_akari_str_Hartford gnl|BL_ORD_ID|412    gi|157825538|ref|YP_001493258.1| unnamed protein product [Rickettsia akari str. Hartford]</Iteration_query-def>
+      <Iteration_query-len>225</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|314</Hit_id>
+          <Hit_def>gi|157964375|ref|YP_001499199.1| membrane-bound metallopeptidase [Rickettsia massiliae MTU5]</Hit_def>
+          <Hit_accession>314</Hit_accession>
+          <Hit_len>224</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>390.963</Hsp_bit-score>
+              <Hsp_score>1003</Hsp_score>
+              <Hsp_evalue>8.53457e-140</Hsp_evalue>
+              <Hsp_query-from>4</Hsp_query-from>
+              <Hsp_query-to>225</Hsp_query-to>
+              <Hsp_hit-from>1</Hsp_hit-from>
+              <Hsp_hit-to>224</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>193</Hsp_identity>
+              <Hsp_positive>211</Hsp_positive>
+              <Hsp_gaps>2</Hsp_gaps>
+              <Hsp_align-len>224</Hsp_align-len>
+              <Hsp_qseq>LFSNVNNSFVQYMKYPVVLSIVICFCLVACVEQPPAPIEYKVGDVTANNNSTALEHDEGLIVQRTMEDDTVSEKVSGILEEPKAKIIECYNDDIEIPISRNEYEEE--IEQSNFVKPLNGVMLTEFKDGKSKGIDIAVKEYSDVKSIAAGTVIYSGFNKQFGNLVIVKLDKDDLEVAYASLDDLLLKKGDKITKNSVIGHVKHKLYFAMRRNRIAVDPSKYIEF</Hsp_qseq>
+              <Hsp_hseq>MFSNVNNSFVKYMKYPVVLSIVICFCLVACVDQPPAPIEYKVGDVTANNNSTALDHDEGMIVQRTMEDNPASEKVSGRLEEPKAKIIEEDNDDIEIPMFRNEDEDEEAIEQLNFVKPLNGVIITEFKAGKSKGIDIAAKEYSEVKSIAAGTVIYSGYNKQFGNLVIVKLDKDDLEVAYASLDDLLLKKGDKIARNSVIGHVEHKLYFAMRKNKIAVDPNRYIEF</Hsp_hseq>
+              <Hsp_midline>+FSNVNNSFV+YMKYPVVLSIVICFCLVACV+QPPAPIEYKVGDVTANNNSTAL+HDEG+IVQRTMED+  SEKVSG LEEPKAKIIE  NDDIEIP+ RNE E+E  IEQ NFVKPLNGV++TEFK GKSKGIDIA KEYS+VKSIAAGTVIYSG+NKQFGNLVIVKLDKDDLEVAYASLDDLLLKKGDKI +NSVIGHV+HKLYFAMR+N+IAVDP++YIEF</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|802</Hit_id>
+          <Hit_def>gi|157964863|ref|YP_001499687.1| hypothetical protein RMA_1127 [Rickettsia massiliae MTU5]</Hit_def>
+          <Hit_accession>802</Hit_accession>
+          <Hit_len>291</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>38.5058</Hsp_bit-score>
+              <Hsp_score>88</Hsp_score>
+              <Hsp_evalue>5.08092e-05</Hsp_evalue>
+              <Hsp_query-from>134</Hsp_query-from>
+              <Hsp_query-to>200</Hsp_query-to>
+              <Hsp_hit-from>190</Hsp_hit-from>
+              <Hsp_hit-to>255</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>21</Hsp_identity>
+              <Hsp_positive>37</Hsp_positive>
+              <Hsp_gaps>1</Hsp_gaps>
+              <Hsp_align-len>67</Hsp_align-len>
+              <Hsp_qseq>GIDIAVKEYSDVKSIAAGTVIYSGFNKQFGNLVIVKLDKDDLEVAYASLDDLLLKKGDKITKNSVIG</Hsp_qseq>
+              <Hsp_hseq>GIDLQAKKAAPIYAAASGIVIKAARAPDYGNFVEIKHGR-KFVTKYAHLKEISVKEGNKIKRGQFIG</Hsp_hseq>
+              <Hsp_midline>GID+  K+ + + + A+G VI +     +GN V +K  +      YA L ++ +K+G+KI +   IG</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|128</Hit_id>
+          <Hit_def>gi|157964189|ref|YP_001499013.1| protease activity modulator HflK [Rickettsia massiliae MTU5]</Hit_def>
+          <Hit_accession>128</Hit_accession>
+          <Hit_len>346</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>33.113</Hsp_bit-score>
+              <Hsp_score>74</Hsp_score>
+              <Hsp_evalue>0.00299673</Hsp_evalue>
+              <Hsp_query-from>76</Hsp_query-from>
+              <Hsp_query-to>202</Hsp_query-to>
+              <Hsp_hit-from>225</Hsp_hit-from>
+              <Hsp_hit-to>342</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>35</Hsp_identity>
+              <Hsp_positive>62</Hsp_positive>
+              <Hsp_gaps>11</Hsp_gaps>
+              <Hsp_align-len>128</Hsp_align-len>
+              <Hsp_qseq>EKVSGILEEPKAKIIECYNDDIEIPISRNEYEEEIEQSNFVKPLNGVMLTEFKDGKSKGIDIAVKEYSDVKSIAAG-TVIYSGFNKQFGNLVIVKLDKDDLEVAYASLDDLLLKKGDKITKNSVIGHV</Hsp_qseq>
+              <Hsp_hseq>EKVQLLKAEPPAEVIDAYRD---VQTSKADKEKEINQA---QAYNNKILPEARGAAAKIIQEAEGYREEVISKAEGDSQRFNAIYKQYATGRQVTRDRLYLEV----VEEILGGSNKTIINNALLPHM</Hsp_hseq>
+              <Hsp_midline>EKV  +  EP A++I+ Y D   +  S+ + E+EI Q+   +  N  +L E +   +K I  A     +V S A G +  ++   KQ+     V  D+  LEV    ++++L      I  N+++ H+</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|481</Hit_id>
+          <Hit_def>gi|157964542|ref|YP_001499366.1| P pilus assembly protein, chaperone PapD [Rickettsia massiliae MTU5]</Hit_def>
+          <Hit_accession>481</Hit_accession>
+          <Hit_len>114</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>28.8758</Hsp_bit-score>
+              <Hsp_score>63</Hsp_score>
+              <Hsp_evalue>0.0288924</Hsp_evalue>
+              <Hsp_query-from>15</Hsp_query-from>
+              <Hsp_query-to>92</Hsp_query-to>
+              <Hsp_hit-from>9</Hsp_hit-from>
+              <Hsp_hit-to>99</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>22</Hsp_identity>
+              <Hsp_positive>42</Hsp_positive>
+              <Hsp_gaps>13</Hsp_gaps>
+              <Hsp_align-len>91</Hsp_align-len>
+              <Hsp_qseq>YMKYPVVLSIVICFCLVACVEQPPAPIEY----KVGDVTANNNSTALEHDEGLIVQRTMED---------DTVSEKVSGILEEPKAKIIEC</Hsp_qseq>
+              <Hsp_hseq>FLRFLPILSIFLTFNSFASATIVPVNIEINKSNKIATMTVQNNDYAPKKVQLILVKRTYKDGIEEYKETKDLVATPVTFTLHDGQIQLIRV</Hsp_hseq>
+              <Hsp_midline>++++  +LSI + F   A     P  IE     K+  +T  NN  A +  + ++V+RT +D         D V+  V+  L + + ++I  </Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>5</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|700</Hit_id>
+          <Hit_def>gi|157964761|ref|YP_001499585.1| isoleucyl-tRNA synthetase [Rickettsia massiliae MTU5]</Hit_def>
+          <Hit_accession>700</Hit_accession>
+          <Hit_len>1106</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>23.483</Hsp_bit-score>
+              <Hsp_score>49</Hsp_score>
+              <Hsp_evalue>4.62134</Hsp_evalue>
+              <Hsp_query-from>53</Hsp_query-from>
+              <Hsp_query-to>101</Hsp_query-to>
+              <Hsp_hit-from>812</Hsp_hit-from>
+              <Hsp_hit-to>857</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>13</Hsp_identity>
+              <Hsp_positive>25</Hsp_positive>
+              <Hsp_gaps>3</Hsp_gaps>
+              <Hsp_align-len>49</Hsp_align-len>
+              <Hsp_qseq>NSTALEHDEGLIVQRTMEDDTVSEKVSGILEEPKAKIIECYNDDIEIPI</Hsp_qseq>
+              <Hsp_hseq>NDTALSGKSNVIARK---DTSLDEAISGVSHKIATTLSVPYNDEISVHL</Hsp_hseq>
+              <Hsp_midline>N TAL     +I ++   D ++ E +SG+  +    +   YND+I + +</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>980</Statistics_db-num>
+          <Statistics_db-len>319371</Statistics_db-len>
+          <Statistics_hsp-len>71</Statistics_hsp-len>
+          <Statistics_eff-space>38467814</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

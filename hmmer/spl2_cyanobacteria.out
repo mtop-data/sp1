@@ -1,0 +1,205 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.0 (March 2010); http://hmmer.org/
+# Copyright (C) 2010 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  spl2.hmm
+# target sequence database:        /home/mt258/db/genome_databases/cyanobacteria.fst
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       spl2.linsi  [M=387]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                                   Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                                   -----------
+    2.7e-07   33.5   0.0      7e-07   32.1   0.0    1.6  1  @Cyanothece_PCC_7424@                      gi|218439670|ref|YP_002377999.1|
+  ------ inclusion threshold ------
+      0.091   15.3   1.0       0.14   14.7   0.7    1.2  1  @Synechococcus_sp_JA_2_3B_a2_13@           637876826 CYB_2431 hypothetical 
+        1.1   11.7   0.0        1.1   11.7   0.0    1.0  1  @Prochlorococcus_marinus_NATL2A@           gi|72383229|ref|YP_292584.1| hyp
+        1.3   11.4   0.0        1.4   11.4   0.0    1.0  1  @Prochlorococcus_marinus_SS120@            Pro1270 Predicted protein
+        1.3   11.4   0.0        1.4   11.4   0.0    1.0  1  @Prochlorococcus_marinus_marinus_CCMP1375@ 637441691 Pro1270 hypothetical p
+        1.4   11.4   0.6        1.6   11.2   0.0    1.4  2  @Cyanothece_PCC_7425@                      gi|220909743|ref|YP_002485054.1|
+        1.4   11.3   0.0        4.8    9.6   0.0    1.8  2  @Thermosynechococcus_elongatus_BP_1@       637312804 tll0199 hypothetical p
+        1.8   11.0   0.0        1.8   11.0   0.0    1.0  1  @Prochlorococcus_marinus_NATL1A@           640083350 NATL1_00871 hypothetic
+        2.4   10.6   0.2          3   10.3   0.1    1.1  1  @Prochlorococcus_marinus_NATL1A@           640084201 NATL1_09241 hypothetic
+        2.4   10.6   0.2          3   10.3   0.1    1.1  1  @Prochlorococcus_marinus_NATL2A@           gi|72382095|ref|YP_291450.1| mem
+        2.8   10.4   0.3        4.1    9.8   0.2    1.2  1  @Synechococcus_sp_JA_3_3Ab@                637871995 CYA_0404 hypothetical 
+
+
+Domain annotation for each sequence (and alignments):
+>> @Cyanothece_PCC_7424@  gi|218439670|ref|YP_002377999.1| hypothetical protein PCC7424_2719 [Cyanothece sp. PCC 7424]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 !   32.1   0.0   3.2e-11     7e-07      23     285 ..       3     257 ..       1     264 [] 0.83
+
+  Alignments for each domain:
+  == domain 1    score: 32.1 bits;  conditional E-value: 3.2e-11
+             spl2.linsi  23 vlGlglavlavrsllkflsaskalkkikeapevsisdlrslleeseeeaeekeesklvivrGrveakaavdselkkrevliakesgek 110
+                            ++G+   ++ v  l+ + s+ ++l++++ a++ +is l+++ ++  ee    + ++ v +rG++e +          + li++ ++e 
+  @Cyanothece_PCC_7424@   3 LIGIICLIVGVILLFFWRSNRSKLRNLRLASASTISSLQTIANQIAEEIGGGSLREYVKIRGVIECD----------RPLISQLKQEP 80 
+                            677777788888888889999**************************99999999999999999887..........5689******* PP
+
+             spl2.linsi 111 avivkrtqtclynewkglfgwtsdlrallarslk.eqestslrtvPfvlvetekkeqsevvavnldesehplPLttvyhkLqpveas. 196
+                            +v    t t+ yne  ++++  ++ +++ ++  k e +++  r++Pf l ++        + vn +++   +  + v ++ +p + s 
+  @Cyanothece_PCC_7424@  81 CVYYSMTVTWEYNE--EVIKQDNEGKTIREKERKsETVAQNSRSIPFTLQDST-----GEIRVNPERA--EIETVKVLEEFRPENFSg 159
+                            **********9998..68899999999998888725667889******98764.....5677776665..577888999999888776 PP
+
+             spl2.linsi 197 .pytl......lqalfgkeyPvglldeeKiLPlgkeitAvGlcslkngvpeiksckd..lPyfLseltkdqlivdLasktkilfwsgi 275
+                             + t+      l ++  ++  +g   +e iLP+g++i  +G  + ++g++ i+   +    yf+s  + ++l +   +  +  f+s i
+  @Cyanothece_PCC_7424@ 160 gSLTFgnfsinLPSFEERRQTIGYRYQEEILPIGRQILVIGTATDEEGMITIRKPTEkgQRYFISLKSEEELSQATNNAIRGTFYSMI 247
+                            655554433346677788999*******************************875442278*************99999999999999 PP
+
+             spl2.linsi 276 vlgslsvgvl 285
+                            ++ +l + +l
+  @Cyanothece_PCC_7424@ 248 FFLTLGLILL 257
+                            9888877666 PP
+
+>> @Synechococcus_sp_JA_2_3B_a2_13@  637876826 CYB_2431 hypothetical protein [Synechococcus sp. JA-2-3Ba(2-13)]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   14.7   0.7   6.3e-06      0.14     262     306 ..     130     175 ..     125     181 .. 0.79
+
+  Alignments for each domain:
+  == domain 1    score: 14.7 bits;  conditional E-value: 6.3e-06
+                        spl2.linsi 262 dLasktkilfwsg..ivlgslsvgvlgyavvrnWnrwKerrqqrqlq 306
+                                        L+ ++++lfw g  + lgs+  ++  +++ r W+rw++rrq+r+  
+  @Synechococcus_sp_JA_2_3B_a2_13@ 130 LLQVHAEMLFWIGmgLELGSVNHSLSDWTISR-WKRWRKRRQARSPA 175
+                                       578899*****761167899999999999887.99999999999865 PP
+
+>> @Prochlorococcus_marinus_NATL2A@  gi|72383229|ref|YP_292584.1| hypothetical protein PMN2A_1393 [Prochlorococcus marin
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.7   0.0   5.2e-05       1.1     272     311 ..      15      54 ..       9      61 .] 0.83
+
+  Alignments for each domain:
+  == domain 1    score: 11.7 bits;  conditional E-value: 5.2e-05
+                        spl2.linsi 272 wsgivlgslsvgvlgyavvrnWnrwKerrqqrqlqqesee 311
+                                        + i++g++    ++y+v r++   K+ r+q+++qq + +
+  @Prochlorococcus_marinus_NATL2A@  15 VGIILVGAINAIFITYSVRRTYGAAKKEREQQKIQQAKID 54 
+                                       4557789999999******************999998654 PP
+
+>> @Prochlorococcus_marinus_SS120@  Pro1270 Predicted protein
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.4   0.0   6.5e-05       1.4     276     335 ..      18      79 ..       6      80 .] 0.67
+
+  Alignments for each domain:
+  == domain 1    score: 11.4 bits;  conditional E-value: 6.5e-05
+                       spl2.linsi 276 vlgslsvgvlgyavvrnWnrwKerrqqrqlqqeseeaed..eaeseedeeeeaedvpdgqLC 335
+                                      + ++++v  +gya  r    +Ke+   +++  es+  e   +a++e ++++    v++g+ C
+  @Prochlorococcus_marinus_SS120@  18 AASTVTVQNIGYAGERDLGGLKEWTTDQEIDAESTLDEAaeKAKKEAEKDDICIPVGEGENC 79 
+                                      457899999***************99888776654444410333334444444556666666 PP
+
+>> @Prochlorococcus_marinus_marinus_CCMP1375@  637441691 Pro1270 hypothetical protein [Prochlorococcus marinus marinus C
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.4   0.0   6.5e-05       1.4     276     335 ..      18      79 ..       6      80 .] 0.67
+
+  Alignments for each domain:
+  == domain 1    score: 11.4 bits;  conditional E-value: 6.5e-05
+                                  spl2.linsi 276 vlgslsvgvlgyavvrnWnrwKerrqqrqlqqeseeaed..eaeseedeeeeaedvpdgqLC 335
+                                                 + ++++v  +gya  r    +Ke+   +++  es+  e   +a++e ++++    v++g+ C
+  @Prochlorococcus_marinus_marinus_CCMP1375@  18 AASTVTVQNIGYAGERDLGGLKEWTTDQEIDAESTLDEAaeKAKKEAEKDDICIPVGEGENC 79 
+                                                 457899999***************99888776654444410333334444444556666666 PP
+
+>> @Cyanothece_PCC_7425@  gi|220909743|ref|YP_002485054.1| unnamed protein product [Cyanothece sp. PCC 7425]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.2   0.0   7.4e-05       1.6     144     194 ..       2      52 ..       1      64 [. 0.91
+   2 ?   -3.0   0.2       1.5   3.3e+04     352     365 ..      77      90 ..      71     101 .. 0.60
+
+  Alignments for each domain:
+  == domain 1    score: 11.2 bits;  conditional E-value: 7.4e-05
+             spl2.linsi 144 keqestslrtvPfvlvetekkeqsevvavnldesehplPLttvyhkLqpve 194
+                            k q + s +++  vl++ ++  +++ + ++l + ++p+ L+tvy+ L+ ++
+  @Cyanothece_PCC_7425@   2 KAQRTRSQEKILQVLLQLNRAISAQDLYIELRQQDQPMGLATVYRSLEALK 52 
+                            7788889999999**********************************9876 PP
+
+  == domain 2    score: -3.0 bits;  conditional E-value: 1.5
+             spl2.linsi 352 HlvCCekCalsver 365
+                            H   C +C +s+  
+  @Cyanothece_PCC_7425@  77 HHLTCLQCGQSIAI 90 
+                            44455555555543 PP
+
+>> @Thermosynechococcus_elongatus_BP_1@  637312804 tll0199 hypothetical protein [Thermosynechococcus elongatus BP-1]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   -0.8   0.0      0.32     7e+03      45      98 ..      25      78 ..       7      96 .. 0.81
+   2 ?    9.6   0.0   0.00022       4.8     204     245 ..     161     202 ..     123     247 .. 0.77
+
+  Alignments for each domain:
+  == domain 1    score: -0.8 bits;  conditional E-value: 0.32
+                            spl2.linsi 45 alkkikeapevsisdlrslleeseeeaeekeesklvivrGrveakaavdselkk 98
+                                          +l+ ik a+  +i +l  + ++  +e  + + ++ v v G+v++ +   se k+
+  @Thermosynechococcus_elongatus_BP_1@ 25 QLRGIKVASPSTIGELEKFQQQVAQEMGSGSWREYVQVVGQVTTSQPLLSEVKR 78
+                                          788999999999999999999999999999999999999999988766666555 PP
+
+  == domain 2    score: 9.6 bits;  conditional E-value: 0.00022
+                            spl2.linsi 204 lfgkeyPvglldeeKiLPlgkeitAvGlcslkngvpeiksck 245
+                                            fgk   +g   +e +LPlg+ ++ vG+ s + gv+ ++  +
+  @Thermosynechococcus_elongatus_BP_1@ 161 HFGKGTTLGYRYQEWVLPLGQPVSVVGMASDQGGVLRLQKPQ 202
+                                           588888999999********************9999887654 PP
+
+>> @Prochlorococcus_marinus_NATL1A@  640083350 NATL1_00871 hypothetical protein [Prochlorococcus marinus NATL1A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.0   0.0   8.4e-05       1.8     271     309 ..      21      59 ..       2      66 .. 0.84
+
+  Alignments for each domain:
+  == domain 1    score: 11.0 bits;  conditional E-value: 8.4e-05
+                        spl2.linsi 271 fwsgivlgslsvgvlgyavvrnWnrwKerrqqrqlqqes 309
+                                       + + i++g++    ++y+v r++   K+ r+q ++qq +
+  @Prochlorococcus_marinus_NATL1A@  21 IVGIILVGAMNAIFITYSVRRTYGAAKKEREQLKIQQAK 59 
+                                       556678899*************************99975 PP
+
+>> @Prochlorococcus_marinus_NATL1A@  640084201 NATL1_09241 hypothetical protein [Prochlorococcus marinus NATL1A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.3   0.1   0.00014         3     252     284 ..       2      37 ..       1      44 [. 0.84
+
+  Alignments for each domain:
+  == domain 1    score: 10.3 bits;  conditional E-value: 0.00014
+                        spl2.linsi 252 seltkdqlivdLask...tkilfwsgivlgslsvgv 284
+                                       s ltk +li dLa+     +il w+g+++ sl+ g+
+  @Prochlorococcus_marinus_NATL1A@   2 SALTKYKLICDLAFGdiyIQILAWMGVIFVSLAAGL 37 
+                                       889*********98622269*************996 PP
+
+>> @Prochlorococcus_marinus_NATL2A@  gi|72382095|ref|YP_291450.1| membrane protein [Prochlorococcus marinus str. NATL2A]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.3   0.1   0.00014         3     252     284 ..       2      37 ..       1      44 [. 0.84
+
+  Alignments for each domain:
+  == domain 1    score: 10.3 bits;  conditional E-value: 0.00014
+                        spl2.linsi 252 seltkdqlivdLask...tkilfwsgivlgslsvgv 284
+                                       s ltk +li dLa+     +il w+g+++ sl+ g+
+  @Prochlorococcus_marinus_NATL2A@   2 SALTKYKLICDLAFGdiyIQILAWMGVIFVSLAAGL 37 
+                                       889*********98622269*************996 PP
+
+>> @Synechococcus_sp_JA_3_3Ab@  637871995 CYA_0404 hypothetical protein [Synechococcus sp. JA-3-3Ab]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.8   0.2   0.00019       4.1     257     304 ..     125     173 ..     122     180 .. 0.79
+
+  Alignments for each domain:
+  == domain 1    score: 9.8 bits;  conditional E-value: 0.00019
+                   spl2.linsi 257 dqlivdLasktkilfwsgi..vlgslsvgvlgyavvrnWnrwKerrqqrq 304
+                                  ++l + L  ++++l+w g+   lgsl  + l+  +v  W+rw++rr++r 
+  @Synechococcus_sp_JA_3_3Ab@ 125 NHLWQGLHAHAETLLWVGMglELGSLNHS-LSDCLVSRWRRWRRRRRRRG 173
+                                  677888999*******8761156777765.67889999********9996 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (387 nodes)
+Target sequences:                     237005  (69574710 residues)
+Passed MSV filter:                      6968  (0.0294002); expected 4740.1 (0.02)
+Passed bias filter:                     5880  (0.0248096); expected 4740.1 (0.02)
+Passed Vit filter:                       530  (0.00223624); expected 237.0 (0.001)
+Passed Fwd filter:                        13  (5.48512e-05); expected 2.4 (1e-05)
+Initial search space (Z):             237005  [actual number of targets]
+Domain search space  (domZ):              11  [number of targets reported over threshold]
+# CPU time: 2.86u 0.03s 00:00:02.88 Elapsed: 00:00:01.68
+# Mc/sec: 16027.03
+//

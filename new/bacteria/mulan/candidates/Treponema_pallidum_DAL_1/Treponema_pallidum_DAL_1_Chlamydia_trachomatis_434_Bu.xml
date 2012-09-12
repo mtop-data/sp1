@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/bacteria/aa//Chlamydia_trachomatis_434_Bu</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>gnl|BL_ORD_ID|11 @Treponema_pallidum_DAL_1@ gi|378974645|ref|YP_005223253.1| lon1 gene product [Treponema pallidum subsp. pallidum DAL-1]</BlastOutput_query-def>
+  <BlastOutput_query-len>857</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>gnl|BL_ORD_ID|11 @Treponema_pallidum_DAL_1@ gi|378974645|ref|YP_005223253.1| lon1 gene product [Treponema pallidum subsp. pallidum DAL-1]</Iteration_query-def>
+      <Iteration_query-len>857</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|582</Hit_id>
+          <Hit_def>@Chlamydia_trachomatis_434_Bu@ gi|166154556|ref|YP_001654674.1| lon gene product [Chlamydia trachomatis 434/Bu]</Hit_def>
+          <Hit_accession>582</Hit_accession>
+          <Hit_len>819</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>32.7278</Hsp_bit-score>
+              <Hsp_score>73</Hsp_score>
+              <Hsp_evalue>0.0314566</Hsp_evalue>
+              <Hsp_query-from>719</Hsp_query-from>
+              <Hsp_query-to>766</Hsp_query-to>
+              <Hsp_hit-from>721</Hsp_hit-from>
+              <Hsp_hit-to>768</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>17</Hsp_identity>
+              <Hsp_positive>25</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>48</Hsp_align-len>
+              <Hsp_qseq>DGDSASAAEFLVLLSAIGRFPLRQDRAITGSVNQLGQVQAIGGVSEKI</Hsp_qseq>
+              <Hsp_hseq>DGPSAGITMVTSLLSLLLDVPVLNNLGMTGELTLTGRVLGIGGIREKL</Hsp_hseq>
+              <Hsp_midline>DG SA       LLS +   P+  +  +TG +   G+V  IGG+ EK+</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|101</Hit_id>
+          <Hit_def>@Chlamydia_trachomatis_434_Bu@ gi|166154075|ref|YP_001654193.1| unnamed protein product [Chlamydia trachomatis 434/Bu]</Hit_def>
+          <Hit_accession>101</Hit_accession>
+          <Hit_len>448</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>26.1794</Hsp_bit-score>
+              <Hsp_score>56</Hsp_score>
+              <Hsp_evalue>2.3452</Hsp_evalue>
+              <Hsp_query-from>266</Hsp_query-from>
+              <Hsp_query-to>317</Hsp_query-to>
+              <Hsp_hit-from>155</Hsp_hit-from>
+              <Hsp_hit-to>196</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>16</Hsp_identity>
+              <Hsp_positive>25</Hsp_positive>
+              <Hsp_gaps>10</Hsp_gaps>
+              <Hsp_align-len>52</Hsp_align-len>
+              <Hsp_qseq>IILEQMACIKKRVACYAPVFSPPPVSCAAEQTEREKTSSSRLIEVPHEFEEM</Hsp_qseq>
+              <Hsp_hseq>IVLRHLGCSTKAVAAFKPYFS---------EMQRE-TFYTKALHVLHTFPEL</Hsp_hseq>
+              <Hsp_midline>I+L  + C  K VA + P FS         + +RE T  ++ + V H F E+</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|58</Hit_id>
+          <Hit_def>@Chlamydia_trachomatis_434_Bu@ gi|166154032|ref|YP_001654150.1| dppD gene product [Chlamydia trachomatis 434/Bu]</Hit_def>
+          <Hit_accession>58</Hit_accession>
+          <Hit_len>321</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>26.1794</Hsp_bit-score>
+              <Hsp_score>56</Hsp_score>
+              <Hsp_evalue>2.71351</Hsp_evalue>
+              <Hsp_query-from>66</Hsp_query-from>
+              <Hsp_query-to>88</Hsp_query-to>
+              <Hsp_hit-from>36</Hsp_hit-from>
+              <Hsp_hit-to>58</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>10</Hsp_identity>
+              <Hsp_positive>15</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>23</Hsp_align-len>
+              <Hsp_qseq>GYNICVIGASGTGKRTTLQYLLK</Hsp_qseq>
+              <Hsp_hseq>GQTLAIIGESGSGKSITAQSLMQ</Hsp_hseq>
+              <Hsp_midline>G  + +IG SG+GK  T Q L++</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|715</Hit_id>
+          <Hit_def>@Chlamydia_trachomatis_434_Bu@ gi|166154689|ref|YP_001654807.1| pheT gene product [Chlamydia trachomatis 434/Bu]</Hit_def>
+          <Hit_accession>715</Hit_accession>
+          <Hit_len>790</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>25.409</Hsp_bit-score>
+              <Hsp_score>54</Hsp_score>
+              <Hsp_evalue>5.14203</Hsp_evalue>
+              <Hsp_query-from>548</Hsp_query-from>
+              <Hsp_query-to>591</Hsp_query-to>
+              <Hsp_hit-from>35</Hsp_hit-from>
+              <Hsp_hit-to>78</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>11</Hsp_identity>
+              <Hsp_positive>20</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>44</Hsp_align-len>
+              <Hsp_qseq>STSFVQIADLVLESHAVAVDMHPDVSVITAHVVQEALNRRQYVC</Hsp_qseq>
+              <Hsp_hseq>SNVFPDSLNTVVTGKILSASPHPDAERLTVAIVFDGKGKRQIIC</Hsp_hseq>
+              <Hsp_midline>S  F    + V+    ++   HPD   +T  +V +   +RQ +C</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>5</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|302</Hit_id>
+          <Hit_def>@Chlamydia_trachomatis_434_Bu@ gi|166154276|ref|YP_001654394.1| sucB gene product [Chlamydia trachomatis 434/Bu]</Hit_def>
+          <Hit_accession>302</Hit_accession>
+          <Hit_len>365</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>25.0238</Hsp_bit-score>
+              <Hsp_score>53</Hsp_score>
+              <Hsp_evalue>5.71007</Hsp_evalue>
+              <Hsp_query-from>189</Hsp_query-from>
+              <Hsp_query-to>228</Hsp_query-to>
+              <Hsp_hit-from>235</Hsp_hit-from>
+              <Hsp_hit-to>279</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>18</Hsp_identity>
+              <Hsp_positive>25</Hsp_positive>
+              <Hsp_gaps>5</Hsp_gaps>
+              <Hsp_align-len>45</Hsp_align-len>
+              <Hsp_qseq>GTYSFDLVPLLKGKD--SSFE---ALHDLASRAKLSRCVVHELHA</Hsp_qseq>
+              <Hsp_hseq>GTDRGLVVPVIRNCDQLSSGEIELQLADLASRAREGKLAIHELEG</Hsp_hseq>
+              <Hsp_midline>GT    +VP+++  D  SS E    L DLASRA+  +  +HEL  </Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>874</Statistics_db-num>
+          <Statistics_db-len>307627</Statistics_db-len>
+          <Statistics_hsp-len>82</Statistics_hsp-len>
+          <Statistics_eff-space>182868225</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

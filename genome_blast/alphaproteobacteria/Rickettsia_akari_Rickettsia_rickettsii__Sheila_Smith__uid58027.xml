@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/NCBI_bact_genomes/Proteobacteria/Alphaproteobacteria/aa//Rickettsia_rickettsii__Sheila_Smith__uid58027</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Rickettsia_akari_str_Hartford gnl|BL_ORD_ID|412    gi|157825538|ref|YP_001493258.1| unnamed protein product [Rickettsia akari str. Hartford]</BlastOutput_query-def>
+  <BlastOutput_query-len>225</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>Rickettsia_akari_str_Hartford gnl|BL_ORD_ID|412    gi|157825538|ref|YP_001493258.1| unnamed protein product [Rickettsia akari str. Hartford]</Iteration_query-def>
+      <Iteration_query-len>225</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|416</Hit_id>
+          <Hit_def>gi|157828279|ref|YP_001494521.1| outer membrane antigenic lipoprotein B precursor [Rickettsia rickettsii str. &apos;Sheila Smith&apos;]</Hit_def>
+          <Hit_accession>416</Hit_accession>
+          <Hit_len>212</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>370.548</Hsp_bit-score>
+              <Hsp_score>950</Hsp_score>
+              <Hsp_evalue>4.73582e-132</Hsp_evalue>
+              <Hsp_query-from>16</Hsp_query-from>
+              <Hsp_query-to>225</Hsp_query-to>
+              <Hsp_hit-from>1</Hsp_hit-from>
+              <Hsp_hit-to>212</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>184</Hsp_identity>
+              <Hsp_positive>199</Hsp_positive>
+              <Hsp_gaps>2</Hsp_gaps>
+              <Hsp_align-len>212</Hsp_align-len>
+              <Hsp_qseq>MKYPVVLSIVICFCLVACVEQPPAPIEYKVGDVTANNNSTALEHDEGLIVQRTMEDDTVSEKVSGILEEPKAKIIECYNDDIEIPISRNEYEEE--IEQSNFVKPLNGVMLTEFKDGKSKGIDIAVKEYSDVKSIAAGTVIYSGFNKQFGNLVIVKLDKDDLEVAYASLDDLLLKKGDKITKNSVIGHVKHKLYFAMRRNRIAVDPSKYIEF</Hsp_qseq>
+              <Hsp_hseq>MKYPVVLSIVICFCLVACVDQPPAPIEYKVGDVTANNNSTALDHDEGMIVQRTMEDNPASEKVSGRLEEPKAKIIEDDNDDIEIPMSRNEDEDEESIEQLNFVKPLNGVIITEFKAGKSKGIDIVAKEYSEVKSIAAGTVIYSGYNKQFGNLVIVKLDKDDLEVAYASLDDLLLKKGDKIARNSVIGHVEHKLYFAMRKNKIAVDPNKYIEF</Hsp_hseq>
+              <Hsp_midline>MKYPVVLSIVICFCLVACV+QPPAPIEYKVGDVTANNNSTAL+HDEG+IVQRTMED+  SEKVSG LEEPKAKIIE  NDDIEIP+SRNE E+E  IEQ NFVKPLNGV++TEFK GKSKGIDI  KEYS+VKSIAAGTVIYSG+NKQFGNLVIVKLDKDDLEVAYASLDDLLLKKGDKI +NSVIGHV+HKLYFAMR+N+IAVDP+KYIEF</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1076</Hit_id>
+          <Hit_def>gi|157828941|ref|YP_001495183.1| hypothetical protein A1G_06075 [Rickettsia rickettsii str. &apos;Sheila Smith&apos;]</Hit_def>
+          <Hit_accession>1076</Hit_accession>
+          <Hit_len>284</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>38.5058</Hsp_bit-score>
+              <Hsp_score>88</Hsp_score>
+              <Hsp_evalue>5.22822e-05</Hsp_evalue>
+              <Hsp_query-from>134</Hsp_query-from>
+              <Hsp_query-to>200</Hsp_query-to>
+              <Hsp_hit-from>183</Hsp_hit-from>
+              <Hsp_hit-to>248</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>21</Hsp_identity>
+              <Hsp_positive>36</Hsp_positive>
+              <Hsp_gaps>1</Hsp_gaps>
+              <Hsp_align-len>67</Hsp_align-len>
+              <Hsp_qseq>GIDIAVKEYSDVKSIAAGTVIYSGFNKQFGNLVIVKLDKDDLEVAYASLDDLLLKKGDKITKNSVIG</Hsp_qseq>
+              <Hsp_hseq>GIDLQAKKAAPIYAAASGIVIKAARAPDYGNFVEIK-HGHKFVTKYAHLKEMSVKEGNKIKRGQFIG</Hsp_hseq>
+              <Hsp_midline>GID+  K+ + + + A+G VI +     +GN V +K         YA L ++ +K+G+KI +   IG</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|174</Hit_id>
+          <Hit_def>gi|157828037|ref|YP_001494279.1| protease activity modulator HflK [Rickettsia rickettsii str. &apos;Sheila Smith&apos;]</Hit_def>
+          <Hit_accession>174</Hit_accession>
+          <Hit_len>346</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>33.113</Hsp_bit-score>
+              <Hsp_score>74</Hsp_score>
+              <Hsp_evalue>0.00249715</Hsp_evalue>
+              <Hsp_query-from>76</Hsp_query-from>
+              <Hsp_query-to>202</Hsp_query-to>
+              <Hsp_hit-from>225</Hsp_hit-from>
+              <Hsp_hit-to>342</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>35</Hsp_identity>
+              <Hsp_positive>63</Hsp_positive>
+              <Hsp_gaps>11</Hsp_gaps>
+              <Hsp_align-len>128</Hsp_align-len>
+              <Hsp_qseq>EKVSGILEEPKAKIIECYNDDIEIPISRNEYEEEIEQSNFVKPLNGVMLTEFKDGKSKGIDIAVKEYSDVKSIAAG-TVIYSGFNKQFGNLVIVKLDKDDLEVAYASLDDLLLKKGDKITKNSVIGHV</Hsp_qseq>
+              <Hsp_hseq>EKVQLLKAEPPAEVIDAYRD---VQTSKADKEKEINQA---QAYNNKILPEARGAAAKIIQEAEGYRAEVISKAEGDSQRFNAIYKQYATGRQVTRDRLYLEV----VEEVLGGSNKTIINNALLPHM</Hsp_hseq>
+              <Hsp_midline>EKV  +  EP A++I+ Y D   +  S+ + E+EI Q+   +  N  +L E +   +K I  A    ++V S A G +  ++   KQ+     V  D+  LEV    ++++L      I  N+++ H+</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|826</Hit_id>
+          <Hit_def>gi|157828690|ref|YP_001494932.1| hypothetical protein A1G_04620 [Rickettsia rickettsii str. &apos;Sheila Smith&apos;]</Hit_def>
+          <Hit_accession>826</Hit_accession>
+          <Hit_len>142</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>22.7126</Hsp_bit-score>
+              <Hsp_score>47</Hsp_score>
+              <Hsp_evalue>4.68947</Hsp_evalue>
+              <Hsp_query-from>84</Hsp_query-from>
+              <Hsp_query-to>124</Hsp_query-to>
+              <Hsp_hit-from>83</Hsp_hit-from>
+              <Hsp_hit-to>127</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>14</Hsp_identity>
+              <Hsp_positive>24</Hsp_positive>
+              <Hsp_gaps>4</Hsp_gaps>
+              <Hsp_align-len>45</Hsp_align-len>
+              <Hsp_qseq>EPKAKIIECYNDDIEIPISRNEYEEE--IEQSN--FVKPLNGVML</Hsp_qseq>
+              <Hsp_hseq>EPNMDIVECFNKNTNSCRITNSYQFKHFIKEASEAFIKTLNNYTL</Hsp_hseq>
+              <Hsp_midline>EP   I+EC+N +       N Y+ +  I++++  F+K LN   L</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>5</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|241</Hit_id>
+          <Hit_def>gi|157828104|ref|YP_001494346.1| dihydrolipoamide succinyltransferase [Rickettsia rickettsii str. &apos;Sheila Smith&apos;]</Hit_def>
+          <Hit_accession>241</Hit_accession>
+          <Hit_len>395</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>22.3274</Hsp_bit-score>
+              <Hsp_score>46</Hsp_score>
+              <Hsp_evalue>8.57148</Hsp_evalue>
+              <Hsp_query-from>87</Hsp_query-from>
+              <Hsp_query-to>117</Hsp_query-to>
+              <Hsp_hit-from>189</Hsp_hit-from>
+              <Hsp_hit-to>221</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>13</Hsp_identity>
+              <Hsp_positive>22</Hsp_positive>
+              <Hsp_gaps>2</Hsp_gaps>
+              <Hsp_align-len>33</Hsp_align-len>
+              <Hsp_qseq>AKIIECYND-DIEIPIS-RNEYEEEIEQSNFVK</Hsp_qseq>
+              <Hsp_hseq>AAILTTFNEIDMSKVIALRNQYKEEFEKKHTVK</Hsp_hseq>
+              <Hsp_midline>A I+  +N+ D+   I+ RN+Y+EE E+ + VK</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>1343</Statistics_db-num>
+          <Statistics_db-len>318442</Statistics_db-len>
+          <Statistics_hsp-len>70</Statistics_hsp-len>
+          <Statistics_eff-space>34786960</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

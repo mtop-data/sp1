@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/cyanobacteria/all//Athaliana_167</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Cyanothece_PCC_7424_gnl|BL_ORD_ID|2656  gi|218439670|ref|YP_002377999.1| hypothetical protein PCC7424_2719 [Cyanothece</BlastOutput_query-def>
+  <BlastOutput_query-len>264</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>Cyanothece_PCC_7424_gnl|BL_ORD_ID|2656  gi|218439670|ref|YP_002377999.1| hypothetical protein PCC7424_2719 [Cyanothece</Iteration_query-def>
+      <Iteration_query-len>264</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|19755</Hit_id>
+          <Hit_def>Arabidopsis_thaliana AT1G59560.1|PACid:19657702 </Hit_def>
+          <Hit_accession>19755</Hit_accession>
+          <Hit_len>338</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>48.9062</Hsp_bit-score>
+              <Hsp_score>115</Hsp_score>
+              <Hsp_evalue>1.1798e-06</Hsp_evalue>
+              <Hsp_query-from>111</Hsp_query-from>
+              <Hsp_query-to>262</Hsp_query-to>
+              <Hsp_hit-from>97</Hsp_hit-from>
+              <Hsp_hit-to>242</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>42</Hsp_identity>
+              <Hsp_positive>76</Hsp_positive>
+              <Hsp_gaps>18</Hsp_gaps>
+              <Hsp_align-len>158</Hsp_align-len>
+              <Hsp_qseq>RKSETVAQNSRSIPFTLQDSTGEIRVNPERAEIETV-----KVLEEFRPENFSGGSLTFGNFSINLPSFEERRQTIGYRYQEEILPIGRQILVIGTAT-DEEGMITIRKPTEKGQRYFISLKSEEELSQATNNAIRGTFYSMIFFLTLGLILLVAGVL</Hsp_qseq>
+              <Hsp_hseq>RNSTLMQPMTKEVPWYLDDGTGRVNVDVSQGELGLALTVGSDVFEKAEPVSLVQGALGY------LKGF----KILGVRHVERVVPIGTPLTVVGEAVRDGMGNVRIQKP-EQGPFYVTYIPLDQLISKLGDLSRRFKYASM-GLTVLGVILISKPVI</Hsp_hseq>
+              <Hsp_midline>R S  +   ++ +P+ L D TG + V+  + E+         V E+  P +   G+L +      L  F    + +G R+ E ++PIG  + V+G A  D  G + I+KP E+G  Y   +  ++ +S+  + + R  + SM     LG+IL+   V+</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|17260</Hit_id>
+          <Hit_def>Arabidopsis_thaliana AT1G63900.2|PACid:19655207 </Hit_def>
+          <Hit_accession>17260</Hit_accession>
+          <Hit_len>347</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>40.0466</Hsp_bit-score>
+              <Hsp_score>92</Hsp_score>
+              <Hsp_evalue>0.000966964</Hsp_evalue>
+              <Hsp_query-from>94</Hsp_query-from>
+              <Hsp_query-to>262</Hsp_query-to>
+              <Hsp_hit-from>87</Hsp_hit-from>
+              <Hsp_hit-to>244</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>42</Hsp_identity>
+              <Hsp_positive>77</Hsp_positive>
+              <Hsp_gaps>15</Hsp_gaps>
+              <Hsp_align-len>171</Hsp_align-len>
+              <Hsp_qseq>EEVIKQDNEGKTIREKERKSETVAQNSRSIPFTLQDSTGEIRVNPERAEIE-TVKVLEEFRPENFSGGSLTFGNFSINLPSFEERRQTIGYRYQEEILPIGRQILVIGTAT-DEEGMITIRKPTEKGQRYFISLKSEEELSQATNNAIRGTFYSMIFFLTLGLILLVAGVL</Hsp_qseq>
+              <Hsp_hseq>QHFLKHNETGSWVQD----SALMLSMSKEVPWFLDDGTSRVHVMGARGATGFALTVGSEVFEE--SGRSLVRGTLD-----YLQGLKMLGVKRIERVLPTGIPLTIVGEAVKDDIGEFRIQKP-DRGP-FYVSSKSLDQLISNLGKWSRLYKYASMGFTVLGVFLITKHVI</Hsp_hseq>
+              <Hsp_midline>+  +K +  G  +++    S  +   S+ +P+ L D T  + V   R      + V  E   E  SG SL  G        + +  + +G +  E +LP G  + ++G A  D+ G   I+KP ++G  +++S KS ++L        R   Y+ + F  LG+ L+   V+</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|17261</Hit_id>
+          <Hit_def>Arabidopsis_thaliana AT1G63900.1|PACid:19655208 </Hit_def>
+          <Hit_accession>17261</Hit_accession>
+          <Hit_len>343</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>40.0466</Hsp_bit-score>
+              <Hsp_score>92</Hsp_score>
+              <Hsp_evalue>0.000987034</Hsp_evalue>
+              <Hsp_query-from>94</Hsp_query-from>
+              <Hsp_query-to>262</Hsp_query-to>
+              <Hsp_hit-from>87</Hsp_hit-from>
+              <Hsp_hit-to>244</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>42</Hsp_identity>
+              <Hsp_positive>77</Hsp_positive>
+              <Hsp_gaps>15</Hsp_gaps>
+              <Hsp_align-len>171</Hsp_align-len>
+              <Hsp_qseq>EEVIKQDNEGKTIREKERKSETVAQNSRSIPFTLQDSTGEIRVNPERAEIE-TVKVLEEFRPENFSGGSLTFGNFSINLPSFEERRQTIGYRYQEEILPIGRQILVIGTAT-DEEGMITIRKPTEKGQRYFISLKSEEELSQATNNAIRGTFYSMIFFLTLGLILLVAGVL</Hsp_qseq>
+              <Hsp_hseq>QHFLKHNETGSWVQD----SALMLSMSKEVPWFLDDGTSRVHVMGARGATGFALTVGSEVFEE--SGRSLVRGTLD-----YLQGLKMLGVKRIERVLPTGIPLTIVGEAVKDDIGEFRIQKP-DRGP-FYVSSKSLDQLISNLGKWSRLYKYASMGFTVLGVFLITKHVI</Hsp_hseq>
+              <Hsp_midline>+  +K +  G  +++    S  +   S+ +P+ L D T  + V   R      + V  E   E  SG SL  G        + +  + +G +  E +LP G  + ++G A  D+ G   I+KP ++G  +++S KS ++L        R   Y+ + F  LG+ L+   V+</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|27489</Hit_id>
+          <Hit_def>Arabidopsis_thaliana AT5G53910.1|PACid:19665436 </Hit_def>
+          <Hit_accession>27489</Hit_accession>
+          <Hit_len>230</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>30.8018</Hsp_bit-score>
+              <Hsp_score>68</Hsp_score>
+              <Hsp_evalue>0.768987</Hsp_evalue>
+              <Hsp_query-from>133</Hsp_query-from>
+              <Hsp_query-to>175</Hsp_query-to>
+              <Hsp_hit-from>10</Hsp_hit-from>
+              <Hsp_hit-to>52</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>18</Hsp_identity>
+              <Hsp_positive>23</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>43</Hsp_align-len>
+              <Hsp_qseq>EIRVNPERAEIETVKVLEEFRPENFSGGSLTFGNFSINLPSFE</Hsp_qseq>
+              <Hsp_hseq>HIDVNPERKKIGTIQVYVSFVGSANMSPILTRSNFSCSLPANE</Hsp_hseq>
+              <Hsp_midline> I VNPER +I T++V   F         LT  NFS +LP+ E</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>5</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|13559</Hit_id>
+          <Hit_def>Arabidopsis_thaliana AT1G78880.1|PACid:19651506 </Hit_def>
+          <Hit_accession>13559</Hit_accession>
+          <Hit_len>468</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>30.0314</Hsp_bit-score>
+              <Hsp_score>66</Hsp_score>
+              <Hsp_evalue>1.61096</Hsp_evalue>
+              <Hsp_query-from>58</Hsp_query-from>
+              <Hsp_query-to>92</Hsp_query-to>
+              <Hsp_hit-from>276</Hsp_hit-from>
+              <Hsp_hit-to>311</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>14</Hsp_identity>
+              <Hsp_positive>20</Hsp_positive>
+              <Hsp_gaps>1</Hsp_gaps>
+              <Hsp_align-len>36</Hsp_align-len>
+              <Hsp_qseq>EYVKIRGVIECDR-PLISQLKQEPCVYYSMTVTWEY</Hsp_qseq>
+              <Hsp_hseq>QYVKVTGVVTCGNVPLESSFHRVPRCVYTSTCLYEY</Hsp_hseq>
+              <Hsp_midline>+YVK+ GV+ C   PL S   + P   Y+ T  +EY</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>35386</Statistics_db-num>
+          <Statistics_db-len>14482855</Statistics_db-len>
+          <Statistics_hsp-len>98</Statistics_hsp-len>
+          <Statistics_eff-space>1828494482</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

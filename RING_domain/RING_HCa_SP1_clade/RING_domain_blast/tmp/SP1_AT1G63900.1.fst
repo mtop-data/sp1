@@ -1,0 +1,16 @@
+>AT1G63900.1|PACid:19655208
+MIPWGG------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-------------------------VTCCLSAAALYLLGRSSGRDAEVLETVTRVNQLKE
+LAQLLELDSKILPFIVAVSGRVGSETPIKCEHSG--------------------------
+---------------IRGVIVEETAEQHFLKHN------ETGSWVQDSALMLSMSKEVPW
+FLDDGTSRVHVMGARGATGFA---------------LTVGSEVFEESGR-SLVRGT----
+------------------LDYLQGLKMLGVKRIERVLPTGIPLTIVGEAVKDDIGEFRIQ
+KPDR------------GPFYVSSKSLDQLISNLGKWSRL---------------------
+-----YKYASMGFTV---LGVFLITKHVIDSVLER---------------------RRRR
+QLQK----RVLDAAAKRA------------ELESEGSNGTRESISDSTKKEDAVPDLCVI
+CLEQEYNAVFVPCGHMCCCTACSSHLT-----SCPLCRRRIDLAVKTY---RH

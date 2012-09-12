@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/NCBI_bact_genomes/Proteobacteria/Alphaproteobacteria/aa//Brevundimonas_subvibrioides_ATCC_15264_uid42117</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Rickettsia_akari_str_Hartford gnl|BL_ORD_ID|412    gi|157825538|ref|YP_001493258.1| unnamed protein product [Rickettsia akari str. Hartford]</BlastOutput_query-def>
+  <BlastOutput_query-len>225</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>Rickettsia_akari_str_Hartford gnl|BL_ORD_ID|412    gi|157825538|ref|YP_001493258.1| unnamed protein product [Rickettsia akari str. Hartford]</Iteration_query-def>
+      <Iteration_query-len>225</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|2237</Hit_id>
+          <Hit_def>gi|302383354|ref|YP_003819177.1| peptidase M23 [Brevundimonas subvibrioides ATCC 15264]</Hit_def>
+          <Hit_accession>2237</Hit_accession>
+          <Hit_len>209</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>40.817</Hsp_bit-score>
+              <Hsp_score>94</Hsp_score>
+              <Hsp_evalue>2.42865e-05</Hsp_evalue>
+              <Hsp_query-from>133</Hsp_query-from>
+              <Hsp_query-to>223</Hsp_query-to>
+              <Hsp_hit-from>94</Hsp_hit-from>
+              <Hsp_hit-to>191</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>29</Hsp_identity>
+              <Hsp_positive>47</Hsp_positive>
+              <Hsp_gaps>9</Hsp_gaps>
+              <Hsp_align-len>99</Hsp_align-len>
+              <Hsp_qseq>KGIDIAVKEYSDVKSIAAGTVIYSGFNKQ-FGNLVIVKLDKDDLEVAYASLDDLLLKKGDKITKNSVIGHVKH-------KLYFAMRRNRIAVDPSKYI</Hsp_qseq>
+              <Hsp_hseq>KGVDIAAPTGTTVFAAAEGEVIRIGHDPSGYGNFIEMR-HPNGLTTLYGHLSRIDVASGDRIGPRERIGLVGSTGYSTGPHLHFEVRRDGAQVNPSRVM</Hsp_hseq>
+              <Hsp_midline>KG+DIA    + V + A G VI  G +   +GN + ++   + L   Y  L  + +  GD+I     IG V          L+F +RR+   V+PS+ +</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|2611</Hit_id>
+          <Hit_def>gi|302383728|ref|YP_003819551.1| peptidase M23 [Brevundimonas subvibrioides ATCC 15264]</Hit_def>
+          <Hit_accession>2611</Hit_accession>
+          <Hit_len>366</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>29.6462</Hsp_bit-score>
+              <Hsp_score>65</Hsp_score>
+              <Hsp_evalue>0.14145</Hsp_evalue>
+              <Hsp_query-from>131</Hsp_query-from>
+              <Hsp_query-to>219</Hsp_query-to>
+              <Hsp_hit-from>261</Hsp_hit-from>
+              <Hsp_hit-to>360</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>22</Hsp_identity>
+              <Hsp_positive>41</Hsp_positive>
+              <Hsp_gaps>11</Hsp_gaps>
+              <Hsp_align-len>100</Hsp_align-len>
+              <Hsp_qseq>KSKGIDIAVKEYSDVKSIAAGTVIYSGFNKQFGNLVIVKLDKDDLEVAYASLDDLLLKKGDKITKNSVIGHV-------KHKLYFAMRRNR----IAVDP</Hsp_qseq>
+              <Hsp_hseq>RNNGINIGASAGASVVASADGRVAYVGDDLVGQGLTVLIVHRDGWRTVYGHLGSATVDDGADVRAGQQIGTVGLTAGDGRPSIHYETRRMQGDEPVAIDP</Hsp_hseq>
+              <Hsp_midline>++ GI+I     + V + A G V Y G +     L ++ + +D     Y  L    +  G  +     IG V       +  +++  RR +    +A+DP</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|2704</Hit_id>
+          <Hit_def>gi|302383821|ref|YP_003819644.1| amidohydrolase [Brevundimonas subvibrioides ATCC 15264]</Hit_def>
+          <Hit_accession>2704</Hit_accession>
+          <Hit_len>467</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>28.1054</Hsp_bit-score>
+              <Hsp_score>61</Hsp_score>
+              <Hsp_evalue>0.440639</Hsp_evalue>
+              <Hsp_query-from>18</Hsp_query-from>
+              <Hsp_query-to>41</Hsp_query-to>
+              <Hsp_hit-from>8</Hsp_hit-from>
+              <Hsp_hit-to>31</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>7</Hsp_identity>
+              <Hsp_positive>12</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>24</Hsp_align-len>
+              <Hsp_qseq>YPVVLSIVICFCLVACVEQPPAPI</Hsp_qseq>
+              <Hsp_hseq>WPTAGPLLVALALVGCASAPPGPV</Hsp_hseq>
+              <Hsp_midline>+P    +++   LV C   PP P+</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|2595</Hit_id>
+          <Hit_def>gi|302383712|ref|YP_003819535.1| flagellar P-ring protein [Brevundimonas subvibrioides ATCC 15264]</Hit_def>
+          <Hit_accession>2595</Hit_accession>
+          <Hit_len>368</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>24.2534</Hsp_bit-score>
+              <Hsp_score>51</Hsp_score>
+              <Hsp_evalue>6.4826</Hsp_evalue>
+              <Hsp_query-from>135</Hsp_query-from>
+              <Hsp_query-to>165</Hsp_query-to>
+              <Hsp_hit-from>108</Hsp_hit-from>
+              <Hsp_hit-to>138</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>9</Hsp_identity>
+              <Hsp_positive>17</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>31</Hsp_align-len>
+              <Hsp_qseq>IDIAVKEYSDVKSIAAGTVIYSGFNKQFGNL</Hsp_qseq>
+              <Hsp_hseq>VDVSVSSLCDAKSLLGGTLLVTSLQGADGNV</Hsp_hseq>
+              <Hsp_midline>+D++V    D KS+  GT++ +      GN+</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>3327</Statistics_db-num>
+          <Statistics_db-len>1043970</Statistics_db-len>
+          <Statistics_hsp-len>79</Statistics_hsp-len>
+          <Statistics_eff-space>114046002</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

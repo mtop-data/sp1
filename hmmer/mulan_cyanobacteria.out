@@ -1,0 +1,201 @@
+# hmmsearch :: search profile(s) against a sequence database
+# HMMER 3.0 (March 2010); http://hmmer.org/
+# Copyright (C) 2010 Howard Hughes Medical Institute.
+# Freely distributed under the GNU General Public License (GPLv3).
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# query HMM file:                  mulan.hmm
+# target sequence database:        /home/mt258/db/genome_databases/cyanobacteria.fst
+# - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+Query:       Animals.linsi  [M=352]
+Scores for complete sequences (score includes all domains):
+   --- full sequence ---   --- best 1 domain ---    -#dom-
+    E-value  score  bias    E-value  score  bias    exp  N  Sequence                           Description
+    ------- ------ -----    ------- ------ -----   ---- --  --------                           -----------
+  ------ inclusion threshold ------
+        0.2   13.9   0.1        0.3   13.3   0.0    1.2  1  @Cyanobium_sp_PCC_7001@            647589153 CPCC7001_2726 MscS Mec
+       0.29   13.4   0.1       0.49   12.6   0.0    1.3  1  @Cyanothece_PCC_7424@              gi|218439894|ref|YP_002378223.1|
+        0.5   12.6   0.0        0.9   11.8   0.0    1.4  2  @Cyanothece_sp_BH68_ATCC_51142@    641678457 cce_3954 hypothetical 
+       0.85   11.8   0.0        1.4   11.2   0.0    1.2  1  @Prochlorococcus_marinus_AS9601@   640079507 A9601_17781 ATP-utiliz
+        1.1   11.4   0.0        1.3   11.2   0.0    1.1  1  @Nostoc_sp_PCC_7120@               637232142 asl1773 exodeoxyribonu
+        1.2   11.4   0.0        1.2   11.4   0.0    1.1  1  @Anabaena_variabilis_ATCC_29413@   gi|75906488|ref|YP_320784.1| unn
+        1.2   11.3   0.0        1.9   10.7   0.0    1.2  1  @Prochlorococcus_marinus_MIT_9215@ gi|157414176|ref|YP_001485042.1|
+        1.6   10.9   0.0        1.9   10.7   0.0    1.1  1  @Cyanothece_sp_BH68_ATCC_51142@    641676724 cce_2235 tRNA (guanine
+        1.6   10.9   0.0        2.2   10.5   0.0    1.1  1  @Lyngbya_sp_CCY_8106@              640018832 L8106_14150 shikimate 
+        1.8   10.8   0.0        1.9   10.7   0.0    1.1  1  @Arthrospira_platensis_NIES_39@    650383734 NIES39_A04340 hypothet
+        1.8   10.8   0.0        1.9   10.7   0.0    1.1  1  @Arthrospira_platensis_Paraca@     646131178 AplaP_010100017584 hyp
+        1.9   10.7   0.0        3.2    9.9   0.0    1.3  1  @Oscillatoria_sp_PCC_6506@         648856880 OSCI_1880005 L-proline
+
+
+Domain annotation for each sequence (and alignments):
+>> @Cyanobium_sp_PCC_7001@  647589153 CPCC7001_2726 MscS Mechanosensitive ion channel [Cyanobium sp. PCC 7001]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   13.3   0.0   1.5e-05       0.3     224     286 ..     181     245 ..     176     259 .. 0.77
+
+  Alignments for each domain:
+  == domain 1    score: 13.3 bits;  conditional E-value: 1.5e-05
+            Animals.linsi 224 qdfdsllqrqessvrlwkvlalvfglatcatlffilrkqylqrke..rrrlkqlqeefrekeakl 286
+                              +d+d  lq ++ +  lw+ + +++g+ + + ++ +++++  +r+   ++rl+ ++e+ +++   +
+  @Cyanobium_sp_PCC_7001@ 181 RDYDLSLQPENLRRSLWRFVRILLGMVAATGVIILIKRRIARRQLvlQQRLQAMREQVEQEAPSQ 245
+                              699999999999999*************9999999999988887522566777777766655444 PP
+
+>> @Cyanothece_PCC_7424@  gi|218439894|ref|YP_002378223.1| hypothetical protein PCC7424_2952 [Cyanothece sp. PCC 7424]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   12.6   0.0   2.5e-05      0.49     239     294 ..     126     184 ..     115     221 .. 0.79
+
+  Alignments for each domain:
+  == domain 1    score: 12.6 bits;  conditional E-value: 2.5e-05
+          Animals.linsi 239 lwk.vlalvfglatcatlff..ilrkqylqrkerrrlkqlqeefrekeakllseakaed 294
+                            +w+ v a+++gl tc+++ +  +  k+ + ++er+r  q +ee+r+k +k + +  +e 
+  @Cyanothece_PCC_7424@ 126 IWQyVSAIMLGLPTCIAVTYysVKEKELIGKQERKRIDQSEEELRQKAEKIIGKIPKEL 184
+                            5663668999*****876552256678899****************9998876554432 PP
+
+>> @Cyanothece_sp_BH68_ATCC_51142@  641678457 cce_3954 hypothetical protein [Cyanothece sp. BH68, ATCC 51142]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.8   0.0   4.5e-05       0.9      45      84 ..       2      41 ..       1      51 [. 0.91
+   2 ?   -2.5   0.0      0.99     2e+04     259     264 ..     117     122 ..      65     153 .. 0.54
+
+  Alignments for each domain:
+  == domain 1    score: 11.8 bits;  conditional E-value: 4.5e-05
+                    Animals.linsi 45 vsleedlksilseapgkcvpyaviegavrsvketlnsqfv 84
+                                     + l+e+l+ ++ eap + vp av++ av    ++l+sq+ 
+  @Cyanothece_sp_BH68_ATCC_51142@  2 MYLDEQLEILINEAPQHGVPIAVMKKAVAPTLKVLASQLK 41
+                                     6799*********************************975 PP
+
+  == domain 2    score: -2.5 bits;  conditional E-value: 0.99
+                    Animals.linsi 259 lrkqyl 264
+                                      + +++ 
+  @Cyanothece_sp_BH68_ATCC_51142@ 117 IVQEFP 122
+                                      333322 PP
+
+>> @Prochlorococcus_marinus_AS9601@  640079507 A9601_17781 ATP-utilizing enzymes of the PP-loop superfamily [Prochloroco
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.2   0.0   6.9e-05       1.4     170     231 ..     191     250 ..     179     255 .. 0.85
+
+  Alignments for each domain:
+  == domain 1    score: 11.2 bits;  conditional E-value: 6.9e-05
+                     Animals.linsi 170 ighyisgerpkgiqeteemlkvgatltgvgelvldnnsvrlqppkqglqyylssqdfdsllq 231
+                                        gh i+ er k ++++ee lk g  l+ v  +  + ++ r++ pk+ l++++ + +f+ l+q
+  @Prochlorococcus_marinus_AS9601@ 191 YGHEITSERLKMVEKAEEYLKQGG-LSEVR-VRCQGSTARIEIPKNELKHFFDKYNFNELVQ 250
+                                       59*******************994.44443.45678899*******************9997 PP
+
+>> @Nostoc_sp_PCC_7120@  637232142 asl1773 exodeoxyribonuclease VII small subunit [Nostoc sp. PCC 7120]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.2   0.0   6.5e-05       1.3     114     166 ..       4      59 ..       2      74 .. 0.78
+
+  Alignments for each domain:
+  == domain 1    score: 11.2 bits;  conditional E-value: 6.5e-05
+         Animals.linsi 114 ekiihqrtntvpfdlvphedg...vdvavrvlkpldavdlgletvyekfhpsvqsf 166
+                           e+++ +r n+   d v+h +    v+    ++  +++ +l+le+v+e+f  +v+ +
+  @Nostoc_sp_PCC_7120@   4 ERLMVKRKNSDNSDTVAHGNYeakVAEIEAIISRIESGELELEAVFEQFANAVEYL 59 
+                           6777889999999988886532114444578999***************9999876 PP
+
+>> @Anabaena_variabilis_ATCC_29413@  gi|75906488|ref|YP_320784.1| unnamed protein product [Anabaena variabilis ATCC 2941
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   11.4   0.0   5.8e-05       1.2     137     167 ..      24      54 ..       3      75 .. 0.82
+
+  Alignments for each domain:
+  == domain 1    score: 11.4 bits;  conditional E-value: 5.8e-05
+                     Animals.linsi 137 vavrvlkpldavdlgletvyekfhpsvqsft 167
+                                           ++  +++ +l+letv+e+f  +vq + 
+  @Anabaena_variabilis_ATCC_29413@  24 EIEAIISRIESGELELETVFEQFANAVQYLR 54 
+                                       445678899******************9876 PP
+
+>> @Prochlorococcus_marinus_MIT_9215@  gi|157414176|ref|YP_001485042.1| PP family ATPase [Prochlorococcus marinus str. M
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.7   0.0   9.7e-05       1.9     170     231 ..     191     250 ..     179     255 .. 0.85
+
+  Alignments for each domain:
+  == domain 1    score: 10.7 bits;  conditional E-value: 9.7e-05
+                       Animals.linsi 170 ighyisgerpkgiqeteemlkvgatltgvgelvl..dnnsvrlqppkqglqyylssqdfdsllq 231
+                                          gh i+ +r k ++++ee lk g    gv e+ +  + ++ r++ pk+ l++++++ +f+ l+q
+  @Prochlorococcus_marinus_MIT_9215@ 191 YGHEITSDRLKMVEKAEEYLKKG----GVSEVRVrcQGSTARIEIPKNELKHFFNKYNFNELVQ 250
+                                         59*******************98....67776441267899*******************9997 PP
+
+>> @Cyanothece_sp_BH68_ATCC_51142@  641676724 cce_2235 tRNA (guanine-N1)-methyltransferase [Cyanothece sp. BH68, ATCC 51
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.7   0.0   9.7e-05       1.9     157     295 ..      98     241 ..      78     242 .] 0.74
+
+  Alignments for each domain:
+  == domain 1    score: 10.7 bits;  conditional E-value: 9.7e-05
+                    Animals.linsi 157 ekfhpsvqsftdvighyis.gerpkgiqeteemlkvgatltgvge...lvldnnsvrlqppkqglqyylssqdf.dsl 229
+                                      +++    q +  + ghy    er + + + e  + +g+ +   ge   l l n +vrl p   g    l +  f d+l
+  @Cyanothece_sp_BH68_ATCC_51142@  98 QDLSTNYQQLILICGHYEGvDERIRYLADRE--ISLGDFILTCGEipaLALINGVVRLLPGTVGKVESLKAESFeDGL 173
+                                      5556667778888999974257878777666..677888877777444799*******************99994467 PP
+
+                    Animals.linsi 230 lqr.qe...ssvrlwkvlalvfglatcatlffilrkqylqrkerrrlkqlqeefrekeakllseakaedr 295
+                                      l+  q    +  + w++  ++        l+   rk+ + ++ ++r+ +l e+f+e+++++++++k+e+ 
+  @Cyanothece_sp_BH68_ATCC_51142@ 174 LDYpQYtrpAVFQDWQIPEVLRS--GNHQLIAQWRKEQQIQRTQQRRPDLWEKFEERRKQKIEDRKHEQA 241
+                                      76423311145677888877653..345566666777777777888899************999988865 PP
+
+>> @Lyngbya_sp_CCY_8106@  640018832 L8106_14150 shikimate 5-dehydrogenase [Lyngbya sp. CCY 8106]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.5   0.0   0.00011       2.2     108     168 ..     179     242 ..     166     265 .. 0.84
+
+  Alignments for each domain:
+  == domain 1    score: 10.5 bits;  conditional E-value: 0.00011
+          Animals.linsi 108 hlwndlekiihqr...tntvpfdlvphedgvdvavrvlkpldavdlgletvyekfhpsvqsftd 168
+                            + w++l  iihq    +nt+p  + ph ++  v+  v+  l++  +  + +y        s+++
+  @Lyngbya_sp_CCY_8106@ 179 QTWENLTEIIHQAdllVNTTPVGMYPHVENSPVTEAVMDRLKSDAIAYDLIYTPNPTQFLSLAK 242
+                            67**********74447***************************99999999765555555555 PP
+
+>> @Arthrospira_platensis_NIES_39@  650383734 NIES39_A04340 hypothetical protein [Arthrospira platensis NIES-39]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.7   0.0   9.5e-05       1.9     146     213 ..      42     110 ..      10     114 .. 0.85
+
+  Alignments for each domain:
+  == domain 1    score: 10.7 bits;  conditional E-value: 9.5e-05
+                    Animals.linsi 146 davdlgletvyekfhpsvqsftdvighyisgerpkgiqetee.mlkvgatltgvgelvldnnsvrlqpp 213
+                                      ++    + + yek+ p v++  d++ h+   e p+    t     +  at t + + +l n  v+ qp 
+  @Arthrospira_platensis_NIES_39@  42 ETLSTAIASWYEKYDPIVDAQLDILNHWNFTETPHFSAATARpGANSAATPTTINKELLKNAIVKTQPK 110
+                                      4555567789************************9888887615677888999*9999********995 PP
+
+>> @Arthrospira_platensis_Paraca@  646131178 AplaP_010100017584 hypothetical protein [Arthrospira platensis Paraca]
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?   10.7   0.0   9.5e-05       1.9     146     213 ..      42     110 ..      10     114 .. 0.85
+
+  Alignments for each domain:
+  == domain 1    score: 10.7 bits;  conditional E-value: 9.5e-05
+                   Animals.linsi 146 davdlgletvyekfhpsvqsftdvighyisgerpkgiqetee.mlkvgatltgvgelvldnnsvrlqpp 213
+                                     ++    + + yek+ p v++  d++ h+   e p+    t     +  at t + + +l n  v+ qp 
+  @Arthrospira_platensis_Paraca@  42 ETLSTAIASWYEKYDPIVDAQLDILNHWNFTETPHFSAATARpGANSAATPTTINKELLKNAIVKTQPK 110
+                                     4555567789************************9888887615677888999*9999********995 PP
+
+>> @Oscillatoria_sp_PCC_6506@  648856880 OSCI_1880005 L-proline dehydrogenase / delta-1-pyrroline-5-carboxylate dehydrog
+   #    score  bias  c-Evalue  i-Evalue hmmfrom  hmm to    alifrom  ali to    envfrom  env to     acc
+ ---   ------ ----- --------- --------- ------- -------    ------- -------    ------- -------    ----
+   1 ?    9.9   0.0   0.00016       3.2      33     103 ..      77     150 ..      68     155 .. 0.87
+
+  Alignments for each domain:
+  == domain 1    score: 9.9 bits;  conditional E-value: 0.00016
+               Animals.linsi  33 arvaqelkgakkvsleedlksilseapgkcvpyaviegavrsvketlnsqfv..enckgviqrlt.lkehkmvw 103
+                                 ar+ qe   a+ v+l e lk +l  a    vp  +   +v    etl+ +++  en k +i+ l  l+++km +
+  @Oscillatoria_sp_PCC_6506@  77 ARHLQEYLTAEEVELPEALKKLLNFANADSVPGQLAATTVAPAVETLAHKYIagENIKQIIKTLErLRKDKMAF 150
+                                 4455666679*****************************************9778*******995499999976 PP
+
+
+
+Internal pipeline statistics summary:
+-------------------------------------
+Query model(s):                            1  (352 nodes)
+Target sequences:                     237005  (69574710 residues)
+Passed MSV filter:                      6280  (0.0264973); expected 4740.1 (0.02)
+Passed bias filter:                     5235  (0.0220881); expected 4740.1 (0.02)
+Passed Vit filter:                       419  (0.0017679); expected 237.0 (0.001)
+Passed Fwd filter:                        14  (5.90705e-05); expected 2.4 (1e-05)
+Initial search space (Z):             237005  [actual number of targets]
+Domain search space  (domZ):              12  [number of targets reported over threshold]
+# CPU time: 2.62u 0.03s 00:00:02.65 Elapsed: 00:00:01.17
+# Mc/sec: 20931.88
+//

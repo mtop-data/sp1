@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/NCBI_bact_genomes/Proteobacteria/Alphaproteobacteria/aa//Hyphomicrobium_MC1_uid68453</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Rickettsia_akari_str_Hartford gnl|BL_ORD_ID|412    gi|157825538|ref|YP_001493258.1| unnamed protein product [Rickettsia akari str. Hartford]</BlastOutput_query-def>
+  <BlastOutput_query-len>225</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>Rickettsia_akari_str_Hartford gnl|BL_ORD_ID|412    gi|157825538|ref|YP_001493258.1| unnamed protein product [Rickettsia akari str. Hartford]</Iteration_query-def>
+      <Iteration_query-len>225</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|2638</Hit_id>
+          <Hit_def>gi|338739502|ref|YP_004676464.1| unnamed protein product [Hyphomicrobium sp. MC1]</Hit_def>
+          <Hit_accession>2638</Hit_accession>
+          <Hit_len>532</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>62.7734</Hsp_bit-score>
+              <Hsp_score>151</Hsp_score>
+              <Hsp_evalue>2.01871e-12</Hsp_evalue>
+              <Hsp_query-from>118</Hsp_query-from>
+              <Hsp_query-to>224</Hsp_query-to>
+              <Hsp_hit-from>413</Hsp_hit-from>
+              <Hsp_hit-to>530</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>40</Hsp_identity>
+              <Hsp_positive>66</Hsp_positive>
+              <Hsp_gaps>13</Hsp_gaps>
+              <Hsp_align-len>119</Hsp_align-len>
+              <Hsp_qseq>PLNGVMLTEF---KDG-KSKGIDIAVKEYSDVKSIAAGTVIYSGFN-KQFGNLVIVKLDKDDLEVAYASLDDLLLKKGDKITKNSVIGHV-------KHKLYFAMRRNRIAVDPSKYIE</Hsp_qseq>
+              <Hsp_hseq>PASGKIIAGFGSRPDGTHNDGINLQVPLGTDVHAAESGVVAYAGSELKGYGNLVLLRHD-NGWVTAYAHNDELLVKRGDKVRRGQVIAKAGKTGSVDRPQLHFELRQGSRPVDPIPYLE</Hsp_hseq>
+              <Hsp_midline>P +G ++  F    DG  + GI++ V   +DV +  +G V Y+G   K +GNLV+++ D +    AYA  D+LL+K+GDK+ +  VI          + +L+F +R+    VDP  Y+E</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|4834</Hit_id>
+          <Hit_def>gi|338741698|ref|YP_004678660.1| unnamed protein product [Hyphomicrobium sp. MC1]</Hit_def>
+          <Hit_accession>4834</Hit_accession>
+          <Hit_len>529</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>35.8094</Hsp_bit-score>
+              <Hsp_score>81</Hsp_score>
+              <Hsp_evalue>0.00201047</Hsp_evalue>
+              <Hsp_query-from>125</Hsp_query-from>
+              <Hsp_query-to>222</Hsp_query-to>
+              <Hsp_hit-from>410</Hsp_hit-from>
+              <Hsp_hit-to>519</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>28</Hsp_identity>
+              <Hsp_positive>49</Hsp_positive>
+              <Hsp_gaps>16</Hsp_gaps>
+              <Hsp_align-len>112</Hsp_align-len>
+              <Hsp_qseq>TEFKDGKSKGIDIAVKEYSDVKSIAAGTVIYSGFNKQFGNLVIVKLDKDDLEVAYASLDDLLLKKGDKITKNSVIGHVKHK--------------LYFAMRRNRIAVDPSKY</Hsp_qseq>
+              <Hsp_hseq>TQF-GGQSKGIVIETRYSAQVTSPCDGWVVYAGEFRSYGQLLIINAG-DGYHVLLAGLSQIDVQPGQFVLTAEPVGTMSGGQKNSSSATPVSGPVLYVELRKDGRPIDPDPW</Hsp_hseq>
+              <Hsp_midline>T+F  G+SKGI I  +  + V S   G V+Y+G  + +G L+I+    D   V  A L  + ++ G  +     +G +                 LY  +R++   +DP  +</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|2179</Hit_id>
+          <Hit_def>gi|338739043|ref|YP_004676005.1| nadE gene product [Hyphomicrobium sp. MC1]</Hit_def>
+          <Hit_accession>2179</Hit_accession>
+          <Hit_len>574</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>27.7202</Hsp_bit-score>
+              <Hsp_score>60</Hsp_score>
+              <Hsp_evalue>0.737811</Hsp_evalue>
+              <Hsp_query-from>144</Hsp_query-from>
+              <Hsp_query-to>182</Hsp_query-to>
+              <Hsp_hit-from>375</Hsp_hit-from>
+              <Hsp_hit-to>412</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>13</Hsp_identity>
+              <Hsp_positive>25</Hsp_positive>
+              <Hsp_gaps>1</Hsp_gaps>
+              <Hsp_align-len>39</Hsp_align-len>
+              <Hsp_qseq>DVKSIAAGTVIYSGFNKQFGNLVIVKLDKDDLEVAYASL</Hsp_qseq>
+              <Hsp_hseq>NLQSRVRGTILMAVSNK-FGGMVVTTGNKSEMSVGYATL</Hsp_hseq>
+              <Hsp_midline>+++S   GT++ +  NK FG +V+   +K ++ V YA+L</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|3730</Hit_id>
+          <Hit_def>gi|338740594|ref|YP_004677556.1| unnamed protein product [Hyphomicrobium sp. MC1]</Hit_def>
+          <Hit_accession>3730</Hit_accession>
+          <Hit_len>1071</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>25.0238</Hsp_bit-score>
+              <Hsp_score>53</Hsp_score>
+              <Hsp_evalue>6.639</Hsp_evalue>
+              <Hsp_query-from>131</Hsp_query-from>
+              <Hsp_query-to>173</Hsp_query-to>
+              <Hsp_hit-from>742</Hsp_hit-from>
+              <Hsp_hit-to>783</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>13</Hsp_identity>
+              <Hsp_positive>24</Hsp_positive>
+              <Hsp_gaps>1</Hsp_gaps>
+              <Hsp_align-len>43</Hsp_align-len>
+              <Hsp_qseq>KSKGIDIAVKEYSDVKSIAAGTVIYSGFNKQFGNLVIVKLDKD</Hsp_qseq>
+              <Hsp_hseq>KARQLGVAVQDVFDTMQIYLGSLYVNDFNK-FGRTYSVRVQAD</Hsp_hseq>
+              <Hsp_midline>K++ + +AV++  D   I  G++  + FNK FG    V++  D</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>5</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|522</Hit_id>
+          <Hit_def>gi|338737386|ref|YP_004674348.1| lpdA gene product [Hyphomicrobium sp. MC1]</Hit_def>
+          <Hit_accession>522</Hit_accession>
+          <Hit_len>583</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>24.6386</Hsp_bit-score>
+              <Hsp_score>52</Hsp_score>
+              <Hsp_evalue>8.18855</Hsp_evalue>
+              <Hsp_query-from>184</Hsp_query-from>
+              <Hsp_query-to>199</Hsp_query-to>
+              <Hsp_hit-from>58</Hsp_hit-from>
+              <Hsp_hit-to>73</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>10</Hsp_identity>
+              <Hsp_positive>14</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>16</Hsp_align-len>
+              <Hsp_qseq>DLLLKKGDKITKNSVI</Hsp_qseq>
+              <Hsp_hseq>DLLVKVGDKVSEGSVI</Hsp_hseq>
+              <Hsp_midline>DLL+K GDK+++ SVI</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>4893</Statistics_db-num>
+          <Statistics_db-len>1412789</Statistics_db-len>
+          <Statistics_hsp-len>81</Statistics_hsp-len>
+          <Statistics_eff-space>146369664</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/bacteria/aa/Legionella_pneumophila_2300_99_Alcoy</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>SPL2_NP_564653</BlastOutput_query-def>
+  <BlastOutput_query-len>383</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>SPL2_NP_564653</Iteration_query-def>
+      <Iteration_query-len>383</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1791</Hit_id>
+          <Hit_def>@Legionella_pneumophila_2300_99_Alcoy@ gi|296107289|ref|YP_003618989.1| hypothetical protein lpa_02464 [Legionella pneumophila 2300/99 Alcoy]</Hit_def>
+          <Hit_accession>1791</Hit_accession>
+          <Hit_len>241</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>28.1054</Hsp_bit-score>
+              <Hsp_score>61</Hsp_score>
+              <Hsp_evalue>0.694264</Hsp_evalue>
+              <Hsp_query-from>135</Hsp_query-from>
+              <Hsp_query-to>198</Hsp_query-to>
+              <Hsp_hit-from>129</Hsp_hit-from>
+              <Hsp_hit-to>192</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>16</Hsp_identity>
+              <Hsp_positive>29</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>64</Hsp_align-len>
+              <Hsp_qseq>QSTGHRFMLERSLRKHGADFTRTVPFVIVGKDQQSNSSFVAVNMDGSRQPLPLTTVYNRLQPIN</Hsp_qseq>
+              <Hsp_hseq>KKTFQHMLLDLYDATHFPDECHSMDFFIHCKKQLTDDGFLAVNLANSQEQWALVQLIKKQFPSN</Hsp_hseq>
+              <Hsp_midline>+ T    +L+     H  D   ++ F I  K Q ++  F+AVN+  S++   L  +  +  P N</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1828</Hit_id>
+          <Hit_def>@Legionella_pneumophila_2300_99_Alcoy@ gi|296107326|ref|YP_003619026.1| aspartyl/glutamyl-tRNA amidotransferase subunit A [Legionella pneumophila 2300/99 Alcoy]</Hit_def>
+          <Hit_accession>1828</Hit_accession>
+          <Hit_len>483</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>25.409</Hsp_bit-score>
+              <Hsp_score>54</Hsp_score>
+              <Hsp_evalue>6.02173</Hsp_evalue>
+              <Hsp_query-from>332</Hsp_query-from>
+              <Hsp_query-to>361</Hsp_query-to>
+              <Hsp_hit-from>290</Hsp_hit-from>
+              <Hsp_hit-to>319</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>8</Hsp_identity>
+              <Hsp_positive>17</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>30</Hsp_align-len>
+              <Hsp_qseq>VICVSRRRVPAFIPCGHVVCCRRCASTVER</Hsp_qseq>
+              <Hsp_hseq>IIEIDLKLQPLWVPCYYVIACAEASSNLSR</Hsp_hseq>
+              <Hsp_midline>+I +  +  P ++PC +V+ C   +S + R</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1987</Hit_id>
+          <Hit_def>@Legionella_pneumophila_2300_99_Alcoy@ gi|296107485|ref|YP_003619186.1| monovalent cation-H antiporter-2, CPA2 family [Legionella pneumophila 2300/99 Alcoy]</Hit_def>
+          <Hit_accession>1987</Hit_accession>
+          <Hit_len>601</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>25.409</Hsp_bit-score>
+              <Hsp_score>54</Hsp_score>
+              <Hsp_evalue>6.44557</Hsp_evalue>
+              <Hsp_query-from>11</Hsp_query-from>
+              <Hsp_query-to>112</Hsp_query-to>
+              <Hsp_hit-from>95</Hsp_hit-from>
+              <Hsp_hit-to>183</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>31</Hsp_identity>
+              <Hsp_positive>46</Hsp_positive>
+              <Hsp_gaps>15</Hsp_gaps>
+              <Hsp_align-len>103</Hsp_align-len>
+              <Hsp_qseq>LLTDIALSFDGAILGLTLAVS-AVGSALKYASTNAALKKIKDAPEVSISDLRSLLPASEDKSETNDNRKSNDQRIVVVRGVVKPKISGDEGYKNNNVLISPET</Hsp_qseq>
+              <Hsp_hseq>LLTTIALSSAAVMMGYNLQASVAVSMALALSSTALVLQMLQE---------KNLLKTAE--GETSFAVLLFQDIAVIPILVILPLLGNHNGI---NVAINPHT</Hsp_hseq>
+              <Hsp_midline>LLT IALS    ++G  L  S AV  AL  +ST   L+ +++         ++LL  +E   ET+          V+   V+ P +    G    NV I+P T</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>3190</Statistics_db-num>
+          <Statistics_db-len>1025344</Statistics_db-len>
+          <Statistics_hsp-len>84</Statistics_hsp-len>
+          <Statistics_eff-space>226457816</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

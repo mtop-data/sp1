@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/bacteria/aa//Petrotoga_mobilis_SJ95</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>gnl|BL_ORD_ID|11 @Treponema_pallidum_DAL_1@ gi|378974645|ref|YP_005223253.1| lon1 gene product [Treponema pallidum subsp. pallidum DAL-1]</BlastOutput_query-def>
+  <BlastOutput_query-len>857</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>gnl|BL_ORD_ID|11 @Treponema_pallidum_DAL_1@ gi|378974645|ref|YP_005223253.1| lon1 gene product [Treponema pallidum subsp. pallidum DAL-1]</Iteration_query-def>
+      <Iteration_query-len>857</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|216</Hit_id>
+          <Hit_def>@Petrotoga_mobilis_SJ95@ gi|160901708|ref|YP_001567289.1| peptidase S16 lon domain-containing protein [Petrotoga mobilis SJ95]</Hit_def>
+          <Hit_accession>216</Hit_accession>
+          <Hit_len>790</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>271.937</Hsp_bit-score>
+              <Hsp_score>694</Hsp_score>
+              <Hsp_evalue>2.60234e-79</Hsp_evalue>
+              <Hsp_query-from>52</Hsp_query-from>
+              <Hsp_query-to>825</Hsp_query-to>
+              <Hsp_hit-from>37</Hsp_hit-from>
+              <Hsp_hit-to>747</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>204</Hsp_identity>
+              <Hsp_positive>360</Hsp_positive>
+              <Hsp_gaps>83</Hsp_gaps>
+              <Hsp_align-len>784</Hsp_align-len>
+              <Hsp_qseq>ACAAIRLGMRMYGDGYNICVIGASGTGKRTTLQYLLKDFVPRPEQMWDIAYAYNFVHPHEPQVLQFPAGEGMPFATALRRSVNAILNTAQDIVKSDAFLRERRTLLADIETRECAELSRIEAELYTRGFRVRWHRKRGTYSFDLVPLLKGKDSSFEALHDLASRAK-LSRCVVHELHARYRLSCDEVSSLLHTLRTARRAARRRLAQYYRARLRLIILEQMACIKKRVACYAPVFSPPPVSCAAEQTEREKTSSSRLIEVPHEFEEMRARIISYIERIQTDVQVRVQCLMSMR---ISALVKKRFFDRYTLNFVCVHTEHAGY-VFTEHQPNLANLCGSIESKGNEGDTLENGHLRIRAGALHRAHAGVLIVQLEDLLAEEEAWTHLKRALRTKQVLL----PAGSSQSQGMLRPEGVPLTCKLVLVGEPCSFERLSQEDSSFRELFKVCAEFDTSMPNSDKNQVALIAYLDRVVARYGTFSLDSSAYARLLAYAEELAESHTRLSTSFVQIADLVLESHAVAVDMHPDVSVITAHVVQEALNRRQYVCSRARERFQRMIACGELLVEVQGYRIGRINALAIEEHCGHSFGIVISLTAQA-SAGKEGVMNIEREAGLSGEIYDKAHLIITSLLREKCLSAFADAAFDPAVDDLGKGQDSFPLCLSAALCFEQSYHGIDGDSASAAEFLVLLSAIGRFPLRQDRAITGSVNQLGQVQAIGGVSEKISGFYDVCALNGLTGMQGVLIPKSSCAQLFLPERVQDAVRAGTFHVWAVCTIDDALELMV</Hsp_qseq>
+              <Hsp_hseq>ACEILQFALESSNDSNNVFLVGPNRSGRRGMTRKIIERISLTQKAPQDLMYVFNFKEEKKPKLLKLPAGEAKNFKSELQSIINSSVQVLNKTMQTEEFQQRLSSLEKEYNEQREKLWSDLRKQAQALGFILEASEK-GIVS---VPVYDGKKISTSEFENLPEEIKEYFRKNSEKLRELIEKTMVKITEMDKEYWEEVKNLRRYWAAFSLAKL-------FEPLEKKYLKYSDVFE-------------------------------------YLQNLKEDIASHLSQLTSENQNLITYLKEKR----YNVNIIVDNSYLQGAPVIEEDNPTFSNLVGRIEYYSQMG-LLQTDFTMIKSGAFHRANGGYLIMEAEKVLRKPYAWEVIKRFLSEKEVKIENIQTAEGYSSVESLEPEPLSLTVKVILIGEEWVYNLLRVYDSEFEKLFPIKSQFDYEAELSNENLNKFLAFLSNTVEENDISHFTKDAIEEIIKYSCRMNGNNKRFSLRLGEIKNLLIDSFNIS-RKNGSSPYITAKDIKDTTKFREKMFSFHKKKLFNAIKEQKIDIRTEGSEVGQINGLTVLDTGDFTFGHPVKITAKSYRSSSEKIINIHRDIDLSGKIYKKSSLIIENYFKHK-FSSFIETGF------------------GVSLNFEQVYSIIEGDSATIAETLALMSSIANIPLKQNIAITGSMNQNGEVLPVGGIIEKIEGFYDACKNLNFTGDQGVIIPSKNIDNIVLKDEINEDIQNGKFHIWAIDNIDEGIELMT</Hsp_hseq>
+              <Hsp_midline>AC  ++  +    D  N+ ++G + +G+R   + +++      +   D+ Y +NF    +P++L+ PAGE   F + L+  +N+ +      ++++ F +   +L  +   +     S +  +    GF +    K G  S   VP+  GK  S     +L    K   R    +L      +  +++ +        +  RR  A +  A+L          ++K+   Y+ VF                                      Y++ ++ D+   +  L S     I+ L +KR    Y +N +  ++   G  V  E  P  +NL G IE     G  L+     I++GA HRA+ G LI++ E +L +  AW  +KR L  K+V +     A    S   L PE + LT K++L+GE   +  L   DS F +LF + ++FD     S++N    +A+L   V           A   ++ Y+  +  ++ R S    +I +L+++S  ++   +     ITA  +++    R+ + S  +++    I   ++ +  +G  +G+IN L + +    +FG  + +TA++  +  E ++NI R+  LSG+IY K+ LII +  + K  S+F +  F                    +L FEQ Y  I+GDSA+ AE L L+S+I   PL+Q+ AITGS+NQ G+V  +GG+ EKI GFYD C     TG QGV+IP  +   + L + + + ++ G FH+WA+  ID+ +ELM </Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|170</Hit_id>
+          <Hit_def>@Petrotoga_mobilis_SJ95@ gi|160901662|ref|YP_001567243.1| type II secretion system protein E [Petrotoga mobilis SJ95]</Hit_def>
+          <Hit_accession>170</Hit_accession>
+          <Hit_len>368</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>29.261</Hsp_bit-score>
+              <Hsp_score>64</Hsp_score>
+              <Hsp_evalue>0.599749</Hsp_evalue>
+              <Hsp_query-from>73</Hsp_query-from>
+              <Hsp_query-to>115</Hsp_query-to>
+              <Hsp_hit-from>155</Hsp_hit-from>
+              <Hsp_hit-to>196</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>13</Hsp_identity>
+              <Hsp_positive>25</Hsp_positive>
+              <Hsp_gaps>1</Hsp_gaps>
+              <Hsp_align-len>43</Hsp_align-len>
+              <Hsp_qseq>GASGTGKRTTLQYLLKDFVPRPEQMWDIAYAYNFVHPHEPQVL</Hsp_qseq>
+              <Hsp_hseq>GPTGSGKTTTMQYIVNKFKKR-RKVHSIENPVEYINPGIIQIV</Hsp_hseq>
+              <Hsp_midline>G +G+GK TT+QY++  F  R  ++  I     +++P   Q++</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|788</Hit_id>
+          <Hit_def>@Petrotoga_mobilis_SJ95@ gi|160902280|ref|YP_001567861.1| ABC transporter-like protein [Petrotoga mobilis SJ95]</Hit_def>
+          <Hit_accession>788</Hit_accession>
+          <Hit_len>231</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>26.1794</Hsp_bit-score>
+              <Hsp_score>56</Hsp_score>
+              <Hsp_evalue>4.39409</Hsp_evalue>
+              <Hsp_query-from>65</Hsp_query-from>
+              <Hsp_query-to>86</Hsp_query-to>
+              <Hsp_hit-from>32</Hsp_hit-from>
+              <Hsp_hit-to>53</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>12</Hsp_identity>
+              <Hsp_positive>14</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>22</Hsp_align-len>
+              <Hsp_qseq>DGYNICVIGASGTGKRTTLQYL</Hsp_qseq>
+              <Hsp_hseq>DGEYAIIIGPSGSGKSTLLQLL</Hsp_hseq>
+              <Hsp_midline>DG    +IG SG+GK T LQ L</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1314</Hit_id>
+          <Hit_def>@Petrotoga_mobilis_SJ95@ gi|160902806|ref|YP_001568387.1| hypothetical protein Pmob_1360 [Petrotoga mobilis SJ95]</Hit_def>
+          <Hit_accession>1314</Hit_accession>
+          <Hit_len>595</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>26.5646</Hsp_bit-score>
+              <Hsp_score>57</Hsp_score>
+              <Hsp_evalue>4.65261</Hsp_evalue>
+              <Hsp_query-from>64</Hsp_query-from>
+              <Hsp_query-to>86</Hsp_query-to>
+              <Hsp_hit-from>371</Hsp_hit-from>
+              <Hsp_hit-to>393</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>10</Hsp_identity>
+              <Hsp_positive>14</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>23</Hsp_align-len>
+              <Hsp_qseq>GDGYNICVIGASGTGKRTTLQYL</Hsp_qseq>
+              <Hsp_hseq>GKSFNVMIMGDSGAGKSETLDAL</Hsp_hseq>
+              <Hsp_midline>G  +N+ ++G SG GK  TL  L</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>1898</Statistics_db-num>
+          <Statistics_db-len>642353</Statistics_db-len>
+          <Statistics_hsp-len>87</Statistics_hsp-len>
+          <Statistics_eff-space>367464790</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

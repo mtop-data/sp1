@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/cyanobacteria/all//Cyanothece_sp_BH68_ATCC_51142</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Cyanothece_PCC_7424_gnl|BL_ORD_ID|2656  gi|218439670|ref|YP_002377999.1| hypothetical protein PCC7424_2719 [Cyanothece</BlastOutput_query-def>
+  <BlastOutput_query-len>264</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>Cyanothece_PCC_7424_gnl|BL_ORD_ID|2656  gi|218439670|ref|YP_002377999.1| hypothetical protein PCC7424_2719 [Cyanothece</Iteration_query-def>
+      <Iteration_query-len>264</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|621</Hit_id>
+          <Hit_def>@Cyanothece_sp_BH68_ATCC_51142@ 641674997 cce_0530 putative adenylate cyclase [Cyanothece sp. BH68, ATCC 51142]</Hit_def>
+          <Hit_accession>621</Hit_accession>
+          <Hit_len>158</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>30.4166</Hsp_bit-score>
+              <Hsp_score>67</Hsp_score>
+              <Hsp_evalue>0.073985</Hsp_evalue>
+              <Hsp_query-from>68</Hsp_query-from>
+              <Hsp_query-to>147</Hsp_query-to>
+              <Hsp_hit-from>84</Hsp_hit-from>
+              <Hsp_hit-to>152</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>27</Hsp_identity>
+              <Hsp_positive>39</Hsp_positive>
+              <Hsp_gaps>19</Hsp_gaps>
+              <Hsp_align-len>84</Hsp_align-len>
+              <Hsp_qseq>CDRPLISQLKQEPCVYYSMT---VTWEYNEEVIKQDNEGKTIREKERKSETVAQNSRSIPFTLQDSTG-EIRVNPERAEIETVK</Hsp_qseq>
+              <Hsp_hseq>CDRPLIEKVR------YTINQEKLIWEIDE--FKGDNEGLILAEIELKSEDQVIN-------FPDWVGEEVSHDPKYYNVNLVK</Hsp_hseq>
+              <Hsp_midline>CDRPLI +++      Y++    + WE +E   K DNEG  + E E KSE    N         D  G E+  +P+   +  VK</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|4240</Hit_id>
+          <Hit_def>@Cyanothece_sp_BH68_ATCC_51142@ 641678660 cce_4152 aspartyl-tRNA synthetase [Cyanothece sp. BH68, ATCC 51142]</Hit_def>
+          <Hit_accession>4240</Hit_accession>
+          <Hit_len>598</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>28.8758</Hsp_bit-score>
+              <Hsp_score>63</Hsp_score>
+              <Hsp_evalue>0.527991</Hsp_evalue>
+              <Hsp_query-from>16</Hsp_query-from>
+              <Hsp_query-to>61</Hsp_query-to>
+              <Hsp_hit-from>444</Hsp_hit-from>
+              <Hsp_hit-to>499</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>18</Hsp_identity>
+              <Hsp_positive>27</Hsp_positive>
+              <Hsp_gaps>10</Hsp_gaps>
+              <Hsp_align-len>56</Hsp_align-len>
+              <Hsp_qseq>LFFWRSNRSKLRNLRLA-SASTISSLQTIANQIAE---------EIGGGSLREYVK</Hsp_qseq>
+              <Hsp_hseq>MFEWNADEKRLEALHHPFTAPNLADLNDLATARAQAYDLVYNGVEIGGGSLRIYQK</Hsp_hseq>
+              <Hsp_midline>+F W ++  +L  L    +A  ++ L  +A   A+         EIGGGSLR Y K</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|2545</Hit_id>
+          <Hit_def>@Cyanothece_sp_BH68_ATCC_51142@ 641676945 cce_2457 hypothetical protein [Cyanothece sp. BH68, ATCC 51142]</Hit_def>
+          <Hit_accession>2545</Hit_accession>
+          <Hit_len>520</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>28.1054</Hsp_bit-score>
+              <Hsp_score>61</Hsp_score>
+              <Hsp_evalue>0.726377</Hsp_evalue>
+              <Hsp_query-from>1</Hsp_query-from>
+              <Hsp_query-to>174</Hsp_query-to>
+              <Hsp_hit-from>8</Hsp_hit-from>
+              <Hsp_hit-to>171</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>55</Hsp_identity>
+              <Hsp_positive>83</Hsp_positive>
+              <Hsp_gaps>24</Hsp_gaps>
+              <Hsp_align-len>181</Hsp_align-len>
+              <Hsp_qseq>MILIGIICLIVGVILLFFWRSNRSKLR-NLRLASASTISSLQTIANQIAEEIGGGSLREYVKIRGVIECDRPLISQLKQ--EPCVYYSMTVT-WEYNEEVIKQDNEGKTIREKERKSETVAQNSRSIPFTLQDSTGEIRVNPERAEIETVKV---LEEFRPENFSGGSLTFGNFSINLPSF</Hsp_qseq>
+              <Hsp_hseq>LIVLTIISLI-PVILSLIGSINQPQVQSNLQLYQTNLV--LQ------ASEFSGDNISEFEKIRESVLGKNPYQAALKQYKEALKLSQKNLTQLETNLEIINQKSD--LIQESETTINSIPIFSA----TNEQQKLQTEVNRQKEEIETIKIKIGLLEIAQGNRSQGLGTLDN--IELLSF</Hsp_hseq>
+              <Hsp_midline>+I++ II LI  VIL      N+ +++ NL+L   + +  LQ      A E  G ++ E+ KIR  +    P  + LKQ  E        +T  E N E+I Q ++   I+E E    ++   S     T +    +  VN ++ EIET+K+   L E    N S G  T  N  I L SF</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|4863</Hit_id>
+          <Hit_def>@Cyanothece_sp_BH68_ATCC_51142@ 641679284 cce_4775 hypothetical protein [Cyanothece sp. BH68, ATCC 51142]</Hit_def>
+          <Hit_accession>4863</Hit_accession>
+          <Hit_len>194</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>25.7942</Hsp_bit-score>
+              <Hsp_score>55</Hsp_score>
+              <Hsp_evalue>2.91753</Hsp_evalue>
+              <Hsp_query-from>6</Hsp_query-from>
+              <Hsp_query-to>28</Hsp_query-to>
+              <Hsp_hit-from>167</Hsp_hit-from>
+              <Hsp_hit-to>190</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>13</Hsp_identity>
+              <Hsp_positive>16</Hsp_positive>
+              <Hsp_gaps>1</Hsp_gaps>
+              <Hsp_align-len>24</Hsp_align-len>
+              <Hsp_qseq>IIC-LIVGVILLFFWRSNRSKLRN</Hsp_qseq>
+              <Hsp_hseq>IICILILGVIKAWFWWKNPKRLDN</Hsp_hseq>
+              <Hsp_midline>IIC LI+GVI  +FW  N  +L N</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>5</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|3971</Hit_id>
+          <Hit_def>@Cyanothece_sp_BH68_ATCC_51142@ 641678386 cce_3883 MazG family protein [Cyanothece sp. BH68, ATCC 51142]</Hit_def>
+          <Hit_accession>3971</Hit_accession>
+          <Hit_len>278</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>26.1794</Hsp_bit-score>
+              <Hsp_score>56</Hsp_score>
+              <Hsp_evalue>3.15376</Hsp_evalue>
+              <Hsp_query-from>46</Hsp_query-from>
+              <Hsp_query-to>187</Hsp_query-to>
+              <Hsp_hit-from>87</Hsp_hit-from>
+              <Hsp_hit-to>210</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>38</Hsp_identity>
+              <Hsp_positive>68</Hsp_positive>
+              <Hsp_gaps>30</Hsp_gaps>
+              <Hsp_align-len>148</Hsp_align-len>
+              <Hsp_qseq>QIAEEIGGGSLREYVKIRGVIECDRPLISQLKQEPCVYYSMTVTWEYNEEV------IKQDNEGKTIREKERKSETVAQNSRSIPFTLQDSTGEIRVNPERAEIETVKVLEEFRPENFSGGSLTFGNFSINLPSFEERRQTIGYRYQE</Hsp_qseq>
+              <Hsp_hseq>QIAQDYGYFSLQEVAE--GITE------KLIRRHPHVFGDVAV--ENSEEVRQNWDKIKAEEKGETLEMAQLLSRKLERYNRSLPPLM--ASSKISVKAAKA---------GFEWENVDG---VWEKFSEELTEFKESLETDNKVHQQ</Hsp_hseq>
+              <Hsp_midline>QIA++ G  SL+E  +  G+ E        +++ P V+  + V  E +EEV      IK + +G+T+   +  S  + + +RS+P  +  ++ +I V   +A          F  EN  G    +  FS  L  F+E  +T    +Q+</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>5304</Statistics_db-num>
+          <Statistics_db-len>1574679</Statistics_db-len>
+          <Statistics_hsp-len>83</Statistics_hsp-len>
+          <Statistics_eff-space>205334907</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

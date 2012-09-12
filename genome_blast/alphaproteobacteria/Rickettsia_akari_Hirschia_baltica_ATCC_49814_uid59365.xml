@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/NCBI_bact_genomes/Proteobacteria/Alphaproteobacteria/aa//Hirschia_baltica_ATCC_49814_uid59365</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Rickettsia_akari_str_Hartford gnl|BL_ORD_ID|412    gi|157825538|ref|YP_001493258.1| unnamed protein product [Rickettsia akari str. Hartford]</BlastOutput_query-def>
+  <BlastOutput_query-len>225</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>Rickettsia_akari_str_Hartford gnl|BL_ORD_ID|412    gi|157825538|ref|YP_001493258.1| unnamed protein product [Rickettsia akari str. Hartford]</Iteration_query-def>
+      <Iteration_query-len>225</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1392</Hit_id>
+          <Hit_def>gi|254293769|ref|YP_003059792.1| peptidase M23 [Hirschia baltica ATCC 49814]</Hit_def>
+          <Hit_accession>1392</Hit_accession>
+          <Hit_len>620</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>54.299</Hsp_bit-score>
+              <Hsp_score>129</Hsp_score>
+              <Hsp_evalue>1.06458e-09</Hsp_evalue>
+              <Hsp_query-from>96</Hsp_query-from>
+              <Hsp_query-to>223</Hsp_query-to>
+              <Hsp_hit-from>472</Hsp_hit-from>
+              <Hsp_hit-to>614</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>40</Hsp_identity>
+              <Hsp_positive>76</Hsp_positive>
+              <Hsp_gaps>17</Hsp_gaps>
+              <Hsp_align-len>144</Hsp_align-len>
+              <Hsp_qseq>DIEIPISRNEYEEEIE----QSNFVKPLNGVML---TEFKDGK-SKGIDIAVKEYSDVKSIAAGTVIYSGFN-KQFGNLVIVKLDKDDLEVAYASLDDLL------LKKGDKITKNSVIGHV-KHKLYFAMRRNRIAVDPSKYI</Hsp_qseq>
+              <Hsp_hseq>DESAPVSAIKTSEKIDLPGDAKGFVWPVNGNIIKTYGQMPNGKINDGVNIAARAGSTIKAASDGYVVYAGSELPGFGLLILIN-HGNGWVSAYAHAEELLVEENQPIRQGQAIAKVGETGSVDRPQLHFQLRRGKSPIDPASHL</Hsp_hseq>
+              <Hsp_midline>D   P+S  +  E+I+       FV P+NG ++    +  +GK + G++IA +  S +K+ + G V+Y+G     FG L+++    +    AYA  ++LL      +++G  I K    G V + +L+F +RR +  +DP+ ++</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|755</Hit_id>
+          <Hit_def>gi|254293132|ref|YP_003059155.1| peptidase M23 [Hirschia baltica ATCC 49814]</Hit_def>
+          <Hit_accession>755</Hit_accession>
+          <Hit_len>829</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>35.039</Hsp_bit-score>
+              <Hsp_score>79</Hsp_score>
+              <Hsp_evalue>0.00267256</Hsp_evalue>
+              <Hsp_query-from>105</Hsp_query-from>
+              <Hsp_query-to>221</Hsp_query-to>
+              <Hsp_hit-from>345</Hsp_hit-from>
+              <Hsp_hit-to>480</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>32</Hsp_identity>
+              <Hsp_positive>63</Hsp_positive>
+              <Hsp_gaps>25</Hsp_gaps>
+              <Hsp_align-len>139</Hsp_align-len>
+              <Hsp_qseq>EYEEEIEQSNFVKPLNGVML------TEFKDGKSKGIDIAVKEYSDVKSIAAGTVIYSGFNKQFGNLVIVKLDKDDLEVAYASLDDLLLKKGDKITKNSVIG-----------HVKHKLY-----FAMRRNRIAVDPSK</Hsp_qseq>
+              <Hsp_hseq>EFEATVIKSEKAKITSGFGIRKHPISKEMKD--HAGIDIADKIGTKIHTPSHGLVTFAGYKEGYGNVVQINYNPEWMG-RFGQLSKILVEVGQSVQAGDVIGLLGESGNATGPHLHIEVYGPAPDFVRSGHKVAYDPEQ</Hsp_hseq>
+              <Hsp_midline>E+E  + +S   K  +G  +       E KD    GIDIA K  + + + + G V ++G+ + +GN+V +  + + +   +  L  +L++ G  +    VIG           H+  ++Y     F    +++A DP +</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|159</Hit_id>
+          <Hit_def>gi|254292536|ref|YP_003058559.1| peptidase M23 [Hirschia baltica ATCC 49814]</Hit_def>
+          <Hit_accession>159</Hit_accession>
+          <Hit_len>413</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>33.4982</Hsp_bit-score>
+              <Hsp_score>75</Hsp_score>
+              <Hsp_evalue>0.00645209</Hsp_evalue>
+              <Hsp_query-from>97</Hsp_query-from>
+              <Hsp_query-to>219</Hsp_query-to>
+              <Hsp_hit-from>268</Hsp_hit-from>
+              <Hsp_hit-to>400</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>33</Hsp_identity>
+              <Hsp_positive>59</Hsp_positive>
+              <Hsp_gaps>12</Hsp_gaps>
+              <Hsp_align-len>134</Hsp_align-len>
+              <Hsp_qseq>IEIPISRNEYEEEIEQSNFVKPLNGVMLTEF-----KDGKSKGIDIAVKEYSDVKSIAAGTVIYSGFNKQFGNLVIVKLDKD------DLEVAYASLDDLLLKKGDKITKNSVIGHVKHKLYFAMRRNRIAVDP</Hsp_qseq>
+              <Hsp_hseq>IEAPKNRPIYNGFGGISGIQRPVIGTLVNAYGSPKTSTGKALGQTWQTRKGAHVVSPRDGRVEYAGVFRTYGQILILDLGEDYMMVLAGLDAIYAEVGQSVL-SGEPVGRMSVSDKQTPELYIELRHLGTTIDP</Hsp_hseq>
+              <Hsp_midline>IE P +R  Y      S   +P+ G ++  +       GK+ G     ++ + V S   G V Y+G  + +G ++I+ L +D       L+  YA +   +L  G+ + + SV      +LY  +R     +DP</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1055</Hit_id>
+          <Hit_def>gi|254293432|ref|YP_003059455.1| peptidase M23 [Hirschia baltica ATCC 49814]</Hit_def>
+          <Hit_accession>1055</Hit_accession>
+          <Hit_len>223</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>29.261</Hsp_bit-score>
+              <Hsp_score>64</Hsp_score>
+              <Hsp_evalue>0.133524</Hsp_evalue>
+              <Hsp_query-from>133</Hsp_query-from>
+              <Hsp_query-to>202</Hsp_query-to>
+              <Hsp_hit-from>109</Hsp_hit-from>
+              <Hsp_hit-to>179</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>17</Hsp_identity>
+              <Hsp_positive>34</Hsp_positive>
+              <Hsp_gaps>3</Hsp_gaps>
+              <Hsp_align-len>72</Hsp_align-len>
+              <Hsp_qseq>KGIDIAVKEYSDVKSIAAGTVIYSGFNKQFGNLVIVKLDKDDLEVAYASLDDLL--LKKGDKITKNSVIGHV</Hsp_qseq>
+              <Hsp_hseq>KGIDYHHSQPVEIYAAGRGRILETGVHRDFGNYVLI-YHGQGIYTRYAHMESITPELAYGQEIDMGQTIGRM</Hsp_hseq>
+              <Hsp_midline>KGID    +  ++ +   G ++ +G ++ FGN V++      +   YA ++ +   L  G +I     IG +</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>5</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|523</Hit_id>
+          <Hit_def>gi|254292900|ref|YP_003058923.1| flagellar P-ring protein [Hirschia baltica ATCC 49814]</Hit_def>
+          <Hit_accession>523</Hit_accession>
+          <Hit_len>369</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>27.7202</Hsp_bit-score>
+              <Hsp_score>60</Hsp_score>
+              <Hsp_evalue>0.575132</Hsp_evalue>
+              <Hsp_query-from>104</Hsp_query-from>
+              <Hsp_query-to>156</Hsp_query-to>
+              <Hsp_hit-from>77</Hsp_hit-from>
+              <Hsp_hit-to>128</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>16</Hsp_identity>
+              <Hsp_positive>23</Hsp_positive>
+              <Hsp_gaps>1</Hsp_gaps>
+              <Hsp_align-len>53</Hsp_align-len>
+              <Hsp_qseq>NEYEEEIEQSNFVKPLNGVMLTEFKDGKSKGIDIAVKEYSDVKSIAAGTVIYS</Hsp_qseq>
+              <Hsp_hseq>NTREETLNTKNVAAVMVTASLPAFSTAGSR-IDITVSAMGDAKSLEGGTLLVT</Hsp_hseq>
+              <Hsp_midline>N  EE +   N    +    L  F    S+ IDI V    D KS+  GT++ +</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>3187</Statistics_db-num>
+          <Statistics_db-len>1051554</Statistics_db-len>
+          <Statistics_hsp-len>79</Statistics_hsp-len>
+          <Statistics_eff-space>116768026</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

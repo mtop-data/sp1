@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/NCBI_bact_genomes/Proteobacteria/Alphaproteobacteria/aa//Rickettsia_bellii_OSU_85_389_uid58681</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Rickettsia_akari_str_Hartford gnl|BL_ORD_ID|412    gi|157825538|ref|YP_001493258.1| unnamed protein product [Rickettsia akari str. Hartford]</BlastOutput_query-def>
+  <BlastOutput_query-len>225</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>Rickettsia_akari_str_Hartford gnl|BL_ORD_ID|412    gi|157825538|ref|YP_001493258.1| unnamed protein product [Rickettsia akari str. Hartford]</Iteration_query-def>
+      <Iteration_query-len>225</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1279</Hit_id>
+          <Hit_def>gi|157827666|ref|YP_001496730.1| unnamed protein product [Rickettsia bellii OSU 85-389]</Hit_def>
+          <Hit_accession>1279</Hit_accession>
+          <Hit_len>284</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>38.1206</Hsp_bit-score>
+              <Hsp_score>87</Hsp_score>
+              <Hsp_evalue>7.06828e-05</Hsp_evalue>
+              <Hsp_query-from>134</Hsp_query-from>
+              <Hsp_query-to>200</Hsp_query-to>
+              <Hsp_hit-from>183</Hsp_hit-from>
+              <Hsp_hit-to>248</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>19</Hsp_identity>
+              <Hsp_positive>37</Hsp_positive>
+              <Hsp_gaps>1</Hsp_gaps>
+              <Hsp_align-len>67</Hsp_align-len>
+              <Hsp_qseq>GIDIAVKEYSDVKSIAAGTVIYSGFNKQFGNLVIVKLDKDDLEVAYASLDDLLLKKGDKITKNSVIG</Hsp_qseq>
+              <Hsp_hseq>GIDLQAKKEAPIYASASGVVIKTARVRDYGNFIEIK-HSHKFVTKYSHLKEIHVKEGTKVTRGQFIG</Hsp_hseq>
+              <Hsp_midline>GID+  K+ + + + A+G VI +   + +GN + +K         Y+ L ++ +K+G K+T+   IG</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|263</Hit_id>
+          <Hit_def>gi|157826649|ref|YP_001495713.1| unnamed protein product [Rickettsia bellii OSU 85-389]</Hit_def>
+          <Hit_accession>263</Hit_accession>
+          <Hit_len>336</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>34.6538</Hsp_bit-score>
+              <Hsp_score>78</Hsp_score>
+              <Hsp_evalue>0.00124267</Hsp_evalue>
+              <Hsp_query-from>76</Hsp_query-from>
+              <Hsp_query-to>202</Hsp_query-to>
+              <Hsp_hit-from>215</Hsp_hit-from>
+              <Hsp_hit-to>332</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>35</Hsp_identity>
+              <Hsp_positive>63</Hsp_positive>
+              <Hsp_gaps>11</Hsp_gaps>
+              <Hsp_align-len>128</Hsp_align-len>
+              <Hsp_qseq>EKVSGILEEPKAKIIECYNDDIEIPISRNEYEEEIEQSNFVKPLNGVMLTEFKDGKSKGIDIAVKEYSDVKSIAAG-TVIYSGFNKQFGNLVIVKLDKDDLEVAYASLDDLLLKKGDKITKNSVIGHV</Hsp_qseq>
+              <Hsp_hseq>EKVQLLKAEPPAEVIDAYRD---VQTSKADKEKEINQA---QAYNNKVLPEARGAAARIIEEAEAYREEIISKAEGDSQRFSAIYKQYAANKQVTRDRLYLEVA----EEVLSGSNKTIINNALLPHM</Hsp_hseq>
+              <Hsp_midline>EKV  +  EP A++I+ Y D   +  S+ + E+EI Q+   +  N  +L E +   ++ I+ A     ++ S A G +  +S   KQ+     V  D+  LEVA    +++L      I  N+++ H+</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|337</Hit_id>
+          <Hit_def>gi|157826723|ref|YP_001495787.1| unnamed protein product [Rickettsia bellii OSU 85-389]</Hit_def>
+          <Hit_accession>337</Hit_accession>
+          <Hit_len>550</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>25.0238</Hsp_bit-score>
+              <Hsp_score>53</Hsp_score>
+              <Hsp_evalue>1.45651</Hsp_evalue>
+              <Hsp_query-from>80</Hsp_query-from>
+              <Hsp_query-to>116</Hsp_query-to>
+              <Hsp_hit-from>149</Hsp_hit-from>
+              <Hsp_hit-to>192</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>15</Hsp_identity>
+              <Hsp_positive>24</Hsp_positive>
+              <Hsp_gaps>7</Hsp_gaps>
+              <Hsp_align-len>44</Hsp_align-len>
+              <Hsp_qseq>GILEEPKAKIIECY-------NDDIEIPISRNEYEEEIEQSNFV</Hsp_qseq>
+              <Hsp_hseq>GDLLELRMQLAKCYQAWQNIRNEIAEIALKQNSIEQEIDYLNFV</Hsp_hseq>
+              <Hsp_midline>G L E + ++ +CY       N+  EI + +N  E+EI+  NFV</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|571</Hit_id>
+          <Hit_def>gi|157826957|ref|YP_001496021.1| unnamed protein product [Rickettsia bellii OSU 85-389]</Hit_def>
+          <Hit_accession>571</Hit_accession>
+          <Hit_len>131</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>24.2534</Hsp_bit-score>
+              <Hsp_score>51</Hsp_score>
+              <Hsp_evalue>1.88046</Hsp_evalue>
+              <Hsp_query-from>13</Hsp_query-from>
+              <Hsp_query-to>65</Hsp_query-to>
+              <Hsp_hit-from>3</Hsp_hit-from>
+              <Hsp_hit-to>60</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>13</Hsp_identity>
+              <Hsp_positive>31</Hsp_positive>
+              <Hsp_gaps>5</Hsp_gaps>
+              <Hsp_align-len>58</Hsp_align-len>
+              <Hsp_qseq>VQYMKYPVVLSIVICFCLVACVEQPPAPIEYKVGDV-----TANNNSTALEHDEGLIV</Hsp_qseq>
+              <Hsp_hseq>IKKFHYLVLLVIIIAVCSLFTIKERVSTIDYQLSSVLKQINSENNNIHILKAEKAYLI</Hsp_hseq>
+              <Hsp_midline>++   Y V+L I+I  C +  +++  + I+Y++  V     + NNN   L+ ++  ++</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>5</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|675</Hit_id>
+          <Hit_def>gi|157827062|ref|YP_001496126.1| gyrB gene product [Rickettsia bellii OSU 85-389]</Hit_def>
+          <Hit_accession>675</Hit_accession>
+          <Hit_len>808</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>24.6386</Hsp_bit-score>
+              <Hsp_score>52</Hsp_score>
+              <Hsp_evalue>2.06717</Hsp_evalue>
+              <Hsp_query-from>72</Hsp_query-from>
+              <Hsp_query-to>114</Hsp_query-to>
+              <Hsp_hit-from>113</Hsp_hit-from>
+              <Hsp_hit-to>155</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>15</Hsp_identity>
+              <Hsp_positive>21</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>43</Hsp_align-len>
+              <Hsp_qseq>DTVSEKVSGILEEPKAKIIECYNDDIEIPISRNEYEEEIEQSN</Hsp_qseq>
+              <Hsp_hseq>DQNSYKVSGGLHGVGVSVVNALSDWLELRIWRNNTEHLIRFNN</Hsp_hseq>
+              <Hsp_midline>D  S KVSG L      ++   +D +E+ I RN  E  I  +N</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>1475</Statistics_db-num>
+          <Statistics_db-len>407798</Statistics_db-len>
+          <Statistics_hsp-len>72</Statistics_hsp-len>
+          <Statistics_eff-space>46144494</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

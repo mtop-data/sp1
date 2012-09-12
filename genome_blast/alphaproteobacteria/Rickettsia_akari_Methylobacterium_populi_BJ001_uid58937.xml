@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/NCBI_bact_genomes/Proteobacteria/Alphaproteobacteria/aa//Methylobacterium_populi_BJ001_uid58937</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Rickettsia_akari_str_Hartford gnl|BL_ORD_ID|412    gi|157825538|ref|YP_001493258.1| unnamed protein product [Rickettsia akari str. Hartford]</BlastOutput_query-def>
+  <BlastOutput_query-len>225</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>Rickettsia_akari_str_Hartford gnl|BL_ORD_ID|412    gi|157825538|ref|YP_001493258.1| unnamed protein product [Rickettsia akari str. Hartford]</Iteration_query-def>
+      <Iteration_query-len>225</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|4675</Hit_id>
+          <Hit_def>gi|188583936|ref|YP_001927381.1| peptidase M23 [Methylobacterium populi BJ001]</Hit_def>
+          <Hit_accession>4675</Hit_accession>
+          <Hit_len>446</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>58.5362</Hsp_bit-score>
+              <Hsp_score>140</Hsp_score>
+              <Hsp_evalue>5.63032e-11</Hsp_evalue>
+              <Hsp_query-from>114</Hsp_query-from>
+              <Hsp_query-to>223</Hsp_query-to>
+              <Hsp_hit-from>328</Hsp_hit-from>
+              <Hsp_hit-to>444</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>38</Hsp_identity>
+              <Hsp_positive>66</Hsp_positive>
+              <Hsp_gaps>9</Hsp_gaps>
+              <Hsp_align-len>118</Hsp_align-len>
+              <Hsp_qseq>NFVKPLNGVMLTEFKDGKSKGIDIAVKEYSDVKSIAAGTVIYSGFN-KQFGNLVIVKLDKDDLEVAYASLDDLLLKKGDK------ITKNSVIGHV-KHKLYFAMRRNRIAVDPSKYI</Hsp_qseq>
+              <Hsp_hseq>SFRWPAKGRIINGYGSGGNEGINIAVPEGTPVKAAEDGTVAYAGSDVKGYGKLVLVRHNNGYVS-AYAHNGELDVRPGEKVKRGQTIAKSGATGNVTSPQLHFEIRKGATPVDPMPHL</Hsp_hseq>
+              <Hsp_midline>+F  P  G ++  +  G ++GI+IAV E + VK+   GTV Y+G + K +G LV+V+ +   +  AYA   +L ++ G+K      I K+   G+V   +L+F +R+    VDP  ++</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|3148</Hit_id>
+          <Hit_def>gi|188582409|ref|YP_001925854.1| peptidase M23 [Methylobacterium populi BJ001]</Hit_def>
+          <Hit_accession>3148</Hit_accession>
+          <Hit_len>391</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>38.891</Hsp_bit-score>
+              <Hsp_score>89</Hsp_score>
+              <Hsp_evalue>0.000228125</Hsp_evalue>
+              <Hsp_query-from>121</Hsp_query-from>
+              <Hsp_query-to>224</Hsp_query-to>
+              <Hsp_hit-from>271</Hsp_hit-from>
+              <Hsp_hit-to>382</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>29</Hsp_identity>
+              <Hsp_positive>50</Hsp_positive>
+              <Hsp_gaps>10</Hsp_gaps>
+              <Hsp_align-len>113</Hsp_align-len>
+              <Hsp_qseq>GVMLTEFKDGKS--KGIDIAVKEYSDVKSIAAGTVIYSGFNKQFGNLVIVKLDKDDLEVAYASLDDLLLKKGDKITKNSVIG-------HVKHKLYFAMRRNRIAVDPSKYIE</Hsp_qseq>
+              <Hsp_hseq>GARLDPFTRGYALHTGVDMRAETGAPVQATAAGRVTASEYAGGYGNMVEVDHGR-GLVTRYAHLSASAVSVGQRVEAGSVVGFAGSTGRSTGSHLHYETRIDGEPVDPQRFLR</Hsp_hseq>
+              <Hsp_midline>G  L  F  G +   G+D+  +  + V++ AAG V  S +   +GN+V V   +  L   YA L    +  G ++   SV+G            L++  R +   VDP +++ </Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1263</Hit_id>
+          <Hit_def>gi|188580524|ref|YP_001923969.1| myo-inositol-1-phosphate synthase [Methylobacterium populi BJ001]</Hit_def>
+          <Hit_accession>1263</Hit_accession>
+          <Hit_len>363</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>25.409</Hsp_bit-score>
+              <Hsp_score>54</Hsp_score>
+              <Hsp_evalue>4.3887</Hsp_evalue>
+              <Hsp_query-from>51</Hsp_query-from>
+              <Hsp_query-to>91</Hsp_query-to>
+              <Hsp_hit-from>82</Hsp_hit-from>
+              <Hsp_hit-to>125</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>15</Hsp_identity>
+              <Hsp_positive>22</Hsp_positive>
+              <Hsp_gaps>3</Hsp_gaps>
+              <Hsp_align-len>44</Hsp_align-len>
+              <Hsp_qseq>NNNSTALEHDEGLIVQRTMEDDTVSEKVSGILE---EPKAKIIE</Hsp_qseq>
+              <Hsp_hseq>NTHVFAAAPPSGVIVQRGPTFDGIGRYLQGIIEESPEPVADVVE</Hsp_hseq>
+              <Hsp_midline>N +  A     G+IVQR    D +   + GI+E   EP A ++E</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|3303</Hit_id>
+          <Hit_def>gi|188582564|ref|YP_001926009.1| PRC-barrel domain-containing protein [Methylobacterium populi BJ001]</Hit_def>
+          <Hit_accession>3303</Hit_accession>
+          <Hit_len>146</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>25.0238</Hsp_bit-score>
+              <Hsp_score>53</Hsp_score>
+              <Hsp_evalue>4.50565</Hsp_evalue>
+              <Hsp_query-from>151</Hsp_query-from>
+              <Hsp_query-to>182</Hsp_query-to>
+              <Hsp_hit-from>43</Hsp_hit-from>
+              <Hsp_hit-to>74</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>12</Hsp_identity>
+              <Hsp_positive>18</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>32</Hsp_align-len>
+              <Hsp_qseq>GTVIYSGFNKQFGNLVIVKLDKDDLEVAYASL</Hsp_qseq>
+              <Hsp_hseq>GTPVYDGTGRHLGSVHNFMVDKVSGQVAYAVL</Hsp_hseq>
+              <Hsp_midline>GT +Y G  +  G++    +DK   +VAYA L</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>5365</Statistics_db-num>
+          <Statistics_db-len>1664243</Statistics_db-len>
+          <Statistics_hsp-len>82</Statistics_hsp-len>
+          <Statistics_eff-space>175076759</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

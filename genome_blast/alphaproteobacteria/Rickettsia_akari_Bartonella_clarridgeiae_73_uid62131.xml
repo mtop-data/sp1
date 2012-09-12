@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/NCBI_bact_genomes/Proteobacteria/Alphaproteobacteria/aa//Bartonella_clarridgeiae_73_uid62131</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Rickettsia_akari_str_Hartford gnl|BL_ORD_ID|412    gi|157825538|ref|YP_001493258.1| unnamed protein product [Rickettsia akari str. Hartford]</BlastOutput_query-def>
+  <BlastOutput_query-len>225</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>Rickettsia_akari_str_Hartford gnl|BL_ORD_ID|412    gi|157825538|ref|YP_001493258.1| unnamed protein product [Rickettsia akari str. Hartford]</Iteration_query-def>
+      <Iteration_query-len>225</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|994</Hit_id>
+          <Hit_def>gi|319899188|ref|YP_004159281.1| unnamed protein product [Bartonella clarridgeiae 73]</Hit_def>
+          <Hit_accession>994</Hit_accession>
+          <Hit_len>383</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>63.5438</Hsp_bit-score>
+              <Hsp_score>153</Hsp_score>
+              <Hsp_evalue>3.07176e-13</Hsp_evalue>
+              <Hsp_query-from>118</Hsp_query-from>
+              <Hsp_query-to>224</Hsp_query-to>
+              <Hsp_hit-from>265</Hsp_hit-from>
+              <Hsp_hit-to>382</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>40</Hsp_identity>
+              <Hsp_positive>69</Hsp_positive>
+              <Hsp_gaps>13</Hsp_gaps>
+              <Hsp_align-len>119</Hsp_align-len>
+              <Hsp_qseq>PLNGVMLTEFKDGK----SKGIDIAVKEYSDVKSIAAGTVIYSGFN-KQFGNLVIVKLDKDDLEVAYASLDDLL------LKKGDKITKNSVIGHVKH-KLYFAMRRNRIAVDPSKYIE</Hsp_qseq>
+              <Hsp_hseq>PVRGRLLSHFGQKKGTAVNRGIDITVPEGSSVKAAENGVVIYASDGLKKLGNVVMIRHENNIITI-YGHNSKLIVNRGQRVRRGDEIAKSGFSGDAKTPRVYFEVRKNSIPVDPAEYLE</Hsp_hseq>
+              <Hsp_midline>P+ G +L+ F   K    ++GIDI V E S VK+   G VIY+    K+ GN+V+++ + + + + Y     L+      +++GD+I K+   G  K  ++YF +R+N I VDP++Y+E</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|826</Hit_id>
+          <Hit_def>gi|319899020|ref|YP_004159113.1| nadE gene product [Bartonella clarridgeiae 73]</Hit_def>
+          <Hit_accession>826</Hit_accession>
+          <Hit_len>558</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>27.335</Hsp_bit-score>
+              <Hsp_score>59</Hsp_score>
+              <Hsp_evalue>0.308483</Hsp_evalue>
+              <Hsp_query-from>134</Hsp_query-from>
+              <Hsp_query-to>182</Hsp_query-to>
+              <Hsp_hit-from>370</Hsp_hit-from>
+              <Hsp_hit-to>416</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>17</Hsp_identity>
+              <Hsp_positive>30</Hsp_positive>
+              <Hsp_gaps>2</Hsp_gaps>
+              <Hsp_align-len>49</Hsp_align-len>
+              <Hsp_qseq>GIDIAVKEYSDVKSIAAGTVIYSGFNKQFGNLVIVKLDKDDLEVAYASL</Hsp_qseq>
+              <Hsp_hseq>GLQTDVTE-ENLQSRIRGSVLMTLSNK-FGSMVITTGNKSEMAVGYATL</Hsp_hseq>
+              <Hsp_midline>G+   V E  +++S   G+V+ +  NK FG++VI   +K ++ V YA+L</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|822</Hit_id>
+          <Hit_def>gi|319899016|ref|YP_004159109.1| hutH gene product [Bartonella clarridgeiae 73]</Hit_def>
+          <Hit_accession>822</Hit_accession>
+          <Hit_len>513</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>27.335</Hsp_bit-score>
+              <Hsp_score>59</Hsp_score>
+              <Hsp_evalue>0.326757</Hsp_evalue>
+              <Hsp_query-from>140</Hsp_query-from>
+              <Hsp_query-to>177</Hsp_query-to>
+              <Hsp_hit-from>37</Hsp_hit-from>
+              <Hsp_hit-to>74</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>13</Hsp_identity>
+              <Hsp_positive>21</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>38</Hsp_align-len>
+              <Hsp_qseq>KEYSDVKSIAAGTVIYSGFNKQFGNLVIVKLDKDDLEV</Hsp_qseq>
+              <Hsp_hseq>KGAALIAEIAAGSEPVYGINTGFGKLASIKIDINDVTI</Hsp_hseq>
+              <Hsp_midline>K  + +  IAAG+    G N  FG L  +K+D +D+ +</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|326</Hit_id>
+          <Hit_def>gi|319898520|ref|YP_004158613.1| carB gene product [Bartonella clarridgeiae 73]</Hit_def>
+          <Hit_accession>326</Hit_accession>
+          <Hit_len>1160</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>25.409</Hsp_bit-score>
+              <Hsp_score>54</Hsp_score>
+              <Hsp_evalue>1.30068</Hsp_evalue>
+              <Hsp_query-from>77</Hsp_query-from>
+              <Hsp_query-to>122</Hsp_query-to>
+              <Hsp_hit-from>712</Hsp_hit-from>
+              <Hsp_hit-to>757</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>12</Hsp_identity>
+              <Hsp_positive>25</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>46</Hsp_align-len>
+              <Hsp_qseq>KVSGILEEPKAKIIECYNDDIEIPISRNEYEEEIEQSNFVKPLNGV</Hsp_qseq>
+              <Hsp_hseq>KLASTLEKNNIPILGTSPDAIDLAEDRNRFQKLLFKLNLTQPKNGI</Hsp_hseq>
+              <Hsp_midline>K++  LE+    I+    D I++   RN +++ + + N  +P NG+</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>5</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|181</Hit_id>
+          <Hit_def>gi|319898375|ref|YP_004158468.1| hbpE gene product [Bartonella clarridgeiae 73]</Hit_def>
+          <Hit_accession>181</Hit_accession>
+          <Hit_len>288</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>23.8682</Hsp_bit-score>
+              <Hsp_score>50</Hsp_score>
+              <Hsp_evalue>3.189</Hsp_evalue>
+              <Hsp_query-from>154</Hsp_query-from>
+              <Hsp_query-to>173</Hsp_query-to>
+              <Hsp_hit-from>93</Hsp_hit-from>
+              <Hsp_hit-to>112</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>9</Hsp_identity>
+              <Hsp_positive>14</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>20</Hsp_align-len>
+              <Hsp_qseq>IYSGFNKQFGNLVIVKLDKD</Hsp_qseq>
+              <Hsp_hseq>VYAGSNVNFGNGLILGIDTD</Hsp_hseq>
+              <Hsp_midline>+Y+G N  FGN +I+ +D D</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>1326</Statistics_db-num>
+          <Statistics_db-len>408910</Statistics_db-len>
+          <Statistics_hsp-len>73</Statistics_hsp-len>
+          <Statistics_eff-space>47441024</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>
