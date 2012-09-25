@@ -1,0 +1,95 @@
+#NEXUS
+
+[ID: None Available]
+begin taxa;
+	dimensions ntax=38;
+	taxlabels
+		Physcomitrella_patens_Pp1s12_190V6.2_PACid_18048531
+		Physcomitrella_patens_Pp1s175_124V6.2_PACid_18055474
+		Selaginella_moellendorffii_231449_PACid_15416766
+		Medicago_truncatula_Medtr1g111550.1_PACid_17439105
+		Glycine_max_Glyma10g02920.1_PACid_16278382
+		Prunus_persica_ppa008230m_PACid_17644506
+		Cucumis_sativus_Cucsa.084910.1_PACid_16956611
+		Citrus_sinensis_orange1.1g019223m_PACid_18093190
+		Citrus_clementina_0.9_003846m_PACid_19263951
+		Citrus_sinensis_orange1.1g019651m_PACid_18093104
+		Citrus_clementina_0.9_014777m_PACid_19265048
+		Manihot_esculenta_cassava4.1_011064m_PACid_17986177
+		Ricinus_communis_29703.m001546_PACid_16806242
+		Vitis_vinifera_GSVIVT01011070001_PACid_17823049
+		Eucalyptus_grandis_Egrandis_v1_0.010112m_PACid_18812196
+		Tomato_Solyc06g084360.1.1
+		Mimulus_guttatus_mgv1a009837m_PACid_17671176
+		Aquilegia_coerulea_v1.007878m_PACid_18162338
+		Arabidopsis_lyrata_474968_PACid_16053684
+		SP1
+		Populus_trichocarpa_POPTR_0014s13410.1_PACid_18222628
+		Zea_mays_GRMZM2G020574_T08_PACid_19536933
+		Sorghum_bicolor_Sb02g041380.1_PACid_1959657
+		Zea_mays_GRMZM5G871572_T01_PACid_19559193
+		Setaria_italica_Si030396m_PACid_19714000
+		Oryza_sativa_LOC_Os07g45350.1_PACid_16873618
+		Brachypodium_distachyon_Bradi1g19510.1_PACid_16473835
+		Carica_papaya_evm.model.supercontig_9.121_PACid_16428004
+		SPL1_NP_564745
+		Arabidopsis_lyrata_338432_PACid_16045815
+		Arabidopsis_lyrata_867782_PACid_16034683
+		Chlorella_variabilis_gi_307103723_gb_EFN51981.1_
+		Micromonas_sp._RCC299_gi_255086321_ref_XP_002509127.1_
+		Mulan_NP_078820
+		Mus_musculus_gi_18043560_gb_AAH19516.1
+		Xenopus_laevis_gi_148226332_ref_NP_001084716.1
+		Danio_rerio_gi_148922854_ref_NP_001092230.1
+		Drosophila_melanogaster_gi_21356375_ref_NP_647847.1
+		;end;
+begin trees;
+	translate
+		1	Physcomitrella_patens_Pp1s12_190V6.2_PACid_18048531,
+		2	Physcomitrella_patens_Pp1s175_124V6.2_PACid_18055474,
+		3	Selaginella_moellendorffii_231449_PACid_15416766,
+		4	Medicago_truncatula_Medtr1g111550.1_PACid_17439105,
+		5	Glycine_max_Glyma10g02920.1_PACid_16278382,
+		6	Prunus_persica_ppa008230m_PACid_17644506,
+		7	Cucumis_sativus_Cucsa.084910.1_PACid_16956611,
+		8	Citrus_sinensis_orange1.1g019223m_PACid_18093190,
+		9	Citrus_clementina_0.9_003846m_PACid_19263951,
+		10	Citrus_sinensis_orange1.1g019651m_PACid_18093104,
+		11	Citrus_clementina_0.9_014777m_PACid_19265048,
+		12	Manihot_esculenta_cassava4.1_011064m_PACid_17986177,
+		13	Ricinus_communis_29703.m001546_PACid_16806242,
+		14	Vitis_vinifera_GSVIVT01011070001_PACid_17823049,
+		15	Eucalyptus_grandis_Egrandis_v1_0.010112m_PACid_18812196,
+		16	Tomato_Solyc06g084360.1.1,
+		17	Mimulus_guttatus_mgv1a009837m_PACid_17671176,
+		18	Aquilegia_coerulea_v1.007878m_PACid_18162338,
+		19	Arabidopsis_lyrata_474968_PACid_16053684,
+		20	SP1,
+		21	Populus_trichocarpa_POPTR_0014s13410.1_PACid_18222628,
+		22	Zea_mays_GRMZM2G020574_T08_PACid_19536933,
+		23	Sorghum_bicolor_Sb02g041380.1_PACid_1959657,
+		24	Zea_mays_GRMZM5G871572_T01_PACid_19559193,
+		25	Setaria_italica_Si030396m_PACid_19714000,
+		26	Oryza_sativa_LOC_Os07g45350.1_PACid_16873618,
+		27	Brachypodium_distachyon_Bradi1g19510.1_PACid_16473835,
+		28	Carica_papaya_evm.model.supercontig_9.121_PACid_16428004,
+		29	SPL1_NP_564745,
+		30	Arabidopsis_lyrata_338432_PACid_16045815,
+		31	Arabidopsis_lyrata_867782_PACid_16034683,
+		32	Chlorella_variabilis_gi_307103723_gb_EFN51981.1_,
+		33	Micromonas_sp._RCC299_gi_255086321_ref_XP_002509127.1_,
+		34	Mulan_NP_078820,
+		35	Mus_musculus_gi_18043560_gb_AAH19516.1,
+		36	Xenopus_laevis_gi_148226332_ref_NP_001084716.1,
+		37	Danio_rerio_gi_148922854_ref_NP_001092230.1,
+		38	Drosophila_melanogaster_gi_21356375_ref_NP_647847.1
+		;
+   [Note: This tree contains information on the topology, 
+          branch lengths (if present), and the probability
+          of the partition indicated by the branch.]
+   tree con_50_majrule = (1:0.043253,2:0.164749,(3:0.151813,((((((((4:0.149345,5:0.041522)1.00:0.044424,7:0.113386)0.58:0.014180,6:0.077674)1.00:0.031500,((12:0.035051,13:0.034433,21:0.165848)1.00:0.044636,(((19:0.007213,20:0.015632)1.00:0.081427,((29:0.112311,30:0.049678)1.00:0.135787,31:0.255840)1.00:0.245082)0.91:0.095974,28:0.141362)0.91:0.032758)0.83:0.015720)0.70:0.015563,(((8:0.005822,9:0.002843)0.83:0.008658,(10:0.002943,11:0.003020)1.00:0.072606)1.00:0.087127,15:0.115599)0.91:0.028725)0.90:0.021841,14:0.089727,(16:0.089821,17:0.123639)1.00:0.041214)0.90:0.029536,(18:0.120900,(((22:0.031286,(23:0.008821,24:0.014398)0.94:0.006314,25:0.015800)1.00:0.028822,26:0.024463)0.73:0.016552,27:0.050906)1.00:0.161545)0.53:0.024041)0.83:0.125386,((32:0.628576,((((34:0.052712,35:0.057116)1.00:0.128420,37:0.374417)0.81:0.093651,36:0.232170)1.00:0.468126,38:0.934740)1.00:0.543681)1.00:0.348835,33:0.961639)1.00:0.401197)0.76:0.080316)1.00:0.112777);
+
+   [Note: This tree contains information only on the topology
+          and branch lengths (mean of the posterior probability density).]
+   tree con_50_majrule = (1:0.043253,2:0.164749,(3:0.151813,((((((((4:0.149345,5:0.041522):0.044424,7:0.113386):0.014180,6:0.077674):0.031500,((12:0.035051,13:0.034433,21:0.165848):0.044636,(((19:0.007213,20:0.015632):0.081427,((29:0.112311,30:0.049678):0.135787,31:0.255840):0.245082):0.095974,28:0.141362):0.032758):0.015720):0.015563,(((8:0.005822,9:0.002843):0.008658,(10:0.002943,11:0.003020):0.072606):0.087127,15:0.115599):0.028725):0.021841,14:0.089727,(16:0.089821,17:0.123639):0.041214):0.029536,(18:0.120900,(((22:0.031286,(23:0.008821,24:0.014398):0.006314,25:0.015800):0.028822,26:0.024463):0.016552,27:0.050906):0.161545):0.024041):0.125386,((32:0.628576,((((34:0.052712,35:0.057116):0.128420,37:0.374417):0.093651,36:0.232170):0.468126,38:0.934740):0.543681):0.348835,33:0.961639):0.401197):0.080316):0.112777);
+end;

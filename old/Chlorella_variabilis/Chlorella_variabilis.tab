@@ -1,0 +1,49 @@
+# BLASTP 2.2.25+
+# Query: Chlorella_variabilis_gi|307103723|gb|EFN51981.1| hypothetical protein CHLNCDRAFT_27288 [Chlorella variabilis]
+# Database: /Users/mats/db/_Chlorella_NC64A/annotation/Chlorella_protein
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 43 hits found
+Chlorella_variabilis_gi|307103723|gb|EFN51981.1|	jgi|ChlNC64A_1|27423|e_gw1.25.79.1	100.00	224	0	0	1	224	1	224	9e-124	 439
+Chlorella_variabilis_gi|307103723|gb|EFN51981.1|	jgi|ChlNC64A_1|27303|e_gw1.25.78.1	100.00	224	0	0	1	224	1	224	9e-124	 439
+Chlorella_variabilis_gi|307103723|gb|EFN51981.1|	jgi|ChlNC64A_1|27288|e_gw1.25.77.1	100.00	224	0	0	1	224	1	224	9e-124	 439
+Chlorella_variabilis_gi|307103723|gb|EFN51981.1|	jgi|ChlNC64A_1|10426|gw1.25.79.1	100.00	188	0	0	28	215	1	188	5e-101	 364
+Chlorella_variabilis_gi|307103723|gb|EFN51981.1|	jgi|ChlNC64A_1|10380|gw1.25.78.1	100.00	188	0	0	28	215	1	188	5e-101	 364
+Chlorella_variabilis_gi|307103723|gb|EFN51981.1|	jgi|ChlNC64A_1|10378|gw1.25.77.1	100.00	188	0	0	28	215	1	188	5e-101	 364
+Chlorella_variabilis_gi|307103723|gb|EFN51981.1|	jgi|ChlNC64A_1|139486|IGS.gm_25_00037	94.25	226	0	1	12	224	152	377	6e-97	 350
+Chlorella_variabilis_gi|307103723|gb|EFN51981.1|	jgi|ChlNC64A_1|54744|fgenesh3_pg.C_scaffold_25000019	92.93	198	1	1	12	196	145	342	3e-79	 291
+Chlorella_variabilis_gi|307103723|gb|EFN51981.1|	jgi|ChlNC64A_1|59051|estExt_fgenesh3_pg.C_250019	92.93	198	1	1	12	196	145	342	3e-79	 291
+Chlorella_variabilis_gi|307103723|gb|EFN51981.1|	jgi|ChlNC64A_1|54876|fgenesh3_pg.C_scaffold_26000068	29.92	127	69	3	12	125	108	227	3e-05	46.2
+Chlorella_variabilis_gi|307103723|gb|EFN51981.1|	jgi|ChlNC64A_1|139775|IGS.gm_26_00128	29.20	113	62	2	26	125	3	110	4e-05	45.8
+Chlorella_variabilis_gi|307103723|gb|EFN51981.1|	jgi|ChlNC64A_1|136444|IGS.gm_16_00167	36.67	60	33	1	160	214	778	837	1e-04	43.9
+Chlorella_variabilis_gi|307103723|gb|EFN51981.1|	jgi|ChlNC64A_1|51242|fgenesh3_pg.C_scaffold_6000056	44.19	43	20	1	177	215	275	317	4e-04	42.4
+Chlorella_variabilis_gi|307103723|gb|EFN51981.1|	jgi|ChlNC64A_1|143545|IGS.gm_6_00119	44.19	43	20	1	177	215	271	313	5e-04	42.4
+Chlorella_variabilis_gi|307103723|gb|EFN51981.1|	jgi|ChlNC64A_1|141345|IGS.gm_33_00055	40.00	70	28	4	161	222	255	318	9e-04	41.2
+Chlorella_variabilis_gi|307103723|gb|EFN51981.1|	jgi|ChlNC64A_1|21444|e_gw1.6.329.1	44.19	43	20	1	177	215	137	179	0.002	39.7
+Chlorella_variabilis_gi|307103723|gb|EFN51981.1|	jgi|ChlNC64A_1|15515|gw1.6.329.1	51.11	45	14	4	177	215	27	69	0.006	38.5
+Chlorella_variabilis_gi|307103723|gb|EFN51981.1|	jgi|ChlNC64A_1|144476|IGS.gm_7_00418	36.84	38	24	0	178	215	353	390	0.008	38.1
+Chlorella_variabilis_gi|307103723|gb|EFN51981.1|	jgi|ChlNC64A_1|141836|IGS.gm_39_00016	40.00	40	21	1	178	214	325	364	0.016	37.0
+Chlorella_variabilis_gi|307103723|gb|EFN51981.1|	jgi|ChlNC64A_1|55558|fgenesh3_pg.C_scaffold_39000010	40.00	40	21	1	178	214	380	419	0.031	36.2
+Chlorella_variabilis_gi|307103723|gb|EFN51981.1|	jgi|ChlNC64A_1|24392|e_gw1.12.434.1	27.86	201	103	10	40	218	25	205	0.41	32.3
+Chlorella_variabilis_gi|307103723|gb|EFN51981.1|	jgi|ChlNC64A_1|141903|IGS.gm_4_00044	38.64	44	21	1	176	213	3	46	0.55	32.0
+Chlorella_variabilis_gi|307103723|gb|EFN51981.1|	jgi|ChlNC64A_1|52814|fgenesh3_pg.C_scaffold_12000139	27.01	137	74	5	40	158	203	331	0.72	31.6
+Chlorella_variabilis_gi|307103723|gb|EFN51981.1|	jgi|ChlNC64A_1|58084|estExt_fgenesh3_pg.C_120137	27.01	137	74	5	40	158	203	331	0.72	31.6
+Chlorella_variabilis_gi|307103723|gb|EFN51981.1|	jgi|ChlNC64A_1|143805|IGS.gm_6_00379	50.00	24	9	1	193	213	779	802	0.88	31.2
+Chlorella_variabilis_gi|307103723|gb|EFN51981.1|	jgi|ChlNC64A_1|137960|IGS.gm_2_00427	34.15	41	23	1	178	214	1648	1688	1.2	30.8
+Chlorella_variabilis_gi|307103723|gb|EFN51981.1|	jgi|ChlNC64A_1|51357|fgenesh3_pg.C_scaffold_6000171	50.00	24	9	1	193	213	790	813	1.2	30.8
+Chlorella_variabilis_gi|307103723|gb|EFN51981.1|	jgi|ChlNC64A_1|49982|fgenesh3_pg.C_scaffold_2000227	34.15	41	23	1	178	214	1726	1766	1.4	30.8
+Chlorella_variabilis_gi|307103723|gb|EFN51981.1|	jgi|ChlNC64A_1|56749|estExt_fgenesh3_pg.C_20223	34.15	41	23	1	178	214	1726	1766	1.4	30.8
+Chlorella_variabilis_gi|307103723|gb|EFN51981.1|	jgi|ChlNC64A_1|132977|IGS.gm_1_00113	38.46	39	20	1	178	212	345	383	2.1	30.0
+Chlorella_variabilis_gi|307103723|gb|EFN51981.1|	jgi|ChlNC64A_1|49362|fgenesh3_pg.C_scaffold_1000060	38.46	39	20	1	178	212	837	875	2.4	29.6
+Chlorella_variabilis_gi|307103723|gb|EFN51981.1|	jgi|ChlNC64A_1|56452|estExt_fgenesh3_pg.C_10059	38.46	39	20	1	178	212	837	875	2.4	29.6
+Chlorella_variabilis_gi|307103723|gb|EFN51981.1|	jgi|ChlNC64A_1|35817|estExt_Genewise1Plus.C_120402	27.01	137	74	5	40	158	43	171	2.4	29.6
+Chlorella_variabilis_gi|307103723|gb|EFN51981.1|	jgi|ChlNC64A_1|31503|estExt_Genewise1.C_120402	27.01	137	74	5	40	158	43	171	2.4	29.6
+Chlorella_variabilis_gi|307103723|gb|EFN51981.1|	jgi|ChlNC64A_1|134895|IGS.gm_12_00281	27.01	137	74	5	40	158	43	171	2.4	29.6
+Chlorella_variabilis_gi|307103723|gb|EFN51981.1|	jgi|ChlNC64A_1|54426|fgenesh3_pg.C_scaffold_22000044	36.54	52	23	3	178	219	225	276	3.0	29.6
+Chlorella_variabilis_gi|307103723|gb|EFN51981.1|	jgi|ChlNC64A_1|53715|fgenesh3_pg.C_scaffold_17000048	34.15	41	22	1	178	213	797	837	3.7	29.3
+Chlorella_variabilis_gi|307103723|gb|EFN51981.1|	jgi|ChlNC64A_1|58520|estExt_fgenesh3_pg.C_170047	34.15	41	22	1	178	213	797	837	3.7	29.3
+Chlorella_variabilis_gi|307103723|gb|EFN51981.1|	jgi|ChlNC64A_1|136682|IGS.gm_17_00086	34.15	41	22	1	178	213	963	1003	4.4	28.9
+Chlorella_variabilis_gi|307103723|gb|EFN51981.1|	jgi|ChlNC64A_1|53941|fgenesh3_pg.C_scaffold_18000131	33.33	51	34	0	90	140	867	917	5.1	28.9
+Chlorella_variabilis_gi|307103723|gb|EFN51981.1|	jgi|ChlNC64A_1|137152|IGS.gm_18_00258	33.33	51	34	0	90	140	909	959	5.5	28.5
+Chlorella_variabilis_gi|307103723|gb|EFN51981.1|	jgi|ChlNC64A_1|134586|IGS.gm_11_00432	36.00	75	31	5	155	215	139	210	6.5	28.5
+Chlorella_variabilis_gi|307103723|gb|EFN51981.1|	jgi|ChlNC64A_1|52670|fgenesh3_pg.C_scaffold_11000246	36.00	75	31	5	155	215	205	276	6.7	28.5
+# BLAST processed 1 queries

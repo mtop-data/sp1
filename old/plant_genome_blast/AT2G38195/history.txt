@@ -1,0 +1,198 @@
+blastp -db /Users/mats/db/Phytozome/Aquilegia_coerulea/annotation/Acoerulea_195_peptide -query AT2G38195.fst -outfmt 5 -out Acoerulea.xml -task blastp
+xml_to_fasta.py Acoerulea.xml /Users/mats/db/Phytozome/Aquilegia_coerulea/annotation/Acoerulea_195_peptide > Acoerulea.fst
+cat AT2G38195.fst >> Acoerulea.fst
+mafft --reorder Acoerulea.fst > Acoerulea.mafft.fst
+# seaview Acoerulea.mafft.fst &
+
+blastp -db /Users/mats/db/Phytozome/Arabidopsis_lyrata/annotation/Alyrata_107_peptide -query AT2G38195.fst -outfmt 5 -out Alyrata.xml -task blastp
+xml_to_fasta.py Alyrata.xml /Users/mats/db/Phytozome/Arabidopsis_lyrata/annotation/Alyrata_107_peptide > Alyrata.fst
+cat AT2G38195.fst >> Alyrata.fst 
+mafft --reorder Alyrata.fst > Alyrata.mafft.fst
+# seaview Alyrata.mafft.fst &
+
+blastp -db /Users/mats/db/Phytozome/Brachypodium_distachyon/annotation/Bdistachyon_192_peptide -query AT2G38195.fst -outfmt 5 -out Bdistachyon.xml -task blastp
+xml_to_fasta.py Bdistachyon.xml /Users/mats/db/Phytozome/Brachypodium_distachyon/annotation/Bdistachyon_192_peptide > Bdistachyon.fst
+cat AT2G38195.fst >> Bdistachyon.fst 
+mafft --reorder Bdistachyon.fst > Bdistachyon.mafft.fst
+# seaview Bdistachyon.mafft.fst &
+
+blastp -db /Users/mats/db/Phytozome/Brassica_rapa/annotation/Brapa_197_peptide -query AT2G38195.fst -outfmt 5 -out Brapa.xml -task blastp
+xml_to_fasta.py Brapa.xml /Users/mats/db/Phytozome/Brassica_rapa/annotation/Brapa_197_peptide > Brapa.fst
+cat AT2G38195.fst >> Brapa.fst
+mafft --reorder Brapa.fst > Brapa.mafft.fst
+# seaview Brapa.mafft.fst &
+
+blastp -db /Users/mats/db/Phytozome/Capsella_rubella/annotation/Crubella_183_peptide -query AT2G38195.fst -outfmt 5 -out Crubella.xml -task blastp
+xml_to_fasta.py Crubella.xml /Users/mats/db/Phytozome/Capsella_rubella/annotation/Crubella_183_peptide > Crubella.fst
+cat AT2G38195.fst >> Crubella.fst 
+mafft --reorder Crubella.fst > Crubella.mafft.fst
+# seaview Crubella.mafft.fst &
+
+blastp -db /Users/mats/db/Phytozome/Carica_papaya/annotation/Cpapaya_113_peptide -query AT2G38195.fst -outfmt 5 -out Cpapaya.xml -task blastp
+xml_to_fasta.py Cpapaya.xml /Users/mats/db/Phytozome/Carica_papaya/annotation/Cpapaya_113_peptide > Cpapaya.fst
+cat AT2G38195.fst >> Cpapaya.fst
+mafft --reorder Cpapaya.fst > Cpapaya.mafft.fst
+# seaview Cpapaya.mafft.fst &
+
+blastp -db /Users/mats/db/Phytozome/Chlamydomonas_reinhardtii/annotation/Creinhardtii_169_peptide -query AT2G38195.fst -outfmt 5 -out Creinhardtii.xml -task blastp
+xml_to_fasta.py Creinhardtii.xml /Users/mats/db/Phytozome/Chlamydomonas_reinhardtii/annotation/Creinhardtii_169_peptide > Creinhardtii.fst
+cat AT2G38195.fst >> Creinhardtii.fst
+mafft --reorder Creinhardtii.fst > Creinhardtii.mafft.fst
+# seaview Creinhardtii.mafft.fst &
+
+blastp -db /Users/mats/db/Phytozome/Citrus_clementina/annotation/Cclementina_165_peptide -query AT2G38195.fst -outfmt 5 -out Cclementina.xml -task blastp
+xml_to_fasta.py Cclementina.xml /Users/mats/db/Phytozome/Citrus_clementina/annotation/Cclementina_165_peptide > Cclementina.fst
+cat AT2G38195.fst >> Cclementina.fst
+mafft --reorder Cclementina.fst > Cclementina.mafft.fst
+# seaview Cclementina.mafft.fst &
+
+blastp -db /Users/mats/db/Phytozome/Cucumis_sativus/annotation/Csativus_122_peptide -query AT2G38195.fst -outfmt 5 -out Csativus.xml -task blastp
+xml_to_fasta.py Csativus.xml /Users/mats/db/Phytozome/Cucumis_sativus/annotation/Csativus_122_peptide > Csativus.fst
+cat AT2G38195.fst >> Csativus.fst 
+mafft --reorder Csativus.fst > Csativus.mafft.fst
+# seaview Csativus.mafft.fst &
+
+blastp -db /Users/mats/db/Phytozome/Eucalyptus_grandis/annotation/Egrandis_201_peptide -query AT2G38195.fst -outfmt 5 -out Egrandis.xml -task blastp
+xml_to_fasta.py Egrandis.xml /Users/mats/db/Phytozome/Eucalyptus_grandis/annotation/Egrandis_201_peptide > Egrandis.fst
+cat AT2G38195.fst >> Egrandis.fst
+mafft --reorder Egrandis.fst > Egrandis.mafft.fst
+# seaview Egrandis.mafft.fst &
+
+blastp -db /Users/mats/db/Phytozome/Glycine_max/annotation/Gmax_109_peptide -query AT2G38195.fst -outfmt 5 -out Gmax.xml -task blastp
+xml_to_fasta.py Gmax.xml /Users/mats/db/Phytozome/Glycine_max/annotation/Gmax_109_peptide > Gmax.fst
+cat AT2G38195.fst >> Gmax.fst
+mafft --reorder Gmax.fst > Gmax.mafft.fst
+# seaview Gmax.mafft.fst &
+
+blastp -db /Users/mats/db/Phytozome/Linum_usitatissimum/annotation/Lusitatissimum_200_peptide -query AT2G38195.fst -outfmt 5 -out Lusitatissimum.xml -task blastp
+xml_to_fasta.py Lusitatissimum.xml /Users/mats/db/Phytozome/Linum_usitatissimum/annotation/Lusitatissimum_200_peptide > Lusitatissimum.fst
+cat AT2G38195.fst >> Lusitatissimum.fst
+mafft --reorder Lusitatissimum.fst > Lusitatissimum.mafft.fst
+# seaview Lusitatissimum.mafft.fst &
+
+blastp -db /Users/mats/db/Phytozome/Malus_domestica/annotation/Mdomestica_196_peptide -query AT2G38195.fst -outfmt 5 -out Mdomestica.xml -task blastp
+xml_to_fasta.py Mdomestica.xml /Users/mats/db/Phytozome/Malus_domestica/annotation/Mdomestica_196_peptide > Mdomestica.fst
+cat AT2G38195.fst >> Mdomestica.fst
+mafft --reorder Mdomestica.fst > Mdomestica.mafft.fst
+# seaview Mdomestica.mafft.fst &
+
+blastp -db /Users/mats/db/Phytozome/Manihot_esculenta/annotation/Mesculenta_147_peptide -query AT2G38195.fst -outfmt 5 -out Mesculenta.xml -task blastp
+xml_to_fasta.py Mesculenta.xml /Users/mats/db/Phytozome/Manihot_esculenta/annotation/Mesculenta_147_peptide > Mesculenta.fst
+cat AT2G38195.fst >> Mesculenta.fst
+mafft --reorder Mesculenta.fst > Mesculenta.mafft.fst
+# seaview Mesculenta.mafft.fst &
+
+blastp -db /Users/mats/db/Phytozome/Medicago_truncatula/annotation/Mtruncatula_135_peptide -query AT2G38195.fst -outfmt 5 -out Mtruncatula.xml -task blastp
+xml_to_fasta.py Mtruncatula.xml /Users/mats/db/Phytozome/Medicago_truncatula/annotation/Mtruncatula_135_peptide > Mtruncatula.fst
+cat AT2G38195.fst >> Mtruncatula.fst
+mafft --reorder Mtruncatula.fst > Mtruncatula.mafft.fst
+# seaview Mtruncatula.mafft.fst &
+
+blastp -db /Users/mats/db/Phytozome/Mimulus_guttatus/annotation/Mguttatus_140_peptide -query AT2G38195.fst -outfmt 5 -out Mguttatus.xml -task blastp
+xml_to_fasta.py Mguttatus.xml /Users/mats/db/Phytozome/Mimulus_guttatus/annotation/Mguttatus_140_peptide > Mguttatus.fst
+cat AT2G38195.fst >> Mguttatus.fst
+mafft --reorder Mguttatus.fst > Mguttatus.mafft.fst
+# seaview Mguttatus.mafft.fst &
+
+blastp -db /Users/mats/db/Phytozome/Oryza_sativa/annotation/Osativa_193_peptide -query AT2G38195.fst -outfmt 5 -out Osativa.xml -task blastp
+xml_to_fasta.py Osativa.xml /Users/mats/db/Phytozome/Oryza_sativa/annotation/Osativa_193_peptide > Osativa.fst
+cat AT2G38195.fst >> Osativa.fst
+mafft --reorder Osativa.fst > Osativa.mafft.fst
+# seaview Osativa.mafft.fst &
+
+blastp -db /Users/mats/db/Phytozome/Populus_trichocarpa/annotation/Ptrichocarpa_156_peptide -query AT2G38195.fst -outfmt 5 -out Ptrichocarpa.xml -task blastp
+xml_to_fasta.py Ptrichocarpa.xml /Users/mats/db/Phytozome/Populus_trichocarpa/annotation/Ptrichocarpa_156_peptide > Ptrichocarpa.fst
+cat AT2G38195.fst >> Ptrichocarpa.fst
+mafft --reorder Ptrichocarpa.fst > Ptrichocarpa.mafft.fst
+# seaview Ptrichocarpa.mafft.fst &
+
+blastp -db /Users/mats/db/Phytozome/Prunus_persica/annotation/Ppersica_139_peptide -query AT2G38195.fst -outfmt 5 -out Ppersica.xml -task blastp
+xml_to_fasta.py Ppersica.xml /Users/mats/db/Phytozome/Prunus_persica/annotation/Ppersica_139_peptide > Ppersica.fst
+cat AT2G38195.fst >> Ppersica.fst
+mafft --reorder Ppersica.fst > Ppersica.mafft.fst
+# seaview Ppersica.mafft.fst &
+
+blastp -db /Users/mats/db/Phytozome/Ricinus_communis/annotation/Rcommunis_119_peptide -query AT2G38195.fst -outfmt 5 -out Rcommunis.xml -task blastp
+xml_to_fasta.py Rcommunis.xml /Users/mats/db/Phytozome/Ricinus_communis/annotation/Rcommunis_119_peptide > Rcommunis.fst
+cat AT2G38195.fst >> Rcommunis.fst
+mafft --reorder Rcommunis.fst > Rcommunis.mafft.fst
+# seaview Rcommunis.mafft.fst &
+
+blastp -db /Users/mats/db/Phytozome/Selaginella_moellendorffii/annotation/Smoellendorffii_91_peptide -query AT2G38195.fst -outfmt 5 -out Smoellendorffii.xml -task blastp
+xml_to_fasta.py Smoellendorffii.xml /Users/mats/db/Phytozome/Selaginella_moellendorffii/annotation/Smoellendorffii_91_peptide > Smoellendorffii.fst
+cat AT2G38195.fst >> Smoellendorffii.fst
+mafft --reorder Smoellendorffii.fst > Smoellendorffii.mafft.fst
+# seaview Smoellendorffii.mafft.fst &
+
+blastp -db /Users/mats/db/Phytozome/Setaria_italica/annotation/Sitalica_164_peptide -query AT2G38195.fst -outfmt 5 -out Sitalica.xml -task blastp
+xml_to_fasta.py Sitalica.xml /Users/mats/db/Phytozome/Setaria_italica/annotation/Sitalica_164_peptide > Sitalica.fst
+cat AT2G38195.fst >> Sitalica.fst
+mafft --reorder Sitalica.fst > Sitalica.mafft.fst
+# seaview Sitalica.mafft.fst &
+
+blastp -db /Users/mats/db/Phytozome/Sorghum_bicolor/annotation/Sbicolor_79_peptide -query AT2G38195.fst -outfmt 5 -out Sbicolor.xml -task blastp
+xml_to_fasta.py Sbicolor.xml /Users/mats/db/Phytozome/Sorghum_bicolor/annotation/Sbicolor_79_peptide > Sbicolor.fst
+cat AT2G38195.fst >> Sbicolor.fst 
+mafft --reorder Sbicolor.fst > Sbicolor.mafft.fst
+# seaview Sbicolor.mafft.fst &
+
+blastp -db /Users/mats/db/Phytozome/Thellungiella_halophila/annotation/Thalophila_173_peptide -query AT2G38195.fst -outfmt 5 -out Thalophila.xml -task blastp
+xml_to_fasta.py Thalophila.xml /Users/mats/db/Phytozome/Thellungiella_halophila/annotation/Thalophila_173_peptide > Thalophila.fst
+cat AT2G38195.fst >> Thalophila.fst
+mafft --reorder Thalophila.fst > Thalophila.mafft.fst
+# seaview Thalophila.mafft.fst &
+
+blastp -db /Users/mats/db/Phytozome/Physcomitrella_patens/annotation/Ppatens_152_peptide -query AT2G38195.fst -outfmt 5 -out Ppatens.xml -task blastp
+xml_to_fasta.py Ppatens.xml /Users/mats/db/Phytozome/Physcomitrella_patens/annotation/Ppatens_152_peptide > Ppatens.fst
+cat AT2G38195.fst >> Ppatens.fst 
+mafft --reorder Ppatens.fst >> Ppatens.mafft.fst
+# seaview Ppatens.mafft.fst &
+
+blastp -db /Users/mats/db/Phytozome/Panucum_virgatum/annotation/Pvirgatum_202_peptide -query AT2G38195.fst -outfmt 5 -out Pvirgatum.xml -task blastp
+xml_to_fasta.py Pvirgatum.xml /Users/mats/db/Phytozome/Panucum_virgatum/annotation/Pvirgatum_202_peptide > Pvirgatum.fst
+cat AT2G38195.fst >> Pvirgatum.fst
+mafft --reorder Pvirgatum.fst > Pvirgatum.mafft.fst
+# seaview Pvirgatum.mafft.fst &
+
+blastp -db /Users/mats/db/Phytozome/Phaseolus_vulgaris/annotation/Pvulgaris_186_peptide -query AT2G38195.fst -outfmt 5 -out Pvulgaris.xml -task blastp
+xml_to_fasta.py Pvulgaris.xml /Users/mats/db/Phytozome/Phaseolus_vulgaris/annotation/Pvulgaris_186_peptide > Pvulgaris.fst
+cat AT2G38195.fst >> Pvulgaris.fst
+mafft --reorder Pvulgaris.fst > Pvulgaris.mafft.fst
+# seaview Pvulgaris.mafft.fst &
+
+blastp -db /Users/mats/db/Phytozome/Volvox_carteri/annotation/Vcarteri_199_peptide -query AT2G38195.fst -outfmt 5 -out Vcarteri.xml -task blastp
+xml_to_fasta.py Vcarteri.xml /Users/mats/db/Phytozome/Volvox_carteri/annotation/Vcarteri_199_peptide > Vcarteri.fst
+cat AT2G38195.fst >> Vcarteri.fst 
+mafft --reorder Vcarteri.fst > Vcarteri.mafft.fst
+# seaview Vcarteri.mafft.fst &
+
+blastp -db /Users/mats/db/Phytozome/Vitis_vinifera/annotation/Vvinifera_145_peptide -query AT2G38195.fst -outfmt 5 -out Vvinifera.xml -task blastp
+xml_to_fasta.py Vvinifera.xml /Users/mats/db/Phytozome/Vitis_vinifera/annotation/Vvinifera_145_peptide > Vvinifera.fst
+cat AT2G38195.fst >> Vvinifera.fst
+mafft --reorder Vvinifera.fst > Vvinifera.mafft.fst
+# seaview Vvinifera.mafft.fst &
+
+blastp -db /Users/mats/db/Phytozome/Zea_mays/annotation/Zmays_181_peptide -query AT2G38195.fst -outfmt 5 -out Zmays.xml -task blastp
+xml_to_fasta.py Zmays.xml /Users/mats/db/Phytozome/Zea_mays/annotation/Zmays_181_peptide > Zmays.fst
+cat AT2G38195.fst >> Zmays.fst 
+mafft --reorder Zmays.fst > Zmays.mafft.fst
+# seaview Zmays.mafft.fst &
+
+blastp -db /Users/mats/db/Phytozome/Citrus_sinensis/annotation/Csinensis_154_peptide -query AT2G38195.fst -outfmt 5 -out Csinensis.xml -task blastp
+xml_to_fasta.py Csinensis.xml /Users/mats/db/Phytozome/Citrus_sinensis/annotation/Csinensis_154_peptide > Csinensis.fst
+cat AT2G38195.fst >> Csinensis.fst
+mafft --reorder Csinensis.fst > Csinensis.mafft.fst
+# seaview Csinensis.mafft.fst &
+
+blastp -db /Users/mats/db/Other_plant_genomes/Cyanidioschyzon_merolae/Cyanidioschyzon_merolae_cds -query AT2G38195.fst -outfmt 5 -out Cmerolae.xml -task blastp
+xml_to_fasta.py Cmerolae.xml /Users/mats/db/Other_plant_genomes/Cyanidioschyzon_merolae/Cyanidioschyzon_merolae_cds > Cmerolae.fst
+cat AT2G38195.fst >> Cmerolae.fst
+mafft --reorder Cmerolae.fst > Cmerolae.mafft.fst
+# seaview Cmerolae.mafft.fst &
+
+blastp -db /Users/mats/db/Other_plant_genomes/Cyanophora_paradoxa/Cyanophora_paradoxa_gene_pred -query AT2G38195.fst -outfmt 5 -out Cparadoxa.xml -task blastp
+xml_to_fasta.py Cparadoxa.xml /Users/mats/db/Other_plant_genomes/Cyanophora_paradoxa/Cyanophora_paradoxa_gene_pred > Cparadoxa.fst
+cat AT2G38195.fst >> Cparadoxa.fst
+mafft --reorder Cparadoxa.fst > Cparadoxa.mafft.fst
+# seaview Cparadoxa.mafft.fst &
+

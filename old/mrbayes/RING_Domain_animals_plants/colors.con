@@ -1,0 +1,226 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=146;
+	taxlabels
+	Mulan_NP_078820
+	'Homo_sapiens_gi_10434615_dbj_BAB14317.1_'
+	'Homo_sapiens_gi_171542821_ref_NP_078820.2_'
+	'Homo_sapiens_gi_221044766_dbj_BAH14060.1_'
+	'Mus_musculus_gi_18043560_gb_AAH19516.1__Mitochondrial'
+	'Xenopus_laevis_gi_148226332_ref_NP_001084716.1'
+	'Danio_rerio_gi_148922854_ref_NP_001092230.1'
+	SPL2_NP_564653[&!color=#-16738048]
+	Arabidopsis_lyrata_474546_PACid_16040628[&!color=#-3407872]
+	'Carica_papaya_evm.model.supercontig_25.125_PACid_16414718'
+	'Glycine_max_Glyma16g01030.1_PACid_16301042'
+	'Ricinus_communis_29706.m001280_PACid_16806294'
+	'Aquilegia_coerulea_v1.024769m_PACid_18143411'
+	Zea_mays_GRMZM2G004023_T01_PACid_19546755
+	Setaria_italica_Si036246m_PACid_19684534
+	'Oryza_sativa_LOC_Os03g08000.1_PACid_16845209'
+	'Brachypodium_distachyon_Bradi1g72800.1_PACid_16480157'
+	'Aquilegia_coerulea_v1.022773m_PACid_18144013'
+	Selaginella_moellendorffii_91152_PACid_15413277
+	'Physcomitrella_patens_Pp1s52_256V6.4_PACid_18074372'
+	'Physcomitrella_patens_Pp1s15_293V6.1_PACid_18050435'
+	'Aquilegia_coerulea_v1.012733m_PACid_18142466'
+	'Physcomitrella_patens_Pp1s212_60V6.1_PACid_18042245'
+	'Arabidopsis_thaliana_AT4G24204.3_PACid_19646975'[&!color=#-3407872]
+	Arabidopsis_lyrata_329238_PACid_16062111[&!color=#-3407872]
+	'Brachypodium_distachyon_Bradi1g28820.1_PACid_16474995'
+	'Oryza_sativa_LOC_Os07g26490.1_PACid_16871541'
+	Zea_mays_GRMZM2G133396_T01_PACid_19531762
+	Setaria_italica_Si029529m_PACid_19712709
+	'Arabidopsis_thaliana_AT3G23280.1_PACid_19663410'[&!color=#-3407872]
+	Arabidopsis_lyrata_898841_PACid_16047400[&!color=#-3407872]
+	'Arabidopsis_thaliana_AT4G14365.1_PACid_19648313'[&!color=#-3407872]
+	Arabidopsis_lyrata_493466_PACid_16066361[&!color=#-3407872]
+	'Carica_papaya_evm.model.supercontig_44.48_PACid_16420187'
+	'Glycine_max_Glyma10g32440.1_PACid_16280695'
+	'Aquilegia_coerulea_v1.004114m_PACid_18162631'
+	'Ricinus_communis_29611.m000230_PACid_16803674'
+	Zea_mays_GRMZM2G081965_T01_PACid_19581586
+	Setaria_italica_Si016443m_PACid_19688508
+	'Oryza_sativa_LOC_Os02g57750.1_PACid_16843989'
+	'Ricinus_communis_28546.m000072_PACid_16801083'
+	'Carica_papaya_evm.model.supercontig_53.170_PACid_16422237'
+	'Glycine_max_Glyma20g33300.1_PACid_16317711'
+	'Glycine_max_Glyma10g34240.1_PACid_16280900'
+	'Aquilegia_coerulea_v1.000901m_PACid_18147189'
+	'Brachypodium_distachyon_Bradi4g38750.1_PACid_16499782'
+	'Arabidopsis_thaliana_AT5G04460.1_PACid_19667116'[&!color=#-3407872]
+	Arabidopsis_lyrata_487227_PACid_16053924[&!color=#-3407872]
+	'Ricinus_communis_29589.m001277_PACid_16803318'
+	'Glycine_max_Glyma12g30330.1_PACid_16288390'
+	'Glycine_max_Glyma12g08770.1_PACid_16286898'
+	'Oryza_sativa_LOC_Os03g01720.1_PACid_16844435'
+	'Brachypodium_distachyon_Bradi1g78060.1_PACid_16480756'
+	C_merolae_gnl_CMER_CMS172C_similar_to_ankyrin_1
+	'Physcomitrella_patens_Pp1s266_64V6.1_PACid_18053468'
+	'Glycine_max_Glyma15g16660.1_PACid_16299010'
+	'Glycine_max_Glyma09g05320.1_PACid_16274857'
+	Zea_mays_GRMZM2G036697_T01_PACid_19542768
+	Setaria_italica_Si035963m_PACid_19683186
+	'Oryza_sativa_LOC_Os03g15000.1_PACid_16846017'
+	'Brachypodium_distachyon_Bradi1g67780.1_PACid_16479507'
+	'Oryza_sativa_LOC_Os10g13670.1_PACid_16884438'
+	'Aquilegia_coerulea_v1.007182m_PACid_18140833'
+	Arabidopsis_lyrata_478299_PACid_16061774[&!color=#-3407872]
+	'Carica_papaya_evm.model.supercontig_102.1_PACid_16404826'
+	'Glycine_max_Glyma13g40170.1_PACid_16293251'
+	'Ricinus_communis_28076.m000421_PACid_16799878'
+	'Physcomitrella_patens_Pp1s131_9V6.1_PACid_18045395'
+	'Arabidopsis_thaliana_AT3G06140.1_PACid_19662767'[&!color=#-3407872]
+	Arabidopsis_lyrata_317476_PACid_16060130[&!color=#-3407872]
+	Arabidopsis_lyrata_909929_PACid_16049698[&!color=#-3407872]
+	'Arabidopsis_thaliana_AT5G19080.1_PACid_19665517'[&!color=#-3407872]
+	'Ricinus_communis_29844.m003308_PACid_16811015'
+	'Glycine_max_Glyma07g38670.1_PACid_16269181'
+	'Glycine_max_Glyma15g11100.1_PACid_16298398'
+	'Glycine_max_Glyma13g27930.1_PACid_16291813'
+	'Aquilegia_coerulea_v1.005917m_PACid_18144975'
+	'Carica_papaya_evm.model.supercontig_16.23_PACid_16410055'
+	'Brachypodium_distachyon_Bradi2g26290.1_PACid_16484039'
+	'Carica_papaya_evm.model.supercontig_48.20_PACid_16420840'
+	C_merolae_gnl_CMER_CML314C_similar_to_RING_zinc_finger_protein
+	'Physcomitrella_patens_Pp1s313_100V6.2_PACid_18071841'
+	Zea_mays_GRMZM5G869246_T01_PACid_19628118
+	'Oryza_sativa_LOC_Os10g36880.1_PACid_16886503'
+	Setaria_italica_Si034031m_PACid_19682087
+	'Brachypodium_distachyon_Bradi3g30550.1_PACid_16491601'
+	Selaginella_moellendorffii_77786_PACid_15420973
+	Selaginella_moellendorffii_97410_PACid_15410678
+	'Aquilegia_coerulea_v1.000321m_PACid_18148986'
+	'Arabidopsis_thaliana_AT4G39050.1_PACid_19649007'[&!color=#-3407872]
+	Arabidopsis_lyrata_327857_PACid_16049935[&!color=#-3407872]
+	'Carica_papaya_evm.model.supercontig_150.41_PACid_16409496'
+	'Glycine_max_Glyma06g01130.1_PACid_16261298'
+	'Glycine_max_Glyma11g12050.1_PACid_16283586'
+	Zea_mays_GRMZM2G084819_T02_PACid_19558601
+	Setaria_italica_Si020938m_PACid_19702032
+	'Brachypodium_distachyon_Bradi5g26020.1_PACid_16503426'
+	'Glycine_max_Glyma09g41880.1_PACid_16278032'
+	'Physcomitrella_patens_Pp1s78_164V6.1_PACid_18063332'
+	Selaginella_moellendorffii_152901_PACid_15423420
+	'Chlamydomonas_reinhardtii_Cre02.g110000.t1.2_PACid_19869670'
+	SPL1_NP_564745[&!color=#-16738048]
+	Arabidopsis_lyrata_338432_PACid_16045815[&!color=#-3407872]
+	Arabidopsis_lyrata_867782_PACid_16034683[&!color=#-3407872]
+	SP1[&!color=#-16738048]
+	Arabidopsis_lyrata_474968_PACid_16053684[&!color=#-3407872]
+	'Brachypodium_distachyon_Bradi1g19510.1_PACid_16473835'
+	'Oryza_sativa_LOC_Os07g45350.5_PACid_16873617'
+	Zea_mays_GRMZM5G871572_T01_PACid_19559193
+	Setaria_italica_Si030396m_PACid_19714000
+	Zea_mays_GRMZM2G020574_T08_PACid_19536933
+	'Aquilegia_coerulea_v1.007878m_PACid_18162338'
+	'Carica_papaya_evm.model.supercontig_9.121_PACid_16428004'
+	'Glycine_max_Glyma10g02920.1_PACid_16278382'
+	Selaginella_moellendorffii_231449_PACid_15416766
+	'Physcomitrella_patens_Pp1s175_124V6.2_PACid_18055474'
+	'Physcomitrella_patens_Pp1s12_190V6.2_PACid_18048531'
+	'Chlamydomonas_reinhardtii_Cre03.g169050.t1.1_PACid_19872172'
+	'Physcomitrella_patens_Pp1s304_2V6.1_PACid_18057177'
+	Setaria_italica_Si028975m_PACid_19711851
+	'Glycine_max_Glyma17g16560.1_PACid_16305806'
+	'Glycine_max_Glyma05g23770.1_PACid_16259408'
+	Selaginella_moellendorffii_442650_PACid_15412376
+	Zea_mays_GRMZM2G073049_T01_PACid_19518540
+	'Arabidopsis_thaliana_AT3G01650.1_PACid_19661381'[&!color=#-3407872]
+	Arabidopsis_lyrata_896079_PACid_16045152[&!color=#-3407872]
+	'Glycine_max_Glyma19g22800.1_PACid_16312609'
+	'Aquilegia_coerulea_v1.006122m_PACid_18147984'
+	'Glycine_max_Glyma08g17330.1_PACid_16271470'
+	'Drosophila_melanogaster_gi_21356375_ref_NP_647847.1'
+	C_merolae_gnl_CMER_CMG126C_similar_to_zinc_finger_protein
+	_C_merolae_gnl_CMER_CMK039C_photoregulatory_zinc-finger
+	C_merolae_gnl_CMER_CMO233C_hypothetical_protein__conserved
+	_C_merolae_gnl_CMER_CMT287C_unknown_zinc-finger_protein_
+	C_merolae_gnl_CMER_CMT259C_hypothetical_protein
+	C_merolae_gnl_CMER_CME171C_similar_to_ring_finger_protein
+	_C_merolae_gnl_CMER_CMT222C_unknown_ring-finger_protein_
+	_C_merolae_gnl_CMER_CML287C_helicase-like_protein_
+	_C_merolae_gnl_CMER_CMT012C_similar_to_C3HC4_zinc-binding
+	C_merolae_gnl_CMER_CML213C_hypothetical_protein__conserved
+	C_merolae_gnl_CMER_CMM141C_similar_to_zinc_finger_protein
+	C_merolae_gnl_CMER_CMI164C_hypothetical_protein__conserved
+	_C_merolae_gnl_CMER_CMT363C_similar_to_glycogenin-interacting
+	C_merolae_gnl_CMER_CMG190C_unknown_zinc_finger_protein
+	_C_merolae_gnl_CMER_CMT374C_zinc-finger_protein_
+	C_merolae_gnl_CMER_CMS206C_hypothetical_protein
+;
+end;
+
+begin trees;
+	tree con_50_majrule = [&R] (Mulan_NP_078820:0.017009,'Homo_sapiens_gi_10434615_dbj_BAB14317.1_':0.016568,'Homo_sapiens_gi_171542821_ref_NP_078820.2_':0.016536,'Homo_sapiens_gi_221044766_dbj_BAH14060.1_':0.01697,'Mus_musculus_gi_18043560_gb_AAH19516.1__Mitochondrial':0.123577,(('Xenopus_laevis_gi_148226332_ref_NP_001084716.1':0.146965,'Danio_rerio_gi_148922854_ref_NP_001092230.1':0.177598)[&label=0.93]:0.163143,((((((SPL2_NP_564653:0.030441,Arabidopsis_lyrata_474546_PACid_16040628:0.043148)[&label=1.0]:0.197029,'Carica_papaya_evm.model.supercontig_25.125_PACid_16414718':0.086473)[&label=1.0]:0.16323,'Glycine_max_Glyma16g01030.1_PACid_16301042':0.116314,'Ricinus_communis_29706.m001280_PACid_16806294':0.123158,'Aquilegia_coerulea_v1.024769m_PACid_18143411':0.142884,((Zea_mays_GRMZM2G004023_T01_PACid_19546755:0.182917,Setaria_italica_Si036246m_PACid_19684534:0.049877)[&label=0.52]:0.068059,'Oryza_sativa_LOC_Os03g08000.1_PACid_16845209':0.087315,'Brachypodium_distachyon_Bradi1g72800.1_PACid_16480157':0.212955)[&label=1.0]:0.215757,'Aquilegia_coerulea_v1.022773m_PACid_18144013':0.587499)[&label=0.57]:0.142576,((Selaginella_moellendorffii_91152_PACid_15413277:0.146069,'Physcomitrella_patens_Pp1s52_256V6.4_PACid_18074372':0.095806)[&label=0.64]:0.105504,'Physcomitrella_patens_Pp1s15_293V6.1_PACid_18050435':0.114053)[&label=1.0]:0.269132)[&label=0.65]:0.169084,'Aquilegia_coerulea_v1.012733m_PACid_18142466':0.310521)[&label=0.89]:0.263022,('Physcomitrella_patens_Pp1s212_60V6.1_PACid_18042245':0.343476,('Arabidopsis_thaliana_AT4G24204.3_PACid_19646975':0.023431,Arabidopsis_lyrata_329238_PACid_16062111:0.053713)[&label=1.0]:0.348556)[&label=0.77]:0.133391,((((('Brachypodium_distachyon_Bradi1g28820.1_PACid_16474995':0.018033,'Oryza_sativa_LOC_Os07g26490.1_PACid_16871541':0.017636)[&label=0.76]:0.034612,(Zea_mays_GRMZM2G133396_T01_PACid_19531762:0.017643,Setaria_italica_Si029529m_PACid_19712709:0.018105)[&label=0.99]:0.059317)[&label=0.95]:0.11551,(((('Arabidopsis_thaliana_AT3G23280.1_PACid_19663410':0.017217,Arabidopsis_lyrata_898841_PACid_16047400:0.017276)[&label=0.99]:0.058055,('Arabidopsis_thaliana_AT4G14365.1_PACid_19648313':0.034901,Arabidopsis_lyrata_493466_PACid_16066361:0.017731)[&label=1.0]:0.111106)[&label=0.91]:0.056723,'Carica_papaya_evm.model.supercontig_44.48_PACid_16420187':0.087869)[&label=0.97]:0.084387,'Glycine_max_Glyma10g32440.1_PACid_16280695':0.051971)[&label=0.97]:0.097829)[&label=0.53]:0.065884,'Aquilegia_coerulea_v1.004114m_PACid_18162631':0.059593)[&label=0.6]:0.084732,'Ricinus_communis_29611.m000230_PACid_16803674':0.17175)[&label=1.0]:0.405981,(((Zea_mays_GRMZM2G081965_T01_PACid_19581586:0.019377,Setaria_italica_Si016443m_PACid_19688508:0.028909,'Oryza_sativa_LOC_Os02g57750.1_PACid_16843989':0.063256,'Ricinus_communis_28546.m000072_PACid_16801083':0.01875,'Carica_papaya_evm.model.supercontig_53.170_PACid_16422237':0.018218,('Glycine_max_Glyma20g33300.1_PACid_16317711':0.018171,'Glycine_max_Glyma10g34240.1_PACid_16280900':0.035729)[&label=0.81]:0.064877,'Aquilegia_coerulea_v1.000901m_PACid_18147189':0.035899,'Brachypodium_distachyon_Bradi4g38750.1_PACid_16499782':0.060631,('Arabidopsis_thaliana_AT5G04460.1_PACid_19667116':0.035632,Arabidopsis_lyrata_487227_PACid_16053924:0.018404)[&label=0.99]:0.059315,('Ricinus_communis_29589.m001277_PACid_16803318':0.086721,('Glycine_max_Glyma12g30330.1_PACid_16288390':0.04889,'Glycine_max_Glyma12g08770.1_PACid_16286898':0.054837)[&label=1.0]:0.113897)[&label=0.89]:0.127393,('Oryza_sativa_LOC_Os03g01720.1_PACid_16844435':0.073191,'Brachypodium_distachyon_Bradi1g78060.1_PACid_16480756':0.077036)[&label=0.99]:0.145573,C_merolae_gnl_CMER_CMS172C_similar_to_ankyrin_1:0.650473)[&label=0.53]:0.117476,'Physcomitrella_patens_Pp1s266_64V6.1_PACid_18053468':0.146098)[&label=0.56]:0.237542,'Glycine_max_Glyma15g16660.1_PACid_16299010':0.023391,'Glycine_max_Glyma09g05320.1_PACid_16274857':0.038938)[&label=0.59]:0.333937,((((Zea_mays_GRMZM2G036697_T01_PACid_19542768:0.019841,Setaria_italica_Si035963m_PACid_19683186:0.02063,'Oryza_sativa_LOC_Os03g15000.1_PACid_16846017':0.017778,'Brachypodium_distachyon_Bradi1g67780.1_PACid_16479507':0.017662)[&label=0.96]:0.036595,'Oryza_sativa_LOC_Os10g13670.1_PACid_16884438':0.018045)[&label=0.88]:0.034904,(('Aquilegia_coerulea_v1.007182m_PACid_18140833':0.019616,Arabidopsis_lyrata_478299_PACid_16061774:0.019432,'Carica_papaya_evm.model.supercontig_102.1_PACid_16404826':0.017841,'Glycine_max_Glyma13g40170.1_PACid_16293251':0.260791)[&label=0.59]:0.03443,'Ricinus_communis_28076.m000421_PACid_16799878':0.059654)[&label=0.51]:0.032494)[&label=0.6]:0.035959,'Physcomitrella_patens_Pp1s131_9V6.1_PACid_18045395':0.061627)[&label=0.86]:0.145149,(('Arabidopsis_thaliana_AT3G06140.1_PACid_19662767':0.017582,Arabidopsis_lyrata_317476_PACid_16060130:0.016873)[&label=0.96]:0.042047,(Arabidopsis_lyrata_909929_PACid_16049698:0.047026,'Arabidopsis_thaliana_AT5G19080.1_PACid_19665517':0.112651)[&label=0.99]:0.105091)[&label=0.82]:0.051673,'Ricinus_communis_29844.m003308_PACid_16811015':0.033877,'Glycine_max_Glyma07g38670.1_PACid_16269181':0.036347,('Glycine_max_Glyma15g11100.1_PACid_16298398':0.033961,'Glycine_max_Glyma13g27930.1_PACid_16291813':0.052021)[&label=0.75]:0.037065,'Aquilegia_coerulea_v1.005917m_PACid_18144975':0.084703,'Carica_papaya_evm.model.supercontig_16.23_PACid_16410055':0.050606,'Brachypodium_distachyon_Bradi2g26290.1_PACid_16484039':0.095749,'Carica_papaya_evm.model.supercontig_48.20_PACid_16420840':0.093019,C_merolae_gnl_CMER_CML314C_similar_to_RING_zinc_finger_protein:0.266315,'Physcomitrella_patens_Pp1s313_100V6.2_PACid_18071841':0.537769,(((Zea_mays_GRMZM5G869246_T01_PACid_19628118:0.038479,'Oryza_sativa_LOC_Os10g36880.1_PACid_16886503':0.019518,Setaria_italica_Si034031m_PACid_19682087:0.019039,('Brachypodium_distachyon_Bradi3g30550.1_PACid_16491601':0.033784,(Selaginella_moellendorffii_77786_PACid_15420973:0.096693,Selaginella_moellendorffii_97410_PACid_15410678:0.090515)[&label=0.94]:0.138011)[&label=0.51]:0.044032)[&label=0.7]:0.085337,'Aquilegia_coerulea_v1.000321m_PACid_18148986':0.06552)[&label=0.8]:0.071355,'Arabidopsis_thaliana_AT4G39050.1_PACid_19649007':0.022726,Arabidopsis_lyrata_327857_PACid_16049935:0.022556,'Carica_papaya_evm.model.supercontig_150.41_PACid_16409496':0.022467,'Glycine_max_Glyma06g01130.1_PACid_16261298':0.036414,'Glycine_max_Glyma11g12050.1_PACid_16283586':0.097819)[&label=1.0]:0.448451,(((Zea_mays_GRMZM2G084819_T02_PACid_19558601:0.039975,Setaria_italica_Si020938m_PACid_19702032:0.031327)[&label=0.8]:0.055641,'Brachypodium_distachyon_Bradi5g26020.1_PACid_16503426':0.045431)[&label=0.97]:0.143564,'Glycine_max_Glyma09g41880.1_PACid_16278032':0.091546,'Physcomitrella_patens_Pp1s78_164V6.1_PACid_18063332':0.345405,Selaginella_moellendorffii_152901_PACid_15423420:0.265646)[&label=0.99]:0.368573,'Chlamydomonas_reinhardtii_Cre02.g110000.t1.2_PACid_19869670':0.222894,(((SPL1_NP_564745:0.129635,Arabidopsis_lyrata_338432_PACid_16045815:0.075069)[&label=0.98]:0.127228,Arabidopsis_lyrata_867782_PACid_16034683:0.210256)[&label=0.94]:0.163622,(SP1:0.017858,Arabidopsis_lyrata_474968_PACid_16053684:0.018659)[&label=0.99]:0.081587,(('Brachypodium_distachyon_Bradi1g19510.1_PACid_16473835':0.036325,'Oryza_sativa_LOC_Os07g45350.5_PACid_16873617':0.019236)[&label=0.87]:0.037719,Zea_mays_GRMZM5G871572_T01_PACid_19559193:0.018413,Setaria_italica_Si030396m_PACid_19714000:0.018486,Zea_mays_GRMZM2G020574_T08_PACid_19536933:0.036249)[&label=0.6]:0.043062,'Aquilegia_coerulea_v1.007878m_PACid_18162338':0.065348,'Carica_papaya_evm.model.supercontig_9.121_PACid_16428004':0.022424,'Glycine_max_Glyma10g02920.1_PACid_16278382':0.070367,(Selaginella_moellendorffii_231449_PACid_15416766:0.113126,('Physcomitrella_patens_Pp1s175_124V6.2_PACid_18055474':0.09326,'Physcomitrella_patens_Pp1s12_190V6.2_PACid_18048531':0.108896)[&label=0.78]:0.067881)[&label=0.58]:0.063493)[&label=0.52]:0.211299,'Chlamydomonas_reinhardtii_Cre03.g169050.t1.1_PACid_19872172':0.431539,'Physcomitrella_patens_Pp1s304_2V6.1_PACid_18057177':0.423461,(Setaria_italica_Si028975m_PACid_19711851:0.29125,('Glycine_max_Glyma17g16560.1_PACid_16305806':0.020626,'Glycine_max_Glyma05g23770.1_PACid_16259408':0.0306)[&label=1.0]:0.396072)[&label=0.96]:0.290069,Selaginella_moellendorffii_442650_PACid_15412376:0.475894,((Zea_mays_GRMZM2G073049_T01_PACid_19518540:0.25589,('Arabidopsis_thaliana_AT3G01650.1_PACid_19661381':0.019457,Arabidopsis_lyrata_896079_PACid_16045152:0.0195)[&label=0.96]:0.087718,'Glycine_max_Glyma19g22800.1_PACid_16312609':0.104828)[&label=0.81]:0.21122,('Aquilegia_coerulea_v1.006122m_PACid_18147984':0.11031,'Glycine_max_Glyma08g17330.1_PACid_16271470':0.180036)[&label=0.69]:0.191938)[&label=0.7]:0.27762,'Drosophila_melanogaster_gi_21356375_ref_NP_647847.1':0.474717,C_merolae_gnl_CMER_CMG126C_similar_to_zinc_finger_protein:0.366387,_C_merolae_gnl_CMER_CMK039C_photoregulatory_zinc-finger:0.299829,(C_merolae_gnl_CMER_CMO233C_hypothetical_protein__conserved:0.342887,(_C_merolae_gnl_CMER_CMT287C_unknown_zinc-finger_protein_:0.018534,C_merolae_gnl_CMER_CMT259C_hypothetical_protein:0.018811)[&label=1.0]:0.572779)[&label=0.52]:0.165977,C_merolae_gnl_CMER_CME171C_similar_to_ring_finger_protein:0.417641,_C_merolae_gnl_CMER_CMT222C_unknown_ring-finger_protein_:0.489649,_C_merolae_gnl_CMER_CML287C_helicase-like_protein_:0.464009,_C_merolae_gnl_CMER_CMT012C_similar_to_C3HC4_zinc-binding:0.489654,(C_merolae_gnl_CMER_CML213C_hypothetical_protein__conserved:0.512101,C_merolae_gnl_CMER_CMM141C_similar_to_zinc_finger_protein:0.56163,C_merolae_gnl_CMER_CMI164C_hypothetical_protein__conserved:0.401053)[&label=0.83]:0.285162,_C_merolae_gnl_CMER_CMT363C_similar_to_glycogenin-interacting:0.580246,C_merolae_gnl_CMER_CMG190C_unknown_zinc_finger_protein:0.614027,_C_merolae_gnl_CMER_CMT374C_zinc-finger_protein_:0.874921,C_merolae_gnl_CMER_CMS206C_hypothetical_protein:0.657023)[&label=0.98]:0.33705)[&label=0.6]:0.100192);
+	tree con_50_majrule = [&R] (Mulan_NP_078820:0.017009,'Homo_sapiens_gi_10434615_dbj_BAB14317.1_':0.016568,'Homo_sapiens_gi_171542821_ref_NP_078820.2_':0.016536,'Homo_sapiens_gi_221044766_dbj_BAH14060.1_':0.01697,'Mus_musculus_gi_18043560_gb_AAH19516.1__Mitochondrial':0.123577,(('Xenopus_laevis_gi_148226332_ref_NP_001084716.1':0.146965,'Danio_rerio_gi_148922854_ref_NP_001092230.1':0.177598):0.163143,((((((SPL2_NP_564653:0.030441,Arabidopsis_lyrata_474546_PACid_16040628:0.043148):0.197029,'Carica_papaya_evm.model.supercontig_25.125_PACid_16414718':0.086473):0.16323,'Glycine_max_Glyma16g01030.1_PACid_16301042':0.116314,'Ricinus_communis_29706.m001280_PACid_16806294':0.123158,'Aquilegia_coerulea_v1.024769m_PACid_18143411':0.142884,((Zea_mays_GRMZM2G004023_T01_PACid_19546755:0.182917,Setaria_italica_Si036246m_PACid_19684534:0.049877):0.068059,'Oryza_sativa_LOC_Os03g08000.1_PACid_16845209':0.087315,'Brachypodium_distachyon_Bradi1g72800.1_PACid_16480157':0.212955):0.215757,'Aquilegia_coerulea_v1.022773m_PACid_18144013':0.587499):0.142576,((Selaginella_moellendorffii_91152_PACid_15413277:0.146069,'Physcomitrella_patens_Pp1s52_256V6.4_PACid_18074372':0.095806):0.105504,'Physcomitrella_patens_Pp1s15_293V6.1_PACid_18050435':0.114053):0.269132):0.169084,'Aquilegia_coerulea_v1.012733m_PACid_18142466':0.310521):0.263022,('Physcomitrella_patens_Pp1s212_60V6.1_PACid_18042245':0.343476,('Arabidopsis_thaliana_AT4G24204.3_PACid_19646975':0.023431,Arabidopsis_lyrata_329238_PACid_16062111:0.053713):0.348556):0.133391,((((('Brachypodium_distachyon_Bradi1g28820.1_PACid_16474995':0.018033,'Oryza_sativa_LOC_Os07g26490.1_PACid_16871541':0.017636):0.034612,(Zea_mays_GRMZM2G133396_T01_PACid_19531762:0.017643,Setaria_italica_Si029529m_PACid_19712709:0.018105):0.059317):0.11551,(((('Arabidopsis_thaliana_AT3G23280.1_PACid_19663410':0.017217,Arabidopsis_lyrata_898841_PACid_16047400:0.017276):0.058055,('Arabidopsis_thaliana_AT4G14365.1_PACid_19648313':0.034901,Arabidopsis_lyrata_493466_PACid_16066361:0.017731):0.111106):0.056723,'Carica_papaya_evm.model.supercontig_44.48_PACid_16420187':0.087869):0.084387,'Glycine_max_Glyma10g32440.1_PACid_16280695':0.051971):0.097829):0.065884,'Aquilegia_coerulea_v1.004114m_PACid_18162631':0.059593):0.084732,'Ricinus_communis_29611.m000230_PACid_16803674':0.17175):0.405981,(((Zea_mays_GRMZM2G081965_T01_PACid_19581586:0.019377,Setaria_italica_Si016443m_PACid_19688508:0.028909,'Oryza_sativa_LOC_Os02g57750.1_PACid_16843989':0.063256,'Ricinus_communis_28546.m000072_PACid_16801083':0.01875,'Carica_papaya_evm.model.supercontig_53.170_PACid_16422237':0.018218,('Glycine_max_Glyma20g33300.1_PACid_16317711':0.018171,'Glycine_max_Glyma10g34240.1_PACid_16280900':0.035729):0.064877,'Aquilegia_coerulea_v1.000901m_PACid_18147189':0.035899,'Brachypodium_distachyon_Bradi4g38750.1_PACid_16499782':0.060631,('Arabidopsis_thaliana_AT5G04460.1_PACid_19667116':0.035632,Arabidopsis_lyrata_487227_PACid_16053924:0.018404):0.059315,('Ricinus_communis_29589.m001277_PACid_16803318':0.086721,('Glycine_max_Glyma12g30330.1_PACid_16288390':0.04889,'Glycine_max_Glyma12g08770.1_PACid_16286898':0.054837):0.113897):0.127393,('Oryza_sativa_LOC_Os03g01720.1_PACid_16844435':0.073191,'Brachypodium_distachyon_Bradi1g78060.1_PACid_16480756':0.077036):0.145573,C_merolae_gnl_CMER_CMS172C_similar_to_ankyrin_1:0.650473):0.117476,'Physcomitrella_patens_Pp1s266_64V6.1_PACid_18053468':0.146098):0.237542,'Glycine_max_Glyma15g16660.1_PACid_16299010':0.023391,'Glycine_max_Glyma09g05320.1_PACid_16274857':0.038938):0.333937,((((Zea_mays_GRMZM2G036697_T01_PACid_19542768:0.019841,Setaria_italica_Si035963m_PACid_19683186:0.02063,'Oryza_sativa_LOC_Os03g15000.1_PACid_16846017':0.017778,'Brachypodium_distachyon_Bradi1g67780.1_PACid_16479507':0.017662):0.036595,'Oryza_sativa_LOC_Os10g13670.1_PACid_16884438':0.018045):0.034904,(('Aquilegia_coerulea_v1.007182m_PACid_18140833':0.019616,Arabidopsis_lyrata_478299_PACid_16061774:0.019432,'Carica_papaya_evm.model.supercontig_102.1_PACid_16404826':0.017841,'Glycine_max_Glyma13g40170.1_PACid_16293251':0.260791):0.03443,'Ricinus_communis_28076.m000421_PACid_16799878':0.059654):0.032494):0.035959,'Physcomitrella_patens_Pp1s131_9V6.1_PACid_18045395':0.061627):0.145149,(('Arabidopsis_thaliana_AT3G06140.1_PACid_19662767':0.017582,Arabidopsis_lyrata_317476_PACid_16060130:0.016873):0.042047,(Arabidopsis_lyrata_909929_PACid_16049698:0.047026,'Arabidopsis_thaliana_AT5G19080.1_PACid_19665517':0.112651):0.105091):0.051673,'Ricinus_communis_29844.m003308_PACid_16811015':0.033877,'Glycine_max_Glyma07g38670.1_PACid_16269181':0.036347,('Glycine_max_Glyma15g11100.1_PACid_16298398':0.033961,'Glycine_max_Glyma13g27930.1_PACid_16291813':0.052021):0.037065,'Aquilegia_coerulea_v1.005917m_PACid_18144975':0.084703,'Carica_papaya_evm.model.supercontig_16.23_PACid_16410055':0.050606,'Brachypodium_distachyon_Bradi2g26290.1_PACid_16484039':0.095749,'Carica_papaya_evm.model.supercontig_48.20_PACid_16420840':0.093019,C_merolae_gnl_CMER_CML314C_similar_to_RING_zinc_finger_protein:0.266315,'Physcomitrella_patens_Pp1s313_100V6.2_PACid_18071841':0.537769,(((Zea_mays_GRMZM5G869246_T01_PACid_19628118:0.038479,'Oryza_sativa_LOC_Os10g36880.1_PACid_16886503':0.019518,Setaria_italica_Si034031m_PACid_19682087:0.019039,('Brachypodium_distachyon_Bradi3g30550.1_PACid_16491601':0.033784,(Selaginella_moellendorffii_77786_PACid_15420973:0.096693,Selaginella_moellendorffii_97410_PACid_15410678:0.090515):0.138011):0.044032):0.085337,'Aquilegia_coerulea_v1.000321m_PACid_18148986':0.06552):0.071355,'Arabidopsis_thaliana_AT4G39050.1_PACid_19649007':0.022726,Arabidopsis_lyrata_327857_PACid_16049935:0.022556,'Carica_papaya_evm.model.supercontig_150.41_PACid_16409496':0.022467,'Glycine_max_Glyma06g01130.1_PACid_16261298':0.036414,'Glycine_max_Glyma11g12050.1_PACid_16283586':0.097819):0.448451,(((Zea_mays_GRMZM2G084819_T02_PACid_19558601:0.039975,Setaria_italica_Si020938m_PACid_19702032:0.031327):0.055641,'Brachypodium_distachyon_Bradi5g26020.1_PACid_16503426':0.045431):0.143564,'Glycine_max_Glyma09g41880.1_PACid_16278032':0.091546,'Physcomitrella_patens_Pp1s78_164V6.1_PACid_18063332':0.345405,Selaginella_moellendorffii_152901_PACid_15423420:0.265646):0.368573,'Chlamydomonas_reinhardtii_Cre02.g110000.t1.2_PACid_19869670':0.222894,(((SPL1_NP_564745:0.129635,Arabidopsis_lyrata_338432_PACid_16045815:0.075069):0.127228,Arabidopsis_lyrata_867782_PACid_16034683:0.210256):0.163622,(SP1:0.017858,Arabidopsis_lyrata_474968_PACid_16053684:0.018659):0.081587,(('Brachypodium_distachyon_Bradi1g19510.1_PACid_16473835':0.036325,'Oryza_sativa_LOC_Os07g45350.5_PACid_16873617':0.019236):0.037719,Zea_mays_GRMZM5G871572_T01_PACid_19559193:0.018413,Setaria_italica_Si030396m_PACid_19714000:0.018486,Zea_mays_GRMZM2G020574_T08_PACid_19536933:0.036249):0.043062,'Aquilegia_coerulea_v1.007878m_PACid_18162338':0.065348,'Carica_papaya_evm.model.supercontig_9.121_PACid_16428004':0.022424,'Glycine_max_Glyma10g02920.1_PACid_16278382':0.070367,(Selaginella_moellendorffii_231449_PACid_15416766:0.113126,('Physcomitrella_patens_Pp1s175_124V6.2_PACid_18055474':0.09326,'Physcomitrella_patens_Pp1s12_190V6.2_PACid_18048531':0.108896):0.067881):0.063493):0.211299,'Chlamydomonas_reinhardtii_Cre03.g169050.t1.1_PACid_19872172':0.431539,'Physcomitrella_patens_Pp1s304_2V6.1_PACid_18057177':0.423461,(Setaria_italica_Si028975m_PACid_19711851:0.29125,('Glycine_max_Glyma17g16560.1_PACid_16305806':0.020626,'Glycine_max_Glyma05g23770.1_PACid_16259408':0.0306):0.396072):0.290069,Selaginella_moellendorffii_442650_PACid_15412376:0.475894,((Zea_mays_GRMZM2G073049_T01_PACid_19518540:0.25589,('Arabidopsis_thaliana_AT3G01650.1_PACid_19661381':0.019457,Arabidopsis_lyrata_896079_PACid_16045152:0.0195):0.087718,'Glycine_max_Glyma19g22800.1_PACid_16312609':0.104828):0.21122,('Aquilegia_coerulea_v1.006122m_PACid_18147984':0.11031,'Glycine_max_Glyma08g17330.1_PACid_16271470':0.180036):0.191938):0.27762,'Drosophila_melanogaster_gi_21356375_ref_NP_647847.1':0.474717,C_merolae_gnl_CMER_CMG126C_similar_to_zinc_finger_protein:0.366387,_C_merolae_gnl_CMER_CMK039C_photoregulatory_zinc-finger:0.299829,(C_merolae_gnl_CMER_CMO233C_hypothetical_protein__conserved:0.342887,(_C_merolae_gnl_CMER_CMT287C_unknown_zinc-finger_protein_:0.018534,C_merolae_gnl_CMER_CMT259C_hypothetical_protein:0.018811):0.572779):0.165977,C_merolae_gnl_CMER_CME171C_similar_to_ring_finger_protein:0.417641,_C_merolae_gnl_CMER_CMT222C_unknown_ring-finger_protein_:0.489649,_C_merolae_gnl_CMER_CML287C_helicase-like_protein_:0.464009,_C_merolae_gnl_CMER_CMT012C_similar_to_C3HC4_zinc-binding:0.489654,(C_merolae_gnl_CMER_CML213C_hypothetical_protein__conserved:0.512101,C_merolae_gnl_CMER_CMM141C_similar_to_zinc_finger_protein:0.56163,C_merolae_gnl_CMER_CMI164C_hypothetical_protein__conserved:0.401053):0.285162,_C_merolae_gnl_CMER_CMT363C_similar_to_glycogenin-interacting:0.580246,C_merolae_gnl_CMER_CMG190C_unknown_zinc_finger_protein:0.614027,_C_merolae_gnl_CMER_CMT374C_zinc-finger_protein_:0.874921,C_merolae_gnl_CMER_CMS206C_hypothetical_protein:0.657023):0.33705):0.100192);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="User Selection";
+	set appearance.backgroundColour=#-1;
+	set appearance.branchColorAttribute="User Selection";
+	set appearance.branchLineWidth=1.0;
+	set appearance.foregroundColour=#-16777216;
+	set appearance.selectionColour=#-2144520576;
+	set branchLabels.colorAttribute="User Selection";
+	set branchLabels.displayAttribute="label";
+	set branchLabels.fontName="Helvetica";
+	set branchLabels.fontSize=10;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=true;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=1800;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set nodeBars.barWidth=4.0;
+	set nodeLabels.colorAttribute="User Selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleAxis.significantDigits=4;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set scaleBar.significantDigits=4;
+	set tipLabels.colorAttribute="User Selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Helvetica";
+	set tipLabels.fontSize=12;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

@@ -1,0 +1,146 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=66;
+	taxlabels
+	gnl_CMER_CMG190C_unknown_zinc_finger_protein[&!color=#-16777216]
+	'Physcomitrella_patens_Pp1s12_190V6.2_PACid_18048531'[&!color=#-16777216]
+	'Physcomitrella_patens_Pp1s175_124V6.2_PACid_18055474'[&!color=#-16777216]
+	Selaginella_moellendorffii_231449_PACid_15416766[&!color=#-16777216]
+	Arabidopsis_lyrata_474968_PACid_16053684[&!color=#-16777216]
+	SP1[&!color=#-16777216]
+	SPL1_NP_564745[&!color=#-16777216]
+	Arabidopsis_lyrata_338432_PACid_16045815[&!color=#-16777216]
+	Arabidopsis_lyrata_867782_PACid_16034683[&!color=#-16777216]
+	'Medicago_truncatula_Medtr1g111550.1_PACid_17439105'[&!color=#-16777216]
+	'Glycine_max_Glyma10g02920.1_PACid_16278382'[&!color=#-16777216]
+	'Cucumis_sativus_Cucsa.084910.1_PACid_16956611'[&!color=#-16777216]
+	Prunus_persica_ppa008230m_PACid_17644506[&!color=#-16777216]
+	'Carica_papaya_evm.model.supercontig_9.121_PACid_16428004'[&!color=#-16777216]
+	'Citrus_sinensis_orange1.1g019223m_PACid_18093190'[&!color=#-16777216]
+	'Citrus_clementina_0.9_003846m_PACid_19263951'[&!color=#-16777216]
+	'Citrus_sinensis_orange1.1g019651m_PACid_18093104'[&!color=#-16777216]
+	'Citrus_clementina_0.9_014777m_PACid_19265048'[&!color=#-16777216]
+	'Eucalyptus_grandis_Egrandis_v1_0.010112m_PACid_18812196'[&!color=#-16777216]
+	'Manihot_esculenta_cassava4.1_011064m_PACid_17986177'[&!color=#-16777216]
+	'Ricinus_communis_29703.m001546_PACid_16806242'[&!color=#-16777216]
+	'Populus_trichocarpa_POPTR_0014s13410.1_PACid_18222628'[&!color=#-16777216]
+	Vitis_vinifera_GSVIVT01011070001_PACid_17823049[&!color=#-16777216]
+	'Tomato_Solyc06g084360.1.1'[&!color=#-16777216]
+	Mimulus_guttatus_mgv1a009837m_PACid_17671176[&!color=#-16777216]
+	'Aquilegia_coerulea_v1.007878m_PACid_18162338'[&!color=#-16777216]
+	Zea_mays_GRMZM2G020574_T08_PACid_19536933[&!color=#-16777216]
+	Setaria_italica_Si030396m_PACid_19714000[&!color=#-16777216]
+	'Sorghum_bicolor_Sb02g041380.1_PACid_1959657'[&!color=#-16777216]
+	Zea_mays_GRMZM5G871572_T01_PACid_19559193[&!color=#-16777216]
+	'Oryza_sativa_LOC_Os07g45350.1_PACid_16873618'[&!color=#-16777216]
+	'Brachypodium_distachyon_Bradi1g19510.1_PACid_16473835'[&!color=#-16777216]
+	Volvox_carteri_96908_PACid_17997093[&!color=#-16777216]
+	'Chlorella_variabilis_gi_307103723_gb_EFN51981.1'[&!color=#-16777216]
+	rsz31o21_6[&!color=#-16777216]
+	Mulan_NP_078820
+	'Mus_musculus_gi_18043560_gb_AAH19516.1'
+	'Danio_rerio_gi_148922854_ref_NP_001092230.1'
+	'Xenopus_laevis_gi_148226332_ref_NP_001084716.1'
+	'Drosophila_melanogaster_gi_21356375_ref_NP_647847.1'
+	Selaginella_moellendorffii_91152_PACid_15413277[&!color=#-16777216]
+	'Physcomitrella_patens_Pp1s52_256V6.4_PACid_18074372'[&!color=#-16777216]
+	'Populus_trichocarpa_POPTR_0003s06390.1_PACid_18218320'[&!color=#-16777216]
+	'Tomato_Solyc12g049330.1.1'[&!color=#-16777216]
+	'Ricinus_communis_29706.m001280_PACid_16806294'[&!color=#-16777216]
+	'Manihot_esculenta_cassava4.1_009144m_PACid_17976041'[&!color=#-16777216]
+	Vitis_vinifera_GSVIVT01016752001_PACid_17827115[&!color=#-16777216]
+	'Eucalyptus_grandis_Egrandis_v1_0.015104m_PACid_18759688'[&!color=#-16777216]
+	'Medicago_truncatula_Medtr8g025010.1_PACid_17479694'[&!color=#-16777216]
+	'Glycine_max_Glyma18g27930.1_PACid_16309372'[&!color=#-16777216]
+	'Carica_papaya_evm.model.supercontig_25.125_PACid_16414718'[&!color=#-16777216]
+	'Citrus_clementina_0.9_012450m_PACid_19274708'[&!color=#-16777216]
+	'Citrus_sinensis_orange1.1g016312m_PACid_18132960'[&!color=#-16777216]
+	Mimulus_guttatus_mgv1a007519m_PACid_17672175[&!color=#-16777216]
+	'Cucumis_sativus_Cucsa.360260.1_PACid_16980714'[&!color=#-16777216]
+	SPL2_NP_564653[&!color=#-16777216]
+	Arabidopsis_lyrata_474546_PACid_16040628[&!color=#-16777216]
+	Prunus_persica_ppa006914m_PACid_17656817[&!color=#-16777216]
+	'Aquilegia_coerulea_v1.024769m_PACid_18143411'[&!color=#-16777216]
+	'Aquilegia_coerulea_v1.022773m_PACid_18144013'[&!color=#-16777216]
+	'Sorghum_bicolor_Sb01g045370.1_PACid_1954575'[&!color=#-16777216]
+	Zea_mays_GRMZM2G004023_T01_PACid_19546755[&!color=#-16777216]
+	Setaria_italica_Si036246m_PACid_19684534[&!color=#-16777216]
+	'Oryza_sativa_LOC_Os03g08000.1_PACid_16845209'[&!color=#-16777216]
+	'Brachypodium_distachyon_Bradi1g72800.1_PACid_16480157'[&!color=#-16777216]
+	'Aquilegia_coerulea_v1.012733m_PACid_18142466'[&!color=#-16777216]
+;
+end;
+
+begin trees;
+	tree con_50_majrule = [&R] (gnl_CMER_CMG190C_unknown_zinc_finger_protein[&!color=#-3407872]:1.524422,(((((((((('Physcomitrella_patens_Pp1s12_190V6.2_PACid_18048531':0.073775,'Physcomitrella_patens_Pp1s175_124V6.2_PACid_18055474':0.185672)[&label=1.0]:0.163499,Selaginella_moellendorffii_231449_PACid_15416766:0.176195)[&label=0.99]:0.147227,((Arabidopsis_lyrata_474968_PACid_16053684:0.011134,SP1[&!color=#-16776961]:0.025628)[&label=1.0]:0.095521,((SPL1_NP_564745[&!color=#-16776961]:0.141361,Arabidopsis_lyrata_338432_PACid_16045815:0.04034)[&label=1.0]:0.103293,Arabidopsis_lyrata_867782_PACid_16034683:0.217024)[&label=1.0]:0.243941)[&label=0.99]:0.101021)[&label=0.94]:0.065079,(((('Medicago_truncatula_Medtr1g111550.1_PACid_17439105':0.137791,'Glycine_max_Glyma10g02920.1_PACid_16278382':0.037079)[&label=1.0]:0.073549,'Cucumis_sativus_Cucsa.084910.1_PACid_16956611'[&!color=#-3407668]:0.123082)[&label=0.96]:0.024102,(Prunus_persica_ppa008230m_PACid_17644506:0.076727,'Carica_papaya_evm.model.supercontig_9.121_PACid_16428004'[&!color=#-3407668]:0.248639)[&label=0.7]:0.018905)[&label=0.8]:0.021062,((('Citrus_sinensis_orange1.1g019223m_PACid_18093190'[&!color=#-3407668]:0.010244,'Citrus_clementina_0.9_003846m_PACid_19263951'[&!color=#-3407668]:0.005037)[&!color=#-3407668,label=0.82]:0.013367,('Citrus_sinensis_orange1.1g019651m_PACid_18093104'[&!color=#-3407668]:0.005436,'Citrus_clementina_0.9_014777m_PACid_19265048'[&!color=#-3407668]:0.005499)[&!color=#-3407668,label=1.0]:0.068396)[&!color=#-3407668,label=1.0]:0.093761,'Eucalyptus_grandis_Egrandis_v1_0.010112m_PACid_18812196':0.134778)[&label=0.84]:0.039389,('Manihot_esculenta_cassava4.1_011064m_PACid_17986177':0.032378,'Ricinus_communis_29703.m001546_PACid_16806242':0.034279,'Populus_trichocarpa_POPTR_0014s13410.1_PACid_18222628':0.192854)[&label=1.0]:0.070729,Vitis_vinifera_GSVIVT01011070001_PACid_17823049:0.132479,('Tomato_Solyc06g084360.1.1'[&!color=#-3407668]:0.107679,Mimulus_guttatus_mgv1a009837m_PACid_17671176:0.168854)[&label=1.0]:0.06494)[&label=0.64]:0.024382)[&label=0.93]:0.05979,'Aquilegia_coerulea_v1.007878m_PACid_18162338':0.120195)[&label=0.96]:0.155722,(((Zea_mays_GRMZM2G020574_T08_PACid_19536933:0.045925,Setaria_italica_Si030396m_PACid_19714000:0.025069)[&label=0.63]:0.012264,('Sorghum_bicolor_Sb02g041380.1_PACid_1959657':0.010459,Zea_mays_GRMZM5G871572_T01_PACid_19559193:0.020783)[&label=0.91]:0.011046)[&label=0.88]:0.033706,('Oryza_sativa_LOC_Os07g45350.1_PACid_16873618':0.024133,'Brachypodium_distachyon_Bradi1g19510.1_PACid_16473835':0.064004)[&label=0.7]:0.025199)[&label=0.63]:0.072353)[&label=1.0]:0.512118,Volvox_carteri_96908_PACid_17997093[&!color=#-16738048]:0.826974)[&label=0.73]:0.199369,'Chlorella_variabilis_gi_307103723_gb_EFN51981.1'[&!color=#-16738048]:0.581224)[&label=0.52]:0.185055,rsz31o21_6[&!color=#-3407872]:1.269473)[&label=0.72]:0.212932,((((Mulan_NP_078820[&!color=#-3355648]:0.03575,'Mus_musculus_gi_18043560_gb_AAH19516.1'[&!color=#-3355648]:0.079336)[&!color=#-3355648,label=1.0]:0.201667,'Danio_rerio_gi_148922854_ref_NP_001092230.1'[&!color=#-3355648]:0.454889)[&!color=#-3355648,label=0.63]:0.098398,'Xenopus_laevis_gi_148226332_ref_NP_001084716.1'[&!color=#-3355648]:0.300187)[&!color=#-3355648,label=1.0]:0.593693,'Drosophila_melanogaster_gi_21356375_ref_NP_647847.1'[&!color=#-3355648]:0.785912)[&!color=#-3355648,label=0.95]:0.255482)[&label=0.97]:0.484705,(((Selaginella_moellendorffii_91152_PACid_15413277:0.312562,'Physcomitrella_patens_Pp1s52_256V6.4_PACid_18074372':0.251719)[&label=0.9]:0.270363,(((('Populus_trichocarpa_POPTR_0003s06390.1_PACid_18218320':0.196977,'Tomato_Solyc12g049330.1.1'[&!color=#-3407668]:0.199484)[&label=0.53]:0.034319,('Ricinus_communis_29706.m001280_PACid_16806294':0.140551,'Manihot_esculenta_cassava4.1_009144m_PACid_17976041':0.047392)[&label=0.7]:0.036743)[&label=0.83]:0.050739,Vitis_vinifera_GSVIVT01016752001_PACid_17827115:0.129539,'Eucalyptus_grandis_Egrandis_v1_0.015104m_PACid_18759688':0.155988,('Medicago_truncatula_Medtr8g025010.1_PACid_17479694':0.115775,'Glycine_max_Glyma18g27930.1_PACid_16309372':0.069059)[&label=1.0]:0.127116,'Carica_papaya_evm.model.supercontig_25.125_PACid_16414718'[&!color=#-3407668]:0.171735,('Citrus_clementina_0.9_012450m_PACid_19274708'[&!color=#-3407668]:0.015905,'Citrus_sinensis_orange1.1g016312m_PACid_18132960'[&!color=#-3407668]:0.015418)[&!color=#-3407668,label=1.0]:0.180492,Mimulus_guttatus_mgv1a007519m_PACid_17672175:0.276854,('Cucumis_sativus_Cucsa.360260.1_PACid_16980714'[&!color=#-3407668]:0.239331,(SPL2_NP_564653[&!color=#-16776961]:0.02949,Arabidopsis_lyrata_474546_PACid_16040628:0.042022)[&label=1.0]:0.401599)[&label=0.59]:0.080572)[&label=0.66]:0.055282,Prunus_persica_ppa006914m_PACid_17656817:0.210356)[&label=0.84]:0.110639,'Aquilegia_coerulea_v1.024769m_PACid_18143411':0.177511,'Aquilegia_coerulea_v1.022773m_PACid_18144013':0.587645)[&label=0.52]:0.098265,((('Sorghum_bicolor_Sb01g045370.1_PACid_1954575':0.036003,Zea_mays_GRMZM2G004023_T01_PACid_19546755:0.097063)[&label=0.91]:0.031773,Setaria_italica_Si036246m_PACid_19684534:0.051438)[&label=1.0]:0.10363,('Oryza_sativa_LOC_Os03g08000.1_PACid_16845209':0.143001,'Brachypodium_distachyon_Bradi1g72800.1_PACid_16480157':0.230798)[&label=0.78]:0.060199)[&label=1.0]:0.41156,'Aquilegia_coerulea_v1.012733m_PACid_18142466':0.503861)[&label=0.79]:0.348257);
+	tree con_50_majrule = [&R] (gnl_CMER_CMG190C_unknown_zinc_finger_protein:1.524422,(((((((((('Physcomitrella_patens_Pp1s12_190V6.2_PACid_18048531':0.073775,'Physcomitrella_patens_Pp1s175_124V6.2_PACid_18055474':0.185672):0.163499,Selaginella_moellendorffii_231449_PACid_15416766:0.176195):0.147227,((Arabidopsis_lyrata_474968_PACid_16053684:0.011134,SP1:0.025628):0.095521,((SPL1_NP_564745:0.141361,Arabidopsis_lyrata_338432_PACid_16045815:0.04034):0.103293,Arabidopsis_lyrata_867782_PACid_16034683:0.217024):0.243941):0.101021):0.065079,(((('Medicago_truncatula_Medtr1g111550.1_PACid_17439105':0.137791,'Glycine_max_Glyma10g02920.1_PACid_16278382':0.037079):0.073549,'Cucumis_sativus_Cucsa.084910.1_PACid_16956611':0.123082):0.024102,(Prunus_persica_ppa008230m_PACid_17644506:0.076727,'Carica_papaya_evm.model.supercontig_9.121_PACid_16428004':0.248639):0.018905):0.021062,((('Citrus_sinensis_orange1.1g019223m_PACid_18093190':0.010244,'Citrus_clementina_0.9_003846m_PACid_19263951':0.005037):0.013367,('Citrus_sinensis_orange1.1g019651m_PACid_18093104':0.005436,'Citrus_clementina_0.9_014777m_PACid_19265048':0.005499):0.068396):0.093761,'Eucalyptus_grandis_Egrandis_v1_0.010112m_PACid_18812196':0.134778):0.039389,('Manihot_esculenta_cassava4.1_011064m_PACid_17986177':0.032378,'Ricinus_communis_29703.m001546_PACid_16806242':0.034279,'Populus_trichocarpa_POPTR_0014s13410.1_PACid_18222628':0.192854):0.070729,Vitis_vinifera_GSVIVT01011070001_PACid_17823049:0.132479,('Tomato_Solyc06g084360.1.1':0.107679,Mimulus_guttatus_mgv1a009837m_PACid_17671176:0.168854):0.06494):0.024382):0.05979,'Aquilegia_coerulea_v1.007878m_PACid_18162338':0.120195):0.155722,(((Zea_mays_GRMZM2G020574_T08_PACid_19536933:0.045925,Setaria_italica_Si030396m_PACid_19714000:0.025069):0.012264,('Sorghum_bicolor_Sb02g041380.1_PACid_1959657':0.010459,Zea_mays_GRMZM5G871572_T01_PACid_19559193:0.020783):0.011046):0.033706,('Oryza_sativa_LOC_Os07g45350.1_PACid_16873618':0.024133,'Brachypodium_distachyon_Bradi1g19510.1_PACid_16473835':0.064004):0.025199):0.072353):0.512118,Volvox_carteri_96908_PACid_17997093:0.826974):0.199369,'Chlorella_variabilis_gi_307103723_gb_EFN51981.1':0.581224):0.185055,rsz31o21_6:1.269473):0.212932,((((Mulan_NP_078820:0.03575,'Mus_musculus_gi_18043560_gb_AAH19516.1':0.079336):0.201667,'Danio_rerio_gi_148922854_ref_NP_001092230.1':0.454889):0.098398,'Xenopus_laevis_gi_148226332_ref_NP_001084716.1':0.300187):0.593693,'Drosophila_melanogaster_gi_21356375_ref_NP_647847.1':0.785912):0.255482):0.484705,(((Selaginella_moellendorffii_91152_PACid_15413277:0.312562,'Physcomitrella_patens_Pp1s52_256V6.4_PACid_18074372':0.251719):0.270363,(((('Populus_trichocarpa_POPTR_0003s06390.1_PACid_18218320':0.196977,'Tomato_Solyc12g049330.1.1':0.199484):0.034319,('Ricinus_communis_29706.m001280_PACid_16806294':0.140551,'Manihot_esculenta_cassava4.1_009144m_PACid_17976041':0.047392):0.036743):0.050739,Vitis_vinifera_GSVIVT01016752001_PACid_17827115:0.129539,'Eucalyptus_grandis_Egrandis_v1_0.015104m_PACid_18759688':0.155988,('Medicago_truncatula_Medtr8g025010.1_PACid_17479694':0.115775,'Glycine_max_Glyma18g27930.1_PACid_16309372':0.069059):0.127116,'Carica_papaya_evm.model.supercontig_25.125_PACid_16414718':0.171735,('Citrus_clementina_0.9_012450m_PACid_19274708':0.015905,'Citrus_sinensis_orange1.1g016312m_PACid_18132960':0.015418):0.180492,Mimulus_guttatus_mgv1a007519m_PACid_17672175:0.276854,('Cucumis_sativus_Cucsa.360260.1_PACid_16980714':0.239331,(SPL2_NP_564653:0.02949,Arabidopsis_lyrata_474546_PACid_16040628:0.042022):0.401599):0.080572):0.055282,Prunus_persica_ppa006914m_PACid_17656817:0.210356):0.110639,'Aquilegia_coerulea_v1.024769m_PACid_18143411':0.177511,'Aquilegia_coerulea_v1.022773m_PACid_18144013':0.587645):0.098265,((('Sorghum_bicolor_Sb01g045370.1_PACid_1954575':0.036003,Zea_mays_GRMZM2G004023_T01_PACid_19546755:0.097063):0.031773,Setaria_italica_Si036246m_PACid_19684534:0.051438):0.10363,('Oryza_sativa_LOC_Os03g08000.1_PACid_16845209':0.143001,'Brachypodium_distachyon_Bradi1g72800.1_PACid_16480157':0.230798):0.060199):0.41156,'Aquilegia_coerulea_v1.012733m_PACid_18142466':0.503861):0.348257);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="User Selection";
+	set appearance.backgroundColour=#-1;
+	set appearance.branchColorAttribute="User Selection";
+	set appearance.branchLineWidth=3.0;
+	set appearance.foregroundColour=#-16777216;
+	set appearance.selectionColour=#-2144520576;
+	set branchLabels.colorAttribute="User Selection";
+	set branchLabels.displayAttribute="label";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=true;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=200;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set nodeBars.barWidth=4.0;
+	set nodeLabels.colorAttribute="User Selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleAxis.significantDigits=4;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set scaleBar.significantDigits=4;
+	set tipLabels.colorAttribute="User Selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="Helvetica";
+	set tipLabels.fontSize=12;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+

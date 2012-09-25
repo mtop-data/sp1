@@ -1,0 +1,37 @@
+#NEXUS
+
+[ID: 5215862198]
+begin taxa;
+	dimensions ntax=9;
+	taxlabels
+		Carica_papaya_evm.model.supercontig_9.121_PACid_16428004
+		SP1
+		Arabidopsis_lyrata_1
+		Thellungiella_halophila_gi_312283085_dbj_BAJ34408.1_
+		Vitis_vinifera_gi_225436896_ref_XP_002274008.1_
+		Glycine_max_gi_356500224_ref_XP_003518933.1_
+		Selaginella_moellendorffii_gi_302772771_ref_XP_002969803.1_
+		SPL1_NP_564745
+		Arabidopsis_lyrata_2
+		;end;
+begin trees;
+	translate
+		1	Carica_papaya_evm.model.supercontig_9.121_PACid_16428004,
+		2	SP1,
+		3	Arabidopsis_lyrata_1,
+		4	Thellungiella_halophila_gi_312283085_dbj_BAJ34408.1_,
+		5	Vitis_vinifera_gi_225436896_ref_XP_002274008.1_,
+		6	Glycine_max_gi_356500224_ref_XP_003518933.1_,
+		7	Selaginella_moellendorffii_gi_302772771_ref_XP_002969803.1_,
+		8	SPL1_NP_564745,
+		9	Arabidopsis_lyrata_2
+		;
+   [Note: This tree contains information on the topology, 
+          branch lengths (if present), and the probability
+          of the partition indicated by the branch.]
+   tree con_50_majrule = (1:0.176249,(((2:0.014469,3:0.008483)1.00:0.033062,4:0.020657)1.00:0.050628,(8:0.100516,9:0.060973)1.00:0.367358)1.00:0.094505,((5:0.086847,7:0.274543)0.83:0.051756,6:0.098631)0.80:0.037333);
+
+   [Note: This tree contains information only on the topology
+          and branch lengths (mean of the posterior probability density).]
+   tree con_50_majrule = (1:0.176249,(((2:0.014469,3:0.008483):0.033062,4:0.020657):0.050628,(8:0.100516,9:0.060973):0.367358):0.094505,((5:0.086847,7:0.274543):0.051756,6:0.098631):0.037333);
+end;

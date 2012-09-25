@@ -1,0 +1,81 @@
+#NEXUS
+
+[ID: 6956120523]
+begin taxa;
+	dimensions ntax=31;
+	taxlabels
+		Selaginella_moellendorffii_91152_PACid_15413277
+		Physcomitrella_patens_Pp1s52_256V6.4_PACid_18074372
+		Oryza_sativa_LOC_Os03g08000.1_PACid_16845209
+		Brachypodium_distachyon_Bradi1g72800.1_PACid_16480157
+		Tomato_Solyc12g049330.1.1
+		SPL2_NP_564653
+		Arabidopsis_lyrata_474546_PACid_16040628
+		Aquilegia_coerulea_v1.022773m_PACid_18144013
+		Aquilegia_coerulea_v1.012733m_PACid_18142466
+		Physcomitrella_patens_Pp1s12_190V6.2_PACid_18048531
+		Physcomitrella_patens_Pp1s175_124V6.2_PACid_18055474
+		Selaginella_moellendorffii_231449_PACid_15416766
+		Tomato_Solyc06g084360.1.1
+		Aquilegia_coerulea_v1.007878m_PACid_18162338
+		Arabidopsis_lyrata_474968_PACid_16053684
+		SP1
+		Oryza_sativa_LOC_Os07g45350.1_PACid_16873618
+		Brachypodium_distachyon_Bradi1g19510.1_PACid_16473835
+		SPL1_NP_564745
+		Arabidopsis_lyrata_338432_PACid_16045815
+		Arabidopsis_lyrata_867782_PACid_16034683
+		Chlorella_variabilis_gi_307103723_gb_EFN51981.1_
+		Micromonas_sp._RCC299_gi_255086321_ref_XP_002509127.1_
+		Mulan_NP_078820
+		Mus_musculus_gi_18043560_gb_AAH19516.1
+		Xenopus_laevis_gi_148226332_ref_NP_001084716.1
+		Danio_rerio_gi_148922854_ref_NP_001092230.1
+		Drosophila_melanogaster_gi_21356375_ref_NP_647847.1
+		rsz31o21_6
+		gnl_CMER_CME171C
+		gnl_CMER_CMI144C
+		;end;
+begin trees;
+	translate
+		1	Selaginella_moellendorffii_91152_PACid_15413277,
+		2	Physcomitrella_patens_Pp1s52_256V6.4_PACid_18074372,
+		3	Oryza_sativa_LOC_Os03g08000.1_PACid_16845209,
+		4	Brachypodium_distachyon_Bradi1g72800.1_PACid_16480157,
+		5	Tomato_Solyc12g049330.1.1,
+		6	SPL2_NP_564653,
+		7	Arabidopsis_lyrata_474546_PACid_16040628,
+		8	Aquilegia_coerulea_v1.022773m_PACid_18144013,
+		9	Aquilegia_coerulea_v1.012733m_PACid_18142466,
+		10	Physcomitrella_patens_Pp1s12_190V6.2_PACid_18048531,
+		11	Physcomitrella_patens_Pp1s175_124V6.2_PACid_18055474,
+		12	Selaginella_moellendorffii_231449_PACid_15416766,
+		13	Tomato_Solyc06g084360.1.1,
+		14	Aquilegia_coerulea_v1.007878m_PACid_18162338,
+		15	Arabidopsis_lyrata_474968_PACid_16053684,
+		16	SP1,
+		17	Oryza_sativa_LOC_Os07g45350.1_PACid_16873618,
+		18	Brachypodium_distachyon_Bradi1g19510.1_PACid_16473835,
+		19	SPL1_NP_564745,
+		20	Arabidopsis_lyrata_338432_PACid_16045815,
+		21	Arabidopsis_lyrata_867782_PACid_16034683,
+		22	Chlorella_variabilis_gi_307103723_gb_EFN51981.1_,
+		23	Micromonas_sp._RCC299_gi_255086321_ref_XP_002509127.1_,
+		24	Mulan_NP_078820,
+		25	Mus_musculus_gi_18043560_gb_AAH19516.1,
+		26	Xenopus_laevis_gi_148226332_ref_NP_001084716.1,
+		27	Danio_rerio_gi_148922854_ref_NP_001092230.1,
+		28	Drosophila_melanogaster_gi_21356375_ref_NP_647847.1,
+		29	rsz31o21_6,
+		30	gnl_CMER_CME171C,
+		31	gnl_CMER_CMI144C
+		;
+   [Note: This tree contains information on the topology, 
+          branch lengths (if present), and the probability
+          of the partition indicated by the branch.]
+   tree con_50_majrule = (1:0.348557,2:0.241771,(((3:0.176305,4:0.202290)1.00:0.347035,8:0.498739,(9:0.544555,((((((((((10:0.082977,11:0.185667)1.00:0.161048,12:0.189340)0.99:0.138359,((15:0.011159,16:0.026853)1.00:0.098836,((19:0.132449,20:0.042555)1.00:0.099042,21:0.222133)1.00:0.257355)0.98:0.103036)0.81:0.067969,13:0.160014)0.73:0.054379,14:0.133952)0.60:0.057405,(17:0.037057,18:0.056864)1.00:0.162347)1.00:0.428871,23:0.771697)0.80:0.163705,22:0.582003,(30:0.745009,31:1.334457)0.99:0.450441)0.52:0.183173,29:1.068184)0.95:0.278718,((((24:0.034953,25:0.081276)1.00:0.207371,26:0.313170)0.64:0.102141,27:0.414665)1.00:0.533659,28:0.740037)0.98:0.260548)1.00:0.492516)0.53:0.084238)0.79:0.079900,5:0.162144,(6:0.040915,7:0.027820)1.00:0.393717)1.00:0.286590);
+
+   [Note: This tree contains information only on the topology
+          and branch lengths (mean of the posterior probability density).]
+   tree con_50_majrule = (1:0.348557,2:0.241771,(((3:0.176305,4:0.202290):0.347035,8:0.498739,(9:0.544555,((((((((((10:0.082977,11:0.185667):0.161048,12:0.189340):0.138359,((15:0.011159,16:0.026853):0.098836,((19:0.132449,20:0.042555):0.099042,21:0.222133):0.257355):0.103036):0.067969,13:0.160014):0.054379,14:0.133952):0.057405,(17:0.037057,18:0.056864):0.162347):0.428871,23:0.771697):0.163705,22:0.582003,(30:0.745009,31:1.334457):0.450441):0.183173,29:1.068184):0.278718,((((24:0.034953,25:0.081276):0.207371,26:0.313170):0.102141,27:0.414665):0.533659,28:0.740037):0.260548):0.492516):0.084238):0.079900,5:0.162144,(6:0.040915,7:0.027820):0.393717):0.286590);
+end;

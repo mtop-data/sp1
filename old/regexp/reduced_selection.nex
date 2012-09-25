@@ -1,0 +1,239 @@
+#NEXUS
+[saved by seaview on Fri Nov 11 11:38:48 2011]
+BEGIN DATA;
+  DIMENSIONS NTAX=31 NCHAR=360;
+  FORMAT DATATYPE=PROTEIN
+  GAP=-
+  ;
+MATRIX
+[1] Selaginella_moellendorffii_91152_PACid_15413277
+VGV-----------------IDEEKILPLNREITAVGFLS------------KHPQG-LP
+AIKSSNQ-------------------------------------------MPFFL-----
+------------TEFSREELIVELASA----------THALFWTGIVISSLALGVIGYSA
+FKN--------WCKWKEWRRL-R---QIQE-ELRR-------------------------
+-----------EEQVMEED-E---------EPATTQE-GSE------------VPDGQLC
+VVCLLR--R-KRAAFITCGHRVCCMGCARRIRHSQNAANARCPVCRQSVSG--YIRVY--
+[2] Physcomitrella_patens_Pp1s52_256V6.4_PACid_18074372
+VGL-----------------LDEEKILPLGAEITAVGVLH------------TAPDG-TP
+VVKSSKR-------------------------------------------LPIFL-----
+------------TEFTREQLLVELASS----------TKVLFWMGVAVSTVAAGVLGYSL
+VKN--------WTRWKQRQQQ-R---QSQN-NSEN-------------------------
+-----------RQNSTIED--------------EAEN-FED------------IPDGELC
+VVCLLR--R-RRAAFIYCGHRVCCMGCAERVEH---GANPRCPVCRQSVTG--IVRVY--
+[3] Oryza_sativa_LOC_Os03g08000.1_PACid_16845209
+IAL-----------------LDEEKILPVGKEITAIGYIR-------------PHKA-SV
+EISSCSE-------------------------------------------IPFFL-----
+------------SDLTKDEMEAELSSR----------AKTLFWASVVLGTMSVCLLGFAT
+YRS--------WKKIKERREA-R---QAQE-VFRQ-------------------------
+-----------TTDE--VT-D---------DQSSDEE-AGE------------MGDGQLC
+VICLRK--R-RKAAFIPCGHLVCCCKCALIVER---QFDPLCPMCRQDIRY--MIRIY--
+[4] Brachypodium_distachyon_Bradi1g72800.1_PACid_16480157
+IAL-----------------LDEEKILPIGKEITAIGLCR-------------VNNQ-NV
+EITSCPE-------------------------------------------IPFFL-----
+------------SDLTKGEIEAELDSR----------ARTLFWVTFALGTMSVGLLGHAI
+YRF--------WEKVKQHREA-R---QAQQ-RFHQ-------------------------
+-----------ADDEDDTG-E---------NGSDDDF-PGE------------MGDGQLC
+VICLRK--R-RKAAFVPCGHLVCCCNCAKRVEL---MNEPLCPVCRQDIQY--MLRVY--
+[5] Tomato_Solyc12g049330.1.1
+VGV-----------------LDEEKILPLGKDITAIGVCS-------------SKDG-IL
+EIKSCED-------------------------------------------LPYFL-----
+------------SDMTKDQMLVELAFK----------TKILMWSGVLFGSVAVGVLGYAV
+VRN--------WNRWKLWRHQ-R---QAQQ-QRDA-------------------------
+-----------ASND--DD-V---------QVSADEE-SGD------------VPDGQLC
+VICLTR--R-KRAAFVPCGHLVCCQRC---------------------------------
+[6] SPL2_NP_564653
+VGL-----------------LDIEKILPPGKDITAVGIYS-------------FNNG-VP
+EIKSCQD-------------------------------------------LPYFL-----
+------------SEMTKDKMIEDLMEQ----------TNFIFLGSVILGIVSVGILSYAA
+VRT--------WNKWKQWNHQ-R---ELPQ-RPND-------------------------
+-----------SVVD--DE---------------PED-ADE------------IPDGELC
+VICVSR--R-RVPAFIPCGHVVCCRRCASTVER---ELNPKCPVCLQSIRG--SMRVYYS
+[7] Arabidopsis_lyrata_474546_PACid_16040628
+VGL-----------------LDIEKILPPGKDITAVGICS-------------FNNG-VP
+EIKSCQD-------------------------------------------LPYFL-----
+------------SEMTKDKMIEELMDQ----------TSFIFFGSVILGIVSVGILSYAA
+VRT--------WNKWKQWNHQ-R---DLPQ-RPNE-------------------------
+-----------PVVD--DE---------------PED-ADE------------IPDGELC
+VICVTR--R-RVPAFIPCGHVVCCRVCASTVER---ELNPKCPVCLQSIRG--SMRVY--
+[8] Aquilegia_coerulea_v1.022773m_PACid_18144013
+VGH-----------------M-QKKILPLGKEINAIGLCS-------------LQDG-NL
+HIKATQE-------------------------------------------LPYFL-----
+------------SEMTKGEMVKHLAYK----------TTILFWGGCIIGIVSLGVLGYTS
+FRI--------WEWWKVRRQH----------FSNA-------------------------
+-----------EVDDVYIG-------------------NDE------------IPSEQLC
+TICTMR--R-KKYACVPCGHLVCCHKCARSIQH---DSTARCPECRH-------------
+[9] Aquilegia_coerulea_v1.012733m_PACid_18142466
+FGLCLQEKFLPLNFAWYHPGLLEEKILPLGKEISVVGIGT-------------SEYG-NV
+EIKPCDE-------------------------------------------LPYFL-----
+------------SDLTKDQMIGELAQK----------TNYLLLSAIFFGSLSLAVIAYAV
+MIG--------CQRFEEKTQQRR---QVQQ-QMTQ-------------------------
+-----------VQQSLR-------------NDVVEEG-MEA------------LPEGLSC
+VV----------SVFVPCGHLVCCQTCAPLVAR-----DRRCPICRQYIQK--YIITY--
+[10] Physcomitrella_patens_Pp1s12_190V6.2_PACid_18048531
+LGV-----------------KRVERVLPTGTNLTVVGEAV------------QDDRG-LI
+RIQKPNK-------------------------------------------GPFYV-----
+------------TPKSLDQLVANLGRW----------SRWYKYMSLGFTIVGIYFITSHA
+IKHF-------MERRRREALHRRVM-EAAA-LRQA-------------------------
+-----------SQREGGDGDMGDVTSHPLDDSVDTSQ-KKD------------RGTPDLC
+VICLEQ--D-YNAVFLPCGHMCCCTSCSAQLTS--------CPLCRRHIDK--FVKTYRH
+[11] Physcomitrella_patens_Pp1s175_124V6.2_PACid_18055474
+LGV-----------------KRVERVLPTGTNLTVVGEAV------------QDDRG-LI
+RIQKPDK-------------------------------------------GPFYV-----
+------------TPQSQDQLIENLGRW----------SRWCQYMSFGLTLVGIYFITSRA
+IKHM-------LERWRREALLTRVM-EAAA-LRKA-------------------------
+-----------LQQEGVDEESDGVTAFPHDDNAHTAQ-KKD------------GGMPSLC
+VICLEQ--D-YNAVLVPCGHMCCCTSCSSQLSL--------CPLCRRHIDQ--VVKTFRH
+[12] Selaginella_moellendorffii_231449_PACid_15416766
+LGV-----------------KRVERVLPTGTALTVVGEAI------------KDDQG-TL
+RIQRPHK-------------------------------------------GPFYV-----
+------------TPKSIDQLIANLGKW----------SRWYKYMSLGFTLFGVFLVASHT
+IRYV-------MEKRRRAALNRRVM-EAAA-RRRE-------------------------
+-----------RKEHEGKAQVGEF------AKVETAT-KRD------------GRLPDLC
+VICLEQ--E-YNAVFVPCGHMCCCISCSAQLQN--------CPLCRRRIEQ--IVKTYRH
+[13] Tomato_Solyc06g084360.1.1
+LGV-----------------KRIERVLPVGTPLTVVGEAV------------KDDIG-TV
+RIQRPHK-------------------------------------------GPFYI-----
+------------SHKTIDQLIANLGRW----------ARWYKYASMGFTAVGVYLLVKHT
+FHYM-------MERKRHWELRRRVL-AAAA-KRAG-------------------------
+-----------DEDEGSDATA---------ENGVD---NKD------------LLMPDLC
+VICLEQ--E-YNSVFVPCGHMCCCMTCSSHLTN--------CPLCRRRIEQ--VVKTFRH
+[14] Aquilegia_coerulea_v1.007878m_PACid_18162338
+LGV-----------------KRIERVLPTGTSLTVVGEAV------------KDDVG-TI
+WIQRPHK-------------------------------------------GPFYV-----
+------------SPKSIDQLIANLGIW----------ARLYKYASLGFTAFGVYLIAKHA
+IRYI-------LERRRLLDFQRRVR-AAAA-QRLE-------------------------
+-----------QDNDGTDGKA---------EDGPDVV-NKD------------RIMPDIC
+VICLEQ--E-YNAVFVPCGHLCCCTTCSSHLSN--------CPLCRRRIDQ--VVRTFRH
+[15] Arabidopsis_lyrata_474968_PACid_16053684
+LGV-----------------KRIERVLPTGIPLTIVGEAV------------KDDIG-EF
+RIQKPDR-------------------------------------------GPFYV-----
+------------SPKSLDQLISNLGKW----------SRWYKYASMGFTVFGVFLITKHV
+IDSV-------LERRRRRQLQKRVL-DAAA-KRAE-------------------------
+-----------LESEGSNGAR---------ESIADST-KKE------------DAVPDLC
+VICLEQ--E-YNAVFVPCGHMCCCTACSSHLTS--------CPLCRRRIDL--AVKTYRH
+[16] SP1
+LGV-----------------KRIERVLPTGIPLTIVGEAV------------KDDIG-EF
+RIQKPDR-------------------------------------------GPFYV-----
+------------SSKSLDQLISNLGKW----------SRLYKYASMGFTVLGVFLITKHV
+IDSV-------LERRRRRQLQKRVL-DAAA-KRAE-------------------------
+-----------LESEGSNGTR---------ESISDST-KKE------------DAVPDLC
+VICLEQ--E-YNAVFVPCGHMCCCTACSSHLTS--------CPLCRRRIDL--AVKTYRH
+[17] Oryza_sativa_LOC_Os07g45350.1_PACid_16873618
+LGV-----------------KRTERVLPTGTSLTVVGEAI------------KDDVG-TI
+RIQRPHK-------------------------------------------GPFYV-----
+------------SPKSIDQLIMNLGKW----------AKLYQLASMGFAAFGVFLLAKRA
+LQHF-------LERKRRHELQKRVH-AAAA-QRQA-------------------------
+-----------REAEGGNGTS----------DVDSNN-KKD------------QLVLDIC
+VICLEQ--E-YNAVFVPCGHMCCCMNCSSHLTN--------CPLCRRRIDQ--AVRTFRH
+[18] Brachypodium_distachyon_Bradi1g19510.1_PACid_16473835
+LGV-----------------KRTERVLPTGTSLTVVGEAI------------KDDVG-TI
+RIQRPHK-------------------------------------------GPFYA-----
+------------SPKSIDQLILNLGKW----------AKLYQLASMGFAAFGVFLLAKRA
+LQHF-------LQKKRQHELNKRVR-AAAA-QRQA-------------------------
+-----------REAEGADGTS----------NGDPNS-KKD------------QLVLEIC
+VICLEQ--E-YNAVFVPCGHMCCCMNCSSHVTN--------CPLCRRRIDQ--AVRTFRH
+[19] SPL1_NP_564745
+LGV-----------------RHVERVVPIGTPLTVVGEAV------------RDGMG-NV
+RIQKPEQ-------------------------------------------GPFYV-----
+------------TYIPLDQLISKLGDL----------SRRFKYASMGLTVLGVILISKPV
+IEYILKRIEDTLERRRRQFALKRVV-DAAA-RRAK-------------------------
+-----------PVTGG-------------------GT-SRD------------GDTPDLC
+VVCLDQ--K-YNTAFVECGHMCCCTPCSLQLRT--------CPLCRERIQQ--VLKIYRH
+[20] Arabidopsis_lyrata_338432_PACid_16045815
+LGV-----------------RRVEHVVPIGTPLTIVGEAV------------KDGMG-NV
+RIQKPEQ-------------------------------------------GPFYV-----
+------------SYVPLDQLISKLGEW----------SRRFKYASMGLTVVGVILLSKPV
+IKYILKKIEDTLERRRRQLLQKRVV-----------------------------------
+------------------------------------------------------DVPDLC
+VICHDQ--K-YNTAFVQCGHMCCCLTCSLRLTT--------CPLCREQIQQ--VLKIYRH
+[21] Arabidopsis_lyrata_867782_PACid_16034683
+LGV-----------------RRTEHVLPIGTPVTVVGEAV------------KDGIR-GF
+RIQKPEK-------------------------------------------GLFFV-----
+------------SPVPLDKIISPMGKW----------LRRFKYVYVGLTVVGVILISKPV
+IEYI-------LERRRGRLLRKRVA-DAAA-KRAK-------------------------
+-----------LVARGLETQH---------ENSLDST-SRD------------RDVLDLC
+VICLEQ--K-YDATFVKCGHMCCCLTCSLHVKT--------CPICRRPIEH--VLKIDR-
+[22] Chlorella_variabilis_gi|307103723|gb|EFN51981.1|
+VGV-----------------RQVERMLPVGTMLTAVGELA------------TAGGK-ML
+VLRAPRD-------------------------------------------GAFYL-----
+------------SRQPLPDVIASLQAS----------SLACQQWAAAFTAVGASMLVAAA
+TQHA-------LTWVRQRRLRQRVE-KAMR-ERAA-------------------------
+-----------AAAAAGGGGA---------AGAPAAS-AAEPQPADVAEAAEGGARPSLC
+VVCLER--P-CATVFPACGHMCACSRCSHGLRR--------CPICRSRGAP---IRVYTA
+[23] Micromonas_sp._RCC299_gi|255086321|ref|XP_002509127.1|
+LGL-----------------RHRERVLAPGARLTAVGEVFIAPNGGPVGVDGGDGAG-EI
+RLRRPRRRKGWRRHGRGWRRKGGTPGDEKSAPGDGDGDGDDAAMSPRMDPNVFTV-----
+------------TQKPFDEYVDGFGSW----------GKVNAALGLGFLGVGVALVLTKL
+WRAR-------LTRWREARFLRRMREAEEA-RRAA-------------------------
+-----------GGGEGDDGGDTA-------GTNTDTA-GAK------------VSPGETC
+VVCMYA--R-SEVVYKECGHLVCCGVCAGRMDR--------CPLCRRRSAH---MRVYRA
+[24] Mulan_NP_078820
+KGI-----------------QETEEMLKVGATLTGVGELV-------------LDNN-SV
+RLQPPKQ------------------------------------------GMQYYL-----
+------------SSQDFDSLLQRQESS----------VRLWKVLALVFGFATCATLFFIL
+RKQ--------YLQRQERLRLKQMQEEFQE-HEAQ-------------------------
+------------------------------LLSRAKP-EDR------------ESLKSAC
+VVCLSS--F-KSCVFLECGHVCSCTECYRALPE-----PKKCPICRQAITR--VIPLYNS
+[25] Mus_musculus_gi_18043560_gb_AAH19516.1
+KGI-----------------QETEEMLKVGATLTGIGELV-------------LDNN-AV
+RLQPPKQ------------------------------------------GMQYYL-----
+------------SSQDFDSLLHRQESS----------VRLWKVLVLVFGFATCATLFFIL
+RKQ--------YLHRQERLRQQQLQEEFLE-HEAQ-------------------------
+------------------------------LLSQASP-EDR------------ESLKSAC
+VVCLSN--F-KSCVFLECGHVCSCRQCYLALPE-----PKRCPICRREITR--VIPLYNS
+[26] Xenopus_laevis_gi_148226332_ref_NP_001084716.1
+KGV-----------------QETEEMLKIGATITGVGELV-------------LDNK-TI
+KLQPPKD------------------------------------------GMLFYL-----
+------------SSMDYEGLLEKQEVQ----------MRWWRILSIVFGVASCITLFFIL
+RRK--------YRHYKEKQHLKNLQREFEE-SRAR-------------------------
+------------------------------QRVQQEP-QNK------------EEVQNPC
+SICLST--E-KSCVFLECGHVCSCISCYQALPS-----PKKCPICRNFIDR--IVPLYNS
+[27] Danio_rerio_gi_148922854_ref_NP_001092230.1
+QGI-----------------QETEEMLRLGASMTGVGELV-------------LDNN-LV
+RLQPPKK------------------------------------------GLRYFL-----
+------------SRLDYDTLLSKQEGH----------LRIWRVLTVLLGLTACATFFYLL
+WRQ--------YVLRKERRKEQSVLDEYRK-WQSK-------------------------
+------------------------------RFQELHL-AKE------------DVSPTAC
+TICLNH--E-RSCVFLECGHVCACEGCYRALPE-----PKKCPICRATIDR--IVSLYNS
+[28] Drosophila_melanogaster_gi_21356375_ref_NP_647847.1
+RGL-----------------QTTEEVLREGSFLTAIGELE-------------LDGD-TL
+RMQPSNE-------------------------------------------GPLFL-----
+------------TTATKSTLIKRFEDA----------KTTTILKLVVCSTISAILVAFIA
+KKL--------YRKRKQEREEAKIRERLDT-ERRE-------------------------
+----------------------------RRARSRPHT----------------LSQDQLC
+VVCSTN--P-KEIILLPCGHVCLCEDCAQKISV-------TCPVCRGSIVS--KAAAFIA
+[29] rsz31o21_6
+--------------------TRTPRTTMFGRRVYALLE--------------------IP
+KIHSSXC-------------------------------------------WSLFLXANVL
+GPLHSLLHGEGXSRTAQRALSSSMSSRWSRCPQYLPHSRPVWASGTARIATAVSCPVDIA
+SRFF-----SNRTRPNSPSIDTRLF-CCSA-LRAP-------------------------
+-------------------------------KISPRA-AAE------------AEHDDLC
+IICMTD--P-RDTTVLPCGHLCLCVDAQLLRVR-----SDRCPICRSPVDS--LLXIRX-
+[30] gnl|CMER|CME171C
+--------------------RSPTDAVPLTGDT-------------------------RA
+PVHSPDD-------------------------------------------TGFEA-----
+------------SAHGTSELSKSLDAE---------------------------------
+-----------------------ATDAAAK-RPAA-------------------------
+------------------------------ASSVASS----------------SEQPFDC
+SICFEV--PLEDPVVTMCGHLFCWSCLHRWMAQ-----HATCPVCKSLVDRERVIPLYGR
+[31] gnl|CMER|CMI144C
+--------------------RERRALRRAMTRESAANRAV------------GDAED-PT
+RMGNQRA---------------------------------------------VFV-----
+------------DGVYLYSIPGNAGGE----------QRAPPGGVAGAGVWGPTRIPASL
+VLAR-------LDKTSPPAPLTSCPSCGAE-SPAA-------------------------
+------------------------------AAALATV-PNESQREGKGLCGADGVYCQCC
+SICLDPFMKGDMSRKLSCGHLFHSHCISKWVQR-----ANRCPLCQHEIVR--LEEVVQD
+;
+END;
+BEGIN NOTES;
+  TEXT TAXON=5 TEXT='genomic_reference:SL2.31ch12 evidence_code:10F0H1E0IEG gene_region:46263202-46267916 functional_description:"Zinc finger family protein (AHRD V1 ***- D7KLF2_ARALY)"
+';
+  TEXT TAXON=13 TEXT='genomic_reference:SL2.31ch06 evidence_code:10F0H1E1IEG gene_region:45791481-45798777 functional_description:"Baculoviral IAP repeat-containing protein 3 (AHRD V1 *--- B0XJ37_CULQU); contains Interpro domain(s)  IPR001841  Zinc f
+';
+  TEXT TAXON=22 TEXT='hypothetical protein CHLNCDRAFT_27288 [Chlorella variabilis]
+';
+  TEXT TAXON=30 TEXT='similar to ring finger protein
+';
+  TEXT TAXON=31 TEXT='similar to ring finger protein
+';
+END;

@@ -1,0 +1,32 @@
+#NEXUS
+[saved by seaview on Sun May 20 12:52:44 2012]
+BEGIN DATA;
+  DIMENSIONS NTAX=11 NCHAR=40;
+  FORMAT DATATYPE=PROTEIN
+  GAP=-
+  ;
+MATRIX
+[1] #_AT1G62370.1
+ccvcmgrekgaafipcght-ycrvcsreiwmnrg-tcplc
+[2] #_AT4G03965.1
+ccvcmgrkkgaafipcght-fcrvcsrevwlnrg-scplc
+[3] #_AT4G22250.1
+ccvcmgrkkgaafipcght-fcrvcsrelwlnrg-scplc
+[4] #_AT3G25030.1
+ccvcmvrskgaafipcght-fcrlcsrelwvqrg-ncplc
+[5] #_AT4G13100.1
+ccvcmvrskgaafipcght-fcrlcsrelwvqrg-ncplc
+[6] #_AT3G07120.1
+ccvcmvkikgasftpcght-fcklcskelmaqkg-hcpvc
+[7] SPL1_AT1G59560.1
+cvvcldqkyntafvecghmccctpcslqlr-----tcplc
+[8] SP1_AT1G63900.1
+cvicleqeynavfvpcghmccctacsshlt-----scplc
+[9] SPL2_AT1G54150.1
+cvicvsrrrvpafipcghvvccrrcastverelnpkcpvc
+[10] AT1G30860.1
+ccvcdetqveavlyrcghmcmclkcanelhwsgg-kcpic
+[11] AT2G34920.1
+ccvcnetqvetllyrcghmctclrcanelqyngg-kcpic
+;
+END;

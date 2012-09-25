@@ -1,0 +1,24 @@
+# BLASTP 2.2.25+
+# Query: Chlorella_variabilis_gnl|BL_ORD_ID|28282 jgi|ChlNC64A_1|139486|IGS.gm_25_00037
+# Database: /Users/mats/db/_Micromonas_RCC299v3/MicromonasRCC299_proteins
+# Fields: query id, subject id, % identity, alignment length, mismatches, gap opens, q. start, q. end, s. start, s. end, evalue, bit score
+# 18 hits found
+Chlorella_variabilis_gnl|BL_ORD_ID|28282	jgi|MicpuN3|62901|EuGene.1200010073	44.68	47	26	0	331	377	417	463	7e-07	50.4
+Chlorella_variabilis_gnl|BL_ORD_ID|28282	jgi|MicpuN3|62901|EuGene.1200010073	38.46	39	24	0	160	198	213	251	4.3	28.1
+Chlorella_variabilis_gnl|BL_ORD_ID|28282	jgi|MicpuN3|62138|EuGene.1000010475	48.00	50	22	1	322	367	273	322	1e-05	46.2
+Chlorella_variabilis_gnl|BL_ORD_ID|28282	jgi|MicpuN3|63656|EuGene.1300010306	41.86	43	21	1	330	368	187	229	0.001	39.7
+Chlorella_variabilis_gnl|BL_ORD_ID|28282	jgi|MicpuN3|57499|EuGene.0400010028	46.30	54	25	3	317	366	556	609	0.003	38.5
+Chlorella_variabilis_gnl|BL_ORD_ID|28282	jgi|MicpuN3|108606|est_cluster_kg.Chr_07__76__3201570:1	44.44	36	20	0	331	366	421	456	0.009	37.0
+Chlorella_variabilis_gnl|BL_ORD_ID|28282	jgi|MicpuN3|64039|EuGene.1400010174	38.46	39	20	1	331	365	774	812	0.053	34.3
+Chlorella_variabilis_gnl|BL_ORD_ID|28282	jgi|MicpuN3|108431|est_cluster_kg.Chr_06__75__3202470:1	38.10	42	21	1	331	367	144	185	0.082	33.5
+Chlorella_variabilis_gnl|BL_ORD_ID|28282	jgi|MicpuN3|64527|EuGene.1500010248	39.22	51	29	2	178	228	42	90	0.20	32.3
+Chlorella_variabilis_gnl|BL_ORD_ID|28282	jgi|MicpuN3|59195|EuGene.0600010197	42.86	42	17	2	331	366	14	54	0.72	30.4
+Chlorella_variabilis_gnl|BL_ORD_ID|28282	jgi|MicpuN3|106354|estExt_fgenesh2_pg.C_Chr_120217	28.72	94	50	4	290	367	12	104	0.78	30.4
+Chlorella_variabilis_gnl|BL_ORD_ID|28282	jgi|MicpuN3|100905|fgenesh2_pg.C_Chr_06000106	38.46	52	31	1	281	331	1119	1170	2.0	28.9
+Chlorella_variabilis_gnl|BL_ORD_ID|28282	jgi|MicpuN3|60134|EuGene.0700010419	32.69	52	27	3	331	375	153	203	2.4	28.9
+Chlorella_variabilis_gnl|BL_ORD_ID|28282	jgi|MicpuN3|88899|e_gw2.16.279.1	30.30	66	34	2	233	298	1753	1806	3.5	28.1
+Chlorella_variabilis_gnl|BL_ORD_ID|28282	jgi|MicpuN3|64406|EuGene.1500010127	33.87	62	29	4	317	367	574	634	6.1	27.3
+Chlorella_variabilis_gnl|BL_ORD_ID|28282	jgi|MicpuN3|61189|EuGene.0900010172	35.71	42	21	1	331	366	5	46	6.5	27.3
+Chlorella_variabilis_gnl|BL_ORD_ID|28282	jgi|MicpuN3|62936|EuGene.1200010108	35.71	56	33	2	263	315	46	101	7.2	27.3
+Chlorella_variabilis_gnl|BL_ORD_ID|28282	jgi|MicpuN3|63391|EuGene.1300010041	30.39	102	49	4	293	374	216	315	7.8	26.9
+# BLAST processed 1 queries
