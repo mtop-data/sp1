@@ -1,5 +1,5 @@
 #NEXUS
-[saved by seaview on Wed Sep 12 12:03:34 2012]
+[saved by seaview on Thu Sep 13 08:44:41 2012]
 BEGIN DATA;
   DIMENSIONS NTAX=60 NCHAR=1976;
   FORMAT DATATYPE=PROTEIN
@@ -2048,13 +2048,3 @@ VGFVRRVLR--------------------ERSENAT------------------------
 --------------------------------------------------------
 ;
 END;
-
-begin mrbayes;
-
-set Usebeagle = Yes;
-set Beagledevice = GPU;
-
-charset protein = 1 - 1976;
-prset aamodelpr = mixed;
-
-mcmc ngen=5000000 printfreq=1000 samplefreq=1000;
