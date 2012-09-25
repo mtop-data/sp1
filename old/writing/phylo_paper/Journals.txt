@@ -1,6 +1,0 @@
-Journal			IP
-Plos Biology	12.916
-PNAS			9.771
-BMC mol. biol.	3.19
-BMC Biology		5.20
-
