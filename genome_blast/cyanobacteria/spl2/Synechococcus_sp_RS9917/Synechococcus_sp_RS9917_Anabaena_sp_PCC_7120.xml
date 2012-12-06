@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/cyanobacteria/all/Anabaena_sp_PCC_7120</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Synechococcus_sp_RS9917_gnl|BL_ORD_ID|2449 638963634 RS9917_01901 hypothetical protein Synechococcus sp. RS9917</BlastOutput_query-def>
+  <BlastOutput_query-len>131</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>Synechococcus_sp_RS9917_gnl|BL_ORD_ID|2449 638963634 RS9917_01901 hypothetical protein Synechococcus sp. RS9917</Iteration_query-def>
+      <Iteration_query-len>131</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|574</Hit_id>
+          <Hit_def>@Anabaena_sp_PCC_7120@ all0575 unknown protein</Hit_def>
+          <Hit_accession>574</Hit_accession>
+          <Hit_len>104</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>66.2402</Hsp_bit-score>
+              <Hsp_score>160</Hsp_score>
+              <Hsp_evalue>1.92177e-15</Hsp_evalue>
+              <Hsp_query-from>28</Hsp_query-from>
+              <Hsp_query-to>127</Hsp_query-to>
+              <Hsp_hit-from>3</Hsp_hit-from>
+              <Hsp_hit-to>95</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>34</Hsp_identity>
+              <Hsp_positive>61</Hsp_positive>
+              <Hsp_gaps>9</Hsp_gaps>
+              <Hsp_align-len>101</Hsp_align-len>
+              <Hsp_qseq>AVIEHLKLKVPEAARQAWLEAERGSWEPWLSRQQGFLGRDLLWNP-ETEEGTLLIRWHSREAWKAIPLQEVEAVQQRFEQLAREATGQRLGNPFPLLYAGE</Hsp_qseq>
+              <Hsp_hseq>VVIEFLRFKVEASLRESYIQKDAEIWTAALAKYPGFLGKEVWINPLESTEVIFIIRWETKEHWKTMPAADLEAIEQRFRQA--------VGDNYELVESGE</Hsp_hseq>
+              <Hsp_midline> VIE L+ KV  + R+++++ +   W   L++  GFLG+++  NP E+ E   +IRW ++E WK +P  ++EA++QRF Q         +G+ + L+ +GE</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|4075</Hit_id>
+          <Hit_def>@Anabaena_sp_PCC_7120@ asr4076 hypothetical protein</Hit_def>
+          <Hit_accession>4075</Hit_accession>
+          <Hit_len>71</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>26.9498</Hsp_bit-score>
+              <Hsp_score>58</Hsp_score>
+              <Hsp_evalue>0.237709</Hsp_evalue>
+              <Hsp_query-from>66</Hsp_query-from>
+              <Hsp_query-to>104</Hsp_query-to>
+              <Hsp_hit-from>20</Hsp_hit-from>
+              <Hsp_hit-to>59</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>15</Hsp_identity>
+              <Hsp_positive>20</Hsp_positive>
+              <Hsp_gaps>1</Hsp_gaps>
+              <Hsp_align-len>40</Hsp_align-len>
+              <Hsp_qseq>RDLLWNPETE-EGTLLIRWHSREAWKAIPLQEVEAVQQRF</Hsp_qseq>
+              <Hsp_hseq>RILSWVPITKSQAELFVSWTTRGAWVGIGVMVVAWVTIRF</Hsp_hseq>
+              <Hsp_midline>R L W P T+ +  L + W +R AW  I +  V  V  RF</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|858</Hit_id>
+          <Hit_def>@Anabaena_sp_PCC_7120@ all0859 apolipoprotein N-acyltransferase</Hit_def>
+          <Hit_accession>858</Hit_accession>
+          <Hit_len>500</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>26.9498</Hsp_bit-score>
+              <Hsp_score>58</Hsp_score>
+              <Hsp_evalue>0.64159</Hsp_evalue>
+              <Hsp_query-from>16</Hsp_query-from>
+              <Hsp_query-to>68</Hsp_query-to>
+              <Hsp_hit-from>133</Hsp_hit-from>
+              <Hsp_hit-to>185</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>14</Hsp_identity>
+              <Hsp_positive>26</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>53</Hsp_align-len>
+              <Hsp_qseq>AAFAEPEGGDDVAVIEHLKLKVPEAARQAWLEAERGSWEPWLSRQQGFLGRDL</Hsp_qseq>
+              <Hsp_hseq>SSLAYTQSPHNLAILHLGQISGPNLVTAAIVSVNGIVAEAWLNRKQGLLGRYL</Hsp_hseq>
+              <Hsp_midline>++ A  +   ++A++   ++  P     A +       E WL+R+QG LGR L</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|5029</Hit_id>
+          <Hit_def>@Anabaena_sp_PCC_7120@ alr5030 hypothetical protein</Hit_def>
+          <Hit_accession>5029</Hit_accession>
+          <Hit_len>171</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>25.0238</Hsp_bit-score>
+              <Hsp_score>53</Hsp_score>
+              <Hsp_evalue>2.84404</Hsp_evalue>
+              <Hsp_query-from>100</Hsp_query-from>
+              <Hsp_query-to>126</Hsp_query-to>
+              <Hsp_hit-from>1</Hsp_hit-from>
+              <Hsp_hit-to>27</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>11</Hsp_identity>
+              <Hsp_positive>16</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>27</Hsp_align-len>
+              <Hsp_qseq>VQQRFEQLAREATGQRLGNPFPLLYAG</Hsp_qseq>
+              <Hsp_hseq>MKTQFERLTMEANSGFLGKHLPLISAG</Hsp_hseq>
+              <Hsp_midline>++ +FE+L  EA    LG   PL+ AG</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>5</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|2727</Hit_id>
+          <Hit_def>@Anabaena_sp_PCC_7120@ alr2728 excinuclease ABC subunit C</Hit_def>
+          <Hit_accession>2727</Hit_accession>
+          <Hit_len>627</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>23.8682</Hsp_bit-score>
+              <Hsp_score>50</Hsp_score>
+              <Hsp_evalue>7.93124</Hsp_evalue>
+              <Hsp_query-from>98</Hsp_query-from>
+              <Hsp_query-to>119</Hsp_query-to>
+              <Hsp_hit-from>459</Hsp_hit-from>
+              <Hsp_hit-to>480</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>9</Hsp_identity>
+              <Hsp_positive>14</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>22</Hsp_align-len>
+              <Hsp_qseq>EAVQQRFEQLAREATGQRLGNP</Hsp_qseq>
+              <Hsp_hseq>EVIQRRFRKYAEDPQLSRVGNP</Hsp_hseq>
+              <Hsp_midline>E +Q+RF + A +    R+GNP</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>6135</Statistics_db-num>
+          <Statistics_db-len>1970763</Statistics_db-len>
+          <Statistics_hsp-len>76</Statistics_hsp-len>
+          <Statistics_eff-space>82747665</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

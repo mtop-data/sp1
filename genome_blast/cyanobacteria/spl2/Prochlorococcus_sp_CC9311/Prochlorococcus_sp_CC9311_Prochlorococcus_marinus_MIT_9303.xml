@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/cyanobacteria/all//Prochlorococcus_marinus_MIT_9303</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Prochlorococcus_sp_CC9311_gnl|BL_ORD_ID|1836 @Prochlorococcus_sp_CC9311@ 638115460 sync_1872 possible Arginine repressor, C-terminal domain [Prochlorococcus sp. CC9311]</BlastOutput_query-def>
+  <BlastOutput_query-len>488</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>Prochlorococcus_sp_CC9311_gnl|BL_ORD_ID|1836 @Prochlorococcus_sp_CC9311@ 638115460 sync_1872 possible Arginine repressor, C-terminal domain [Prochlorococcus sp. CC9311]</Iteration_query-def>
+      <Iteration_query-len>488</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1840</Hit_id>
+          <Hit_def>@Prochlorococcus_marinus_MIT_9303@ 640087364 P9303_18551 possible Arginine repressor, C-terminal domain [Prochlorococcus marinus MIT 9303]</Hit_def>
+          <Hit_accession>1840</Hit_accession>
+          <Hit_len>496</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>422.165</Hsp_bit-score>
+              <Hsp_score>1084</Hsp_score>
+              <Hsp_evalue>1.52077e-143</Hsp_evalue>
+              <Hsp_query-from>6</Hsp_query-from>
+              <Hsp_query-to>484</Hsp_query-to>
+              <Hsp_hit-from>12</Hsp_hit-from>
+              <Hsp_hit-to>491</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>244</Hsp_identity>
+              <Hsp_positive>323</Hsp_positive>
+              <Hsp_gaps>5</Hsp_gaps>
+              <Hsp_align-len>482</Hsp_align-len>
+              <Hsp_qseq>LALNSNWNLSQTDPSTRVPLVSLDEALERSSLKKGISRRDFLAELLKDVQHQRLLPLLAMLPRRWRQEPASLPEQLRGLGNLLGEGLMSPLLLAAFADDLQHLLPQRTNPRRSALDLWCQRTYNNPGSQQWPLPEGLETWRSQAAESLKSQN--ERLKPKGRSGL-TGLTSLGGEIAWSNHGLSYLQSAEARHRNQQMAQVFNVLGSNLLVEQNLNVDTYRFEGQSSGKDLIQCLQSKGWRCQARVRTSVASFGLGASTPSSDSNQWNQIPLAVPYRTGLQETNQKEINALLPHACLELELQPPEDDTVLLQYYQGTEGLNGWAAMNDLDRPWQNGRSNGSVQYSPTVFRDQQLSDAVELCELMGAIHNSEAGMENLHLGGYGAIGFCIDSTALLEYALTGQTNLFPLTLGGLWRERLSAQLNHLLEQNMRPNDDAVDRYKRAIEDMPQDLYHTSVTRTDARRRLLASQPSYSPFLLIQDLN</Hsp_qseq>
+              <Hsp_hseq>LALSQSWGQDEHDDIHTAPLIALEEVLETSRLRRGISREQLLSELLRDLDHRRLIPLIGMLPRGWRIAPAVLPERLRGIATLLEDGLLSPLLLAALADDLQHLLPTPENQPPSALELWRQPSVALKPGHGVGVPSNLKNCRLLANQPITSDALFDR-KQLGRTPLGKGLTAVGSGLVWHNEGLVMLQNESSQRMNELMAQVLNCLAANRLPEALHHSEPFLFEGLSSGRQLIELLNRQGWHCCGRIRASVASFGLGASQ-AKGRGRWLQVPLAMPYRTGLEDDRNQEILSLLPHCSFELELQPQDNDSILLQYCQGIEGMNGWVAMNDLHRPWQNDRHNGTVAYPSQPSTQQRLADAIEITELIAAVHNVEASSQKLHLGGYGALGYCIDSTALLEQCLNGSTHLFPLTLGGIWRERLRRRLDILLDQGFCINTSVVDRYRWGLDTLPQDLNLQGSARLEAMQRLSSCQPSHSPFALVRSLN</Hsp_hseq>
+              <Hsp_midline>LAL+ +W   + D     PL++L+E LE S L++GISR   L+ELL+D+ H+RL+PL+ MLPR WR  PA LPE+LRG+  LL +GL+SPLLLAA ADDLQHLLP   N   SAL+LW Q +          +P  L+  R  A + + S    +R K  GR+ L  GLT++G  + W N GL  LQ+  ++  N+ MAQV N L +N L E   + + + FEG SSG+ LI+ L  +GW C  R+R SVASFGLGAS  +    +W Q+PLA+PYRTGL++   +EI +LLPH   ELELQP ++D++LLQY QG EG+NGW AMNDL RPWQN R NG+V Y       Q+L+DA+E+ EL+ A+HN EA  + LHLGGYGA+G+CIDSTALLE  L G T+LFPLTLGG+WRERL  +L+ LL+Q    N   VDRY+  ++ +PQDL      R +A +RL + QPS+SPF L++ LN</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|635</Hit_id>
+          <Hit_def>@Prochlorococcus_marinus_MIT_9303@ 640086147 P9303_06401 Cytochrome c oxidase, subunit III [Prochlorococcus marinus MIT 9303]</Hit_def>
+          <Hit_accession>635</Hit_accession>
+          <Hit_len>207</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>27.7202</Hsp_bit-score>
+              <Hsp_score>60</Hsp_score>
+              <Hsp_evalue>0.776104</Hsp_evalue>
+              <Hsp_query-from>288</Hsp_query-from>
+              <Hsp_query-to>313</Hsp_query-to>
+              <Hsp_hit-from>58</Hsp_hit-from>
+              <Hsp_hit-to>83</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>14</Hsp_identity>
+              <Hsp_positive>17</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>26</Hsp_align-len>
+              <Hsp_qseq>KEINALLPHACLELELQPPEDDTVLL</Hsp_qseq>
+              <Hsp_hseq>RAVNPLLPDAVYELELPLPTLNTVLL</Hsp_hseq>
+              <Hsp_midline>+ +N LLP A  ELEL  P  +TVLL</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1502</Hit_id>
+          <Hit_def>@Prochlorococcus_marinus_MIT_9303@ 640087023 P9303_15151 Predicted sugar phosphate isomerase [Prochlorococcus marinus MIT 9303]</Hit_def>
+          <Hit_accession>1502</Hit_accession>
+          <Hit_len>316</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>27.7202</Hsp_bit-score>
+              <Hsp_score>60</Hsp_score>
+              <Hsp_evalue>0.955609</Hsp_evalue>
+              <Hsp_query-from>102</Hsp_query-from>
+              <Hsp_query-to>165</Hsp_query-to>
+              <Hsp_hit-from>13</Hsp_hit-from>
+              <Hsp_hit-to>77</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>20</Hsp_identity>
+              <Hsp_positive>33</Hsp_positive>
+              <Hsp_gaps>17</Hsp_gaps>
+              <Hsp_align-len>73</Hsp_align-len>
+              <Hsp_qseq>ADDLQHLLPQRTNPRRSALD---------LWCQRTYNNPGSQQWPLPEGLETWRSQAAESLKSQNERLKPKGR</Hsp_qseq>
+              <Hsp_hseq>SDDRGHLLTEQVNPKSECLDQLSTESLVTLFCEEDREPQRAVAAAIPELI-----QAVEAI---TDRLRSGGR</Hsp_hseq>
+              <Hsp_midline>+DD  HLL ++ NP+   LD         L+C+       +    +PE +     QA E++    +RL+  GR</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|2917</Hit_id>
+          <Hit_def>@Prochlorococcus_marinus_MIT_9303@ 640088468 P9303_29441 hypothetical protein [Prochlorococcus marinus MIT 9303]</Hit_def>
+          <Hit_accession>2917</Hit_accession>
+          <Hit_len>693</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>25.7942</Hsp_bit-score>
+              <Hsp_score>55</Hsp_score>
+              <Hsp_evalue>5.04128</Hsp_evalue>
+              <Hsp_query-from>381</Hsp_query-from>
+              <Hsp_query-to>448</Hsp_query-to>
+              <Hsp_hit-from>290</Hsp_hit-from>
+              <Hsp_hit-to>359</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>22</Hsp_identity>
+              <Hsp_positive>28</Hsp_positive>
+              <Hsp_gaps>2</Hsp_gaps>
+              <Hsp_align-len>70</Hsp_align-len>
+              <Hsp_qseq>LGGYGAIGFCIDSTALLEYALTGQTNLFPLTLGGLWRE--RLSAQLNHLLEQNMRPNDDAVDRYKRAIED</Hsp_qseq>
+              <Hsp_hseq>LKSLSAEGFSIDEQGKIASCLRKLTNRIVHPKDGLWRNDAKKIDTLNQRREKLITSSDDPVVRIYWLLED</Hsp_hseq>
+              <Hsp_midline>L    A GF ID    +   L   TN       GLWR   +    LN   E+ +  +DD V R    +ED</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>5</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|2100</Hit_id>
+          <Hit_def>@Prochlorococcus_marinus_MIT_9303@ 640087630 P9303_21221 hypothetical protein [Prochlorococcus marinus MIT 9303]</Hit_def>
+          <Hit_accession>2100</Hit_accession>
+          <Hit_len>239</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>24.6386</Hsp_bit-score>
+              <Hsp_score>52</Hsp_score>
+              <Hsp_evalue>8.10283</Hsp_evalue>
+              <Hsp_query-from>438</Hsp_query-from>
+              <Hsp_query-to>484</Hsp_query-to>
+              <Hsp_hit-from>65</Hsp_hit-from>
+              <Hsp_hit-to>113</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>20</Hsp_identity>
+              <Hsp_positive>26</Hsp_positive>
+              <Hsp_gaps>6</Hsp_gaps>
+              <Hsp_align-len>51</Hsp_align-len>
+              <Hsp_qseq>AVDRYKRAIEDMPQDLYHTSVTRTDARRR---LLASQPSYSPFLLIQ-DLN</Hsp_qseq>
+              <Hsp_hseq>AIDEYNKAIEINPQ--YANAYTKRGLAKHEIFLLRQNPSLESFLDIRNDLN</Hsp_hseq>
+              <Hsp_midline>A+D Y +AIE  PQ  Y  + T+    +    LL   PS   FL I+ DLN</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>3075</Statistics_db-num>
+          <Statistics_db-len>761004</Statistics_db-len>
+          <Statistics_hsp-len>83</Statistics_hsp-len>
+          <Statistics_eff-space>204840495</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

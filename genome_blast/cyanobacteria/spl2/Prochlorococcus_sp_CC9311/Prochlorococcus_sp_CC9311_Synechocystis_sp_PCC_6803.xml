@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/cyanobacteria/all//Synechocystis_sp_PCC_6803</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Prochlorococcus_sp_CC9311_gnl|BL_ORD_ID|1836 @Prochlorococcus_sp_CC9311@ 638115460 sync_1872 possible Arginine repressor, C-terminal domain [Prochlorococcus sp. CC9311]</BlastOutput_query-def>
+  <BlastOutput_query-len>488</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>Prochlorococcus_sp_CC9311_gnl|BL_ORD_ID|1836 @Prochlorococcus_sp_CC9311@ 638115460 sync_1872 possible Arginine repressor, C-terminal domain [Prochlorococcus sp. CC9311]</Iteration_query-def>
+      <Iteration_query-len>488</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|3313</Hit_id>
+          <Hit_def>@Synechocystis_sp_PCC_6803@ 637471943 sll7009 hypothetical protein [Synechocystis sp. PCC 6803]</Hit_def>
+          <Hit_accession>3313</Hit_accession>
+          <Hit_len>314</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>28.1054</Hsp_bit-score>
+              <Hsp_score>61</Hsp_score>
+              <Hsp_evalue>1.26094</Hsp_evalue>
+              <Hsp_query-from>416</Hsp_query-from>
+              <Hsp_query-to>449</Hsp_query-to>
+              <Hsp_hit-from>24</Hsp_hit-from>
+              <Hsp_hit-to>57</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>12</Hsp_identity>
+              <Hsp_positive>19</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>34</Hsp_align-len>
+              <Hsp_qseq>WRERLSAQLNHLLEQNMRPNDDAVDRYKRAIEDM</Hsp_qseq>
+              <Hsp_hseq>YRKNLTEQLELFLEQHQQPADDVAQKLTRTIRKL</Hsp_hseq>
+              <Hsp_midline>+R+ L+ QL   LEQ+ +P DD   +  R I  +</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|2111</Hit_id>
+          <Hit_def>@Synechocystis_sp_PCC_6803@ 637011567 slr0184 hypothetical protein [Synechocystis sp. PCC 6803]</Hit_def>
+          <Hit_accession>2111</Hit_accession>
+          <Hit_len>206</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>26.9498</Hsp_bit-score>
+              <Hsp_score>58</Hsp_score>
+              <Hsp_evalue>2.44664</Hsp_evalue>
+              <Hsp_query-from>28</Hsp_query-from>
+              <Hsp_query-to>56</Hsp_query-to>
+              <Hsp_hit-from>60</Hsp_hit-from>
+              <Hsp_hit-to>89</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>15</Hsp_identity>
+              <Hsp_positive>21</Hsp_positive>
+              <Hsp_gaps>1</Hsp_gaps>
+              <Hsp_align-len>30</Hsp_align-len>
+              <Hsp_qseq>LDEALERSSLKKGISRRDFL-AELLKDVQH</Hsp_qseq>
+              <Hsp_hseq>LEESLPRLSLTSEMARREFLIAPVLTDVLH</Hsp_hseq>
+              <Hsp_midline>L+E+L R SL   ++RR+FL A +L DV H</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|2781</Hit_id>
+          <Hit_def>@Synechocystis_sp_PCC_6803@ 637012250 sll0670 hypothetical protein [Synechocystis sp. PCC 6803]</Hit_def>
+          <Hit_accession>2781</Hit_accession>
+          <Hit_len>169</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>26.1794</Hsp_bit-score>
+              <Hsp_score>56</Hsp_score>
+              <Hsp_evalue>3.30432</Hsp_evalue>
+              <Hsp_query-from>308</Hsp_query-from>
+              <Hsp_query-to>357</Hsp_query-to>
+              <Hsp_hit-from>113</Hsp_hit-from>
+              <Hsp_hit-to>162</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>14</Hsp_identity>
+              <Hsp_positive>23</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>50</Hsp_align-len>
+              <Hsp_qseq>DDTVLLQYYQGTEGLNGWAAMNDLDRPWQNGRSNGSVQYSPTVFRDQQLS</Hsp_qseq>
+              <Hsp_hseq>DDVPYAQYYSGGYAIHGAYWHNKFGTPVSHGCINLAVDHAKWLFNWSEIS</Hsp_hseq>
+              <Hsp_midline>DD    QYY G   ++G    N    P  +G  N +V ++  +F   ++S</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1802</Hit_id>
+          <Hit_def>@Synechocystis_sp_PCC_6803@ 637011252 ssl3044 hydrogenase component [Synechocystis sp. PCC 6803]</Hit_def>
+          <Hit_accession>1802</Hit_accession>
+          <Hit_len>99</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>25.0238</Hsp_bit-score>
+              <Hsp_score>53</Hsp_score>
+              <Hsp_evalue>4.75732</Hsp_evalue>
+              <Hsp_query-from>351</Hsp_query-from>
+              <Hsp_query-to>411</Hsp_query-to>
+              <Hsp_hit-from>20</Hsp_hit-from>
+              <Hsp_hit-to>65</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>18</Hsp_identity>
+              <Hsp_positive>24</Hsp_positive>
+              <Hsp_gaps>15</Hsp_gaps>
+              <Hsp_align-len>61</Hsp_align-len>
+              <Hsp_qseq>FRDQQLSDAVELCELMGAIHNSEAGMENLHLGGYGAIGFCIDSTALLEYALTGQTNLFPLT</Hsp_qseq>
+              <Hsp_hseq>LREKALQNGVDIYTLKGKLMNC---------GGYGQCGTCIVEIT------AGMENLSPKT</Hsp_hseq>
+              <Hsp_midline> R++ L + V++  L G + N          GGYG  G CI           G  NL P T</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>5</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|3177</Hit_id>
+          <Hit_def>@Synechocystis_sp_PCC_6803@ 637471807 slr5005 hypothetical protein [Synechocystis sp. PCC 6803]</Hit_def>
+          <Hit_accession>3177</Hit_accession>
+          <Hit_len>3797</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>26.5646</Hsp_bit-score>
+              <Hsp_score>57</Hsp_score>
+              <Hsp_evalue>4.96518</Hsp_evalue>
+              <Hsp_query-from>288</Hsp_query-from>
+              <Hsp_query-to>342</Hsp_query-to>
+              <Hsp_hit-from>3365</Hsp_hit-from>
+              <Hsp_hit-to>3419</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>13</Hsp_identity>
+              <Hsp_positive>23</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>55</Hsp_align-len>
+              <Hsp_qseq>KEINALLPHACLELELQPPEDDTVLLQYYQGTEGLNGWAAMNDLDRPWQNGRSNG</Hsp_qseq>
+              <Hsp_hseq>KQLGAALPFGAMGFSVTAPEGSASVTMPFQGITELNSYFRFNQISGQYEEFLYNG</Hsp_hseq>
+              <Hsp_midline>K++ A LP   +   +  PE    +   +QG   LN +   N +   ++    NG</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>3569</Statistics_db-num>
+          <Statistics_db-len>1137347</Statistics_db-len>
+          <Statistics_hsp-len>86</Statistics_hsp-len>
+          <Statistics_eff-space>333826026</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

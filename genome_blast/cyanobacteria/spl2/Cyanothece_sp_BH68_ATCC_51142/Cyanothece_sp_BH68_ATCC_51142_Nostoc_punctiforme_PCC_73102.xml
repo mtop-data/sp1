@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/cyanobacteria/all/Nostoc_punctiforme_PCC_73102</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Cyanothece_sp_BH68_ATCC_51142_gnl|BL_ORD_ID|4859 641679280 cce_4771 hypothetical protein Cyanothece sp. BH68, ATCC 5</BlastOutput_query-def>
+  <BlastOutput_query-len>95</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>Cyanothece_sp_BH68_ATCC_51142_gnl|BL_ORD_ID|4859 641679280 cce_4771 hypothetical protein Cyanothece sp. BH68, ATCC 5</Iteration_query-def>
+      <Iteration_query-len>95</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1042</Hit_id>
+          <Hit_def>@Nostoc_punctiforme_PCC_73102@ gi|186681593|ref|YP_001864789.1| hypothetical protein Npun_F1120 [Nostoc punctiforme PCC 73102]</Hit_def>
+          <Hit_accession>1042</Hit_accession>
+          <Hit_len>242</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>27.7202</Hsp_bit-score>
+              <Hsp_score>60</Hsp_score>
+              <Hsp_evalue>0.168396</Hsp_evalue>
+              <Hsp_query-from>34</Hsp_query-from>
+              <Hsp_query-to>94</Hsp_query-to>
+              <Hsp_hit-from>65</Hsp_hit-from>
+              <Hsp_hit-to>125</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>15</Hsp_identity>
+              <Hsp_positive>24</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>61</Hsp_align-len>
+              <Hsp_qseq>ILTARGSGIKAISARIKLEKFTQMSNEDIISLYQESFPGSESNDNMDTKPNNKGLNHSFFN</Hsp_qseq>
+              <Hsp_hseq>ITTWRGPFVEQLDISIQQEKALISEKLRLMEVQQQQFPSMESNQTIGLPPEGMSLEQQIIQ</Hsp_hseq>
+              <Hsp_midline>I T RG  ++ +   I+ EK        ++ + Q+ FP  ESN  +   P    L      </Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|2639</Hit_id>
+          <Hit_def>@Nostoc_punctiforme_PCC_73102@ gi|186683190|ref|YP_001866386.1| exodeoxyribonuclease VII large subunit [Nostoc punctiforme PCC 73102]</Hit_def>
+          <Hit_accession>2639</Hit_accession>
+          <Hit_len>426</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>24.6386</Hsp_bit-score>
+              <Hsp_score>52</Hsp_score>
+              <Hsp_evalue>2.26585</Hsp_evalue>
+              <Hsp_query-from>29</Hsp_query-from>
+              <Hsp_query-to>65</Hsp_query-to>
+              <Hsp_hit-from>67</Hsp_hit-from>
+              <Hsp_hit-to>105</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>16</Hsp_identity>
+              <Hsp_positive>20</Hsp_positive>
+              <Hsp_gaps>2</Hsp_gaps>
+              <Hsp_align-len>39</Hsp_align-len>
+              <Hsp_qseq>FMFTLILTARGSGIKAISARIKLEKFTQM--SNEDIISL</Hsp_qseq>
+              <Hsp_hseq>LFFTLQDTDRTAGIKCVVWNSQLPKLAQMPVAGEQIIIL</Hsp_hseq>
+              <Hsp_midline>  FTL  T R +GIK +    +L K  QM  + E II L</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|6215</Hit_id>
+          <Hit_def>@Nostoc_punctiforme_PCC_73102@ gi|186686770|ref|YP_001869963.1| exonuclease V subunit alpha [Nostoc punctiforme PCC 73102]</Hit_def>
+          <Hit_accession>6215</Hit_accession>
+          <Hit_len>2142</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>24.2534</Hsp_bit-score>
+              <Hsp_score>51</Hsp_score>
+              <Hsp_evalue>3.26809</Hsp_evalue>
+              <Hsp_query-from>22</Hsp_query-from>
+              <Hsp_query-to>69</Hsp_query-to>
+              <Hsp_hit-from>1617</Hsp_hit-from>
+              <Hsp_hit-to>1672</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>21</Hsp_identity>
+              <Hsp_positive>27</Hsp_positive>
+              <Hsp_gaps>16</Hsp_gaps>
+              <Hsp_align-len>60</Hsp_align-len>
+              <Hsp_qseq>LPENIKQF------------MFTLILTARGSGIKAISARIKLEKFTQMSNEDIISLYQES</Hsp_qseq>
+              <Hsp_hseq>LPQLIKQFSPLRQQLKKGIATFDKIFTA----IEPLSQRLDLQKTIDIIAEDIEQLAVES</Hsp_hseq>
+              <Hsp_midline>LP+ IKQF             F  I TA    I+ +S R+ L+K   +  EDI  L  ES</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|332</Hit_id>
+          <Hit_def>@Nostoc_punctiforme_PCC_73102@ gi|186680883|ref|YP_001864079.1| hypothetical protein Npun_F0353 [Nostoc punctiforme PCC 73102]</Hit_def>
+          <Hit_accession>332</Hit_accession>
+          <Hit_len>1218</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>23.483</Hsp_bit-score>
+              <Hsp_score>49</Hsp_score>
+              <Hsp_evalue>5.9045</Hsp_evalue>
+              <Hsp_query-from>17</Hsp_query-from>
+              <Hsp_query-to>62</Hsp_query-to>
+              <Hsp_hit-from>50</Hsp_hit-from>
+              <Hsp_hit-to>95</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>12</Hsp_identity>
+              <Hsp_positive>22</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>46</Hsp_align-len>
+              <Hsp_qseq>YRFSYLPENIKQFMFTLILTARGSGIKAISARIKLEKFTQMSNEDI</Hsp_qseq>
+              <Hsp_hseq>YSPTYLKHDVGPKLWKLLSEVLGEKVNKTSFRTAIERATAQSNQYI</Hsp_hseq>
+              <Hsp_midline>Y  +YL  ++   ++ L+    G  +   S R  +E+ T  SN+ I</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>5</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|3177</Hit_id>
+          <Hit_def>@Nostoc_punctiforme_PCC_73102@ gi|186683728|ref|YP_001866924.1| ATP-dependent DNA helicase RecQ [Nostoc punctiforme PCC 73102]</Hit_def>
+          <Hit_accession>3177</Hit_accession>
+          <Hit_len>719</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>23.483</Hsp_bit-score>
+              <Hsp_score>49</Hsp_score>
+              <Hsp_evalue>7.29432</Hsp_evalue>
+              <Hsp_query-from>7</Hsp_query-from>
+              <Hsp_query-to>78</Hsp_query-to>
+              <Hsp_hit-from>203</Hsp_hit-from>
+              <Hsp_hit-to>276</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>19</Hsp_identity>
+              <Hsp_positive>31</Hsp_positive>
+              <Hsp_gaps>2</Hsp_gaps>
+              <Hsp_align-len>74</Hsp_align-len>
+              <Hsp_qseq>ICEHNRSHPYYRFSYLPENIKQFMFTLILTARGSGIKAISARIKLEKFT-QMSNEDIISL-YQESFPGSESNDN</Hsp_qseq>
+              <Hsp_hseq>IASFNRQNLYYEVRSKTKSAYAELLELIRENEGSAIIYCLTRKKVDELTFKLQNDKISALSYHAGLSDEERSSN</Hsp_hseq>
+              <Hsp_midline>I   NR + YY      ++    +  LI    GS I     R K+++ T ++ N+ I +L Y       E + N</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>6689</Statistics_db-num>
+          <Statistics_db-len>2325087</Statistics_db-len>
+          <Statistics_hsp-len>64</Statistics_hsp-len>
+          <Statistics_eff-space>58806721</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

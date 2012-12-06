@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/cyanobacteria/all//Thermosynechococcus_elongatus_BP_1</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Prochlorococcus_sp_CC9311_gnl|BL_ORD_ID|1836 @Prochlorococcus_sp_CC9311@ 638115460 sync_1872 possible Arginine repressor, C-terminal domain [Prochlorococcus sp. CC9311]</BlastOutput_query-def>
+  <BlastOutput_query-len>488</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>Prochlorococcus_sp_CC9311_gnl|BL_ORD_ID|1836 @Prochlorococcus_sp_CC9311@ 638115460 sync_1872 possible Arginine repressor, C-terminal domain [Prochlorococcus sp. CC9311]</Iteration_query-def>
+      <Iteration_query-len>488</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1743</Hit_id>
+          <Hit_def>@Thermosynechococcus_elongatus_BP_1@ 637314373 tlr1744 hypothetical protein [Thermosynechococcus elongatus BP-1]</Hit_def>
+          <Hit_accession>1743</Hit_accession>
+          <Hit_len>141</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>26.5646</Hsp_bit-score>
+              <Hsp_score>57</Hsp_score>
+              <Hsp_evalue>1.3887</Hsp_evalue>
+              <Hsp_query-from>139</Hsp_query-from>
+              <Hsp_query-to>157</Hsp_query-to>
+              <Hsp_hit-from>82</Hsp_hit-from>
+              <Hsp_hit-to>100</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>10</Hsp_identity>
+              <Hsp_positive>15</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>19</Hsp_align-len>
+              <Hsp_qseq>PEGLETWRSQAAESLKSQN</Hsp_qseq>
+              <Hsp_hseq>PDPLETWLNQVGETLKAQS</Hsp_hseq>
+              <Hsp_midline>P+ LETW +Q  E+LK+Q+</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|181</Hit_id>
+          <Hit_def>@Thermosynechococcus_elongatus_BP_1@ 637312787 tll0182 hypothetical protein [Thermosynechococcus elongatus BP-1]</Hit_def>
+          <Hit_accession>181</Hit_accession>
+          <Hit_len>315</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>26.5646</Hsp_bit-score>
+              <Hsp_score>57</Hsp_score>
+              <Hsp_evalue>2.51518</Hsp_evalue>
+              <Hsp_query-from>242</Hsp_query-from>
+              <Hsp_query-to>277</Hsp_query-to>
+              <Hsp_hit-from>154</Hsp_hit-from>
+              <Hsp_hit-to>190</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>14</Hsp_identity>
+              <Hsp_positive>17</Hsp_positive>
+              <Hsp_gaps>1</Hsp_gaps>
+              <Hsp_align-len>37</Hsp_align-len>
+              <Hsp_qseq>WRCQA-RVRTSVASFGLGASTPSSDSNQWNQIPLAVP</Hsp_qseq>
+              <Hsp_hseq>WRSAGGKVTASPASVSMPAAPPKSDETQGGATPGATP</Hsp_hseq>
+              <Hsp_midline>WR    +V  S AS  + A+ P SD  Q    P A P</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1574</Hit_id>
+          <Hit_def>@Thermosynechococcus_elongatus_BP_1@ 637314202 tlr1575 hypothetical protein [Thermosynechococcus elongatus BP-1]</Hit_def>
+          <Hit_accession>1574</Hit_accession>
+          <Hit_len>138</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>25.409</Hsp_bit-score>
+              <Hsp_score>54</Hsp_score>
+              <Hsp_evalue>3.19166</Hsp_evalue>
+              <Hsp_query-from>43</Hsp_query-from>
+              <Hsp_query-to>87</Hsp_query-to>
+              <Hsp_hit-from>84</Hsp_hit-from>
+              <Hsp_hit-to>129</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>18</Hsp_identity>
+              <Hsp_positive>27</Hsp_positive>
+              <Hsp_gaps>5</Hsp_gaps>
+              <Hsp_align-len>48</Hsp_align-len>
+              <Hsp_qseq>RRDFLAELLKDVQHQRLLPLLAMLPR---RWRQEPASLPEQLRGLGNL</Hsp_qseq>
+              <Hsp_hseq>RFDWVISLQQMLQRRRFVAALEMQPVLTPSWRQQPAAMNGQ--GLVNL</Hsp_hseq>
+              <Hsp_midline>R D++  L + +Q +R +  L M P     WRQ+PA++  Q  GL NL</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1261</Hit_id>
+          <Hit_def>@Thermosynechococcus_elongatus_BP_1@ 637313883 tsl1262 hypothetical protein [Thermosynechococcus elongatus BP-1]</Hit_def>
+          <Hit_accession>1261</Hit_accession>
+          <Hit_len>92</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>24.6386</Hsp_bit-score>
+              <Hsp_score>52</Hsp_score>
+              <Hsp_evalue>3.61977</Hsp_evalue>
+              <Hsp_query-from>5</Hsp_query-from>
+              <Hsp_query-to>50</Hsp_query-to>
+              <Hsp_hit-from>3</Hsp_hit-from>
+              <Hsp_hit-to>47</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>17</Hsp_identity>
+              <Hsp_positive>25</Hsp_positive>
+              <Hsp_gaps>1</Hsp_gaps>
+              <Hsp_align-len>46</Hsp_align-len>
+              <Hsp_qseq>LLALNSNWNLSQTDPSTRVPLVSLDEALERSSLKKGISRRDFLAEL</Hsp_qseq>
+              <Hsp_hseq>IIALRA-WYLPQYEPLDQIEQRPHDLRLNKSSLLKTALRADFLDDL</Hsp_hseq>
+              <Hsp_midline>++AL + W L Q +P  ++     D  L +SSL K   R DFL +L</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>5</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|905</Hit_id>
+          <Hit_def>@Thermosynechococcus_elongatus_BP_1@ 637313523 tlr0906 protein involved in low CO2-inducible, high affinity CO2 uptake, CupA homolog [Thermosynechococcus elongatus BP-1]</Hit_def>
+          <Hit_accession>905</Hit_accession>
+          <Hit_len>437</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>24.6386</Hsp_bit-score>
+              <Hsp_score>52</Hsp_score>
+              <Hsp_evalue>9.28101</Hsp_evalue>
+              <Hsp_query-from>396</Hsp_query-from>
+              <Hsp_query-to>432</Hsp_query-to>
+              <Hsp_hit-from>112</Hsp_hit-from>
+              <Hsp_hit-to>148</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>11</Hsp_identity>
+              <Hsp_positive>20</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>37</Hsp_align-len>
+              <Hsp_qseq>LLEYALTGQTNLFPLTLGGLWRERLSAQLNHLLEQNM</Hsp_qseq>
+              <Hsp_hseq>LMEFIEKGETGKMPRLLHHLWHDRINMEFSEDLARAM</Hsp_hseq>
+              <Hsp_midline>L+E+   G+T   P  L  LW +R++ + +  L + M</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>2476</Statistics_db-num>
+          <Statistics_db-len>774534</Statistics_db-len>
+          <Statistics_hsp-len>84</Statistics_hsp-len>
+          <Statistics_eff-space>228886200</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

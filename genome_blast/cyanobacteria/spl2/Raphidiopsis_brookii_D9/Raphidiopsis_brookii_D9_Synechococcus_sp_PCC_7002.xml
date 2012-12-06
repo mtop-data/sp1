@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/cyanobacteria/all/Synechococcus_sp_PCC_7002</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Raphidiopsis_brookii_D9_gnl|BL_ORD_ID|839 647108643 CRD_01208 conserved hypothetical protein Raphidiopsis brookii D</BlastOutput_query-def>
+  <BlastOutput_query-len>64</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>Raphidiopsis_brookii_D9_gnl|BL_ORD_ID|839 647108643 CRD_01208 conserved hypothetical protein Raphidiopsis brookii D</Iteration_query-def>
+      <Iteration_query-len>64</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|2972</Hit_id>
+          <Hit_def>@Synechococcus_sp_PCC_7002@ 641612868 SYNPCC7002_A2859 conserved hypothetical protein (Von Willebrand factor type A domain) [Synechococcus sp. PCC 7002]</Hit_def>
+          <Hit_accession>2972</Hit_accession>
+          <Hit_len>373</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>28.1054</Hsp_bit-score>
+              <Hsp_score>61</Hsp_score>
+              <Hsp_evalue>0.0288598</Hsp_evalue>
+              <Hsp_query-from>6</Hsp_query-from>
+              <Hsp_query-to>28</Hsp_query-to>
+              <Hsp_hit-from>95</Hsp_hit-from>
+              <Hsp_hit-to>117</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>13</Hsp_identity>
+              <Hsp_positive>15</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>23</Hsp_align-len>
+              <Hsp_qseq>FNRQLTQFVGILLGMGVALFILR</Hsp_qseq>
+              <Hsp_hseq>FNRQLTDFTTELDGVSEALFTIR</Hsp_hseq>
+              <Hsp_midline>FNRQLT F   L G+  ALF +R</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|116</Hit_id>
+          <Hit_def>@Synechococcus_sp_PCC_7002@ 641609963 SYNPCC7002_G0117 hypothetical protein [Synechococcus sp. PCC 7002]</Hit_def>
+          <Hit_accession>116</Hit_accession>
+          <Hit_len>829</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>23.8682</Hsp_bit-score>
+              <Hsp_score>50</Hsp_score>
+              <Hsp_evalue>0.745432</Hsp_evalue>
+              <Hsp_query-from>11</Hsp_query-from>
+              <Hsp_query-to>54</Hsp_query-to>
+              <Hsp_hit-from>197</Hsp_hit-from>
+              <Hsp_hit-to>233</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>16</Hsp_identity>
+              <Hsp_positive>23</Hsp_positive>
+              <Hsp_gaps>7</Hsp_gaps>
+              <Hsp_align-len>44</Hsp_align-len>
+              <Hsp_qseq>TQFVGILLGMGVALFILRGLRIITFLPSGIIGLLFLGAIAIGVL</Hsp_qseq>
+              <Hsp_hseq>TLLAGLMVGYLIA-------AICFWFFGGIPQLLFLGAIAIALV</Hsp_hseq>
+              <Hsp_midline>T   G+++G  +A        I  +   GI  LLFLGAIAI ++</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|2540</Hit_id>
+          <Hit_def>@Synechococcus_sp_PCC_7002@ 641612427 SYNPCC7002_A2417 Uncharacterized membrane protein [Synechococcus sp. PCC 7002]</Hit_def>
+          <Hit_accession>2540</Hit_accession>
+          <Hit_len>636</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>23.483</Hsp_bit-score>
+              <Hsp_score>49</Hsp_score>
+              <Hsp_evalue>0.963995</Hsp_evalue>
+              <Hsp_query-from>29</Hsp_query-from>
+              <Hsp_query-to>55</Hsp_query-to>
+              <Hsp_hit-from>54</Hsp_hit-from>
+              <Hsp_hit-to>80</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>11</Hsp_identity>
+              <Hsp_positive>15</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>27</Hsp_align-len>
+              <Hsp_qseq>GLRIITFLPSGIIGLLFLGAIAIGVLS</Hsp_qseq>
+              <Hsp_hseq>GLDCFYFRPLGLTAVYLVGAMPIAVLS</Hsp_hseq>
+              <Hsp_midline>GL    F P G+  +  +GA+ I VLS</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|781</Hit_id>
+          <Hit_def>@Synechococcus_sp_PCC_7002@ 641610640 SYNPCC7002_A0630 Holliday juction resolvase [Synechococcus sp. PCC 7002]</Hit_def>
+          <Hit_accession>781</Hit_accession>
+          <Hit_len>160</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>23.0978</Hsp_bit-score>
+              <Hsp_score>48</Hsp_score>
+              <Hsp_evalue>1.48619</Hsp_evalue>
+              <Hsp_query-from>1</Hsp_query-from>
+              <Hsp_query-to>32</Hsp_query-to>
+              <Hsp_hit-from>68</Hsp_hit-from>
+              <Hsp_hit-to>100</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>13</Hsp_identity>
+              <Hsp_positive>20</Hsp_positive>
+              <Hsp_gaps>1</Hsp_gaps>
+              <Hsp_align-len>33</Hsp_align-len>
+              <Hsp_qseq>MKQSFFNRQLTQFVGILLGMGV-ALFILRGLRI</Hsp_qseq>
+              <Hsp_hseq>IEMPFFSRQIKAAGGVLQGLGILNLVSLRELNI</Hsp_hseq>
+              <Hsp_midline>++  FF+RQ+    G+L G+G+  L  LR L I</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>5</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1798</Hit_id>
+          <Hit_def>@Synechococcus_sp_PCC_7002@ 641611673 SYNPCC7002_A1663 hypothetical protein [Synechococcus sp. PCC 7002]</Hit_def>
+          <Hit_accession>1798</Hit_accession>
+          <Hit_len>258</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>22.3274</Hsp_bit-score>
+              <Hsp_score>46</Hsp_score>
+              <Hsp_evalue>2.88048</Hsp_evalue>
+              <Hsp_query-from>28</Hsp_query-from>
+              <Hsp_query-to>50</Hsp_query-to>
+              <Hsp_hit-from>3</Hsp_hit-from>
+              <Hsp_hit-to>25</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>11</Hsp_identity>
+              <Hsp_positive>14</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>23</Hsp_align-len>
+              <Hsp_qseq>RGLRIITFLPSGIIGLLFLGAIA</Hsp_qseq>
+              <Hsp_hseq>KGLHTRTWLKIGIVGLEILGFAA</Hsp_hseq>
+              <Hsp_midline>+GL   T+L  GI+GL  LG  A</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>3186</Statistics_db-num>
+          <Statistics_db-len>990621</Statistics_db-len>
+          <Statistics_hsp-len>36</Statistics_hsp-len>
+          <Statistics_eff-space>24525900</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

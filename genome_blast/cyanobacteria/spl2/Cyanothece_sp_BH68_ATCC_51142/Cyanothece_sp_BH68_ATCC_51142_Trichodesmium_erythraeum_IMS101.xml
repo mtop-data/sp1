@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/cyanobacteria/all/Trichodesmium_erythraeum_IMS101</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Cyanothece_sp_BH68_ATCC_51142_gnl|BL_ORD_ID|4859 641679280 cce_4771 hypothetical protein Cyanothece sp. BH68, ATCC 5</BlastOutput_query-def>
+  <BlastOutput_query-len>95</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>Cyanothece_sp_BH68_ATCC_51142_gnl|BL_ORD_ID|4859 641679280 cce_4771 hypothetical protein Cyanothece sp. BH68, ATCC 5</Iteration_query-def>
+      <Iteration_query-len>95</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|2257</Hit_id>
+          <Hit_def>@Trichodesmium_erythraeum_IMS101@ gi|113476200|ref|YP_722261.1| unnamed protein product [Trichodesmium erythraeum IMS101]</Hit_def>
+          <Hit_accession>2257</Hit_accession>
+          <Hit_len>2145</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>25.0238</Hsp_bit-score>
+              <Hsp_score>53</Hsp_score>
+              <Hsp_evalue>1.11246</Hsp_evalue>
+              <Hsp_query-from>35</Hsp_query-from>
+              <Hsp_query-to>80</Hsp_query-to>
+              <Hsp_hit-from>1904</Hsp_hit-from>
+              <Hsp_hit-to>1953</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>14</Hsp_identity>
+              <Hsp_positive>27</Hsp_positive>
+              <Hsp_gaps>4</Hsp_gaps>
+              <Hsp_align-len>50</Hsp_align-len>
+              <Hsp_qseq>LTARGSGIKAISARIK--LEKFTQMSNEDIISLYQE--SFPGSESNDNMD</Hsp_qseq>
+              <Hsp_hseq>LETRGTGVDTLEYTVTDGIDQVTANAIVNVLNVTDEADSLPGGEFNDNFD</Hsp_hseq>
+              <Hsp_midline>L  RG+G+  +   +   +++ T  +  +++++  E  S PG E NDN D</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1818</Hit_id>
+          <Hit_def>@Trichodesmium_erythraeum_IMS101@ gi|113475761|ref|YP_721822.1| unnamed protein product [Trichodesmium erythraeum IMS101]</Hit_def>
+          <Hit_accession>1818</Hit_accession>
+          <Hit_len>477</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>23.8682</Hsp_bit-score>
+              <Hsp_score>50</Hsp_score>
+              <Hsp_evalue>3.38869</Hsp_evalue>
+              <Hsp_query-from>32</Hsp_query-from>
+              <Hsp_query-to>67</Hsp_query-to>
+              <Hsp_hit-from>325</Hsp_hit-from>
+              <Hsp_hit-to>358</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>17</Hsp_identity>
+              <Hsp_positive>21</Hsp_positive>
+              <Hsp_gaps>2</Hsp_gaps>
+              <Hsp_align-len>36</Hsp_align-len>
+              <Hsp_qseq>TLILTARGSGIKAISARIKLEKFTQMSNEDIISLYQ</Hsp_qseq>
+              <Hsp_hseq>TLILGSLGASSKAICQRHKL--VNQESWEKLINNYQ</Hsp_hseq>
+              <Hsp_midline>TLIL + G+  KAI  R KL    Q S E +I+ YQ</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|827</Hit_id>
+          <Hit_def>@Trichodesmium_erythraeum_IMS101@ gi|113474770|ref|YP_720831.1| unnamed protein product [Trichodesmium erythraeum IMS101]</Hit_def>
+          <Hit_accession>827</Hit_accession>
+          <Hit_len>1215</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>23.8682</Hsp_bit-score>
+              <Hsp_score>50</Hsp_score>
+              <Hsp_evalue>3.66223</Hsp_evalue>
+              <Hsp_query-from>11</Hsp_query-from>
+              <Hsp_query-to>23</Hsp_query-to>
+              <Hsp_hit-from>1191</Hsp_hit-from>
+              <Hsp_hit-to>1203</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>8</Hsp_identity>
+              <Hsp_positive>10</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>13</Hsp_align-len>
+              <Hsp_qseq>NRSHPYYRFSYLP</Hsp_qseq>
+              <Hsp_hseq>NYSHPYYWASFIP</Hsp_hseq>
+              <Hsp_midline>N SHPYY  S++P</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1444</Hit_id>
+          <Hit_def>@Trichodesmium_erythraeum_IMS101@ gi|113475387|ref|YP_721448.1| unnamed protein product [Trichodesmium erythraeum IMS101]</Hit_def>
+          <Hit_accession>1444</Hit_accession>
+          <Hit_len>229</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>23.483</Hsp_bit-score>
+              <Hsp_score>49</Hsp_score>
+              <Hsp_evalue>4.42592</Hsp_evalue>
+              <Hsp_query-from>77</Hsp_query-from>
+              <Hsp_query-to>91</Hsp_query-to>
+              <Hsp_hit-from>88</Hsp_hit-from>
+              <Hsp_hit-to>106</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>12</Hsp_identity>
+              <Hsp_positive>13</Hsp_positive>
+              <Hsp_gaps>4</Hsp_gaps>
+              <Hsp_align-len>19</Hsp_align-len>
+              <Hsp_qseq>DNMDTKPNNK----GLNHS</Hsp_qseq>
+              <Hsp_hseq>DNRDSKPNNKIVIYGLNES</Hsp_hseq>
+              <Hsp_midline>DN D+KPNNK    GLN S</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>5</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|4339</Hit_id>
+          <Hit_def>@Trichodesmium_erythraeum_IMS101@ gi|113478282|ref|YP_724343.1| unnamed protein product [Trichodesmium erythraeum IMS101]</Hit_def>
+          <Hit_accession>4339</Hit_accession>
+          <Hit_len>521</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>23.0978</Hsp_bit-score>
+              <Hsp_score>48</Hsp_score>
+              <Hsp_evalue>5.75909</Hsp_evalue>
+              <Hsp_query-from>58</Hsp_query-from>
+              <Hsp_query-to>84</Hsp_query-to>
+              <Hsp_hit-from>93</Hsp_hit-from>
+              <Hsp_hit-to>119</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>12</Hsp_identity>
+              <Hsp_positive>16</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>27</Hsp_align-len>
+              <Hsp_qseq>SNEDIISLYQESFPGSESNDNMDTKPN</Hsp_qseq>
+              <Hsp_hseq>SLEDLINLYSSYFSEQCNIDITETKPN</Hsp_hseq>
+              <Hsp_midline>S ED+I+LY   F    + D  +TKPN</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>4451</Statistics_db-num>
+          <Statistics_db-len>1543734</Statistics_db-len>
+          <Statistics_hsp-len>64</Statistics_hsp-len>
+          <Statistics_eff-space>39024970</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

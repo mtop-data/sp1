@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/cyanobacteria/all/Anabaena_sp_PCC_7120</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Raphidiopsis_brookii_D9_gnl|BL_ORD_ID|839 647108643 CRD_01208 conserved hypothetical protein Raphidiopsis brookii D</BlastOutput_query-def>
+  <BlastOutput_query-len>64</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>Raphidiopsis_brookii_D9_gnl|BL_ORD_ID|839 647108643 CRD_01208 conserved hypothetical protein Raphidiopsis brookii D</Iteration_query-def>
+      <Iteration_query-len>64</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|481</Hit_id>
+          <Hit_def>@Anabaena_sp_PCC_7120@ asr0482 unknown protein</Hit_def>
+          <Hit_accession>481</Hit_accession>
+          <Hit_len>64</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>77.0258</Hsp_bit-score>
+              <Hsp_score>188</Hsp_score>
+              <Hsp_evalue>1.03838e-20</Hsp_evalue>
+              <Hsp_query-from>1</Hsp_query-from>
+              <Hsp_query-to>64</Hsp_query-to>
+              <Hsp_hit-from>1</Hsp_hit-from>
+              <Hsp_hit-to>64</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>36</Hsp_identity>
+              <Hsp_positive>51</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>64</Hsp_align-len>
+              <Hsp_qseq>MKQSFFNRQLTQFVGILLGMGVALFILRGLRIITFLPSGIIGLLFLGAIAIGVLSYLQTKWWRF</Hsp_qseq>
+              <Hsp_hseq>MSQSSLNRRLIQLLGVILGIGIAIWLLRGFGILTFIPGGVILLFFLGAIAIGLIAYAQKTWWRF</Hsp_hseq>
+              <Hsp_midline>M QS  NR+L Q +G++LG+G+A+++LRG  I+TF+P G+I L FLGAIAIG+++Y Q  WWRF</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1522</Hit_id>
+          <Hit_def>@Anabaena_sp_PCC_7120@ all1523 unknown protein</Hit_def>
+          <Hit_accession>1522</Hit_accession>
+          <Hit_len>386</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>23.483</Hsp_bit-score>
+              <Hsp_score>49</Hsp_score>
+              <Hsp_evalue>1.9874</Hsp_evalue>
+              <Hsp_query-from>22</Hsp_query-from>
+              <Hsp_query-to>55</Hsp_query-to>
+              <Hsp_hit-from>13</Hsp_hit-from>
+              <Hsp_hit-to>46</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>15</Hsp_identity>
+              <Hsp_positive>20</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>34</Hsp_align-len>
+              <Hsp_qseq>VALFILRGLRIITFLPSGIIGLLFLGAIAIGVLS</Hsp_qseq>
+              <Hsp_hseq>VGLFRKRTSLLITSILLGLIGLPSLGVLDIGNLA</Hsp_hseq>
+              <Hsp_midline>V LF  R   +IT +  G+IGL  LG + IG L+</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|3019</Hit_id>
+          <Hit_def>@Anabaena_sp_PCC_7120@ alr3020 hypothetical protein</Hit_def>
+          <Hit_accession>3019</Hit_accession>
+          <Hit_len>330</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>23.483</Hsp_bit-score>
+              <Hsp_score>49</Hsp_score>
+              <Hsp_evalue>2.26155</Hsp_evalue>
+              <Hsp_query-from>9</Hsp_query-from>
+              <Hsp_query-to>52</Hsp_query-to>
+              <Hsp_hit-from>66</Hsp_hit-from>
+              <Hsp_hit-to>105</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>17</Hsp_identity>
+              <Hsp_positive>26</Hsp_positive>
+              <Hsp_gaps>4</Hsp_gaps>
+              <Hsp_align-len>44</Hsp_align-len>
+              <Hsp_qseq>QLTQFVGILLGMGVALFILRGLRIITFLPSGIIGLLFLGAIAIG</Hsp_qseq>
+              <Hsp_hseq>RLAQGVTILIGLFIALSIV----IPTFRAGDLVQLLGISGVAIG</Hsp_hseq>
+              <Hsp_midline>+L Q V IL+G+ +AL I+    I TF    ++ LL +  +AIG</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|3573</Hit_id>
+          <Hit_def>@Anabaena_sp_PCC_7120@ all3574 ABC transporter, permease protein</Hit_def>
+          <Hit_accession>3573</Hit_accession>
+          <Hit_len>281</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>22.7126</Hsp_bit-score>
+              <Hsp_score>47</Hsp_score>
+              <Hsp_evalue>3.33862</Hsp_evalue>
+              <Hsp_query-from>17</Hsp_query-from>
+              <Hsp_query-to>63</Hsp_query-to>
+              <Hsp_hit-from>42</Hsp_hit-from>
+              <Hsp_hit-to>84</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>17</Hsp_identity>
+              <Hsp_positive>24</Hsp_positive>
+              <Hsp_gaps>4</Hsp_gaps>
+              <Hsp_align-len>47</Hsp_align-len>
+              <Hsp_qseq>LLGMGVALFILRGLRIITFLPSGIIGLLFLGAIAIGVLSYLQTKWWR</Hsp_qseq>
+              <Hsp_hseq>LLGDAISHSVLPGLAIAFMVGANI----FVGAFIAGVLSTIAIAWIR</Hsp_hseq>
+              <Hsp_midline>LLG  ++  +L GL I   + + I    F+GA   GVLS +   W R</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>5</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|6030</Hit_id>
+          <Hit_def>@Anabaena_sp_PCC_7120@ all8088 phosphonate ABC transporter permease</Hit_def>
+          <Hit_accession>6030</Hit_accession>
+          <Hit_len>269</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>22.3274</Hsp_bit-score>
+              <Hsp_score>46</Hsp_score>
+              <Hsp_evalue>4.69266</Hsp_evalue>
+              <Hsp_query-from>18</Hsp_query-from>
+              <Hsp_query-to>55</Hsp_query-to>
+              <Hsp_hit-from>112</Hsp_hit-from>
+              <Hsp_hit-to>146</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>14</Hsp_identity>
+              <Hsp_positive>20</Hsp_positive>
+              <Hsp_gaps>3</Hsp_gaps>
+              <Hsp_align-len>38</Hsp_align-len>
+              <Hsp_qseq>LGMGVALFILRGLRIITFLPSGIIGLLFLGAIAIGVLS</Hsp_qseq>
+              <Hsp_hseq>LAFQVARLILNGLRSV---PELIMGIILVAAVGFGALP</Hsp_hseq>
+              <Hsp_midline>L   VA  IL GLR +   P  I+G++ + A+  G L </Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>6135</Statistics_db-num>
+          <Statistics_db-len>1970763</Statistics_db-len>
+          <Statistics_hsp-len>36</Statistics_hsp-len>
+          <Statistics_eff-space>48997284</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

@@ -1,0 +1,97 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/cyanobacteria/all/Prochlorococcus_marinus_MIT_9303</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Cyanothece_sp_BH68_ATCC_51142_gnl|BL_ORD_ID|4859 641679280 cce_4771 hypothetical protein Cyanothece sp. BH68, ATCC 5</BlastOutput_query-def>
+  <BlastOutput_query-len>95</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>Cyanothece_sp_BH68_ATCC_51142_gnl|BL_ORD_ID|4859 641679280 cce_4771 hypothetical protein Cyanothece sp. BH68, ATCC 5</Iteration_query-def>
+      <Iteration_query-len>95</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1728</Hit_id>
+          <Hit_def>@Prochlorococcus_marinus_MIT_9303@ 640087250 P9303_17431 hypothetical protein [Prochlorococcus marinus MIT 9303]</Hit_def>
+          <Hit_accession>1728</Hit_accession>
+          <Hit_len>189</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>23.0978</Hsp_bit-score>
+              <Hsp_score>48</Hsp_score>
+              <Hsp_evalue>2.28761</Hsp_evalue>
+              <Hsp_query-from>16</Hsp_query-from>
+              <Hsp_query-to>77</Hsp_query-to>
+              <Hsp_hit-from>57</Hsp_hit-from>
+              <Hsp_hit-to>120</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>17</Hsp_identity>
+              <Hsp_positive>30</Hsp_positive>
+              <Hsp_gaps>2</Hsp_gaps>
+              <Hsp_align-len>64</Hsp_align-len>
+              <Hsp_qseq>YYRFSYLPENIKQFMFTLIL--TARGSGIKAISARIKLEKFTQMSNEDIISLYQESFPGSESND</Hsp_qseq>
+              <Hsp_hseq>YGQATNLPEALREKRTSVIVFYLDDSAVSKAFSPVVSTIKLIWRDSIDLIPLTTDEFQGRTSND</Hsp_hseq>
+              <Hsp_midline>Y + + LPE +++   ++I+      +  KA S  +   K     + D+I L  + F G  SND</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|2932</Hit_id>
+          <Hit_def>@Prochlorococcus_marinus_MIT_9303@ 640088483 P9303_29591 possible organic radical activating enzyme [Prochlorococcus marinus MIT 9303]</Hit_def>
+          <Hit_accession>2932</Hit_accession>
+          <Hit_len>226</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>23.0978</Hsp_bit-score>
+              <Hsp_score>48</Hsp_score>
+              <Hsp_evalue>2.99523</Hsp_evalue>
+              <Hsp_query-from>9</Hsp_query-from>
+              <Hsp_query-to>20</Hsp_query-to>
+              <Hsp_hit-from>205</Hsp_hit-from>
+              <Hsp_hit-to>216</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>7</Hsp_identity>
+              <Hsp_positive>10</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>12</Hsp_align-len>
+              <Hsp_qseq>EHNRSHPYYRFS</Hsp_qseq>
+              <Hsp_hseq>EHVQSHPHWRLS</Hsp_hseq>
+              <Hsp_midline>EH +SHP++R S</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>3075</Statistics_db-num>
+          <Statistics_db-len>761004</Statistics_db-len>
+          <Statistics_hsp-len>62</Statistics_hsp-len>
+          <Statistics_eff-space>18821682</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/cyanobacteria/all/Cyanothece_sp_CCY_0110</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Raphidiopsis_brookii_D9_gnl|BL_ORD_ID|839 647108643 CRD_01208 conserved hypothetical protein Raphidiopsis brookii D</BlastOutput_query-def>
+  <BlastOutput_query-len>64</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>Raphidiopsis_brookii_D9_gnl|BL_ORD_ID|839 647108643 CRD_01208 conserved hypothetical protein Raphidiopsis brookii D</Iteration_query-def>
+      <Iteration_query-len>64</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1580</Hit_id>
+          <Hit_def>@Cyanothece_sp_CCY_0110@ 640625234 CY0110_22557 hypothetical protein [Cyanothece sp. CCY 0110]</Hit_def>
+          <Hit_accession>1580</Hit_accession>
+          <Hit_len>46</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>22.7126</Hsp_bit-score>
+              <Hsp_score>47</Hsp_score>
+              <Hsp_evalue>1.33745</Hsp_evalue>
+              <Hsp_query-from>25</Hsp_query-from>
+              <Hsp_query-to>53</Hsp_query-to>
+              <Hsp_hit-from>8</Hsp_hit-from>
+              <Hsp_hit-to>36</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>13</Hsp_identity>
+              <Hsp_positive>20</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>29</Hsp_align-len>
+              <Hsp_qseq>FILRGLRIITFLPSGIIGLLFLGAIAIGV</Hsp_qseq>
+              <Hsp_hseq>YILRGLGILGFIPGSVILLLMTISIFLGI</Hsp_hseq>
+              <Hsp_midline>+ILRGL I+ F+P  +I LL   +I +G+</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|113</Hit_id>
+          <Hit_def>@Cyanothece_sp_CCY_0110@ 640623758 CY0110_10167 hypothetical protein [Cyanothece sp. CCY 0110]</Hit_def>
+          <Hit_accession>113</Hit_accession>
+          <Hit_len>443</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>23.483</Hsp_bit-score>
+              <Hsp_score>49</Hsp_score>
+              <Hsp_evalue>1.74071</Hsp_evalue>
+              <Hsp_query-from>2</Hsp_query-from>
+              <Hsp_query-to>62</Hsp_query-to>
+              <Hsp_hit-from>371</Hsp_hit-from>
+              <Hsp_hit-to>427</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>19</Hsp_identity>
+              <Hsp_positive>28</Hsp_positive>
+              <Hsp_gaps>4</Hsp_gaps>
+              <Hsp_align-len>61</Hsp_align-len>
+              <Hsp_qseq>KQSFFNRQLTQFVGILLGMGVALFILRGLRIITFLPSGIIGLLFLGAIAIGVLSYLQTKWW</Hsp_qseq>
+              <Hsp_hseq>RNALNNVKKLQFILLIL----AIFSLIGCSIMPDEFRQQWGLLLGGFIVIELGIYSWLKWW</Hsp_hseq>
+              <Hsp_midline>+ +  N +  QF+ ++L    A+F L G  I+        GLL  G I I +  Y   KWW</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1793</Hit_id>
+          <Hit_def>@Cyanothece_sp_CCY_0110@ 640625447 CY0110_24181 hypothetical protein [Cyanothece sp. CCY 0110]</Hit_def>
+          <Hit_accession>1793</Hit_accession>
+          <Hit_len>291</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>23.0978</Hsp_bit-score>
+              <Hsp_score>48</Hsp_score>
+              <Hsp_evalue>2.6579</Hsp_evalue>
+              <Hsp_query-from>16</Hsp_query-from>
+              <Hsp_query-to>45</Hsp_query-to>
+              <Hsp_hit-from>39</Hsp_hit-from>
+              <Hsp_hit-to>68</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>10</Hsp_identity>
+              <Hsp_positive>20</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>30</Hsp_align-len>
+              <Hsp_qseq>ILLGMGVALFILRGLRIITFLPSGIIGLLF</Hsp_qseq>
+              <Hsp_hseq>ITIDLGISIFYLFPIALVTWYGSRKIGLIF</Hsp_hseq>
+              <Hsp_midline>I + +G+++F L  + ++T+  S  IGL+F</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1614</Hit_id>
+          <Hit_def>@Cyanothece_sp_CCY_0110@ 640625268 CY0110_22727 serine protease; HtrA [Cyanothece sp. CCY 0110]</Hit_def>
+          <Hit_accession>1614</Hit_accession>
+          <Hit_len>414</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>22.3274</Hsp_bit-score>
+              <Hsp_score>46</Hsp_score>
+              <Hsp_evalue>4.59565</Hsp_evalue>
+              <Hsp_query-from>3</Hsp_query-from>
+              <Hsp_query-to>24</Hsp_query-to>
+              <Hsp_hit-from>20</Hsp_hit-from>
+              <Hsp_hit-to>41</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>10</Hsp_identity>
+              <Hsp_positive>13</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>22</Hsp_align-len>
+              <Hsp_qseq>QSFFNRQLTQFVGILLGMGVAL</Hsp_qseq>
+              <Hsp_hseq>RSILQKPLTYISMILLGMGVGI</Hsp_hseq>
+              <Hsp_midline>+S   + LT    ILLGMGV +</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>5</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|3329</Hit_id>
+          <Hit_def>@Cyanothece_sp_CCY_0110@ 640626995 CY0110_27580 putative mechanosensitive ion channel, MscS family protein [Cyanothece sp. CCY 0110]</Hit_def>
+          <Hit_accession>3329</Hit_accession>
+          <Hit_len>687</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>21.9422</Hsp_bit-score>
+              <Hsp_score>45</Hsp_score>
+              <Hsp_evalue>5.62729</Hsp_evalue>
+              <Hsp_query-from>8</Hsp_query-from>
+              <Hsp_query-to>55</Hsp_query-to>
+              <Hsp_hit-from>458</Hsp_hit-from>
+              <Hsp_hit-to>498</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>13</Hsp_identity>
+              <Hsp_positive>27</Hsp_positive>
+              <Hsp_gaps>7</Hsp_gaps>
+              <Hsp_align-len>48</Hsp_align-len>
+              <Hsp_qseq>RQLTQFVGILLGMGVALFILRGLRIITFLPSGIIGLLFLGAIAIGVLS</Hsp_qseq>
+              <Hsp_hseq>KQATSFISIVLGIYLTIWLV-GIDTTVLAGAGIV------AVAVAFLS</Hsp_hseq>
+              <Hsp_midline>+Q T F+ I+LG+ + ++++ G+       +GI+      A+A+  LS</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>6475</Statistics_db-num>
+          <Statistics_db-len>1678994</Statistics_db-len>
+          <Statistics_hsp-len>35</Statistics_hsp-len>
+          <Statistics_eff-space>42118701</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

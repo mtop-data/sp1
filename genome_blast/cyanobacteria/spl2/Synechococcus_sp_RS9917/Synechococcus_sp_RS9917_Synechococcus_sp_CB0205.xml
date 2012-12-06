@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/cyanobacteria/all/Synechococcus_sp_CB0205</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Synechococcus_sp_RS9917_gnl|BL_ORD_ID|2449 638963634 RS9917_01901 hypothetical protein Synechococcus sp. RS9917</BlastOutput_query-def>
+  <BlastOutput_query-len>131</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>Synechococcus_sp_RS9917_gnl|BL_ORD_ID|2449 638963634 RS9917_01901 hypothetical protein Synechococcus sp. RS9917</Iteration_query-def>
+      <Iteration_query-len>131</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1216</Hit_id>
+          <Hit_def>@Synechococcus_sp_CB0205@ 650131852 SCB02_010100006232 hypothetical protein [Synechococcus sp. CB0205]</Hit_def>
+          <Hit_accession>1216</Hit_accession>
+          <Hit_len>143</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>164.851</Hsp_bit-score>
+              <Hsp_score>416</Hsp_score>
+              <Hsp_evalue>2.43018e-53</Hsp_evalue>
+              <Hsp_query-from>4</Hsp_query-from>
+              <Hsp_query-to>130</Hsp_query-to>
+              <Hsp_hit-from>16</Hsp_hit-from>
+              <Hsp_hit-to>141</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>83</Hsp_identity>
+              <Hsp_positive>99</Hsp_positive>
+              <Hsp_gaps>1</Hsp_gaps>
+              <Hsp_align-len>127</Hsp_align-len>
+              <Hsp_qseq>MVLCSSPAQARFAAFAEPEGGDDVAVIEHLKLKVPEAARQAWLEAERGSWEPWLSRQQGFLGRDLLWNPETEEGTLLIRWHSREAWKAIPLQEVEAVQQRFEQLAREATGQRLGNPFPLLYAGELLP</Hsp_qseq>
+              <Hsp_hseq>MLLAGHPDVA-IATNAKPGGQLEVVVVEHLRIKVPADGRAAWLQAEQGSWEPWLEQQDGYLGRDLLWDSEREEGTLLIRWASREQWKAIPETEVEAVQERFEQLARESTGQGQGNPFPLVFEGELIP</Hsp_hseq>
+              <Hsp_midline>M+L   P  A  A  A+P G  +V V+EHL++KVP   R AWL+AE+GSWEPWL +Q G+LGRDLLW+ E EEGTLLIRW SRE WKAIP  EVEAVQ+RFEQLARE+TGQ  GNPFPL++ GEL+P</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|2103</Hit_id>
+          <Hit_def>@Synechococcus_sp_CB0205@ 650132746 SCB02_010100010711 1-deoxy-D-xylulose-5-phosphate synthase [Synechococcus sp. CB0205]</Hit_def>
+          <Hit_accession>2103</Hit_accession>
+          <Hit_len>635</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>28.1054</Hsp_bit-score>
+              <Hsp_score>61</Hsp_score>
+              <Hsp_evalue>0.115649</Hsp_evalue>
+              <Hsp_query-from>85</Hsp_query-from>
+              <Hsp_query-to>113</Hsp_query-to>
+              <Hsp_hit-from>606</Hsp_hit-from>
+              <Hsp_hit-to>634</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>12</Hsp_identity>
+              <Hsp_positive>17</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>29</Hsp_align-len>
+              <Hsp_qseq>SREAWKAIPLQEVEAVQQRFEQLAREATG</Hsp_qseq>
+              <Hsp_hseq>SKEALGLTPVQMTESILDRFGTLKRQAVG</Hsp_hseq>
+              <Hsp_midline>S+EA    P+Q  E++  RF  L R+A G</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|28</Hit_id>
+          <Hit_def>@Synechococcus_sp_CB0205@ 650130639 SCB02_010100000157 hypothetical protein [Synechococcus sp. CB0205]</Hit_def>
+          <Hit_accession>28</Hit_accession>
+          <Hit_len>131</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>26.1794</Hsp_bit-score>
+              <Hsp_score>56</Hsp_score>
+              <Hsp_evalue>0.290631</Hsp_evalue>
+              <Hsp_query-from>45</Hsp_query-from>
+              <Hsp_query-to>73</Hsp_query-to>
+              <Hsp_hit-from>97</Hsp_hit-from>
+              <Hsp_hit-to>125</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>13</Hsp_identity>
+              <Hsp_positive>14</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>29</Hsp_align-len>
+              <Hsp_qseq>WLEAERGSWEPWLSRQQGFLGRDLLWNPE</Hsp_qseq>
+              <Hsp_hseq>WQPSAAGGGEFWLQRQDGGLQRRFLWGPS</Hsp_hseq>
+              <Hsp_midline>W  +  G  E WL RQ G L R  LW P </Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1019</Hit_id>
+          <Hit_def>@Synechococcus_sp_CB0205@ 650131652 SCB02_010100005211 hypothetical protein [Synechococcus sp. CB0205]</Hit_def>
+          <Hit_accession>1019</Hit_accession>
+          <Hit_len>166</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>23.0978</Hsp_bit-score>
+              <Hsp_score>48</Hsp_score>
+              <Hsp_evalue>3.50856</Hsp_evalue>
+              <Hsp_query-from>24</Hsp_query-from>
+              <Hsp_query-to>79</Hsp_query-to>
+              <Hsp_hit-from>93</Hsp_hit-from>
+              <Hsp_hit-to>148</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>14</Hsp_identity>
+              <Hsp_positive>25</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>56</Hsp_align-len>
+              <Hsp_qseq>GDDVAVIEHLKLKVPEAARQAWLEAERGSWEPWLSRQQGFLGRDLLWNPETEEGTL</Hsp_qseq>
+              <Hsp_hseq>GDEMALQRSLSDYKPTAMKEAEAQSGRARQQPWLGQDTPVMQCELSARPSRRAADL</Hsp_hseq>
+              <Hsp_midline>GD++A+   L    P A ++A  ++ R   +PWL +    +  +L   P      L</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>5</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1334</Hit_id>
+          <Hit_def>@Synechococcus_sp_CB0205@ 650131972 SCB02_010100006836 RND family multidrug efflux protein [Synechococcus sp. CB0205]</Hit_def>
+          <Hit_accession>1334</Hit_accession>
+          <Hit_len>1027</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>23.0978</Hsp_bit-score>
+              <Hsp_score>48</Hsp_score>
+              <Hsp_evalue>4.77805</Hsp_evalue>
+              <Hsp_query-from>90</Hsp_query-from>
+              <Hsp_query-to>126</Hsp_query-to>
+              <Hsp_hit-from>564</Hsp_hit-from>
+              <Hsp_hit-to>596</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>14</Hsp_identity>
+              <Hsp_positive>19</Hsp_positive>
+              <Hsp_gaps>4</Hsp_gaps>
+              <Hsp_align-len>37</Hsp_align-len>
+              <Hsp_qseq>KAIPLQEVEAVQQRFEQLAREATGQRLGNPFPLLYAG</Hsp_qseq>
+              <Hsp_hseq>EGLSLQRTEAVMQQVQELAEADPAIRTGN----FYAG</Hsp_hseq>
+              <Hsp_midline>+ + LQ  EAV Q+ ++LA      R GN     YAG</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>2719</Statistics_db-num>
+          <Statistics_db-len>709477</Statistics_db-len>
+          <Statistics_hsp-len>70</Statistics_hsp-len>
+          <Statistics_eff-space>31667967</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

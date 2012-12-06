@@ -1,0 +1,181 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/cyanobacteria/all//Cyanothece_PCC_7822</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Prochlorococcus_sp_CC9311_gnl|BL_ORD_ID|1836 @Prochlorococcus_sp_CC9311@ 638115460 sync_1872 possible Arginine repressor, C-terminal domain [Prochlorococcus sp. CC9311]</BlastOutput_query-def>
+  <BlastOutput_query-len>488</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>Prochlorococcus_sp_CC9311_gnl|BL_ORD_ID|1836 @Prochlorococcus_sp_CC9311@ 638115460 sync_1872 possible Arginine repressor, C-terminal domain [Prochlorococcus sp. CC9311]</Iteration_query-def>
+      <Iteration_query-len>488</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|2967</Hit_id>
+          <Hit_def>@Cyanothece_PCC_7822@ gi|307152913|ref|YP_003888297.1| multi-sensor hybrid histidine kinase [Cyanothece sp. PCC 7822]</Hit_def>
+          <Hit_accession>2967</Hit_accession>
+          <Hit_len>1613</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>28.8758</Hsp_bit-score>
+              <Hsp_score>63</Hsp_score>
+              <Hsp_evalue>1.56454</Hsp_evalue>
+              <Hsp_query-from>124</Hsp_query-from>
+              <Hsp_query-to>210</Hsp_query-to>
+              <Hsp_hit-from>706</Hsp_hit-from>
+              <Hsp_hit-to>815</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>26</Hsp_identity>
+              <Hsp_positive>43</Hsp_positive>
+              <Hsp_gaps>23</Hsp_gaps>
+              <Hsp_align-len>110</Hsp_align-len>
+              <Hsp_qseq>CQRTYNNPGSQQWPL-PEG-----LETWRSQAAESLKSQNERLKPKGR---------------SGLTGLTSLGGEIAWSNHGLSYLQSAEARHR--NQQMAQVFNVLGSN</Hsp_qseq>
+              <Hsp_hseq>CQSLYDNPGTWFDALHPDDRQNVEMAIARQQQGEPFQEEYRIIRPDGEVRWILSRAFPIYNDLGQLQHYVGLAADLTERKQAEAALQQSEAKFRELTESIAQVFYLMGKN</Hsp_hseq>
+              <Hsp_midline>CQ  Y+NPG+    L P+      +   R Q  E  + +   ++P G                  L     L  ++       + LQ +EA+ R   + +AQVF ++G N</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|5802</Hit_id>
+          <Hit_def>@Cyanothece_PCC_7822@ gi|307592035|ref|YP_003899626.1| hemolysin-type calcium-binding region [Cyanothece sp. PCC 7822]</Hit_def>
+          <Hit_accession>5802</Hit_accession>
+          <Hit_len>1744</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>28.4906</Hsp_bit-score>
+              <Hsp_score>62</Hsp_score>
+              <Hsp_evalue>1.91188</Hsp_evalue>
+              <Hsp_query-from>12</Hsp_query-from>
+              <Hsp_query-to>82</Hsp_query-to>
+              <Hsp_hit-from>462</Hsp_hit-from>
+              <Hsp_hit-to>537</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>21</Hsp_identity>
+              <Hsp_positive>34</Hsp_positive>
+              <Hsp_gaps>13</Hsp_gaps>
+              <Hsp_align-len>80</Hsp_align-len>
+              <Hsp_qseq>WNLSQTDPSTRVPLVSLDEALERSSLKKGISRRDFLAELLKDVQ------HQRLLPLLAMLP---RRWRQEPASLPEQLR</Hsp_qseq>
+              <Hsp_hseq>WQYDSSNPATPAPSVSFDNV----TLDTGSLVEDFAGGILKPIQDILKPIQSVLNPFITPLPVIDKSFLELSPNIPEETR</Hsp_hseq>
+              <Hsp_midline>W    ++P+T  P VS D      +L  G    DF   +LK +Q         L P +  LP   + + +   ++PE+ R</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|6311</Hit_id>
+          <Hit_def>@Cyanothece_PCC_7822@ gi|307591336|ref|YP_003900135.1| LuxR family transcriptional regulator [Cyanothece sp. PCC 7822]</Hit_def>
+          <Hit_accession>6311</Hit_accession>
+          <Hit_len>155</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>26.9498</Hsp_bit-score>
+              <Hsp_score>58</Hsp_score>
+              <Hsp_evalue>3.26517</Hsp_evalue>
+              <Hsp_query-from>432</Hsp_query-from>
+              <Hsp_query-to>488</Hsp_query-to>
+              <Hsp_hit-from>50</Hsp_hit-from>
+              <Hsp_hit-to>114</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>22</Hsp_identity>
+              <Hsp_positive>28</Hsp_positive>
+              <Hsp_gaps>8</Hsp_gaps>
+              <Hsp_align-len>65</Hsp_align-len>
+              <Hsp_qseq>MRPNDDAVDRYK----RAIEDMPQD----LYHTSVTRTDARRRLLASQPSYSPFLLIQDLNLQKS</Hsp_qseq>
+              <Hsp_hseq>MHANDLEELAYKFCSLRFIEEFPSDNLAQYYSTSFTETEQKILRLICQGIYKPRLIANCINCKIS</Hsp_hseq>
+              <Hsp_midline>M  ND     YK    R IE+ P D     Y TS T T+ +   L  Q  Y P L+   +N + S</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|3028</Hit_id>
+          <Hit_def>@Cyanothece_PCC_7822@ gi|307152974|ref|YP_003888358.1| phosphoribosylaminoimidazole carboxylase catalytic subunit [Cyanothece sp. PCC 7822]</Hit_def>
+          <Hit_accession>3028</Hit_accession>
+          <Hit_len>181</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>26.9498</Hsp_bit-score>
+              <Hsp_score>58</Hsp_score>
+              <Hsp_evalue>4.33941</Hsp_evalue>
+              <Hsp_query-from>72</Hsp_query-from>
+              <Hsp_query-to>136</Hsp_query-to>
+              <Hsp_hit-from>114</Hsp_hit-from>
+              <Hsp_hit-to>177</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>22</Hsp_identity>
+              <Hsp_positive>30</Hsp_positive>
+              <Hsp_gaps>3</Hsp_gaps>
+              <Hsp_align-len>66</Hsp_align-len>
+              <Hsp_qseq>QEPASLPEQLRGLGNLLGEGLMSPLLLAAFADDLQHLLPQ-RTNPRRSALDLWCQRTYNNPGSQQW</Hsp_qseq>
+              <Hsp_hseq>QMPGGIPVATVAIGNAKNAGLLAVQILATHNPDLQVKVQQYRENLSQSVLD--KQSKLEQLGYQQY</Hsp_hseq>
+              <Hsp_midline>Q P  +P     +GN    GL++  +LA    DLQ  + Q R N  +S LD   Q      G QQ+</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>5</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|429</Hit_id>
+          <Hit_def>@Cyanothece_PCC_7822@ gi|307150375|ref|YP_003885759.1| peptidase M48 Ste24p [Cyanothece sp. PCC 7822]</Hit_def>
+          <Hit_accession>429</Hit_accession>
+          <Hit_len>341</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>26.5646</Hsp_bit-score>
+              <Hsp_score>57</Hsp_score>
+              <Hsp_evalue>6.18553</Hsp_evalue>
+              <Hsp_query-from>430</Hsp_query-from>
+              <Hsp_query-to>454</Hsp_query-to>
+              <Hsp_hit-from>34</Hsp_hit-from>
+              <Hsp_hit-to>58</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>9</Hsp_identity>
+              <Hsp_positive>16</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>25</Hsp_align-len>
+              <Hsp_qseq>QNMRPNDDAVDRYKRAIEDMPQDLY</Hsp_qseq>
+              <Hsp_hseq>QNQKPQSTTETIYEKAKQELPQDVY</Hsp_hseq>
+              <Hsp_midline>QN +P       Y++A +++PQD+Y</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>6642</Statistics_db-num>
+          <Statistics_db-len>2154807</Statistics_db-len>
+          <Statistics_hsp-len>91</Statistics_hsp-len>
+          <Statistics_eff-space>615502845</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

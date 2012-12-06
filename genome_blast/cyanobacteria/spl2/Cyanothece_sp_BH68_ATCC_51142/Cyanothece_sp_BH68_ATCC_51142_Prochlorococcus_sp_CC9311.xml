@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/cyanobacteria/all/Prochlorococcus_sp_CC9311</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Cyanothece_sp_BH68_ATCC_51142_gnl|BL_ORD_ID|4859 641679280 cce_4771 hypothetical protein Cyanothece sp. BH68, ATCC 5</BlastOutput_query-def>
+  <BlastOutput_query-len>95</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>Cyanothece_sp_BH68_ATCC_51142_gnl|BL_ORD_ID|4859 641679280 cce_4771 hypothetical protein Cyanothece sp. BH68, ATCC 5</Iteration_query-def>
+      <Iteration_query-len>95</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|588</Hit_id>
+          <Hit_def>@Prochlorococcus_sp_CC9311@ 638114199 sync_0610 hypothetical protein [Prochlorococcus sp. CC9311]</Hit_def>
+          <Hit_accession>588</Hit_accession>
+          <Hit_len>178</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>29.261</Hsp_bit-score>
+              <Hsp_score>64</Hsp_score>
+              <Hsp_evalue>0.0142243</Hsp_evalue>
+              <Hsp_query-from>32</Hsp_query-from>
+              <Hsp_query-to>76</Hsp_query-to>
+              <Hsp_hit-from>66</Hsp_hit-from>
+              <Hsp_hit-to>110</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>14</Hsp_identity>
+              <Hsp_positive>25</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>45</Hsp_align-len>
+              <Hsp_qseq>TLILTARGSGIKAISARIKLEKFTQMSNEDIISLYQESFPGSESN</Hsp_qseq>
+              <Hsp_hseq>TMSMTMSGQGMEGTTSELMLQSMEQMRSEDMAVMEQLSMGVSEEN</Hsp_hseq>
+              <Hsp_midline>T+ +T  G G++  ++ + L+   QM +ED+  + Q S   SE N</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1487</Hit_id>
+          <Hit_def>@Prochlorococcus_sp_CC9311@ 638115110 sync_1522 oxidoreductase alpha (molybdopterin) subunit [Prochlorococcus sp. CC9311]</Hit_def>
+          <Hit_accession>1487</Hit_accession>
+          <Hit_len>755</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>23.0978</Hsp_bit-score>
+              <Hsp_score>48</Hsp_score>
+              <Hsp_evalue>3.26322</Hsp_evalue>
+              <Hsp_query-from>20</Hsp_query-from>
+              <Hsp_query-to>75</Hsp_query-to>
+              <Hsp_hit-from>221</Hsp_hit-from>
+              <Hsp_hit-to>287</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>21</Hsp_identity>
+              <Hsp_positive>32</Hsp_positive>
+              <Hsp_gaps>11</Hsp_gaps>
+              <Hsp_align-len>67</Hsp_align-len>
+              <Hsp_qseq>SYLPENIKQFMFTLI-LTARGSGIKAISARIK--LEKF--------TQMSNEDIISLYQESFPGSES</Hsp_qseq>
+              <Hsp_hseq>SNAPANHPRLMNELIRLRERGGTVVVINPVIEGGLLKFGSPAFPIRSLLLSSEIASLYLQPIPGSDT</Hsp_hseq>
+              <Hsp_midline>S  P N  + M  LI L  RG  +  I+  I+  L KF        + + + +I SLY +  PGS++</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1069</Hit_id>
+          <Hit_def>@Prochlorococcus_sp_CC9311@ 638114686 sync_1097 hypothetical protein [Prochlorococcus sp. CC9311]</Hit_def>
+          <Hit_accession>1069</Hit_accession>
+          <Hit_len>182</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>22.7126</Hsp_bit-score>
+              <Hsp_score>47</Hsp_score>
+              <Hsp_evalue>3.78697</Hsp_evalue>
+              <Hsp_query-from>71</Hsp_query-from>
+              <Hsp_query-to>93</Hsp_query-to>
+              <Hsp_hit-from>160</Hsp_hit-from>
+              <Hsp_hit-to>182</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>10</Hsp_identity>
+              <Hsp_positive>11</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>23</Hsp_align-len>
+              <Hsp_qseq>PGSESNDNMDTKPNNKGLNHSFF</Hsp_qseq>
+              <Hsp_hseq>PGKESNTPAKTAPSKPSLNIKLF</Hsp_hseq>
+              <Hsp_midline>PG ESN    T P+   LN   F</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|202</Hit_id>
+          <Hit_def>@Prochlorococcus_sp_CC9311@ 638113795 sync_0206 transporter, monovalent cation:proton antiporter-2 (CPA2) family protein [Prochlorococcus sp. CC9311]</Hit_def>
+          <Hit_accession>202</Hit_accession>
+          <Hit_len>468</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>22.3274</Hsp_bit-score>
+              <Hsp_score>46</Hsp_score>
+              <Hsp_evalue>4.51506</Hsp_evalue>
+              <Hsp_query-from>60</Hsp_query-from>
+              <Hsp_query-to>75</Hsp_query-to>
+              <Hsp_hit-from>104</Hsp_hit-from>
+              <Hsp_hit-to>119</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>8</Hsp_identity>
+              <Hsp_positive>10</Hsp_positive>
+              <Hsp_gaps>0</Hsp_gaps>
+              <Hsp_align-len>16</Hsp_align-len>
+              <Hsp_qseq>EDIISLYQESFPGSES</Hsp_qseq>
+              <Hsp_hseq>ESVTDLYNESFPALEA</Hsp_hseq>
+              <Hsp_midline>E +  LY ESFP  E+</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>2893</Statistics_db-num>
+          <Statistics_db-len>754454</Statistics_db-len>
+          <Statistics_hsp-len>62</Statistics_hsp-len>
+          <Statistics_eff-space>18977904</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>

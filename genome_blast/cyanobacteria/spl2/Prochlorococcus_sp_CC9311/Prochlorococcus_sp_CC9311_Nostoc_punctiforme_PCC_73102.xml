@@ -1,0 +1,153 @@
+<?xml version="1.0"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastp</BlastOutput_program>
+  <BlastOutput_version>BLASTP 2.2.26+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>/home/mt258/db/cyanobacteria/all//Nostoc_punctiforme_PCC_73102</BlastOutput_db>
+  <BlastOutput_query-ID>Query_1</BlastOutput_query-ID>
+  <BlastOutput_query-def>Prochlorococcus_sp_CC9311_gnl|BL_ORD_ID|1836 @Prochlorococcus_sp_CC9311@ 638115460 sync_1872 possible Arginine repressor, C-terminal domain [Prochlorococcus sp. CC9311]</BlastOutput_query-def>
+  <BlastOutput_query-len>488</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_matrix>BLOSUM62</Parameters_matrix>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_gap-open>11</Parameters_gap-open>
+      <Parameters_gap-extend>1</Parameters_gap-extend>
+      <Parameters_filter>F</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+  <BlastOutput_iterations>
+    <Iteration>
+      <Iteration_iter-num>1</Iteration_iter-num>
+      <Iteration_query-ID>Query_1</Iteration_query-ID>
+      <Iteration_query-def>Prochlorococcus_sp_CC9311_gnl|BL_ORD_ID|1836 @Prochlorococcus_sp_CC9311@ 638115460 sync_1872 possible Arginine repressor, C-terminal domain [Prochlorococcus sp. CC9311]</Iteration_query-def>
+      <Iteration_query-len>488</Iteration_query-len>
+      <Iteration_hits>
+        <Hit>
+          <Hit_num>1</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|5914</Hit_id>
+          <Hit_def>@Nostoc_punctiforme_PCC_73102@ gi|186686466|ref|YP_001869662.1| hypothetical protein Npun_F6451 [Nostoc punctiforme PCC 73102]</Hit_def>
+          <Hit_accession>5914</Hit_accession>
+          <Hit_len>606</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>28.4906</Hsp_bit-score>
+              <Hsp_score>62</Hsp_score>
+              <Hsp_evalue>1.89058</Hsp_evalue>
+              <Hsp_query-from>70</Hsp_query-from>
+              <Hsp_query-to>176</Hsp_query-to>
+              <Hsp_hit-from>427</Hsp_hit-from>
+              <Hsp_hit-to>527</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>33</Hsp_identity>
+              <Hsp_positive>48</Hsp_positive>
+              <Hsp_gaps>16</Hsp_gaps>
+              <Hsp_align-len>112</Hsp_align-len>
+              <Hsp_qseq>WRQEPASLPEQLRGLGNLLGEGLMSPLLLAAFADDLQHLLPQRTNPRRSALDLWCQRT---YNNPGSQQWPLPEGLETWRSQAA--ESLKSQNERLKPKGRSGLTGLTSLGG</Hsp_qseq>
+              <Hsp_hseq>WGAISQILVKSLQGLGDF-----TLNFIMGAVEGNFKEL-GNAFNRVKDAVMTWANDTLKVFNKPGE----LLENLKT-RPLAAIGDTLKSVGGRLNPLGDNGVVGALKNGG</Hsp_hseq>
+              <Hsp_midline>W      L + L+GLG+          ++ A   + + L     N  + A+  W   T   +N PG     L E L+T R  AA  ++LKS   RL P G +G+ G    GG</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>2</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|1981</Hit_id>
+          <Hit_def>@Nostoc_punctiforme_PCC_73102@ gi|186682532|ref|YP_001865728.1| amino acid adenylation domain-containing protein [Nostoc punctiforme PCC 73102]</Hit_def>
+          <Hit_accession>1981</Hit_accession>
+          <Hit_len>2535</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>27.335</Hsp_bit-score>
+              <Hsp_score>59</Hsp_score>
+              <Hsp_evalue>5.63066</Hsp_evalue>
+              <Hsp_query-from>415</Hsp_query-from>
+              <Hsp_query-to>482</Hsp_query-to>
+              <Hsp_hit-from>2381</Hsp_hit-from>
+              <Hsp_hit-to>2459</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>18</Hsp_identity>
+              <Hsp_positive>35</Hsp_positive>
+              <Hsp_gaps>11</Hsp_gaps>
+              <Hsp_align-len>79</Hsp_align-len>
+              <Hsp_qseq>LWRERLSAQLNHLLEQNMRPNDDAVD---------RYKRAIEDMPQDLYHTSVTRTDARRRLLASQPSYSPFL--LIQD</Hsp_qseq>
+              <Hsp_hseq>VWEDQLKYVLERLKNADILPPDDEITQLNNMVQLLKANAVVNYVPQEIYPTKITLLRAKENVVKVNESNSEVLSDILQD</Hsp_hseq>
+              <Hsp_midline>+W ++L   L  L   ++ P DD +          +    +  +PQ++Y T +T   A+  ++    S S  L  ++QD</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>3</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|5138</Hit_id>
+          <Hit_def>@Nostoc_punctiforme_PCC_73102@ gi|186685690|ref|YP_001868886.1| CheA signal transduction histidine kinase [Nostoc punctiforme PCC 73102]</Hit_def>
+          <Hit_accession>5138</Hit_accession>
+          <Hit_len>1014</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>26.5646</Hsp_bit-score>
+              <Hsp_score>57</Hsp_score>
+              <Hsp_evalue>8.20622</Hsp_evalue>
+              <Hsp_query-from>418</Hsp_query-from>
+              <Hsp_query-to>449</Hsp_query-to>
+              <Hsp_hit-from>509</Hsp_hit-from>
+              <Hsp_hit-to>537</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>12</Hsp_identity>
+              <Hsp_positive>20</Hsp_positive>
+              <Hsp_gaps>3</Hsp_gaps>
+              <Hsp_align-len>32</Hsp_align-len>
+              <Hsp_qseq>ERLSAQLNHLLEQNMRPNDDAVDRYKRAIEDM</Hsp_qseq>
+              <Hsp_hseq>KQLQTKLNHI---RMRPLSDLTERFPRALRDL</Hsp_hseq>
+              <Hsp_midline>++L  +LNH+    MRP  D  +R+ RA+ D+</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+        <Hit>
+          <Hit_num>4</Hit_num>
+          <Hit_id>gnl|BL_ORD_ID|838</Hit_id>
+          <Hit_def>@Nostoc_punctiforme_PCC_73102@ gi|186681389|ref|YP_001864585.1| hypothetical protein Npun_F0905 [Nostoc punctiforme PCC 73102]</Hit_def>
+          <Hit_accession>838</Hit_accession>
+          <Hit_len>307</Hit_len>
+          <Hit_hsps>
+            <Hsp>
+              <Hsp_num>1</Hsp_num>
+              <Hsp_bit-score>26.1794</Hsp_bit-score>
+              <Hsp_score>56</Hsp_score>
+              <Hsp_evalue>8.91438</Hsp_evalue>
+              <Hsp_query-from>231</Hsp_query-from>
+              <Hsp_query-to>262</Hsp_query-to>
+              <Hsp_hit-from>178</Hsp_hit-from>
+              <Hsp_hit-to>214</Hsp_hit-to>
+              <Hsp_query-frame>0</Hsp_query-frame>
+              <Hsp_hit-frame>0</Hsp_hit-frame>
+              <Hsp_identity>17</Hsp_identity>
+              <Hsp_positive>20</Hsp_positive>
+              <Hsp_gaps>5</Hsp_gaps>
+              <Hsp_align-len>37</Hsp_align-len>
+              <Hsp_qseq>KDLIQCLQSKG----WRCQARVRTSVASFGLG-ASTP</Hsp_qseq>
+              <Hsp_hseq>KQLSLCLHQDGLLATYSCSAAVRTALLSAGLAIASTP</Hsp_hseq>
+              <Hsp_midline>K L  CL   G    + C A VRT++ S GL  ASTP</Hsp_midline>
+            </Hsp>
+          </Hit_hsps>
+        </Hit>
+      </Iteration_hits>
+      <Iteration_stat>
+        <Statistics>
+          <Statistics_db-num>6689</Statistics_db-num>
+          <Statistics_db-len>2325087</Statistics_db-len>
+          <Statistics_hsp-len>91</Statistics_hsp-len>
+          <Statistics_eff-space>681406036</Statistics_eff-space>
+          <Statistics_kappa>0.041</Statistics_kappa>
+          <Statistics_lambda>0.267</Statistics_lambda>
+          <Statistics_entropy>0.14</Statistics_entropy>
+        </Statistics>
+      </Iteration_stat>
+    </Iteration>
+  </BlastOutput_iterations>
+</BlastOutput>
