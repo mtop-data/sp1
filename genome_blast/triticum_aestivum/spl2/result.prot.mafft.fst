@@ -1,0 +1,77 @@
+>GH727243_2 EST G550.100C21F010413 G550 Triticum aestivum cDNA clone G550100C21, mRNA sequence.
+------------------------------------------------------------
+-----------------------------------------------GRVGSREHCVVTR
+HTQTCLFGEWRGIFGWTFDLHALFFKSLKEQIITSSRWVPFGLVDPASEKSGEMVHVKFD
+GAVHQSLPLTTVYHKLIPVEQNSYTLFQTIVGNGYPIALLDEEKILPIGKEITAIGLCRL
+KNRSVEISLCPELPYFLSDLTKGEMEAEMSSRARFFFWVTVALGTVSVGLLGHAIYRLWE
+RVKRHREAREAQERFHEADNEDDAGENGSDDEP---GEMGDGQLCVICLRKRRRAAFVPC
+GHLVWCCNCAKRVELM--------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-
+>BQ579387_1 EST WHE2969_H01_P01ZS Wheat dormant embryo cDNA library Triticum aestivum cDNA clone WHE2969_H01_P01, mRNA sequence.
+------------------------------------------------------------
+-----------------------------------------------------------R
+HQ------------------------------ITS-------------------------
+---------YTVYHKLIPVEQNSYTLFQTIVGNGYPIALLDEEKILPIGKEITAIGLCRL
+KNRSVEISSCPELPYFLSDLTKGEMEAEMSSRARFFFWVTVALGTVSVGLLGHAIYRLWE
+RVKRHREAREAQERFHEADNEDDAGENGSDDEP---GEMGDGQLCVICLRKRRRAAFVPC
+GHLVCCCNCAKRVELMDEPLCPVCRQDIQYMLRVYDSGSLLTWPKQRQSGGSNCPSSC--
+------------------------------------------------------------
+------------------------------------------------------------
+-
+>GH727244_4 EST G550.100C21R010830 G550 Triticum aestivum cDNA clone G550100C21, mRNA sequence.
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+--------------------EDDAGENGSDDEP---GEMGDGQLCVICLRKRRRAAFVPC
+GHLVCCCNCAKRVELMDEPLCPVCRQDIQYMLRVYDSGSLLIWPRHRQSGGSNCPSSCPG
+CSPFFVPSLGYC----------CL-ESMIDCANPQKLDYQYLLVSVNMGLCIILD-DPVN
+FGP------------EFKDCQVFCWCCMDTPRDVSGRVREVYERPHSWFLYLDFSDINFI
+F
+>CJ538591_5 EST CJ538591 Y.Ogihara unpublished cDNA library Wh_EMI Triticum aestivum cDNA clone rwhei6j03 3', mRNA sequence.
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+----------------VHIVNGRAGSDLNSACATYWLCYWWSCGTVSVGLLGHAIYRLWE
+RVKRHREAREAQERFHEADNEDDAGENGSDDEP---GEMGDGQLCVICLRKRRRAAFVPC
+GHLVCCCNCAKRVELMDEPLCPVCRQDIQYMLRVYDSGSLLIWPRHRQSGGSNCPSSCPG
+CSPFFVPSLGYC----------CL-ESMIDCANPQKLDYQYLLVSVNMGLCIILD-DPVN
+FGP------------EFKDCQVFCWCCMDTPRDVSGRVREVYX-----------------
+-
+>CJ593690_5 EST CJ593690 Y.Ogihara unpublished cDNA library Wh_SHDr Triticum aestivum cDNA clone rwhsd17k12 3', mRNA sequence.
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------DNEDDAGENGSDDEP---GEMGDGQLCVICLRKRRRAAFVPC
+GHLVCCCNCAKRVELMDEPLCPVCRQDIQYMLRVYDSGSLLTWPKQRQSGGSNCPSSCPG
+CSPFFVPSLGYCFFYFFCGEGYCYPESMIDCPSETRLS---VLASLACEYGIMYDLRPHE
+LWPGIGLPSFLLVLHGYAGCK---WTC---PSSVRX------------------------
+-
+>CJ699597_3 EST CJ699597 Y.Ogihara unpublished cDNA library Wh_SHDr Triticum aestivum cDNA clone whsd17k12 5', mRNA sequence.
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-----------------------CWRNGSDDEP---GEMGDGQLCVICLRKRRRAAFVPC
+GHLVCCCNCAKRVELMDEPLCPVCRQDIQYMLRVYDSGSLLTWPKQRQSGGSNCPSSCPG
+CSPFFVPSLGYCFFYFFCGEGYCYPESMIDCPSETRLS---VLASLACEYGIMYDLRPHE
+LWPGIGLPSFLLVLHGYAGCK---WTC---PSSVRTPAFMVFVLARFLKAKKK-------
+-
+>SPL2_NP_564653
+MSSPERALLNLLTDIALSFDGAILGLTLAVSAVGSALKYASTNAALKKIKDAPEVSISDL
+RSLLPASEDKSETNDNRKSNDQRIVVVRGVVKPKISGDEGYKNNNVLISPETGDKALIIQ
+RTQTYVYSGWKRLFQST-GHRFMLERSLRKHGADFTRTVPFVIVGKDQQSNSSFVAVNMD
+GS-RQPLPLTTVYNRLQPINS---SFLQAFLYPDYPVGLLDIEKILPPGKDITAVGIYSF
+NNGVPEIKSCQDLPYFLSEMTKDKMIEDLMEQTNFIFLGSVILGIVSVGILSYAAVRTWN
+KWKQWNHQRELPQR---------PNDSVVDDEPEDADEIPDGELCVICVSRRRVPAFIPC
+GHVVCCRRCASTVERELNPKCPVCLQSIRGSMRVYYS-----------------------
+------------------------------------------------------------
+------------------------------------------------------------
+-
