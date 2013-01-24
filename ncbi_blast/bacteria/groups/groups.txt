@@ -1,0 +1,15 @@
+Gammaproteobacteria 		OK
+Betaproteobacteria 			OK
+Alphaproteobacteria 		??
+Epsilonproteobacteria 		--
+Deltaproteobacteria			OK
+Acidobacteria				??
+Bacteroidetes/Chlorobi 		OK
+Chlamydiae/Planctomycetes	--
+Spirochaetes 				--
+Firmicutes					OK
+Cyanobacteria 				OK
+Chloroflexi 				OK
+Actinobacteria 				OK
+Aquificae					--
+Thermotogae					OK
