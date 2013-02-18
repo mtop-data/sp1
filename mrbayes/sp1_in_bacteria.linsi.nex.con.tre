@@ -1,0 +1,120 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=28;
+	taxlabels
+	'Cyanobacteria_gi_158336842_ref_YP_001518016.1_Acaryochloris_marina_MBIC11017'
+	'Chloroflexi_gi_159899427_ref_YP_001545674.1_Herpetosiphon_aurantiacus_DSM_785'
+	'Cyanobacteria_gi_428774782_ref_YP_007166569.1_Halothece_sp._PCC_7418'
+	'Bacteroidetes-Chlorobi_group_gi_124004219_ref_ZP_01689065.1_Microscilla_marina_ATCC_23134'
+	'Cyanobacteria_gi_86607674_ref_YP_476436.1_Synechococcus_sp._JA-2-3Ba_2-13'
+	'Actinobacteria_gi_108805164_ref_YP_645101.1_Rubrobacter_xylanophilus_DSM_9941'
+	'Chloroflexi_gi_221632287_ref_YP_002521508.1_Thermomicrobium_roseum_DSM_5159'
+	'Actinobacteria_gi_348176796_ref_ZP_08883690.1_Saccharopolyspora_spinosa_NRRL_18395'
+	'Actinobacteria_gi_331695440_ref_YP_004331679.1_Pseudonocardia_dioxanivorans_CB1190'
+	'Firmicutes_gi_379012200_ref_YP_005270012.1_Acetobacterium_woodii_DSM_1030'
+	'Chloroflexi_gi_309791495_ref_ZP_07685998.1_Oscillochloris_trichoides_DG-6'
+	'Thermotogae_gi_239616922_ref_YP_002940244.1_Kosmotoga_olearia_TBF_19.5.1'
+	'Thermotogae_gi_389844132_ref_YP_006346212.1_Mesotoga_prima_MesG1.Ag.4.2'
+	'Chloroflexi_gi_57235080_ref_YP_180857.1_Dehalococcoides_ethenogenes_195'
+	'Chloroflexi_gi_147668909_ref_YP_001213727.1_Dehalococcoides_sp._BAV1'
+	'Chlamydiae-Verrucomicrobia_group_gi_182414263_ref_YP_001819329.1_Opitutus_terrae_PB90-1'
+	'Gammaproteobacteria_gi_345864169_ref_ZP_08816373.1_endosymbiont_of_Tevnia_jerichonana__vent_Tica'
+	'Gammaproteobacteria_gi_386285942_ref_ZP_10063146.1_gamma_proteobacterium_BDW918'
+	'Betaproteobacteria_gi_325983409_ref_YP_004295811.1_Nitrosomonas_sp._AL212'
+	'Proteobacteria_gi_410692675_ref_YP_003623296.1_Thiomonas_sp._3As'
+	'Proteobacteria_gi_296135054_ref_YP_003642296.1_Thiomonas_intermedia_K12'
+	'Gammaproteobacteria_gi_261854636_ref_YP_003261919.1_Halothiobacillus_neapolitanus_c2'
+	'Betaproteobacteria_gi_297537353_ref_YP_003673122.1_Methylotenera_versatilis_301'
+	'Deltaproteobacteria_gi_404492134_ref_YP_006716240.1_Pelobacter_carbinolicus_DSM_2380'
+	Mulan_NP_078820
+	SPL2_NP_564653_AT1G54150
+	SP1_NM_105064_AT1G63900
+	SPL1_NP_564745_AT1G59560
+;
+end;
+
+begin trees;
+	tree con_50_majrule = [&U] ('Cyanobacteria_gi_158336842_ref_YP_001518016.1_Acaryochloris_marina_MBIC11017'[&length_mean=0.4650075892791685,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,!color=#-64768,prob+-sd="100+-0",length_median=0.4616905702853531,prob=1.0,length_95%HPD={0.3352925001495835,0.5923110510672736}]:0.4616905702853531,'Chloroflexi_gi_159899427_ref_YP_001545674.1_Herpetosiphon_aurantiacus_DSM_785'[&length_mean=0.7626355679149737,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,!color=#-64768,prob+-sd="100+-0",length_median=0.7592372619947695,prob=1.0,length_95%HPD={0.5846047779116641,0.937421264709023}]:0.7592372619947695,'Cyanobacteria_gi_428774782_ref_YP_007166569.1_Halothece_sp._PCC_7418'[&length_mean=0.76321738697642,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,!color=#-64768,prob+-sd="100+-0",length_median=0.7601618594045247,prob=1.0,length_95%HPD={0.6064342241210792,0.9314028424528844}]:0.7601618594045247,'Bacteroidetes-Chlorobi_group_gi_124004219_ref_ZP_01689065.1_Microscilla_marina_ATCC_23134'[&length_mean=0.7696920274993381,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,!color=#-16775425,prob+-sd="100+-0",length_median=0.7708904693929282,prob=1.0,length_95%HPD={0.5701752970604113,0.9554224225573792}]:0.7708904693929282,'Cyanobacteria_gi_86607674_ref_YP_476436.1_Synechococcus_sp._JA-2-3Ba_2-13'[&length_mean=0.8451596971382048,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,!color=#-64768,prob+-sd="100+-0",length_median=0.8436395727020615,prob=1.0,length_95%HPD={0.6602604209957001,1.021808253370781}]:0.8436395727020615,('Actinobacteria_gi_108805164_ref_YP_645101.1_Rubrobacter_xylanophilus_DSM_9941'[&length_mean=0.5908373464435532,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,!color=#-64768,prob+-sd="100+-0",length_median=0.5889939322279647,prob=1.0,length_95%HPD={0.4360714607330062,0.7613644141209696}]:0.5889939322279647,'Chloroflexi_gi_221632287_ref_YP_002521508.1_Thermomicrobium_roseum_DSM_5159'[&length_mean=0.5441195723824059,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,!color=#-64768,prob+-sd="100+-0",length_median=0.5415018104908783,prob=1.0,length_95%HPD={0.3769565262821892,0.7068193012962151}]:0.5415018104908783,(('Actinobacteria_gi_348176796_ref_ZP_08883690.1_Saccharopolyspora_spinosa_NRRL_18395'[&length_mean=0.3174619724527038,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,!color=#-64768,prob+-sd="100+-0",length_median=0.3156054613922643,prob=1.0,length_95%HPD={0.2033114416840734,0.435722775806856}]:0.3156054613922643,'Actinobacteria_gi_331695440_ref_YP_004331679.1_Pseudonocardia_dioxanivorans_CB1190'[&length_mean=0.4356262125970516,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,!color=#-64768,prob+-sd="100+-0",length_median=0.433319312747767,prob=1.0,length_95%HPD={0.307049004129442,0.5524890864459115}]:0.433319312747767)[&length_mean=0.493116981191055,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,!color=#-64768,prob+-sd="100+-0",length_median=0.4902306527145091,prob=1.0,length_95%HPD={0.3265892311991385,0.671161369329963}]:0.4902306527145091,'Firmicutes_gi_379012200_ref_YP_005270012.1_Acetobacterium_woodii_DSM_1030'[&length_mean=0.9943023946748046,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,!color=#-64768,prob+-sd="100+-0",length_median=0.990643146226064,prob=1.0,length_95%HPD={0.7954700507563376,1.212502529955493}]:0.990643146226064)[&length_mean=0.1123424181287018,prob_range={0.5529646902065289,0.5609593604263824},prob(percent)="56",prob_stddev=0.005653085525808521,!color=#-64768,prob+-sd="56+-1",length_median=0.1056258082430018,prob=0.5569620253164557,length_95%HPD={0.007049278802111394,0.2223399672327263}]:0.1056258082430018,'Chloroflexi_gi_309791495_ref_ZP_07685998.1_Oscillochloris_trichoides_DG-6'[&length_mean=0.9761452570348442,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,!color=#-64768,prob+-sd="100+-0",length_median=0.9715126562885141,prob=1.0,length_95%HPD={0.7671673658788142,1.206706626241628}]:0.9715126562885141,((('Thermotogae_gi_239616922_ref_YP_002940244.1_Kosmotoga_olearia_TBF_19.5.1'[&length_mean=0.2290656113818377,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.2317608340057831,prob=1.0,length_95%HPD={0.1424412886760014,0.3116151391929623}]:0.2317608340057831,'Thermotogae_gi_389844132_ref_YP_006346212.1_Mesotoga_prima_MesG1.Ag.4.2'[&length_mean=0.2775026821447086,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.2762126486204767,prob=1.0,length_95%HPD={0.2106385404833468,0.3520512245730195}]:0.2762126486204767)[&length_mean=0.09020677438212135,prob_range={0.754163890739507,0.7794803464357095},prob(percent)="77",prob_stddev=0.01790143749839359,prob+-sd="77+-2",length_median=0.08739436609249154,prob=0.7668221185876083,length_95%HPD={0.0264693467977539,0.1579210428338624}]:0.08739436609249154,(('Chloroflexi_gi_57235080_ref_YP_180857.1_Dehalococcoides_ethenogenes_195'[&length_mean=0.04081856170508701,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,!color=#-65527,prob+-sd="100+-0",length_median=0.03958581915309799,prob=1.0,length_95%HPD={0.0124396639839345,0.07021437563872623}]:0.03958581915309799,'Chloroflexi_gi_147668909_ref_YP_001213727.1_Dehalococcoides_sp._BAV1'[&length_mean=0.1076845520708623,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,!color=#-65527,prob+-sd="100+-0",length_median=0.106641520004842,prob=1.0,length_95%HPD={0.07040770308821231,0.149409854008242}]:0.106641520004842)[&length_mean=0.3079587900720557,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,!color=#-65527,prob+-sd="100+-0",length_median=0.3063308355859207,prob=1.0,length_95%HPD={0.234799420335056,0.3874632918996857}]:0.3063308355859207,'Chlamydiae-Verrucomicrobia_group_gi_182414263_ref_YP_001819329.1_Opitutus_terrae_PB90-1'[&length_mean=0.368620375638142,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,!color=#-16775425,prob+-sd="100+-0",length_median=0.3666457471030982,prob=1.0,length_95%HPD={0.2917544309415284,0.4540296480951638}]:0.3666457471030982)[&length_mean=0.120822483040897,prob_range={0.988674217188541,0.9926715522984677},prob(percent)="99",prob_stddev=0.002826542762904261,prob+-sd="99+-0",length_median=0.1176616489728294,prob=0.9906728847435043,length_95%HPD={0.04316144424928126,0.2052790318910066}]:0.1176616489728294)[&length_mean=0.482887378769705,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.480784057986229,prob=1.0,length_95%HPD={0.3206804109448779,0.6455628036157148}]:0.480784057986229,((('Gammaproteobacteria_gi_345864169_ref_ZP_08816373.1_endosymbiont_of_Tevnia_jerichonana__vent_Tica'[&length_mean=0.5205733985338706,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,!color=#-16645889,prob+-sd="100+-0",length_median=0.519061402257991,prob=1.0,length_95%HPD={0.3940048058053802,0.647069739250758}]:0.519061402257991,'Gammaproteobacteria_gi_386285942_ref_ZP_10063146.1_gamma_proteobacterium_BDW918'[&length_mean=0.5398482153140997,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,!color=#-16645889,prob+-sd="100+-0",length_median=0.5364611283424107,prob=1.0,length_95%HPD={0.4135559444517754,0.6735220063135615}]:0.5364611283424107)[&length_mean=0.1804246609998431,prob_range={0.9940039973351099,0.9960026648900733},prob(percent)="100",prob_stddev=0.00141327138145217,!color=#-16645889,prob+-sd="100+-0",length_median=0.1767296261947925,prob=0.9950033311125916,length_95%HPD={0.07957545172584404,0.295656638195004}]:0.1767296261947925,'Betaproteobacteria_gi_325983409_ref_YP_004295811.1_Nitrosomonas_sp._AL212'[&length_mean=0.61792710119239,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,!color=#-16645889,prob+-sd="100+-0",length_median=0.614085418278906,prob=1.0,length_95%HPD={0.4873259900725336,0.7589025343959861}]:0.614085418278906,('Proteobacteria_gi_410692675_ref_YP_003623296.1_Thiomonas_sp._3As'[&length_mean=0.03290306545696633,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,!color=#-16645889,prob+-sd="100+-0",length_median=0.03223728466738517,prob=1.0,length_95%HPD={0.009124727272848526,0.05709646827182001}]:0.03223728466738517,'Proteobacteria_gi_296135054_ref_YP_003642296.1_Thiomonas_intermedia_K12'[&length_mean=0.01875899574850008,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,!color=#-16645889,prob+-sd="100+-0",length_median=0.01715506029140673,prob=1.0,length_95%HPD={0.001487651775650216,0.04017185216084302}]:0.01715506029140673)[&length_mean=0.6080839060685047,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,!color=#-16645889,prob+-sd="100+-0",length_median=0.6070122978909546,prob=1.0,length_95%HPD={0.460024010656409,0.7627394465873832}]:0.6070122978909546,'Gammaproteobacteria_gi_261854636_ref_YP_003261919.1_Halothiobacillus_neapolitanus_c2'[&length_mean=0.636533679891869,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,!color=#-16645889,prob+-sd="100+-0",length_median=0.6344070368712228,prob=1.0,length_95%HPD={0.4878753185298258,0.7796693065686221}]:0.6344070368712228,'Betaproteobacteria_gi_297537353_ref_YP_003673122.1_Methylotenera_versatilis_301'[&length_mean=0.7803469079003293,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,!color=#-16645889,prob+-sd="100+-0",length_median=0.7787924489896852,prob=1.0,length_95%HPD={0.6124527658671217,0.9475190021662442}]:0.7787924489896852)[&length_mean=0.1707781249917084,prob_range={0.704197201865423,0.7208527648234511},prob(percent)="71",prob_stddev=0.01177726151210111,!color=#-16645889,prob+-sd="71+-1",length_median=0.1678851043398464,prob=0.712524983344437,length_95%HPD={0.03620882969702674,0.3041270744165114}]:0.1678851043398464,'Deltaproteobacteria_gi_404492134_ref_YP_006716240.1_Pelobacter_carbinolicus_DSM_2380'[&length_mean=0.8372789950371115,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,!color=#-16645889,prob+-sd="100+-0",length_median=0.8329262059194461,prob=1.0,length_95%HPD={0.645288193559178,1.024866896056331}]:0.8329262059194461)[&length_mean=0.239448045560719,prob_range={0.9973351099267155,0.9980013324450366},prob(percent)="100",prob_stddev=4.710904604840696E-4,!color=#-16645889,prob+-sd="100+-0",length_median=0.2352349058129114,prob=0.9976682211858761,length_95%HPD={0.08382498386707406,0.3887258902161658}]:0.2352349058129114)[&length_mean=0.3218564714877782,prob_range={0.9993337774816788,1.0},prob(percent)="100",prob_stddev=4.710904604840696E-4,!color=#-64768,prob+-sd="100+-0",length_median=0.3194093416017195,prob=0.9996668887408394,length_95%HPD={0.13805320811436,0.4933801148686388}]:0.3194093416017195,((Mulan_NP_078820[&length_mean=0.6808175312726017,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,!color=#-15093758,prob+-sd="100+-0",length_median=0.6793951955082262,prob=1.0,length_95%HPD={0.4967484273749719,0.8657779456322214}]:0.6793951955082262,SPL2_NP_564653_AT1G54150[&length_mean=0.9481119827185958,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,!color=#-15093758,prob+-sd="100+-0",length_median=0.9425790350512618,prob=1.0,length_95%HPD={0.7498168071138589,1.173452694396419}]:0.9425790350512618)[&length_mean=0.2250118167692859,prob_range={0.9260493004663558,0.9347101932045303},prob(percent)="93",prob_stddev=0.006124175986292552,!color=#-15093758,prob+-sd="93+-1",length_median=0.2209088779539839,prob=0.9303797468354431,length_95%HPD={0.05822323170664419,0.4062221250088019}]:0.2209088779539839,(SP1_NM_105064_AT1G63900[&length_mean=0.2948905797642697,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,!color=#-15093758,prob+-sd="100+-0",length_median=0.2918745261373695,prob=1.0,length_95%HPD={0.195201252369938,0.4132613044332646}]:0.2918745261373695,SPL1_NP_564745_AT1G59560[&length_mean=0.1963948472174398,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,!color=#-15093758,prob+-sd="100+-0",length_median=0.1947143334726099,prob=1.0,length_95%HPD={0.09736892918818363,0.2952516218995276}]:0.1947143334726099)[&length_mean=0.5518156834358966,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,!color=#-15093758,prob+-sd="100+-0",length_median=0.5464061737622811,prob=1.0,length_95%HPD={0.3657866949141225,0.7373097188811821}]:0.5464061737622811)[&length_mean=0.5667885937665832,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,!color=#-15093758,prob+-sd="100+-0",length_median=0.5621229827592195,prob=1.0,length_95%HPD={0.3718666358912182,0.7886583609436216}]:0.5621229827592195)[&length_mean=0.1385714629349234,prob_range={0.5236508994003998,0.5369753497668222},prob(percent)="53",prob_stddev=0.009421809209680882,!color=#-64768,prob+-sd="53+-1",length_median=0.1355075279377512,prob=0.530313124583611,length_95%HPD={0.04352679446818616,0.244381753814275}]:0.1355075279377512)[&length_mean=0.0,prob_range={1.0,1.0},prob(percent)="100",prob_stddev=0.0,prob+-sd="100+-0",length_median=0.0,prob=1.0,length_95%HPD={0.0,0.0}];
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#-1;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchLineWidth=3.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#-16777216;
+	set appearance.selectionColour=#-2144520576;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="prob";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=true;
+	set branchLabels.significantDigits=2;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="length_mean";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute="length_95%HPD";
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShape.colourAttribute="User selection";
+	set nodeShape.isShown=false;
+	set nodeShape.minSize=10.0;
+	set nodeShape.scaleType=Width;
+	set nodeShape.shapeType=Circle;
+	set nodeShape.size=4.0;
+	set nodeShape.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
