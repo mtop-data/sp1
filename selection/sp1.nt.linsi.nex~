@@ -1,0 +1,150 @@
+#NEXUS
+[saved by seaview on Mon Jun  3 17:49:12 2013]
+BEGIN DATA;
+  DIMENSIONS NTAX=6 NCHAR=1158;
+  FORMAT DATATYPE=DNA
+  GAP=-
+  ;
+MATRIX
+[1] SP1
+atgattccttggggtggagttacttgctgcctcagcgccgctgctctttatcttctcggc
+cggagtagt------ggcagggatgctgaagtactcgaaacagtcactagggttaatcag
+ctcaaggagttagctcaattgctagaattagat---agcaagattctgcctttcattgtt
+gcggtatcaggaagagtcggctctgagacacctatcaaatgcgagcatagtggcatacgc
+ggtgttattgttgaagaaacggcggaacaacatttcctgaaacataatgagacgggttct
+tgggtacaagatagtgcg---ttgatgctatcaatgagcaaagaggttccttggtttctg
+gacgatgggacaagccgtgtccatgtaatgggagctcgtggtgcgacgggttttgccttg
+actgttggtagtgaagtttttgaagag---tcaggacgctcgcttgtacgaggaacactt
+gattatcttcaaggacttaagatgcttggagttaagcgcattgagcgtgttcttccaact
+ggaataccgctaacaattgttggtgaggctgtcaaggacgatattggagaattcaggatt
+caaaaacctgacaggggccctttctacgtctcttctaaatcactcgatcagctcatttct
+aatttgggaaaatggtcaaggttgtacaaatatgcctccatgggt------------ttt
+actgttcttggtgtgttcctaattacgaagcatgtcattgactctgtt------------
+---------ctagagaga------------------------------------------
+---agacggcggagacagttacaaaaaagagtgcttgacgcagcagcaaagagagctgag
+ctagagagt------gaaggt---------tcaaacgggacacgtgagagcatttcagat
+tct---------accaagaaagaagacgctgttcctgatctctgtgtgatatgcctagag
+caggagtacaacgctgtgtttgtcccgtgtggtcatatgtgctgctgcaccgcatgctcc
+tcccacttg------------accagctgtccactttgtcggagacgaatagatctggcg
+gttaagacatatcgtcac
+[2] A.lyrata_gi|297840100|ref|XM_002887886.1|
+atgattccttggggtggagttacttgctgcctcagcgccgccgctctttatcttctcggt
+cggagtagt------ggcagggatgctgaagtactcaaaactgtcactagggttaatcag
+ctcaaggagttagctcaattgctagaattagat---agcaagattctgcctttcattgtt
+gcggtatcaggaagagtcggctctgagacacctatcaagtgtgagcatagtggcattcgc
+ggtgttattgttgaagaaacggctgaacaacattttctgaaacataatgagacgggttct
+tgggtgcaagatagtgca---ttgatgttatcaatgagcaaggaggttccttggtttctg
+gacgatgggacaagtcgtgtccatgtaatgggagctcgtggtgcaacgggttttgccttg
+actgttggaagtgaagtatttgaagag---tcaggacgctcgcttgtacgaggaacactt
+gattatcttcaaggacttaagatgcttggagttaagcggattgagcgtgttcttccaact
+ggaataccactaacaattgttggtgaggctgtcaaggacgatattggcgaattcaggatt
+caaaaacctgacagggggcctttctacgtctcacctaaatcactcgatcaactcatttct
+aatttgggaaaatggtcaaggtggtacaaatatgcctctatgggt------------ttt
+actgtttttggtgtgttcctaattacgaagcatgtcattgattctgtt------------
+---------ctagagaga------------------------------------------
+---agacgtcggagacagttacaaaaaagagtgcttgatgcagcagcaaagagggctgag
+ctagagagt------gaaggt---------tcaaacggggcacgtgagagcattgcagat
+tct---------accaagaaagaagacgctgttcctgatctctgtgtgatatgcctagag
+caggagtacaacgctgtgtttgttccgtgtggtcatatgtgctgctgcactgcatgctcc
+tcccacttg------------accagctgtccactttgtcggagacgaatagatctggcg
+gttaagacatatcgtcac
+[3] Brassica_rapa_Bra027667
+atgattcattggggtggagttacctgctgcctcagcgccgccgctctttatcttctcggt
+agcagtagc------ggcagggacgctgaagttctcaaaaccgtcactagggttaaccag
+ctcaaggagttagcgcaattgctagaattagatagcagcaagctcctgcctttcattgtg
+gctgtatctggaagagttggctctgacacacctatcaagtgcgagcatagtggcatacgc
+ggtgttatcgtcgaggaaactgcggagcaacattttctgaagcacaatgagactggttct
+tgggttcaagatagtgct---ttgatgctatctatgagtaaagaggttccttggtttctg
+gacgatgggacaagtcgtgtgaatgtagtgggagctcgtggtgcaacaggctttgccttg
+accgttggaagtgaagtgtttgaagag---tcagggaggtctcttgtacggggaactctt
+gattatctccaaggccttaagatgcttggagtaaagcgcattgagcgtgttcttcctact
+ggaatgcctctaactattgttggtgaggctgtcaaggacgatattggagatctcaggatt
+cagaaacctgaaagagggcctttctacgtctctcctaaatcactagatcagctcatttcc
+aatttggggaaatggtcaaggtggtacaagtatgcctctatgggt------------tta
+actgtttttggtgtgtttctaattacaaagcatgtcattgatcatgtt------------
+---------cttgagaga------------------------------------------
+---agacgccatcgagagttacagaaaagagtgcttgatgcagcagctaagagagctga-
+--agagact------gaaggt---------tcaaacggggcacatgagagcgtttcagat
+tct---------accaagaaagaaggcgctgttcctgatctctgtgtgatctgtctagag
+cataactataatgctgtgtttgttccgtgtggtcatatgtgctgctgcaccgcatgctcc
+tcccacttg------------accagctgtccactttgccgaagacgtatagatcaggtg
+gttaagacatatcgtcac
+[4] Thellungiella_halophila_Thhalv10008106m
+atgattccttggggtggagttacctgctgcctgagcgctgccgctctttatcttctcggc
+cggagtagt------ggcagggatgctgaagtactcaaaaccgtcactcgggttagccag
+cttaaggaattagcgcaattgctagagttagatagcagcaagctcctgcctttcattgtg
+gcggtatcaggaagagttggctctgagacacctatcaagtgtgagcatagtggcatacgc
+ggtgttatcgtcgaggaaacggcggaacaacattttctgaaacacaatgagacgggttct
+tgggtacaagatagtgca---ttgatgctgtcaatgagtaaggaggttccttggtttctg
+gacgatgggacaagtcgtgtcaatgtggtgggagctcgtggtgcaacaggatttgccttg
+actgttggaagtgaagtatttgaagag---tcagggcgttcgcttgtacgaggaacactt
+gattatcttcaaggcctcaagatgcttggagtaaaacgcattgagcgcgttcttccaact
+ggaatgccgctaacaattgttggtgaggctgtcaaggacgatattggtgatttacggatt
+cagaaacctgaaagggggcctttctacgtctctcctaaatcactcgatcagctcatttct
+aatttgggaaaatggtcaaggtggtacaagtacgcctccatgggt------------tta
+actgtttttggtgtgtttctaataacaaaacatgttattgattctgtt------------
+---------ctagagaga------------------------------------------
+---agacgacggcgagagttacagaaaagagtgcttgatgcagcagctaagagagctgag
+cgagagagt------gaaggc---------tcaaacgggacacatgagagcgtttcagat
+tct---------accaagaaagaagacgctgttcctgatctatgtgtgatctgcctagag
+caggagtacaacgctgtgtttgtcccgtgtggtcatatgtgctgctgcaccgcatgctct
+tgccacttg------------accagctgtccactttgccggagacgaatagatcaggtc
+gttaagacttaccgtcac
+[5] Carica_papaya_evm.model.supercontig_9.121
+atgattccatggggaggaatcacttgctgcatgagcgcggctgccctttatctgcttggc
+aggagcagc------ggcagggatgcggatattcttagaaaagttacgcgagttaatcag
+ttgaaggaattggcgcagttgcttgacattgaa---agcaaaataatgccattgattgtt
+gccatatctggaagagttggctctgagacaccaattagttgcgagtacagcggcttaagg
+ggagttatagtggaggaaacggctgaacaacattttctcaaacacaatgatgctggttct
+tggatacaagatagtgcc---ctaatgctgtcaatgagtaaagaggttccttggtacctg
+gatgatgggactgctcgtgtatttgtagtaggagcacgaggtgctactggttttgttctt
+actgtggggagtgaagtatttgaagaa---tcagggcggtctctcgtacgaggaacgttg
+gactatctccaaggcctcaagatgcttggagtcaaacgtattgaacgtgtacttccaact
+ggtacttccttgacagttgttggtgagatgaca---------ttggaacaattcagatac
+gaagaccgcacaaacggcctttttacgtgtctccaaatcaatggatcacctgatttc---
+caattagggaaatgggcaaggtggtacaagtatgcttcgatgggg------------cta
+acattccttggtgtttttctaattgcaaagcgttctattgagtatgtt------------
+---------ttggagaga------------------------------------------
+---aggcggcgacgagagttgcagaaaagggttcttgccgcagcagcgaaaagatcaggg
+caagataat------gaaggt---------tcaaatataatacctgaaaatgggttggat
+ggt---------gctaagagagagcatctgatgccagatctatgcgtgatatgccttgag
+caagagtacaatgctgcttttgtcccgtgtggtcatatgtgttgttgtatgacttgctct
+tcccacttg------------acaaactgcccgctttgccggagacggattgagcaggtg
+ctcaggaccttccgccat
+[6] Solanum_lycopersicum_gi|460393457|ref|XM_004242278.1|
+atggttccatgggccggactctcttgctgtttgagtgcagctgctctttaccttctcggt
+aggagcagt------ggaagagatgctgaagttcttaaatccgttacaagggttaatcaa
+ttgaaggatcttgcacaactactagatactgca---tccaaggtgttgcctctggtggtt
+actatatctggaagggttggatcagatacaccaattaactgtgagtacagtggtctacga
+ggcgtgattgtggaagaaactgccgaacaacattttctgaaacacaatgatgcaggttct
+tggatacaggattctgcc---ttgatgctctcaatgtgtaaagaagttccgtggtacctg
+gatgatggcacaggtcgcacttttattgttggtggccgtggtgccacgggtttggtactg
+acagttggaagtgaagccttcgaggaagcaggga---gatcatttgtgcgagggacattg
+gattatcttcaaggtcttaagatgcttggagtaaagaggattgaacgtgtgctgccagtt
+ggtactcctttgactgttgttggcgaggctgtcaaagatgacattgggacagttcggatc
+cagcgaccacacaaaggcccattttatatctctcataaaactattgaccagctcattgca
+aatcttgggagatgggcaaggtggtacaagtatgcttcaatgggt------------ttt
+actgctgtcggtgtatatctacttgtgaagcatacttttcattatatg------------
+---------atggaaaga------------------------------------------
+---aagcgtcactgggaattgcgcaggagagttcttgctgctgctgctaaaagagcagga
+gatgaggat------gaaggt---------tctgatgctacagctgagaatggagtggat
+aat---------------aaggacctcttaatgccagatctatgtgttatatgtctggag
+caggaatacaactcagtttttgtcccgtgtggtcatatgtgctgttgcatgacgtgctct
+tcacacttg------------acaaactgcccactatgtaggagacggatcgagcaggtt
+gtgaaaacttttcgccat
+;
+END;
+BEGIN NOTES;
+  TEXT TAXON=1 TEXT='gi|145337145|ref|NM_105064.3| Arabidopsis thaliana E3 ubiquitin ligase-like protein (AT1G63900) mRNA, complete cds
+';
+  TEXT TAXON=2 TEXT='Arabidopsis lyrata subsp. lyrata zinc finger family protein, mRNA
+';
+  TEXT TAXON=3 TEXT='CDS
+';
+  TEXT TAXON=4 TEXT='CDS
+';
+  TEXT TAXON=5 TEXT='CDS
+';
+  TEXT TAXON=6 TEXT='PREDICTED: Solanum lycopersicum mitochondrial ubiquitin ligase activator of nfkb 1-A-like, transcript variant 2 (LOC101250130), mRNA
+';
+END;

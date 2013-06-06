@@ -1,0 +1,175 @@
+#NEXUS
+[saved by seaview on Mon Jun  3 17:53:17 2013]
+BEGIN DATA;
+  DIMENSIONS NTAX=7 NCHAR=1155;
+  FORMAT DATATYPE=DNA
+  GAP=-
+  ;
+MATRIX
+[1] Carica_papaya_evm.model.supercontig_9.121
+atgattccatggggaggaatcacttgctgcatgagcgcggctgccctttatctgcttggc
+aggagcagc------ggcagggatgcggatattcttagaaaagttacgcgagttaatcag
+ttgaaggaattggcgcagttgcttgacattgaaagcaaaataatgccattgattgttgcc
+atatctggaagagttggctctgagacaccaattagttgcgagtacagcggcttaagggga
+gttatagtggaggaaacggctgaacaacattttctcaaacacaatgatgctggttcttgg
+atacaagatagtgcc---ctaatgctgtcaatgagtaaagaggttccttggtacctggat
+gatgggactgctcgtgtatttgtagtaggagcacgaggtgctactggttttgttcttact
+gtggggagtgaagtatttgaagaa---tcagggcggtctctcgtacgaggaacgttggac
+tatctccaaggcctcaagatgcttggagtcaaacgtattgaacgtgtacttccaactggt
+acttccttgacagttgttggtgagatgaca---------ttggaacaattcagatacgaa
+gaccgcacaaacggcctttttacgtgtctccaaatcaatggatcacctgatttc---caa
+ttagggaaatgggcaaggtggtacaagtatgcttcgatgggg------------ctaaca
+ttccttggtgtttttctaattgcaaagcgttctattgagtatgtt---------------
+------ttggagaga---------------------------------------------
+aggcggcgacgagagttgcagaaaagggttcttgccgcagcagcgaaaagatcagggcaa
+gataat------gaaggt---------tcaaatataatacctgaaaatgggttggatggt
+---------gctaagagagagcatctgatgccagatctatgcgtgatatgccttgagcaa
+gagtacaatgctgcttttgtcccgtgtggtcatatgtgttgttgtatgacttgctcttcc
+cacttg------------acaaactgcccgctttgccggagacggattgagcaggtgctc
+aggaccttccgccat
+[2] Spl1_gi_30102701_gb_BT006461.1_
+atgatacatttggctggatttacatgttgcttaggcggcgtcgctctttatcttcttacc
+aggagcaca------ggcagagat---------atcaaatcaatcactagggtttaccaa
+ctcaaggatttggaacaattagtagaagtagagagcaaggtggtacctttgatcatcgca
+gtatcaggagatgttggctctgagactcctattaagtgtgagcatagttatgttctcggt
+gtatttctcaagagaacggcagaacaacaggttttgagacgtaattggagattttcatgg
+gttcgaaatagtaca---ttgatgcagccgatgactaaggaagtcccctggtatctggac
+gacgggacaggtcgtgtgaatgtagatgtatctcaaggtgaattaggcttggcgttgacg
+gttggtagtgatgtatttgaaaaggcagagccggtatcgcttgttcaaggagcgttgggt
+tatcttaaaggctttaagatacttggagtaagacacgttgagcgtgttgtcccaattggt
+acaccgcttacagttgttggtgaggctgttagggatggcatggggaatgtcaggattcaa
+aaacctgagcaaggacctttctacgtcacttatataccgctagatcagctcatctctaaa
+ttgggagatttgtcaaggaggttcaagtatgcctccatgggt------------ttaact
+gttcttggtgtgattcttatttcaaagcctgtgattgaatatattctaaagagaattgaa
+gatactctagaaaga---------------------------------------------
+aggcggcgacaattcgcactgaaaagagttgttgatgcagctgctaggagagccaaacca
+gtaact------ggaggt---------------------------------------ggt
+---------acaagcagagatggtgatacacctgatctctgtgtggtttgccttgaccag
+aagtataacaccgcttttgttgagtgtggtcatatgtgctgctgcacaccatgctccttg
+caacta------------aggacctgtcctctttgccgggaacgaatacaacaagttttg
+aaaatttaccgccat
+[3] A.lyrata_338432
+atgatacatttggctggatttacgtgttgtttaggcggcatcgctctttatcttctcagc
+cggaacaca------ggcggagtt---------gtcaaatcaatcactagggttaaccac
+ctcaaggatttggaacaattg------gtagagagcaaggtgtttcctttgatcatagca
+gtatcaggaattgtcggctctgagacacctatcaagtgtgagcatagtgacatactcggt
+gtttttctcaagaaaacggcagaacaacaggttttgagtcgtaattggaggttctcgtgg
+gttcgaaagagtaca---ttgatgcagccgatgactaaggaagtcccgtggtttctggac
+gatgggacaggtcgtgtgaatgtagcggtatctcaaggtgaaataggcttggcgttgacg
+gttggaagtgatgtatttgaaaaggcagagccggtttcgcttgttcaaggaaccttggat
+tatcttaaaggcctcaagatacttggagtaagacgcgttgagcatgttgtcccaattggt
+acaccgcttacaattgttggtgaggctgttaaggatggcatggggaatgtcaggattcaa
+aaacctgagcaaggacctttctacgtgtcttatgtaccgctcgatcaactcatctctaaa
+ttgggagaatggtcaaggaggttcaagtatgcctccatgggt------------ttaact
+gttgttggtgtgattcttctttcaaagcctgtgattaaatatattctaaagaaaattgaa
+gatactctagagaga---------------------------------------------
+aggcggcgacaattgttacagaaaagagttgtt---------------------------
+------------------------------------------------------------
+------------------------gatgtacctgatctctgcgtgatctgccatgaccag
+aagtataacaccgcttttgttcagtgtggtcatatgtgttgctgcttaacatgctccttg
+cgattg------------acgacctgtcctctttgccgggaacaaatacaacaagttttg
+aagatttaccgccat
+[4] Brassica_rapa_Bra040424
+atggaaccttggagtgggtta---tgttgcataggcgccgttgctctttatcttctcagc
+cgccgaaca------gccagggatgttgactttctcaaatcggtcactagggttgaccag
+ctcaaggatttg------------------gagagcgcggtgttgccttcgatcgtggca
+gtatcaggaacagttggctcggagacacccatcaagtgtgagcacagtggcattctctct
+gttattctccaggaaaccgcagagcaacagtttctgaaacgtaactggaagttttcgtgg
+gttcaagacactgca---ttgatgctccccgtttgtaaggaagtcccttggtttctggac
+gatgggacaggccgcgtgatcgtagagggagctcgaagtggaataggttttgagttgacc
+gtcggaggtgaagtatttgaaaagccagaggcgtcttccctcgttcgaggaaccttagat
+tttctccgaggcctcgagatgcttggaataagacgcattgaacgtgttctcccagttggt
+acacgccttaccgttgttggtcagactataaaggatggtgttggggatgtgaggattcag
+aaacccgatcaagggccattctacgtctcccctataccgctcgatcacctcatctctaaa
+gtgggaaagtggtcaaggaggttcaagaaagcctccatgggt------------ttagct
+gttgttggtgtgattctgatatcaaagcctgtgattaaatatattctagtgagaacagga
+gattttcttgagaga---------------------------------------------
+aggcagcagcgactgttaaagaaaagagttgttgatgcagctgctaagagaaagaaactt
+gcagctcctaagagagag---------gaacgagtgaccagtaaaggattggagaatggt
+---------aaaagcagagatggcgatgaacatgatcgttgtgtggtctgccttgagagg
+aaatgtgacgccgcttttgttccgtgcggtcatatgtgctgctgcttgacatgcgccttg
+aagttg------ctgggaaagccttgtcctctctgccggaaacgaggaattcggattttg
+aagatttaccgcaat
+[5] Solanum_lycopersicum_gi_460393457_ref_XM_004242278.1_
+atggttccatgggccggactctcttgctgtttgagtgcagctgctctttaccttctcggt
+aggagcagt------ggaagagatgctgaagttcttaaatccgttacaagggttaatcaa
+ttgaaggatcttgcacaactactagatactgcatccaaggtgttgcctctggtggttact
+atatctggaagggttggatcagatacaccaattaactgtgagtacagtggtctacgaggc
+gtgattgtggaagaaactgccgaacaacattttctgaaacacaatgatgcaggttcttgg
+atacaggattctgcc---ttgatgctctcaatgtgtaaagaagttccgtggtacctggat
+gatggcacaggtcgcacttttattgttggtggccgtggtgccacgggtttggtactgaca
+gttggaagtgaagccttcgaggaagcaggga---gatcatttgtgcgagggacattggat
+tatcttcaaggtcttaagatgcttggagtaaagaggattgaacgtgtgctgccagttggt
+actcctttgactgttgttggcgaggctgtcaaagatgacattgggacagttcggatccag
+cgaccacacaaaggcccattttatatctctcataaaactattgaccagctcattgcaaat
+cttgggagatgggcaaggtggtacaagtatgcttcaatgggt------------tttact
+gctgtcggtgtatatctacttgtgaagcatacttttcattatatg---------------
+------atggaaaga---------------------------------------------
+aagcgtcactgggaattgcgcaggagagttcttgctgctgctgctaaaagagcaggagat
+gaggat------gaaggt---------tctgatgctacagctgagaatggagtggataat
+---------------aaggacctcttaatgccagatctatgtgttatatgtctggagcag
+gaatacaactcagtttttgtcccgtgtggtcatatgtgctgttgcatgacgtgctcttca
+cacttg------------acaaactgcccactatgtaggagacggatcgagcaggttgtg
+aaaacttttcgccat
+[6] Brassica_rapa_899295
+atgatacatttaggtggattgacatgttgcgtaagcggcggcgttctttatcttctcagt
+atgatacca------ggcagcttttttgagatgctcaattcagtcactagggttcaccag
+atcaaggatttggagaatttgctacaagtagagggcaag------------atcatcgca
+gtctcagga---------------------------------------------------
+---------------accgcacaacaacttttcttgaaacgtaattggttgttttcatgg
+gttgaagatagtaaa---tggatgcttccacaggctaaggaagtcccgtggtatctg---
+------------------------------------------------------------
+------------------------------------------------------------
+------------------atgcttggagtaagacgcactgagcatgtcctcccaattggt
+acaccggttacagttgttggtgaggctgttaaagacggtatccggggtttcaggattcaa
+aaacccgagaagggacttttctttgtctcacctgtaccgctcgataagatcatctctccg
+atgggaaagtggttaaggaggttcaaatatgtctacgtaggt------------ttaact
+gttgttggtgtgattctgatttcaaagcctgtgattgagtatatt---------------
+------ctagagaga---------------------------------------------
+aggcgggggcgattgttacggaaaagagttgctgatgcagctgctaagagagccaaatta
+gtagct------agagga---------ttggaaactcaacatgagaacagcttagatagt
+---------acaagcagagatagagatgtacttgatctctgtgtgatctgccttgagcag
+aagtatgacgcaacttttgtaaagtgtggtcatatgtgctgctgcttaacatgctccttg
+cacgtg------------aagacctgtcctatttgccggagaccaatagaacatgttttg
+aagattgaccgccgt
+[7] Brassica_rapa_Bra007725
+atgataagttggagtggattcaaatgtttcatatgggcctaccttctttaccttctcagc
+cggagaacaggcggcggcggcgatgttgaatttttcgattcggtcactaaagttgaccac
+ctcaaaggtctagcggaattgctagaagaagggagagaggtcaggcctttgatcgtcgct
+gtaacaggatcagttgcctctgccacacctttcaaatgtcagcgtagtgaaatgcttgct
+gttattctcgaggaaacggaagagatacagtttctgaaacgtaactggaagttttcgtgg
+gttcaagacactgcatccatcagcctccccatcactaagcaagtcccttggttcctggaa
+gatgggacaggccgcgttaatgtatctggagctgaaactgcattaggctttgctttcact
+gtgggaagtgaagtatttgaaaagcctgaggcttcttcgcttcttccaggagcattagct
+tatctccaaggcctcaagatgcttggagtaagacgctttgagtatgttctcccaattggt
+acatggcttacggttgttggcgaggccgtaaaagatggtagcgggaatgtcaggattcaa
+aaacccgatcaagggcctttctacatctcacctaaacccctcgatcaactcattcctacc
+ttaggaacgtggtcaaggatattcaagtatgcctccatgggagcctccttctgtttcact
+gttcgtggtgtgattataacttcaaagcctttgattatatatattctacatgtgattgaa
+gatattctatttatgtttggatatattctatggagaatgcggcagggactgcctattctg
+aaaaaacatgtgacgttactgaaaagagttttttgtgcagctgcaaatagaacgagacaa
+gcgact------gaagaaggtttgtgtgaatcatttttccctgaatatgcttgtgaattt
+gctctgattatatctctcgcaccagatgtacctgatctctgtgtgatctgccttgaccga
+aagtgtgacgccgttttccttgagtgtggtcatatgtgctgctgcttaacatgctccttg
+tccttggagttacaagggaagcgttgtcctctttgccgtaaaccagtagt---ggttttg
+aagatttaccgcatt
+;
+END;
+
+Begin MrBayes;
+
+lset nucmodel=codon omegavar=m3;
+report possel=yes;
+report siteomega=yes;
+
+[propset slider(pi)$prob=5.0;
+propset eSS(Tau,V)$prob=0.5;
+propset eTBR(Tau,V)$prob=0.5;
+propset pSPR(Tau,V)$prob=1;
+propset Dirichlet(Omega_pi)$prob=2;
+propset Slider(Omega_pos)$prob=2;]
+
+mcmc ngen=1000000 printfreq=100 samplefreq=1000;
+
+End;
+
