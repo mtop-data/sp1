@@ -1,0 +1,129 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=36;
+	taxlabels
+	Mulan_NP_078820[&!color=#-16580353]
+	'Mus_musculus_gi_18043560_gb_AAH19516.1'
+	'Xenopus_laevis_gi_148226332_ref_NP_001084716.1'
+	'Drosophila_melanogaster_gi_21356375_ref_NP_647847.1'
+	'Drosophila_persimilis_gi_195170747_ref_XP_002026173.1'
+	'Tribolium_castaneum_gi_91093713_ref_XP_967373.1'
+	'Rhipicephalus_pulchellus_gi_427794965_gb_JAA62934.1'
+	'Amblyomma_maculatum_gi_346471225_gb_AEO35457.1'
+	SP1_NM_105064_AT1G63900[&!color=#-65536]
+	Arabidopsis_lyrata_gnl_BL_ORD_ID_19937__474968_PACid_16053684
+	Thellungiella_halophila_gnl_BL_ORD_ID_8267__Thhalv10008106m_PACid_20187792
+	Brassica_rapa_gnl_BL_ORD_ID_33068__027667_PACid_22716578
+	Arabidopsis_lyrata_gnl_BL_ORD_ID_12068__338432_PACid_16045815
+	'SPL1_gnl_BL_ORD_ID_19755_Arabidopsis_thaliana_AT1G59560.1_PACid_19657702'[&!color=#-65536]
+	Brassica_rapa_gnl_BL_ORD_ID_36378__040424_PACid_22719888
+	'20415_Solyc06g084360.1.1_genomic_reference_SL2.31ch06'
+	'Ricinus_communis_gnl_BL_ORD_ID_8077__29703.m001546_PACid_16806242'
+	'Carica_papaya_gnl_BL_ORD_ID_23657__evm.model.supercontig_9.121_PACid_16428004'
+	Selaginella_moellendorffii_gnl_BL_ORD_ID_15488__231449_PACid_15416766
+	'Physcomitrella_patens_gnl_BL_ORD_ID_18940__Pp1s175_124V6.1_PACid_18055475'
+	'Oryza_sativa_gnl_BL_ORD_ID_18392__LOC_Os07g45350.2_PACid_21900864'
+	Zea_mays_gnl_BL_ORD_ID_23792__GRMZM5G871572_T01_PACid_20843518
+	'Chlamydomonas_reinhardtii_gnl_BL_ORD_ID_13853__03.g169050.t1.1_PACid_19872172'
+	Volvox_carteri_gnl_BL_ORD_ID_2800__Vocar20010130m_PACid_23126664
+	'Carica_papaya_gnl_BL_ORD_ID_10657__evm.model.supercontig_25.125_PACid_16414718'
+	Arabidopsis_lyrata_gnl_BL_ORD_ID_6881__474546_PACid_16040628
+	SPL2_NP_564653[&!color=#-65536]
+	Brassica_rapa_gnl_BL_ORD_ID_14784__037967_PACid_22698294
+	Thellungiella_halophila_gnl_BL_ORD_ID_4555__Thhalv10011564m_PACid_20184051
+	'Ricinus_communis_gnl_BL_ORD_ID_8129__29706.m001280_PACid_16806294'
+	'34887_Solyc12g049330.1.1_genomic_reference_SL2.31ch12'
+	Zea_mays_gnl_BL_ORD_ID_17805__GRMZM2G004023_T06_PACid_20837531
+	'Oryza_sativa_gnl_BL_ORD_ID_30371__LOC_Os03g08000.1_PACid_21912843'
+	Selaginella_moellendorffii_gnl_BL_ORD_ID_11999__91152_PACid_15413277
+	'Physcomitrella_patens_gnl_BL_ORD_ID_37837__Pp1s52_256V6.3_PACid_18074375'
+	'Danio_rerio_gi_148922854_ref_NP_001092230.1'
+;
+end;
+
+begin trees;
+	tree con_50_majrule = [&R] (Mulan_NP_078820[&!color=#-16580353]:0.050508,'Mus_musculus_gi_18043560_gb_AAH19516.1'[&!color=#-16580353]:0.056809,(('Xenopus_laevis_gi_148226332_ref_NP_001084716.1'[&!color=#-16580353]:0.250833,(((('Drosophila_melanogaster_gi_21356375_ref_NP_647847.1'[&!color=#-16580353]:0.101384,'Drosophila_persimilis_gi_195170747_ref_XP_002026173.1'[&!color=#-16580353]:0.157114)[&!color=#-16580353,label=1.0]:0.399088,'Tribolium_castaneum_gi_91093713_ref_XP_967373.1'[&!color=#-16580353]:0.386798)[&!color=#-16580353,label=1.0]:0.305733,('Rhipicephalus_pulchellus_gi_427794965_gb_JAA62934.1'[&!color=#-16580353]:0.07076,'Amblyomma_maculatum_gi_346471225_gb_AEO35457.1'[&!color=#-16580353]:0.093754)[&!color=#-16580353,label=1.0]:0.686836)[&!color=#-16580353,label=0.99]:0.186296,(((((((((SP1_NM_105064_AT1G63900[&!color=#-9175040]:0.01447,Arabidopsis_lyrata_gnl_BL_ORD_ID_19937__474968_PACid_16053684[&!color=#-9175040]:0.008557)[&!color=#-9175040,label=1.0]:0.043089,Thellungiella_halophila_gnl_BL_ORD_ID_8267__Thhalv10008106m_PACid_20187792[&!color=#-9175040]:0.009214)[&!color=#-9175040,label=0.89]:0.008092,Brassica_rapa_gnl_BL_ORD_ID_33068__027667_PACid_22716578[&!color=#-9175040]:0.027673)[&!color=#-9175040,label=1.0]:0.054465,((Arabidopsis_lyrata_gnl_BL_ORD_ID_12068__338432_PACid_16045815[&!color=#-16711423]:0.056572,'SPL1_gnl_BL_ORD_ID_19755_Arabidopsis_thaliana_AT1G59560.1_PACid_19657702'[&!color=#-16711423]:0.107001)[&!color=#-16711423,label=1.0]:0.148627,Brassica_rapa_gnl_BL_ORD_ID_36378__040424_PACid_22719888[&!color=#-16711423]:0.254954)[&!color=#-16711423,label=1.0]:0.241378)[&!color=#-65536,label=1.0]:0.082542,(('20415_Solyc06g084360.1.1_genomic_reference_SL2.31ch06'[&!color=#-16711423]:0.136841,'Ricinus_communis_gnl_BL_ORD_ID_8077__29703.m001546_PACid_16806242'[&!color=#-65536]:0.150862)[&!color=#-65536,label=0.63]:0.01556,'Carica_papaya_gnl_BL_ORD_ID_23657__evm.model.supercontig_9.121_PACid_16428004'[&!color=#-16711423]:0.18805)[&!color=#-65536,label=0.94]:0.036687)[&!color=#-65536,label=0.77]:0.040984,(Selaginella_moellendorffii_gnl_BL_ORD_ID_15488__231449_PACid_15416766[&!color=#-65536]:0.123482,'Physcomitrella_patens_gnl_BL_ORD_ID_18940__Pp1s175_124V6.1_PACid_18055475'[&!color=#-65536]:0.266807)[&!color=#-65536,label=0.98]:0.117889)[&!color=#-65536,label=0.64]:0.077462,('Oryza_sativa_gnl_BL_ORD_ID_18392__LOC_Os07g45350.2_PACid_21900864'[&!color=#-65536]:0.029581,Zea_mays_gnl_BL_ORD_ID_23792__GRMZM5G871572_T01_PACid_20843518[&!color=#-65536]:0.0396)[&!color=#-65536,label=1.0]:0.110635)[&!color=#-65536,label=1.0]:0.45748,('Chlamydomonas_reinhardtii_gnl_BL_ORD_ID_13853__03.g169050.t1.1_PACid_19872172'[&!color=#-65536]:0.261639,Volvox_carteri_gnl_BL_ORD_ID_2800__Vocar20010130m_PACid_23126664[&!color=#-65536]:0.299247)[&!color=#-65536,label=1.0]:0.678736)[&!color=#-65536,label=1.0]:0.435225,((((('Carica_papaya_gnl_BL_ORD_ID_10657__evm.model.supercontig_25.125_PACid_16414718'[&!color=#-16711423]:0.119591,(((Arabidopsis_lyrata_gnl_BL_ORD_ID_6881__474546_PACid_16040628[&!color=#-16711423]:0.032542,SPL2_NP_564653[&!color=#-16711423]:0.046907)[&!color=#-16711423,label=1.0]:0.144126,Brassica_rapa_gnl_BL_ORD_ID_14784__037967_PACid_22698294[&!color=#-16711423]:0.09833)[&!color=#-16711423,label=0.95]:0.042255,Thellungiella_halophila_gnl_BL_ORD_ID_4555__Thhalv10011564m_PACid_20184051[&!color=#-16711423]:0.100753)[&!color=#-16711423,label=1.0]:0.392299)[&!color=#-16711423,label=1.0]:0.087309,'Ricinus_communis_gnl_BL_ORD_ID_8129__29706.m001280_PACid_16806294'[&!color=#-15036925]:0.163558)[&!color=#-15036925,label=0.99]:0.081399,'34887_Solyc12g049330.1.1_genomic_reference_SL2.31ch12'[&!color=#-16711423]:0.246501)[&!color=#-15036925,label=1.0]:0.191956,(Zea_mays_gnl_BL_ORD_ID_17805__GRMZM2G004023_T06_PACid_20837531[&!color=#-15036925]:0.190024,'Oryza_sativa_gnl_BL_ORD_ID_30371__LOC_Os03g08000.1_PACid_21912843'[&!color=#-15036925]:0.173029)[&!color=#-15036925,label=1.0]:0.412258)[&!color=#-15036925,label=0.9]:0.128949,(Selaginella_moellendorffii_gnl_BL_ORD_ID_11999__91152_PACid_15413277[&!color=#-15036925]:0.36085,'Physcomitrella_patens_gnl_BL_ORD_ID_37837__Pp1s52_256V6.3_PACid_18074375'[&!color=#-15036925]:0.336864)[&!color=#-15036925,label=1.0]:0.209339)[&!color=#-15036925,label=1.0]:0.894775)[&!color=#-16580353,label=1.0]:0.284691)[&!color=#-16580353,label=1.0]:0.457563)[&!color=#-16580353,label=0.6]:0.052311,'Danio_rerio_gi_148922854_ref_NP_001092230.1'[&!color=#-16580353]:0.334447)[&!color=#-16580353,label=1.0]:0.148648);
+	tree con_50_majrule = [&R] (Mulan_NP_078820:0.050508,'Mus_musculus_gi_18043560_gb_AAH19516.1':0.056809,(('Xenopus_laevis_gi_148226332_ref_NP_001084716.1':0.250833,(((('Drosophila_melanogaster_gi_21356375_ref_NP_647847.1':0.101384,'Drosophila_persimilis_gi_195170747_ref_XP_002026173.1':0.157114):0.399088,'Tribolium_castaneum_gi_91093713_ref_XP_967373.1':0.386798):0.305733,('Rhipicephalus_pulchellus_gi_427794965_gb_JAA62934.1':0.07076,'Amblyomma_maculatum_gi_346471225_gb_AEO35457.1':0.093754):0.686836):0.186296,(((((((((SP1_NM_105064_AT1G63900:0.01447,Arabidopsis_lyrata_gnl_BL_ORD_ID_19937__474968_PACid_16053684:0.008557):0.043089,Thellungiella_halophila_gnl_BL_ORD_ID_8267__Thhalv10008106m_PACid_20187792:0.009214):0.008092,Brassica_rapa_gnl_BL_ORD_ID_33068__027667_PACid_22716578:0.027673):0.054465,((Arabidopsis_lyrata_gnl_BL_ORD_ID_12068__338432_PACid_16045815:0.056572,'SPL1_gnl_BL_ORD_ID_19755_Arabidopsis_thaliana_AT1G59560.1_PACid_19657702':0.107001):0.148627,Brassica_rapa_gnl_BL_ORD_ID_36378__040424_PACid_22719888:0.254954):0.241378):0.082542,(('20415_Solyc06g084360.1.1_genomic_reference_SL2.31ch06':0.136841,'Ricinus_communis_gnl_BL_ORD_ID_8077__29703.m001546_PACid_16806242':0.150862):0.01556,'Carica_papaya_gnl_BL_ORD_ID_23657__evm.model.supercontig_9.121_PACid_16428004':0.18805):0.036687):0.040984,(Selaginella_moellendorffii_gnl_BL_ORD_ID_15488__231449_PACid_15416766:0.123482,'Physcomitrella_patens_gnl_BL_ORD_ID_18940__Pp1s175_124V6.1_PACid_18055475':0.266807):0.117889):0.077462,('Oryza_sativa_gnl_BL_ORD_ID_18392__LOC_Os07g45350.2_PACid_21900864':0.029581,Zea_mays_gnl_BL_ORD_ID_23792__GRMZM5G871572_T01_PACid_20843518:0.0396):0.110635):0.45748,('Chlamydomonas_reinhardtii_gnl_BL_ORD_ID_13853__03.g169050.t1.1_PACid_19872172':0.261639,Volvox_carteri_gnl_BL_ORD_ID_2800__Vocar20010130m_PACid_23126664:0.299247):0.678736):0.435225,((((('Carica_papaya_gnl_BL_ORD_ID_10657__evm.model.supercontig_25.125_PACid_16414718':0.119591,(((Arabidopsis_lyrata_gnl_BL_ORD_ID_6881__474546_PACid_16040628:0.032542,SPL2_NP_564653:0.046907):0.144126,Brassica_rapa_gnl_BL_ORD_ID_14784__037967_PACid_22698294:0.09833):0.042255,Thellungiella_halophila_gnl_BL_ORD_ID_4555__Thhalv10011564m_PACid_20184051:0.100753):0.392299):0.087309,'Ricinus_communis_gnl_BL_ORD_ID_8129__29706.m001280_PACid_16806294':0.163558):0.081399,'34887_Solyc12g049330.1.1_genomic_reference_SL2.31ch12':0.246501):0.191956,(Zea_mays_gnl_BL_ORD_ID_17805__GRMZM2G004023_T06_PACid_20837531:0.190024,'Oryza_sativa_gnl_BL_ORD_ID_30371__LOC_Os03g08000.1_PACid_21912843':0.173029):0.412258):0.128949,(Selaginella_moellendorffii_gnl_BL_ORD_ID_11999__91152_PACid_15413277:0.36085,'Physcomitrella_patens_gnl_BL_ORD_ID_37837__Pp1s52_256V6.3_PACid_18074375':0.336864):0.209339):0.894775):0.284691):0.457563):0.052311,'Danio_rerio_gi_148922854_ref_NP_001092230.1':0.334447):0.148648);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#-1;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchLineWidth=3.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#-16777216;
+	set appearance.selectionColour=#-2144520576;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="label";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=true;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="label";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute=null;
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShape.colourAttribute="User selection";
+	set nodeShape.isShown=false;
+	set nodeShape.minSize=10.0;
+	set nodeShape.scaleType=Width;
+	set nodeShape.shapeType=Circle;
+	set nodeShape.size=4.0;
+	set nodeShape.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=10;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=true;
+	set trees.orderType="increasing";
+	set trees.rooting=true;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
